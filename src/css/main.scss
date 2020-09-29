@@ -7,7 +7,7 @@ $main-content-background: #fff6f6;
 $th-item-title: rgb(224, 224, 224);
 $header-title-link: #dbd9d9;
 $news-content-color: rgb(63, 63, 66);
-$header-subtitle: #8b70ac;
+$header-subtitle: #f0e6fc;
 $gallery-image-background: #eeeeee;
 $title-hover: lightgray;
 $body-font-color: black;
@@ -34,14 +34,14 @@ html {
     background-color: rgb(255, 219, 219);
 }
 
-body, article, section,  {
+body, article, section  {
     font-family: "Hind Guntur";
     color: $body-font-color;
 }
 body {
     position: sticky;
     width: 100%;
-    background-color: rgb(255, 219, 219);
+    background: none;
 }
 
 .content-main-div {
@@ -195,8 +195,12 @@ li {
     margin-bottom: 0rem;
     height: 20vh;
     background-color: rgb(255, 236, 236);
-    background: linear-gradient(45deg, #960bac, #60259d99);
+    background: linear-gradient(45deg,#60259d99, #8b1c9c, #60259d99);
 
+}
+
+.header-image {
+    height: 200px;
 }
 
 .header.row {
@@ -230,13 +234,16 @@ li {
     margin: 0 auto;  
     width: auto;
     padding-top: 0;
-    background-color: #ffecec;
+    /* background-color: #ffecec; */
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
 }
 
 .quote-text {
     line-height: 40px;
+    font-family: Bellota Text;
+    font-weight: bold;
 }
 
 .quote-logo>img {
@@ -340,7 +347,7 @@ table {
 }
 
 .footer{
-    background-color: rgb(235, 172, 172);
+    background: linear-gradient(45deg, #60259d99,#8b1c9c, #60259d99);
     height: 65px;
     display: flex;
     justify-content: center;
@@ -374,6 +381,10 @@ table {
 
 .header-logo {
     flex-grow: 1;
+}
+
+.o-meni-text {
+    font-family: Bellota Text;
 }
 
 .header-main-div {

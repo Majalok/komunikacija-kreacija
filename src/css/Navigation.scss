@@ -1,4 +1,4 @@
-$nav-link-color: gray;
+$nav-link-color: #717171;
 $navigation-link-hover: rgb(94, 93, 93);
 $navigation-dropdown-hover: rgb(94, 93, 93);
 
@@ -12,7 +12,9 @@ $navigation-dropdown-hover: rgb(94, 93, 93);
 
 .navigation-content {
    /*  background-image: linear-gradient(45deg, #daf6fd, #fffff8, #f7f3db);
-    */ background-image: linear-gradient(45deg, #fddafd, #ffe1e1, #f7dbf4);
+    background-image: linear-gradient(45deg, #fddafd, #ffe1e1, #f7dbf4); */
+    background-image: linear-gradient(45deg, #f7dbf4, #f9e8f7, #f7dbf4);
+    background-image: linear-gradient(45deg, #e4dbf7, #f9e8f7, #e6dbf7);
     height: 60px;
 }
 
@@ -48,7 +50,7 @@ a.dropdown-toggle.nav-link {
     margin: auto;
     margin-left: 30px;
     text-transform: uppercase;
-    font-family: "Arima Madurai";
+    font-family: "Bellota Text";
     font-size: large;
     font-weight: bold;
     border: 10px solid transparent;
