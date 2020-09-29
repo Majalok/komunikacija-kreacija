@@ -30,9 +30,8 @@ const ContentRight = () => (
         <hr />
         <div className="povezave-right address">
             <br />
-            <p className="">Naslov</p>
-            <p className="">Ulica</p>
-            <p className="">Mesto</p>
+            <p className="">test</p>
+            <p className="">test1</p>
         </div>
         <br />
         <p className="povezave-link">

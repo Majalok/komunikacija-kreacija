@@ -43,31 +43,32 @@ const Navigation = class extends React.Component {
                 O&nbsp;meni
               </NavLink>
               <div className="dropdown-divider"></div>
-              <NavLink className="navigation-link" to="/soocanja">
-                Komunikacija
-              </NavLink>
-              <div className="dropdown-divider"></div>
               <NavDropdown
-                title="Svetovanje"
+                title="Komunikacija"
                 id="basic-nav-dropdown"
                 className="navigation-dropdown-link navigation-link"
               >
                 <div className="dropdown-divider"></div>
 
-                <NavLink className="navigation-link" to="/predavanja">
-                  Predavanja
+                <NavLink className="navigation-link" to="/komunikacija-partner">
+                  Komunikacija s partnerjem
                 </NavLink>
                 <div className="dropdown-divider"></div>
-                <NavLink className="navigation-link" to="/delavnice">
-                  Delavnice
+                <NavLink className="navigation-link" to="/komunikacija-sluzba">
+                  Komunikacija v službi
                 </NavLink>
                 <div className="dropdown-divider"></div>
               </NavDropdown>
+              <div className="dropdown-divider"></div>
+              
               <NavLink className="navigation-link" to="/svetovanje">
-                Predavanje
+                Predavanja
               </NavLink>
               <NavLink className="navigation-link" to="/delavnice">
                 Delavnice
+              </NavLink>
+              <NavLink className="navigation-link" to="/delavnice">
+                Pomoč pri promociji
               </NavLink>
               <NavLink className="navigation-link" to="/blog">
                 Blog

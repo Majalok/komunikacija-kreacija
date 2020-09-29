@@ -11,7 +11,7 @@ $header-subtitle: #8b70ac;
 $gallery-image-background: #eeeeee;
 $title-hover: lightgray;
 $body-font-color: black;
-$header-title-color:#a3a3a3;
+$header-title-color:#e0e0e0;
 
 @mixin bg-gradient-header(){
     background-image: linear-gradient(to bottom, #991f0d, #9b1a1a, #820404);
@@ -195,6 +195,7 @@ li {
     margin-bottom: 0rem;
     height: 20vh;
     background-color: rgb(255, 236, 236);
+    background: linear-gradient(45deg, #960bac, #60259d99);
 
 }
 

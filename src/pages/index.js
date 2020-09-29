@@ -34,16 +34,16 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <h5 className="item-title">Izpostavljeno</h5>
+        {/* <h5 className="item-title">Izpostavljeno</h5>
 
         <StickyNews stickyNews={this.props.data.stickyNews.edges} />
-
-        <Blog
+ */}
+        {/* <Blog
           news2020={this.props.data.newsfor2020.edges}
           news2019={this.props.data.newsfor2019.edges}
           news2018={this.props.data.newsfor2018.edges}
           news2017={this.props.data.newsfor2017.edges}
-        />
+        /> */}
       </Layout>
     )
   }
