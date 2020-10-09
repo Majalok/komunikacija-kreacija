@@ -61,7 +61,7 @@ const Navigation = class extends React.Component {
               </NavDropdown>
               <div className="dropdown-divider"></div>
 
-              <NavLink className="navigation-link" to="/svetovanje">
+              <NavLink className="navigation-link" to="/predavanja">
                 Predavanja
               </NavLink>
               <NavLink className="navigation-link" to="/delavnice">
@@ -91,7 +91,8 @@ const NavLink = props => (
         style: {
           color: isCurrent ? "black" : "black",
           backgroundColor: isCurrent ? "fbf0af" : "",
-          boxShadow: isCurrent ? "3px 4px 17px 6px #e4bd82" : ""
+          boxShadow: isCurrent ? "3px 4px 17px 6px #e4bd82" : "",
+          borderRadius: isCurrent ? "18px" : ""
         },
       }
     }}

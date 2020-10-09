@@ -4,32 +4,10 @@ import Layout from "../components/layout"
 
 const Delavnice = () => (
   <Layout>
-    <article>
-      <section className="content-section history-section">
-        <p className="item-title">Delavnice 1title1</p>
-
-        <p className="content-section">
-          text 123
-        </p>
-        <p className="item-title">delavnice title 1 - 1</p>
-        <p className="content-section">
-        text
-        </p>
-        <p className="item-title">title 1 - 2 </p>
-        <p className="content-section">
-        text
-        </p>
-        <p className="item-title">title 1 - 3</p>
-
-        <p className="content-section">
-        text
-          <br />
-          <br />
-          text
-        </p>
-      </section>
-      <footer></footer>
-    </article>
+   
+   <div className="delavnice-content">
+   At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+     </div>
   </Layout>
 )
 

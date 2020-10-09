@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai");
+@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
 
 $dark-red: #640c0c;
 $content-title: #505050;
@@ -88,7 +88,7 @@ ul.right-list-112 {
     font-family: "Baloo Thambi 2";
 }
 
-.soocanja-content {
+.komunikacija-content {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -98,12 +98,12 @@ ul.right-list-112 {
     max-width: 1000px;
 }
 
-.soocanja-intro {
+.komunikacija-intro {
     margin-top: 10%;
     padding: 0px 3%;
 }
 
-.soocanja-item {
+.komunikacija-item {
     padding: 2%;
     border: 1px solid #f9d9d9;
     border-top: 25px solid #e9c9f2;
@@ -112,12 +112,12 @@ ul.right-list-112 {
     border-radius: 7px;
 }
 
-.soocanja-content-bottom {
+.komunikacija-content-bottom {
     margin-top: 10%;
     padding: 0px 3%;
 }
 
-.soocanja-title {
+.komunikacija-title {
     font-size: x-large;
     font-family: "Bellota Text";
 }
@@ -168,6 +168,40 @@ ul.right-list-112 {
     color: #210200;
     font-size: larger;
 }
+
+.predavanja-content {
+    width: 80%;
+    margin: 4%  auto 2%;
+    font-style: italic;
+    text-align: justify;
+    color: #210200;
+}
+
+.delavnice-content {
+    width: 80%;
+    margin: 2% 4% auto;
+    font-style: italic;
+    text-align: justify;
+    color: #210200;
+}
+
+.promocija-content {
+    width: 80%;
+    margin: 2% 4% auto;
+    font-style: italic;
+    text-align: justify;
+    color: #210200;
+}
+
+.blog-content {
+    width: 80%;
+    margin: 2% auto;
+    font-style: italic;
+    text-align: justify;
+    color: #210200;
+    font-size: larger;
+}
+
 
 .zahvale {
     width: 80%;
@@ -491,11 +525,11 @@ table > tr > th {
 }
 
 .header-title-link {
-    color: wheat;
+    color: #fff0d5;
     text-decoration: none;
     text-align: center;
-    font-family: Overlock;
-    font-size: xxx-large;
+    font-family: Tangerine;
+    font-size: 3em;
     /*    text-shadow: 0.5px 0 #444242, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
  */
 }

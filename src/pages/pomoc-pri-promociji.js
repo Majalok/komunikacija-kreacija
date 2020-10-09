@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 const PomocPriPromociji = () => (
   <Layout>
-    <div className="pomoc-pri-promociji">
+    <div className="promocija-content">
 
       <p className="promotion-text">
         Ja, nekateri živijo svoje sanje spet drugi , so v nizkem zaletu in tretji…še ni zrelo ;)

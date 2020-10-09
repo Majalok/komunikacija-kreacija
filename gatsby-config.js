@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "KOMUNIKACIJA JE KREACIJA",
+    title: "Komunikacija je kreacija",
     subtitle:
       "by Nataša Muc",
     author: "Maja L",
