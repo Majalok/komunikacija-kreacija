@@ -60,14 +60,14 @@ const Navigation = class extends React.Component {
                 <div className="dropdown-divider"></div>
               </NavDropdown>
               <div className="dropdown-divider"></div>
-              
+
               <NavLink className="navigation-link" to="/svetovanje">
                 Predavanja
               </NavLink>
               <NavLink className="navigation-link" to="/delavnice">
                 Delavnice
               </NavLink>
-              <NavLink className="navigation-link" to="/delavnice">
+              <NavLink className="navigation-link pomoc" to="/pomoc-pri-promociji">
                 Pomoč pri promociji
               </NavLink>
               <NavLink className="navigation-link" to="/blog">
@@ -89,8 +89,9 @@ const NavLink = props => (
       // anchor element's props
       return {
         style: {
-          color: isCurrent ? "#717171" : "#717171",
-          backgroundColor: isCurrent ? "#daf6fd" : "",
+          color: isCurrent ? "black" : "black",
+          backgroundColor: isCurrent ? "fbf0af" : "",
+          boxShadow: isCurrent ? "3px 4px 17px 6px #e4bd82" : ""
         },
       }
     }}

@@ -13,9 +13,14 @@ $navigation-dropdown-hover: rgb(94, 93, 93);
 .navigation-content {
     /*  background-image: linear-gradient(45deg, #daf6fd, #fffff8, #f7f3db);
     background-image: linear-gradient(45deg, #fddafd, #ffe1e1, #f7dbf4); */
-    background-image: linear-gradient(45deg, #f7dbf4, #f9e8f7, #f7dbf4);
-    background-image: linear-gradient(45deg, #e4dbf7, #f9e8f7, #e6dbf7);
-    height: 60px;
+    /*prejsnja barva-vijolicna*/
+    /*  background-image: linear-gradient(45deg, #f7dbf4, #f9e8f7, #f7dbf4); */
+    /*  background-image: linear-gradient(45deg, #711312, #db0b0b, #711312);
+ */
+    background-color: #711312;
+    /*  background: linear-gradient(45deg, #f84b4b, #ff9120, #fa971b, #ff9120, #f75432); */
+    background: linear-gradient(#f7bf5f, #fbe472, #fdf987, #fbef94);
+    height: 80px;
 }
 
 .dropdown-menu.show {
@@ -31,8 +36,13 @@ a.dropdown-toggle.nav-link {
     padding: 10px 0px;
 }
 
+a.navigation-link.pomoc {
+    width: 100%;
+    display: inline-block;
+}
+
 .navigation-dropdown-link.navigation-link.dropdown.nav-item > a {
-    color: $nav-link-color;
+    color: black;
     border: none;
 }
 
@@ -53,15 +63,17 @@ a.dropdown-toggle.nav-link {
     font-family: "Bellota Text";
     font-size: large;
     font-weight: bold;
-    border: 10px solid transparent;
+    border: 12px solid transparent;
     transition: 0.9s;
+    color: #2d2d2d !important;
 }
 
 .navigation-link:hover {
-    background-color: #daf6fd;
+    background-color: #fff3af3f;
     color: lightgrey;
     text-decoration: none;
     padding: 0px;
+    box-shadow: 3px 4px 17px 6px #e4bd82;
 }
 
 .mr-auto.navbar-nav {

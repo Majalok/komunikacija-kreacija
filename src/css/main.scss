@@ -1,10 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai");
+@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai");
 
 $dark-red: #640c0c;
 $content-title: #505050;
-$main-content-background: #fff6f6;
+$main-content-background: #fffbee;
 $th-item-title: rgb(224, 224, 224);
 $header-title-link: #dbd9d9;
 $news-content-color: rgb(63, 63, 66);
@@ -43,7 +43,7 @@ section {
 body {
     position: sticky;
     width: 100%;
-    background: none;
+    background: wheat !important;
 }
 
 .content-main-div {
@@ -52,6 +52,8 @@ body {
 
 .top-div {
     min-height: 800px;
+    background: none;
+    background-color: none;
 }
 
 .right-112 {
@@ -73,7 +75,8 @@ ul.right-list-112 {
 }
 
 .main-content {
-    background-color: $main-content-background;
+    /* background-color: $main-content-background;
+ */
     padding: 10px;
     width: 60%;
     margin: 0 auto;
@@ -103,7 +106,7 @@ ul.right-list-112 {
 .soocanja-item {
     padding: 2%;
     border: 1px solid #f9d9d9;
-    border-top: 25px solid #f9d9d9;
+    border-top: 25px solid #e9c9f2;
     width: 80%;
     max-width: 700px;
     border-radius: 7px;
@@ -122,11 +125,16 @@ ul.right-list-112 {
 .o-meni-quote {
     font-family: "Merienda";
     width: 80%;
-    padding: 5%;
+    padding: 4%;
     display: flex;
     align-items: baseline;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    background-color: #fdfae8;
+    box-shadow: 3px 4px 17px 6px #efdac3;
+    font-size: larger;
 }
 
 .author {
@@ -153,11 +161,48 @@ ul.right-list-112 {
 }
 
 .o-meni-content {
-    font-family: Arima Madurai;
     width: 80%;
     margin: 2% auto;
     font-style: italic;
     text-align: justify;
+    color: #210200;
+    font-size: larger;
+}
+
+.zahvale {
+    width: 80%;
+    margin: 2% auto;
+    font-family: "Bellota Text";
+    font-size: larger;
+    margin-top: 6%;
+    color: #250101;
+}
+
+.zahvale-section {
+    width: 80%;
+    margin: 6% auto;
+    font-family: "Belotta Text";
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 800px;
+}
+
+.zahvala {
+    width: 40%;
+    margin-bottom: 3%;
+    padding: 4% 4%;
+    background-color: #fef5da;
+    box-shadow: 5px 5px 15px 5px #fce5d1;
+    color: #633106;
+}
+
+.zahvala-name {
+    font-family: Happy Monkey;
+    margin-top: 10px;
 }
 
 .main-content-left {
@@ -194,8 +239,13 @@ li {
 .header {
     margin-bottom: 0rem;
     height: 300px;
-    background-color: rgb(255, 236, 236);
-    background: linear-gradient(45deg, #60259d99, #8b1c9c, #60259d99);
+    /** vijolicna tema **/
+    /*background: linear-gradient(45deg, #60259d99, #8b1c9c, #60259d99); */
+    /*     background: linear-gradient(45deg, #661109, #7e2d07, #dfb50c);
+ */
+    background: linear-gradient(45deg, #f8f87a, #ff9437, #f35555, #f93131);
+    /*  background: linear-gradient(45deg, #eaea6e, #ef8c38, #ef4938, #fc1414, #ed7108, #f8f872);
+    background: linear-gradient(45deg, #fdfd7a, #fd6b6b, #f35555, #f9fc71); */
 }
 
 .header-image {
@@ -234,7 +284,8 @@ li {
     width: auto;
     padding-top: 0;
     /* background-color: #ffecec; */
-    background-color: white;
+    background-color: #fffbee;
+    background: linear-gradient(to bottom, #fcfde9, #fffbee, #fffbee, #fffbee, #fbead7);
     display: flex;
     flex-wrap: wrap;
 }
@@ -243,6 +294,9 @@ li {
     line-height: 40px;
     font-family: Bellota Text;
     font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    color: #3c0204;
 }
 
 .quote-logo > img {
@@ -344,7 +398,7 @@ table {
 }
 
 .footer {
-    background: linear-gradient(45deg, #60259d99, #8b1c9c, #60259d99);
+    background: linear-gradient(#f6a04e, #fbcb72, #fde987, #fbed8d, #faf285, #ffdc97);
     height: 65px;
     display: flex;
     justify-content: center;
@@ -437,21 +491,21 @@ table > tr > th {
 }
 
 .header-title-link {
-    color: $header-title-color;
+    color: wheat;
     text-decoration: none;
     text-align: center;
-    font-family: "Handlee";
+    font-family: Overlock;
+    font-size: xxx-large;
     /*    text-shadow: 0.5px 0 #444242, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
  */
 }
 
 .header-title-p {
-    color: $header-subtitle;
+    color: #fdfaf4;
     text-decoration: none;
     text-align: center;
-    font-family: "Hind Guntur";
-    font-size: smaller;
-    text-shadow: black 0.11px 0px, black 0px 0.1px, black 0.1px 0px, black 0px 0.1px;
+    font-family: "Bad Script";
+    font-size: larger;
     display: block;
     padding: 0 20px;
 }

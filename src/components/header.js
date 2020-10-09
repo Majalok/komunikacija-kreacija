@@ -3,7 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, subtitle, description }) => (
-  <header className="header">
+  <header style={{
+    backgroundImage: `url(../assets/1010.jpg)`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    height: '100 %'
+  }} className="header" >
     <div className="header-logo">
       {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
        */}{" "}
@@ -39,7 +44,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
         <img src="../icons/instagram_25x.png" alt="" />
       </a>
     </div>
-  </header>
+  </header >
 )
 
 Header.propTypes = {
