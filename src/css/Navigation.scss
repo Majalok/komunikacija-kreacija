@@ -75,6 +75,7 @@ a.navigation-link.pomoc {
     padding: 0px;
     box-shadow: 3px 4px 17px 6px #e4bd82;
     border-radius: 18px;
+    transform: matrix(1, -0.03, 0, 1, 0, 0);
 }
 
 .mr-auto.navbar-nav {

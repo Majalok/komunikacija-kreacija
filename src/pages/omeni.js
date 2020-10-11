@@ -21,6 +21,11 @@ const OMeni = () => (
             </span>
           </p>
         </div>{" "}
+        <div class="box-container-1">
+          <svg height="150" width="880">
+            <path d="M 0 100 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0  q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 l 0 50 l -880 0 z" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+          </svg>
+        </div>
         <div className="o-meni-content">
           <div className="o-meni-text">
             Naj se predstavim.Ime mi je Nataša in zelo rada čvekam.Pa ne kar tja v
@@ -61,7 +66,7 @@ const OMeni = () => (
         </div>
       </div>
       <div className="zahvale-section">
-        <div className="zahvala">
+        <div className="zahvala zahvala-1">
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te človek ne spozna, niti ne ve
           kam ga je pahnil hitri tempo življenja in vsa ta tehnika...
           Kdo si je mislil, da nas bojo leta 2020 učili umivati roke....( večina smo bili prepričani da je
@@ -73,7 +78,7 @@ const OMeni = () => (
             Joži
           </div>
         </div>
-        <div className="zahvala">
+        <div className="zahvala zahvala-2">
           Hvala ti za vso pomoč in nasvete, ki si mi jih podala, ko sem bila v dvomih in ne sigurna glede svojih
           odločitev. Pomagala si mi, da sem na določene stvari pogledala iz drugega zornega kota. So osebe, ki
           jim je preprosto treba reči hvala in ena izmed takih oseb si ti!
@@ -81,7 +86,7 @@ const OMeni = () => (
             Anja
           </div>
         </div>
-        <div className="zahvala">
+        <div className="zahvala zahvala-3">
           Minilo je par let, kar si mi prvič pomagala. S partnerjem , s katerim sem bila v zvezi 2 leti, sva
           se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
           narekovala, da me pokličeš, kljub temu da je bil vikend. Roko na srce, nekih tesnih stikov
@@ -93,7 +98,24 @@ const OMeni = () => (
             A.
           </div>
         </div>
+        <div className="zahvala zahvala-4">
+          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Pro at etiam dignissim, nam purto timeam explicari an. Ei per errem debitis. Vim fuisset mentitum ne, ex quo omnium nostrud. Nibh torquatos interpretaris mea eu.
+          Ut docendi phaedrum consetetur mea. Cu sea fabellas accommodare. Et nec saepe perpetua, te has verear eruditi comprehensam. Ius ex feugiat dolores assueverit, his ut decore officiis. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
+          <div className="zahvala-name">
+            Maja
+          </div>
+        </div>
+        <div className="zahvala zahvala-4">
+          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
+          <div className="zahvala-name">
+            Maja Testira
+          </div>
+        </div>
       </div>
+      <div className="motivation-quote-1">
+        Naj STRAH ne bo vaša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija ;)
+      </div>
+
     </div>
   </Layout>
 )

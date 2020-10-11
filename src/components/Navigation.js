@@ -77,6 +77,28 @@ const Navigation = class extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <div class="box-container">
+          {/*  <svg>
+            <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: "none", fill: "#fbef94" }} ></path>
+          </svg>
+          <path id="squiggle" d="M0,0" /> */}
+          <svg height="125" width="1349">
+            <path d="M -35 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 40 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 190 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 265 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 415 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 490 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 640 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 715 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 865 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 940 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 1090 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+            <path d="M 1165 100 s 75 -125 150 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            <path d="M 1315 100 s 35 50 75 0" stroke="rgb(255, 195, 56)" stroke-width="5" fill="none" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+        </div>
       </div>
     )
   }
