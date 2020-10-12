@@ -86,6 +86,11 @@ ul.right-list-112 {
     align-items: center;
     padding: 20px;
     font-family: "Baloo Thambi 2";
+    background-color: #fff3cc;
+    opacity: 0.89;
+    /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
+ */
+    background-color: #fdffcc;
 }
 
 .komunikacija-content {
@@ -135,6 +140,8 @@ ul.right-list-112 {
     margin: 0 auto;
     margin-top: 4%;
     background-color: #fff4de;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
     /*     box-shadow: 3px 4px 17px 6px #efdac3;
  */
     font-size: larger;
@@ -190,7 +197,8 @@ ul.right-list-112 {
 
 .promocija-content {
     width: 80%;
-    margin: 2% 4% auto;
+    margin: 0 auto;
+    margin-top: 3%;
     font-style: italic;
     text-align: justify;
     color: #210200;
@@ -225,7 +233,7 @@ ul.right-list-112 {
 .box-container {
     /* position: relative; */
     width: 100%;
-    padding-bottom: 10%;
+    /* padding-bottom: 10%; */
     vertical-align: middle;
     overflow: hidden;
     margin: 0 auto;
@@ -233,6 +241,11 @@ ul.right-list-112 {
     align-items: center;
     justify-content: center;
 }
+/**  zaenkrat skrijemo svg**/
+.box-container > svg {
+    height: 0;
+}
+
 .box-container-1 {
     width: 80%;
     vertical-align: middle;
@@ -266,6 +279,7 @@ ul.right-list-112 {
 
 .zahvala-1 {
     transform: rotateZ(2deg);
+    background-color: #fcf7d7;
 }
 
 .zahvala-2 {
@@ -274,13 +288,16 @@ ul.right-list-112 {
 
 .zahvala-3 {
     transform: rotateZ(-2deg);
+    background-color: #ffedd9;
 }
 
 .zahvala-4 {
     transform: rotateZ(1deg);
+    background-color: #fef3d6;
 }
 .zahvala-5 {
     transform: rotateZ(1deg);
+    background-color: faf2e5;
 }
 
 .zahvala-name {
@@ -289,13 +306,18 @@ ul.right-list-112 {
 }
 
 .main-content-left {
-    width: 5%;
+    width: 9%;
+    /*  background: linear-gradient(to bottom, #ff5532, #fa301a); */
 }
 
 .main-content-right {
     width: 10%;
     background: transparent;
-    color: gray;
+    color: #fce9b6;
+    font-family: bellota text;
+    font-style: italic;
+    /* background: linear-gradient(to bottom, #ff5532, #fa301a);
+} */
 }
 
 .main-content-right-title {
@@ -367,10 +389,10 @@ li {
     width: auto;
     padding-top: 0;
     /* background-color: #ffecec; */
-    background-color: #fffbee;
     /* background: linear-gradient(to bottom, #fcfde9, #fffbee, #fffbee, #fffbee, #fbead7);
      */
-    background: linear-gradient(to right, #fbe7c2 1%, #ffffff, #fffbee, #fffbee, #fbead7);
+    /*     background: linear-gradient(to right, #fbe7c2 1%, #ffffff, #fffbee, #fffbee, #fbead7);
+ */
     display: flex;
     flex-wrap: wrap;
 }
@@ -483,7 +505,7 @@ table {
 }
 
 .footer {
-    background: linear-gradient(#f3f28d, #fbea96, #fffb83, #fbef94);
+    background: linear-gradient(#f25a06, #f15906, #f15906, #d05805);
     height: 65px;
     display: flex;
     justify-content: center;
@@ -586,7 +608,7 @@ table > tr > th {
 }
 
 .header-title-p {
-    color: #fdfaf4;
+    color: #ffeaa0;
     text-decoration: none;
     text-align: center;
     font-family: "Bad Script";
@@ -596,7 +618,7 @@ table > tr > th {
 }
 
 .page-title-link {
-    color: #ede1a6;
+    color: #ffea83;
     font-size: 3em;
     font-family: Tangerine;
 }

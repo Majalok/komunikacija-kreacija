@@ -109,7 +109,7 @@ const OMeni = () => (
           </div>
         </div>
 
-        <div className="zahvala zahvala-4">
+        <div className="zahvala zahvala-5">
           Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
           <div className="zahvala-name">
             Maja Testira
