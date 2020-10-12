@@ -229,13 +229,16 @@ ul.right-list-112 {
     vertical-align: middle;
     overflow: hidden;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box-container-1 {
-    position: relative;
-    width: 100%;
-    padding-bottom: 10%;
+    width: 80%;
     vertical-align: middle;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -262,7 +265,7 @@ ul.right-list-112 {
 }
 
 .zahvala-1 {
-    transform: rotateZ(4deg);
+    transform: rotateZ(2deg);
 }
 
 .zahvala-2 {

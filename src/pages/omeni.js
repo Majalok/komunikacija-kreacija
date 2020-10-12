@@ -23,7 +23,9 @@ const OMeni = () => (
         </div>{" "}
         <div class="box-container-1">
           <svg height="150" width="880">
-            <path d="M 0 100 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 q 40 40 80 0  q 40 -40 80 0 q 40 40 80 0 q 40 -40 80 0 l 0 50 l -880 0 z" stroke="rgb(255, 195, 56)" stroke-width="5" fill="rgb(255, 195, 56)" />
+            {/*  <path d="M 0 0 q 40 40 80 0 q 40 80 80 0 q 40 80 80 0 q 40 40 80 0 q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 q 40 40 80 0  q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 l 0 50 l 880 0 z" stroke="rgb(255, 195, 56)" stroke-width="5" fill="orange" />
+         */}
+            <path d="M0,19.99 C150.00,150.00 271.49,-40.99 880.00,15.99 L880.00,0.00 L0.00,0.00 Z" fill="#fff4de"></path>
           </svg>
         </div>
         <div className="o-meni-content">
@@ -65,7 +67,23 @@ const OMeni = () => (
           Mogoče pa potrebuješ samo potrditev, da si na pravi poti ;)
         </div>
       </div>
+
       <div className="zahvale-section">
+        <div className="zahvala zahvala-4">
+          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Pro at etiam dignissim, nam purto timeam explicari an. Ei per errem debitis. Vim fuisset mentitum ne, ex quo omnium nostrud. Nibh torquatos interpretaris mea eu.
+          Ut docendi phaedrum consetetur mea. Cu sea fabellas accommodare. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
+          <div className="zahvala-name">
+            Maja
+          </div>
+        </div>
+        <div className="zahvala zahvala-2">
+          Hvala ti za vso pomoč in nasvete, ki si mi jih podala, ko sem bila v dvomih in ne sigurna glede svojih
+          odločitev. Pomagala si mi, da sem na določene stvari pogledala iz drugega zornega kota. So osebe, ki
+          jim je preprosto treba reči hvala in ena izmed takih oseb si ti!
+          <div className="zahvala-name">
+            Anja
+          </div>
+        </div>
         <div className="zahvala zahvala-1">
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te človek ne spozna, niti ne ve
           kam ga je pahnil hitri tempo življenja in vsa ta tehnika...
@@ -76,14 +94,6 @@ const OMeni = () => (
           račka postala ponosni labod. Iz srca ti hvala
           <div className="zahvala-name">
             Joži
-          </div>
-        </div>
-        <div className="zahvala zahvala-2">
-          Hvala ti za vso pomoč in nasvete, ki si mi jih podala, ko sem bila v dvomih in ne sigurna glede svojih
-          odločitev. Pomagala si mi, da sem na določene stvari pogledala iz drugega zornega kota. So osebe, ki
-          jim je preprosto treba reči hvala in ena izmed takih oseb si ti!
-          <div className="zahvala-name">
-            Anja
           </div>
         </div>
         <div className="zahvala zahvala-3">
@@ -98,13 +108,7 @@ const OMeni = () => (
             A.
           </div>
         </div>
-        <div className="zahvala zahvala-4">
-          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Pro at etiam dignissim, nam purto timeam explicari an. Ei per errem debitis. Vim fuisset mentitum ne, ex quo omnium nostrud. Nibh torquatos interpretaris mea eu.
-          Ut docendi phaedrum consetetur mea. Cu sea fabellas accommodare. Et nec saepe perpetua, te has verear eruditi comprehensam. Ius ex feugiat dolores assueverit, his ut decore officiis. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
-          <div className="zahvala-name">
-            Maja
-          </div>
-        </div>
+
         <div className="zahvala zahvala-4">
           Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
           <div className="zahvala-name">
