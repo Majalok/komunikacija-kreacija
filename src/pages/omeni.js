@@ -25,7 +25,7 @@ const OMeni = () => (
           <svg height="150" width="880">
             {/*  <path d="M 0 0 q 40 40 80 0 q 40 80 80 0 q 40 80 80 0 q 40 40 80 0 q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 q 40 40 80 0  q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 l 0 50 l 880 0 z" stroke="rgb(255, 195, 56)" stroke-width="5" fill="orange" />
          */}
-            <path d="M0,19.99 C150.00,150.00 271.49,-40.99 880.00,15.99 L880.00,0.00 L0.00,0.00 Z" fill="#fff4de"></path>
+            <path d="M0,19.99 C150.00,150.00 271.49,-40.99 880.00,15.99 L880.00,0.00 L0.00,0.00 Z" fill="#fffdc2"></path>
           </svg>
         </div>
         <div className="o-meni-content">

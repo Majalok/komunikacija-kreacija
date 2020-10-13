@@ -24,9 +24,9 @@ const Header = ({ siteTitle, subtitle, description }) => (
           <i>{subtitle}</i>
         </p>
       </span>
-      <div className="header-image-div">
+      {/* <div className="header-image-div">
         <img className="header-image" src="../icons/or-small-alpha.png" alt="" />
-      </div>
+      </div> */}
     </div>
     <div className="header-icons">
       <a

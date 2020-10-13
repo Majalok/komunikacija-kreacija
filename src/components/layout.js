@@ -21,12 +21,12 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="top-div" style={{
+      <div className="top-div" /* style={{
         backgroundImage: `url(../assets/1010.jpg)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         height: '100 %'
-      }}>
+      }} */>
         <Helmet>
           <title>Komunikacija je kreacija</title>
           <meta
@@ -41,16 +41,17 @@ const Layout = ({ children }) => (
         <Header
           siteTitle={data.site.siteMetadata.title}
           subtitle={data.site.siteMetadata.subtitle}
-        />
-        <Navigation />
+        >
 
+        </Header>
+        <Navigation />
         <div className="content-main-div">
           <div className="main-content-left" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100 %'
-          }} */></div>
+          }} */ ></div>
           <main className="main-content">{children}</main>
           <div className="main-content-right" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,

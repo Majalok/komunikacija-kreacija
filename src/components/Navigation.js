@@ -39,7 +39,7 @@ const Navigation = class extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <div className="dropdown-divider"></div>
-              <NavLink className="navigation-link" to="/omeni">
+              <NavLink className="navigation-link" to="/omeni/">
                 O&nbsp;meni
               </NavLink>
               <div className="dropdown-divider"></div>
@@ -50,27 +50,30 @@ const Navigation = class extends React.Component {
               >
                 <div className="dropdown-divider"></div>
 
-                <NavLink className="navigation-link" to="/komunikacija-partner">
+                <NavLink className="navigation-link" to="/komunikacija-partner/">
                   Komunikacija s partnerjem
                 </NavLink>
                 <div className="dropdown-divider"></div>
-                <NavLink className="navigation-link" to="/komunikacija-sluzba">
+                <NavLink className="navigation-link" to="/komunikacija-sluzba/">
                   Komunikacija v službi
                 </NavLink>
                 <div className="dropdown-divider"></div>
               </NavDropdown>
               <div className="dropdown-divider"></div>
 
-              <NavLink className="navigation-link" to="/predavanja">
+              <NavLink className="navigation-link" to="/predavanja/">
                 Predavanja
               </NavLink>
-              <NavLink className="navigation-link" to="/delavnice">
+              <div className="dropdown-divider"></div>
+              <NavLink className="navigation-link" to="/delavnice/">
                 Delavnice
               </NavLink>
-              <NavLink className="navigation-link pomoc" to="/pomoc-pri-promociji">
+              <div className="dropdown-divider"></div>
+              <NavLink className="navigation-link pomoc" to="/pomoc-pri-promociji/">
                 Pomoč pri promociji
               </NavLink>
-              <NavLink className="navigation-link" to="/blog">
+              <div className="dropdown-divider"></div>
+              <NavLink className="navigation-link" to="/blog/">
                 Blog
               </NavLink>
               {/*  <NavLink className="navigation-link" to="/zahvale">
@@ -111,7 +114,7 @@ const NavLink = props => (
         style: {
           color: isCurrent ? "black" : "black",
           backgroundColor: isCurrent ? "fbf0af" : "",
-          boxShadow: isCurrent ? "3px 4px 17px 6px #e4bd82" : "",
+          boxShadow: isCurrent ? "3px 4px 17px 6px #f8a406" : "",
           borderRadius: isCurrent ? "18px" : ""
         },
       }
