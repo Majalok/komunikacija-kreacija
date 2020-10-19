@@ -17,7 +17,7 @@ const KomunikacijaPartner = () => (
           smo iz Venere, moški iz Marsa, tako da ni daleč od resnice (malo za
           šalo, malo za res) :D. Gre za 50:50 doprinos.
         </div>
-        <img src="../assets/kom3.png" alt="" />
+        <img src="../assets/kom3.jpg" alt="" />
       </div>
 
     </div>

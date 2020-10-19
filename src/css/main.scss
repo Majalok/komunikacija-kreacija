@@ -532,9 +532,9 @@ li {
     font-weight: bold;
     font-size: xx-large;
     letter-spacing: 1px;
-    color: #91383b;
+    color: #78070b;
     /*  font-family: Great Vibes; */
-    text-shadow: 2px 2px #ccccca;
+    text-shadow: 2px 1px #ccccca;
     font-style: italic;
 }
 
@@ -776,21 +776,18 @@ a.header-title-link:hover {
 
 .motivation-quote-1 {
     margin-top: 4%;
-    font-family: Arima Madurai;
-    font-weight: bold;
-    font-style: italic;
-    font-size: xx-large;
     padding: 6% 2%;
     width: 80%;
-    display: flex;
-    margin: 0 auto;
-    align-items: baseline;
-    justify-content: center;
+    line-height: 40px;
+    font-family: Arima Madurai;
+    font-weight: bold;
+    font-size: xx-large;
     letter-spacing: 1px;
-    color: #91383b;
+    color: #78070b;
     /* font-family: Great Vibes; */
-    text-shadow: 1px 0px #f0ec79;
+    text-shadow: 2px 2px #ccccca;
     font-style: italic;
+    margin: 0 auto;
 }
 
 .gallery-image {

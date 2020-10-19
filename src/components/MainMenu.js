@@ -137,7 +137,7 @@ class MainMenu extends React.Component {
 
                 <div className="content-menu">
                     <div class="box-container-1" style={{
-                        backgroundImage: `url(../assets/pngTest111-top.png)`,
+                        backgroundImage: `url(../assets/pngTest1111-inv.png)`,
                         backgroundSize: 'cover',
                         backgroundRepeat: 'repeat-x',
                         height: '70px'
@@ -168,6 +168,33 @@ class MainMenu extends React.Component {
 
                                 {/*                             <FontAwesomeIcon icon={faAngleDown} />
  */}                        </Link>
+
+                            {/* {
+                                this.state.displayMenu &&
+                                <div className="main-menu-panel">
+
+                                    <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
+                                        {
+                                            this.state.selectedProduct.productList.map((product) =>
+
+                                                <Link key={product.id}
+                                                    className="main-menu-product-box"
+                                                    id={product.type}
+                                                    to={product.link}
+                                                    onClick={this.selectedMenuItem}
+                                                >
+                                                    <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
+                                                    <LazyLoad
+                                                        debounce={false}
+                                                    >
+                                                        <img key={product.id} id={product.id} className={'main-menu-img ' + product.name} src={product.img_url} alt="" />
+                                                    </LazyLoad>
+                                                </Link>
+                                            )
+                                        }
+                                    </div>
+                                </div>
+                            } */}
                             <Link id="5"
                                 key="5"
                                 className="main-menu-link"
@@ -207,8 +234,6 @@ class MainMenu extends React.Component {
                     height: '70px'
                 }} ></div>
 
-
-
                 {
                     this.state.displayMenu &&
                     <div className="main-menu-panel">
@@ -234,7 +259,6 @@ class MainMenu extends React.Component {
                             }
                         </div>
                     </div>
-
                 }
             </div>]
             ;

@@ -19,7 +19,7 @@ const KomunikacijaSluzba = () => (
           vedno v najboljši »izvedbi« samega sebe, vendar si želimo več svetlih
           trenutkov. Vse se da urediti.
         </div>
-        <img src="../assets/kom4.png" alt="" />
+        <img src="../assets/kom4.jpg" alt="" />
       </div>
 
     </div>
