@@ -3,12 +3,18 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, subtitle, description }) => (
-  <header style={{
+  <header /* style={{
     backgroundImage: `url(../assets/1010.jpg)`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     height: '100 %'
-  }} className="header" >
+  }} */ className="header" >
+    {/* <div class="box-container-1" style={{
+      backgroundImage: `url(../assets/wave4.png)`,
+      backgroundSize: 'contain',
+      backgroundRepeat: 'repeat-x',
+      height: '70px'
+    }}></div> */}
     <div className="header-logo">
       {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
        */}{" "}
@@ -24,11 +30,11 @@ const Header = ({ siteTitle, subtitle, description }) => (
           <i>{subtitle}</i>
         </p>
       </span>
-      {/* <div className="header-image-div">
-        <img className="header-image" src="../icons/or-small-alpha.png" alt="" />
-      </div> */}
+      <div className="header-image-div">
+        <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" />
+      </div>
     </div>
-    <div className="header-icons">
+    {/*   <div className="header-icons">
       <a
         href="https://www.facebook.com/"
         target="_blank"
@@ -43,7 +49,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
       >
         <img src="../icons/instagram_25x.png" alt="" />
       </a>
-    </div>
+    </div> */}
   </header >
 )
 

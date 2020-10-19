@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
 
 $dark-red: #640c0c;
 $content-title: #505050;
@@ -54,6 +54,7 @@ body {
     min-height: 800px;
     background: none;
     background-color: none;
+    background: linear-gradient(45deg, #ff9437, #ff9437, #f35555, #ff9437);
 }
 
 .right-112 {
@@ -80,14 +81,16 @@ ul.right-list-112 {
     padding: 10px;
     width: 60%;
     margin: 0 auto;
-    min-height: 800px;
+    margin-top: 55px;
+    min-height: 1500px;
     flex-grow: 3;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     font-family: "Baloo Thambi 2";
-    background-color: #fcffdc;
-    opacity: 0.94;
+    background-color: #fdffcc;
+    /* opacity: 0.93; */
+    box-shadow: 5px 5px 18px 4px #fa5608;
     /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
  */
 }
@@ -168,7 +171,12 @@ ul.right-list-112 {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10%;
-    max-width: 1000px;
+    max-width: 1800px;
+    width: 80%;
+    font-family: Arima Madurai;
+    font-size: x-large;
+    font-style: italic;
+    color: #720707;
 }
 
 .komunikacija-intro {
@@ -178,21 +186,36 @@ ul.right-list-112 {
 
 .komunikacija-item {
     padding: 2%;
-    border: 1px solid #f9d9d9;
-    border-top: 25px solid #e9c9f2;
-    width: 80%;
-    max-width: 700px;
+    /*     border: 1px solid #f9d9d9;
+    border-top: 25px solid #e9c9f2; */
+    max-width: 1900px;
     border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.komunikacija-text {
+    width: 60%;
 }
 
 .komunikacija-content-bottom {
     margin-top: 10%;
     padding: 0px 3%;
+    font-family: Arima Madurai;
+    font-size: xx-large;
+    margin: 10% auto 0%;
+    width: 80%;
 }
 
 .komunikacija-title {
-    font-size: x-large;
-    font-family: "Bellota Text";
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 4%;
+    width: 60rem;
+    text-align: center;
 }
 
 .o-meni-quote {
@@ -240,10 +263,10 @@ ul.right-list-112 {
 
 .o-meni-content {
     width: 80%;
-    margin: 2% auto;
+    margin: 3% auto;
     font-style: italic;
     color: #210200;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .predavanja-content {
@@ -283,7 +306,7 @@ ul.right-list-112 {
     width: 80%;
     margin: 2% auto;
     font-family: "Bellota Text";
-    font-size: larger;
+    font-size: x-large;
     margin-top: 6%;
     color: #250101;
 }
@@ -306,6 +329,8 @@ ul.right-list-112 {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 8888888;
+    margin-top: -2px;
 }
 /**  zaenkrat skrijemo svg**/
 .box-container > svg {
@@ -313,12 +338,14 @@ ul.right-list-112 {
 }
 
 .box-container-1 {
-    width: 80%;
+    /**popravljeno zaenkrat tako, da bom se naknadno naredila spodaj vijuge in ozadje*/
+    width: 100%;
     vertical-align: middle;
     overflow: hidden;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    box-shadow: -4px 20px 15px #8e774c;
 }
 
 .zahvale-section {
@@ -331,21 +358,31 @@ ul.right-list-112 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
+/* .zahvale-section > div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.zahvale-section:nth-child(2) {
+    margin-right: 10px;
+} */
+
 .zahvala {
-    width: 40%;
+    width: 28%;
     margin-bottom: 3%;
     padding: 4% 4%;
-    background-color: #fef5da;
+    background-color: #fbfdb3;
     box-shadow: 5px 5px 15px 5px #fce5d1;
     color: #633106;
+    margin: 0 20px;
+    margin-bottom: 10px;
 }
 
 .zahvala-1 {
     transform: rotateZ(2deg);
-    background-color: #fcf7d7;
+    background-color: #fbfdb3;
 }
 
 .zahvala-2 {
@@ -354,16 +391,36 @@ ul.right-list-112 {
 
 .zahvala-3 {
     transform: rotateZ(-2deg);
-    background-color: #ffedd9;
+    background-color: #f2ffd3;
 }
 
 .zahvala-4 {
     transform: rotateZ(1deg);
-    background-color: #fef3d6;
+    background-color: #fff7e0;
 }
 .zahvala-5 {
     transform: rotateZ(1deg);
-    background-color: faf2e5;
+    background-color: #faf4d9;
+}
+.zahvala-6 {
+    transform: rotateZ(-2deg);
+    background-color: #fcfecb;
+}
+.zahvala-7 {
+    transform: rotateZ(1deg);
+    background-color: #fcf7d7;
+}
+.zahvala-8 {
+    transform: rotateZ(4deg);
+    background-color: #fcf7d7;
+}
+.zahvala-9 {
+    transform: rotateZ(-1deg);
+    background-color: #fdf5c7;
+}
+.zahvala-10 {
+    transform: rotateZ(2deg);
+    background-color: #fff7e0;
 }
 
 .zahvala-name {
@@ -373,7 +430,7 @@ ul.right-list-112 {
 
 .main-content-left {
     width: 9%;
-    background: linear-gradient(to bottom, #fda64c, #f14706);
+    /* background: linear-gradient(to bottom, #fda64c, #f14706); */
 }
 
 .main-content-right {
@@ -382,7 +439,7 @@ ul.right-list-112 {
     color: #fce9b6;
     font-family: bellota text;
     font-style: italic;
-    background: linear-gradient(to bottom, #fda64c, #f14706);
+    /* background: linear-gradient(to bottom, #fda64c, #f14706); */
     /* background: linear-gradient(to bottom, #ff5532, #fa301a);
 } */
 }
@@ -410,18 +467,22 @@ li {
 
 .header {
     margin-bottom: 0rem;
-    height: 400px;
+    height: 460px;
     /** vijolicna tema **/
     /*background: linear-gradient(45deg, #60259d99, #8b1c9c, #60259d99); */
     /*     background: linear-gradient(45deg, #661109, #7e2d07, #dfb50c);
  */
-    background: linear-gradient(45deg, #f8f87a, #ff9437, #f35555, #f93131);
+
     /*  background: linear-gradient(45deg, #eaea6e, #ef8c38, #ef4938, #fc1414, #ed7108, #f8f872);
     background: linear-gradient(45deg, #fdfd7a, #fd6b6b, #f35555, #f9fc71); */
+
+    /* background: linear-gradient(45deg, #f8f87a, #ff9437, #f35555, #f93131); */
+    background: linear-gradient(45deg, #f73c3c, #ff9437, #f35555, #f93131);
 }
 
 .header-image {
     height: 200px;
+    margin-left: 40px;
 }
 
 .header.row {
@@ -467,11 +528,14 @@ li {
 
 .quote-text {
     line-height: 40px;
-    font-family: Bellota Text;
+    font-family: Arima Madurai;
     font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    color: #91383b;
+    /*  font-family: Great Vibes; */
+    text-shadow: 2px 2px #ccccca;
     font-style: italic;
-    font-size: large;
-    color: #3c0204;
 }
 
 .quote-logo > img {
@@ -687,9 +751,16 @@ table > tr > th {
 }
 
 .page-title-link {
-    color: #ffea83;
-    font-size: 4em;
+    color: #f9f56c;
+    font-size: 4.5em;
     font-family: Tangerine;
+    font-family: Allura;
+    font-family: Great Vibes;
+    /* font-family: Arizonia; */
+    /*  font-family: Calligraffitti; */
+
+    /* font-family: Montez; */
+    text-shadow: -0.5px 0 #ff1212, 0 2.5px #843507, 1.5px 0 #fc3030, 0 3.5px black;
 }
 
 .page-title-link:hover {
@@ -704,18 +775,22 @@ a.header-title-link:hover {
 }
 
 .motivation-quote-1 {
-    font-family: Bellota Text;
-    line-height: 40px;
+    margin-top: 4%;
+    font-family: Arima Madurai;
     font-weight: bold;
     font-style: italic;
-    font-size: large;
-    color: #3c0204;
-    padding: 4% 2%;
+    font-size: xx-large;
+    padding: 6% 2%;
     width: 80%;
     display: flex;
     margin: 0 auto;
     align-items: baseline;
     justify-content: center;
+    letter-spacing: 1px;
+    color: #91383b;
+    /* font-family: Great Vibes; */
+    text-shadow: 1px 0px #f0ec79;
+    font-style: italic;
 }
 
 .gallery-image {

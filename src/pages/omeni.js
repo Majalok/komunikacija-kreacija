@@ -11,8 +11,8 @@ const OMeni = () => (
             <img src="../icons/quote-left.png" alt="Logo" />
           </span>
           <p className="quote-text">
-            {' '}ODNOSI SO NAJDRAGOCENEJŠA LASTNINA V NAŠIH ŽIVLJENJIH IN SI ZASLUŽIJO,
-          DA Z NJIMI TAKO TUDI RAVNAMO.{'    '}
+            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo.{'    '}
             <span className="author">(neznani avtor)</span>
 
             <span className="quote-logo">
@@ -21,12 +21,15 @@ const OMeni = () => (
             </span>
           </p>
         </div>{" "}
-        <div class="box-container-1">
-          <svg height="150" width="880">
-            {/*  <path d="M 0 0 q 40 40 80 0 q 40 80 80 0 q 40 80 80 0 q 40 40 80 0 q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 q 40 40 80 0  q 40 40 80 0 q 40 40 80 0 q 40 140 80 0 l 0 50 l 880 0 z" stroke="rgb(255, 195, 56)" stroke-width="5" fill="orange" />
-         */}
+        <div class="box-container-1" /* style={{
+          backgroundImage: `url(../assets/wave2.png)`,
+          backgroundSize: 'contain',
+          backgroundRepeat: 'repeat-x',
+          height: '70px'
+        }} */>
+          {/* <svg height="150" width="880">
             <path d="M0,19.99 C150.00,150.00 271.49,-40.99 880.00,15.99 L880.00,0.00 L0.00,0.00 Z" fill="#fffdc2"></path>
-          </svg>
+          </svg> */}
         </div>
         <div className="o-meni-content">
           <div className="o-meni-text">
@@ -115,11 +118,47 @@ const OMeni = () => (
             Maja Testira
           </div>
         </div>
+
+        <div className="zahvala zahvala-10">
+          Natašo sem spoznala na mojem prejšnjem delovnem mestu in takoj sem začutila, da izžareva neko posebno energijo. Takoj sem jo začutila. Postali sva prijateljici in velikokrat sem se nanjo obrnila za nasvet,najprej pri reševanju konfliktov na delovnem mestu. Znala mi je pravilno svetovati, kako in na kakšen način komunicirati z konfliktnimi osebami.
+
+          Sčasoma sva prišli na reševanje mojih osebnih problemov, kot je reševanje zapletenega razmerja in tudi tu me je usmerila na pravo pot, predvsem kako naj pri sebi ugotovim, kje so moje težave,ki izvirajo iz moje preteklosti.
+
+          Nataša ti da veliko energije, pozitive in enostavno jo moraš "ubogati", ker spoznaš, da ti zelo pomagajo njeni nasveti.
+          <div className="zahvala-name">
+            Brigita
+          </div>
+        </div>
+        <div className="zahvala zahvala-6">
+          Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z razlogom. Nataša, ko si se ti pojavila v mojem življenju je bilo čisto poslovno ampak sva hitro ugotovili, da to ni tako. Vnesla si v moje življenje voljo, energijo, odprla mi oči in dala krila, da lahko poletim. Če me zanese, mi boš znala pokazati, katera pot je prava.
+
+          Hvaležna, ker te je tvoja pot pripeljala k meni.
+        <div className="zahvala-name">
+            L.S.
+          </div>
+        </div>
+        <div className="zahvala zahvala-7">
+          Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih se je potrebno tudi poglobit, če želiš ohraniti ali napredovati v določenih stvareh. In zato je dobro, če poznaš koga, ki ti pri temu pomaga. In ti si mi. Hvala.
+        <div className="zahvala-name">
+            Blaž
+          </div>
+        </div>
+        <div className="zahvala zahvala-8">
+          Obvladaš!
+        <div className="zahvala-name">
+            Blaž
+          </div>
+        </div>
+        <div className="zahvala zahvala-9">
+          Imaš veliko znanja.
+        <div className="zahvala-name">
+            Ana P.
+          </div>
+        </div>
       </div>
       <div className="motivation-quote-1">
         Naj STRAH ne bo vaša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija ;)
       </div>
-
     </div>
   </Layout>
 )

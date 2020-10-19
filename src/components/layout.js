@@ -7,6 +7,7 @@ import Footer from "./footer"
 import Navigation from "./Navigation"
 import ContentRight from "./ContentRight"
 import Helmet from "react-helmet"
+import MainMenu from "./MainMenu"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -21,12 +22,12 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="top-div" /* style={{
-        backgroundImage: `url(../assets/1010.jpg)`,
+      <div className="top-div" style={{
+        backgroundImage: `url(../assets/10.jpg)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         height: '100 %'
-      }} */>
+      }} >
         <Helmet>
           <title>Komunikacija je kreacija</title>
           <meta
@@ -44,7 +45,8 @@ const Layout = ({ children }) => (
         >
 
         </Header>
-        <Navigation />
+        {/*  <Navigation /> */}
+        <MainMenu />
         <div className="content-main-div">
           <div className="main-content-left" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,
