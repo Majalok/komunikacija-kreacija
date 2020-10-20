@@ -72,7 +72,6 @@ $selected-item: #f9f4ee;
 
 .content-menu {
     margin-top: -80px;
-    box-shadow: -4px 20px 15px #8e774c;
 }
 
 .main-menu-link {
@@ -236,10 +235,11 @@ $selected-item: #f9f4ee;
             height: auto;
             display: flex;
             flex-direction: column;
-            background-color: $menu-box-top-bck;
+            background-color: #fbf43a;
             top: 30px;
             left: 0px;
             width: auto;
+            z-index: 99999;
         }
 
         .main-menu-links.toggleMenu > div > .main-menu-link {
@@ -304,10 +304,11 @@ $selected-item: #f9f4ee;
         height: auto;
         display: flex;
         flex-direction: column;
-        background-color: $menu-box-top-bck;
+        background-color: #fbf43a;
         top: 49px;
         left: 0px;
         width: auto;
+        z-index: 999;
     }
 
     .main-menu-links.toggleMenu > div > .main-menu-link {

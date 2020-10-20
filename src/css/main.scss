@@ -81,7 +81,7 @@ ul.right-list-112 {
     padding: 10px;
     width: 60%;
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 48px;
     min-height: 1500px;
     flex-grow: 3;
     flex-direction: column;
@@ -1009,5 +1009,62 @@ a.header-title-link:hover {
 
     .news-item-header {
         display: block;
+    }
+
+    .o-meni-quote {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .o-meni-quote > .quote-text {
+        line-height: unset;
+    }
+
+    .motivation-quote-1 {
+        font-size: large;
+        width: auto;
+    }
+
+    .o-meni-content {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        width: auto;
+    }
+
+    .predavanja-content,
+    .delavnice-content,
+    .promocija-content,
+    .o-meni-content,
+    .blog-content,
+    .komunikacija-content {
+        margin-top: 5%;
+        width: auto;
+        text-align: left;
+        font-size: large;
+    }
+
+    .blog-content > .blog-item {
+        padding: 0px;
+    }
+
+    .blog-item > .blog-text {
+        font-size: medium;
+    }
+
+    .zahvala {
+        width: 100%;
+    }
+
+    .zahvale-section {
+        width: auto;
+    }
+
+    .komunikacija-item {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .komunikacija-text {
+        width: auto;
+        margin-bottom: 4%;
     }
 }

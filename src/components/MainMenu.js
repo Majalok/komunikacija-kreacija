@@ -228,7 +228,7 @@ class MainMenu extends React.Component {
                     </div>
                 </div>
                 <div class="box-container" style={{
-                    backgroundImage: `url(../assets/pngTest111-inv.png)`,
+                    backgroundImage: `url(../assets/pngTest111-bottom.png)`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'repeat-x',
                     height: '70px'
