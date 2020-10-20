@@ -197,21 +197,40 @@ ul.right-list-112 {
     flex-wrap: wrap;
 }
 
+.kom-sluzba {
+    justify-content: center;
+}
+
+.kom-sluzba-img,
+.kom-partner-img {
+    opacity: 0.9;
+}
+
+.komunikacija-item.kom-sluzba > .komunikacija-text {
+    margin-bottom: 4%;
+}
+
 .komunikacija-text {
     width: 60%;
+    font-size: large;
 }
 
 .komunikacija-content-bottom {
     margin-top: 10%;
     padding: 0px 3%;
     font-family: Arima Madurai;
-    font-size: xx-large;
+    font-size: large;
     margin: 10% auto 0%;
     width: 80%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #78070b;
+    /*  font-family: Great Vibes; */
+    font-style: italic;
 }
 
 .komunikacija-title {
-    font-size: xxx-large;
+    font-size: x-large;
     font-weight: bold;
     margin-bottom: 4%;
     width: 60rem;
@@ -263,10 +282,10 @@ ul.right-list-112 {
 
 .o-meni-content {
     width: 80%;
-    margin: 3% auto;
+    margin: 5% auto;
     font-style: italic;
     color: #210200;
-    font-size: x-large;
+    font-size: large;
 }
 
 .predavanja-content {
@@ -287,7 +306,9 @@ ul.right-list-112 {
 .promocija-content {
     width: 80%;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 8%;
+    font-size: x-large;
+    font-family: Arima Madurai;
     font-style: italic;
     text-align: justify;
     color: #210200;
@@ -530,7 +551,7 @@ li {
     line-height: 40px;
     font-family: Arima Madurai;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: large;
     letter-spacing: 1px;
     color: #78070b;
     /*  font-family: Great Vibes; */
@@ -752,7 +773,7 @@ table > tr > th {
 
 .page-title-link {
     color: #f9f56c;
-    font-size: 4.5em;
+    font-size: 3.2em;
     font-family: Tangerine;
     font-family: Allura;
     font-family: Great Vibes;

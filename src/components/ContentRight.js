@@ -10,12 +10,7 @@ const ContentRight = () => (
         <p className="right-title">naslov vsebina na desni </p>
 
         <div className="povezave-right">
-            <ul className="right-list-112">
-                <li className="right-112">
-                    <strong>vsebina na desni</strong>
-                </li>
-                <br />
-            </ul>
+
         </div>
 
         <hr />
@@ -35,8 +30,6 @@ const ContentRight = () => (
             <hr />
             <div className="povezave-right address">
                 <br />
-                <p className="">test</p>
-                <p className="">test1</p>
             </div>
             <br />
             <p className="povezave-link">
