@@ -7,16 +7,16 @@ const ContentRight = () => (
         backgroundRepeat: 'no-repeat',
         height: '100 %'
     }} */ >
-        <p className="right-title">naslov vsebina na desni </p>
-
+        {/*  <p className="right-title">naslov vsebina na desni </p>
+ */}
         <div className="povezave-right">
 
         </div>
 
         <hr />
 
-        <p className="right-title">POVEZAVE</p>
-
+        {/*   <p className="right-title">POVEZAVE</p>
+ */}
         <div className="povezave-content content-section">
             {/*  <a
                 className="povezava-item"
@@ -33,9 +33,7 @@ const ContentRight = () => (
             </div>
             <br />
             <p className="povezave-link">
-                <a href="mailto: test@gmail.com">
-                    test@gmail.com
-              </a>
+                {/*   */}
             </p>
             <br />
             <hr />

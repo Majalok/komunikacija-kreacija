@@ -2,18 +2,10 @@ $menu-box-top-bck: #292929;
 $selected-item: #f9f4ee;
 
 .main-menu-panel {
-    display: flex;
-    flex-direction: row;
-    height: 175px;
-    width: 100%;
-    top: 154px;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: -35px;
     opacity: 1;
-    /* animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 0.5s; */
 }
 
 @keyframes fadeInOpacity {
@@ -80,11 +72,9 @@ $selected-item: #f9f4ee;
     width: auto;
     background-color: transparent;
     border: none;
-    text-transform: capitalize;
     font-family: Arima Madurai;
     padding: 0px 29px;
-    /*  border-left: transparent 29px solid;
-  border-right: transparent 29px solid; */
+
     display: flex;
     font-style: italic;
     align-items: center;
@@ -119,14 +109,9 @@ $selected-item: #f9f4ee;
 }
 
 .main-menu-products {
-    display: flex;
-    position: absolute;
-    left: 22%;
-    flex-direction: column;
     padding-top: 11px;
     padding-bottom: 12px;
-    align-items: center;
-    justify-content: center;
+
     background-color: #f9f4ee;
     box-shadow: 3px 5px 6px rgba(86, 86, 86, 0.3);
     z-index: 99999;
@@ -138,9 +123,9 @@ $selected-item: #f9f4ee;
 }
 
 .main-menu-product-desc {
-    text-align: center;
     font-size: large;
     border-bottom: 1px solid lightgray;
+    font-variant: normal;
     font-family: Arima Madurai;
     color: #740b0b;
     text-shadow: 2px 1px #f8ae7f;

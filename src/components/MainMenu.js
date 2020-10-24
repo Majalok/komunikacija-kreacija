@@ -74,6 +74,11 @@ class MainMenu extends React.Component {
         this.displayMenuBoxPanel = this.displayMenuBoxPanel.bind(this);
         this.hideMenuBoxPanel = this.hideMenuBoxPanel.bind(this);
 
+        /* this.setState({
+            displayMenu: true,
+            selectedProduct: this.state["Komunikacija"]
+        }) */
+
     };
 
     toggleMenu() {
@@ -151,6 +156,8 @@ class MainMenu extends React.Component {
   */
     }
     render() {
+
+
         return [
             <div className="top-content-menu" key="top-content-menu">
 
@@ -187,7 +194,35 @@ class MainMenu extends React.Component {
                                 name="product1">Komunikacija{' '}
 
                                 {/*                             <FontAwesomeIcon icon={faAngleDown} />
- */}                        </Link>
+
+ */}
+                                {
+                                    this.state.displayMenu &&
+
+
+                                    <div className="main-menu-panel">
+
+                                        <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
+                                            {
+                                                this.state.selectedProduct.productList.map((product) =>
+
+                                                    <Link key={product.id}
+                                                        className="main-menu-product-box"
+                                                        id={product.type}
+                                                        to={product.link}
+                                                        onClick={this.selectedMenuItem}
+                                                    >
+                                                        <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
+                                                    </Link>
+                                                )
+                                            }
+                                        </div>
+                                    </div>
+                                }
+
+
+
+                            </Link>
 
                             {/* {
                                 this.state.displayMenu &&
@@ -254,32 +289,7 @@ class MainMenu extends React.Component {
                     height: '70px'
                 }} ></div>
 
-                {
-                    this.state.displayMenu &&
-                    <div className="main-menu-panel">
 
-                        <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
-                            {
-                                this.state.selectedProduct.productList.map((product) =>
-
-                                    <Link key={product.id}
-                                        className="main-menu-product-box"
-                                        id={product.type}
-                                        to={product.link}
-                                        onClick={this.selectedMenuItem}
-                                    >
-                                        <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
-                                        <LazyLoad
-                                            debounce={false}
-                                        >
-                                            <img key={product.id} id={product.id} className={'main-menu-img ' + product.name} src={product.img_url} alt="" />
-                                        </LazyLoad>
-                                    </Link>
-                                )
-                            }
-                        </div>
-                    </div>
-                }
             </div>]
             ;
 

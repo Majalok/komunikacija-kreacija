@@ -23,7 +23,7 @@ class Blog extends Component {
               <div className="blog-text">Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list. Nato prve zapise, na ta tvoj lep beli list,
               naredijo tvoji starši, kasneje jim seveda pomagajo tudi stari starši (ker bog ne daj, brez njih res
               ne gre ;)). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče še kakšna starejša sestra ali
-              brat, za povrh, da je mera polna. Ja, prav vsi te učijo, usmerjajo in itak vedo kaj je najbolje zate.
+              brat, za povrh, da je mera polna <span className="emoji">😉</span>. Ja, prav vsi te učijo, usmerjajo in itak vedo kaj je najbolje zate.
               Kasneje se temu »klanu« pridruži vrtec z vsemi pripadajočimi akterji (vrstniki in vzgojitelji),
               nato šola isti koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi cel tvoj proces šolanja.
               Zraven pa puščajo svojo sled, na tem čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
