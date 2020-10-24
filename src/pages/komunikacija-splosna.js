@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const KomunikacijaSluzba = () => (
+const SplosnaKomunikacija = () => (
   <Layout>
     {/*  <div className="komunikacija-intro">
       Občutek imaš, da ti v življenju nič ( ali skoraj nič) ne »laufa«. Poglejva
@@ -11,7 +11,7 @@ const KomunikacijaSluzba = () => (
 
     <div className="komunikacija-content">
       <div className="komunikacija-title">Komunikacija na delovnem mestu, v šoli, s prijatelji, znanci, lahko
-          tudi neznanci <span className="emoji">😉</span></div>
+          tudi neznanci <span className="emoji">😉 </span> </div>
       <div className="komunikacija-item kom-sluzba">
         <br />
         <div className="komunikacija-text">
@@ -25,10 +25,10 @@ const KomunikacijaSluzba = () => (
     </div>
     <div className="komunikacija-content-bottom">
       Bistvo vsega je DIALOG, ki se odraža skozi SLIŠATI in BITI SLIŠAN.
-      Monolog pa je zelo pomemben pri komunikaciji s seboj.<span className="emoji"> 🙂👍 </span>
-    </div>
+      Monolog pa je zelo pomemben pri komunikaciji s seboj.
+      </div>
 
   </Layout>
 )
 
-export default KomunikacijaSluzba
+export default SplosnaKomunikacija

@@ -23,8 +23,8 @@ const KomunikacijaPartner = () => (
     </div>
     <div className="komunikacija-content-bottom">
       Bistvo vsega je DIALOG, ki se odraža skozi SLIŠATI in BITI SLIŠAN.
-      Monolog pa je zelo pomemben pri komunikaciji s seboj.
-      </div>
+      Monolog pa je zelo pomemben pri komunikaciji s seboj.<span className="emoji"> 🙂👍 </span>
+    </div>
 
   </Layout>
 )

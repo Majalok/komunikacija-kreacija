@@ -32,16 +32,36 @@ class MainMenu extends React.Component {
                 productName: "Komunikacija ",
                 productId: 1,
                 productList: [{
-                    id: 4,
+                    id: 2,
+                    name: 'Osebna komunikacija',
+                    link: '/komunikacija-partner',
+                    /*  img_url: logo1 */
+                },
+                {
+                    id: 3,
                     name: 'Komunikacija s partnerjem',
                     link: '/komunikacija-partner',
                     /*  img_url: logo1 */
-                }, {
-                    id: 5,
-                    name: 'Komunikacija v sluzbi',
+                },
+                {
+                    id: 4,
+                    name: 'Komunikacija v službi',
                     link: '/komunikacija-sluzba',
 /*                     img_url: logo2
- */                }]
+ */                },
+                {
+                    id: 5,
+                    name: 'Splošna komunikacija',
+                    link: '/komunikacija-splosna',
+                    /*  img_url: logo1 */
+                },
+                {
+                    id: 6,
+                    name: 'Poslušalka',
+                    link: '/poslusalka',
+                    /*  img_url: logo1 */
+                },
+                ]
             },
             selectedProduct: {},
             selectedMenuItem: 1,

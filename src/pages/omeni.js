@@ -13,7 +13,7 @@ const OMeni = () => (
           <p className="quote-text">
             {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
           da z njimi tako tudi ravnamo.{'    '}
-            <span className="author">(neznani avtor)</span>
+            <span className="author">(dr.Nate Booth)</span>
 
             <span className="quote-logo">
               <img src="../icons/quote-right.png" alt="Logo" />
@@ -33,11 +33,11 @@ const OMeni = () => (
         </div>
         <div className="o-meni-content">
           <div className="o-meni-text">
-            Naj se predstavim.Ime mi je Nataša in zelo rada čvekam.Pa ne kar tja v
+            Naj se predstavim.Ime mi je Nataša in zelo rada čvekam. Pa ne kar tja v
           tri dni(no, občasno tudi) ampak obožujem poglobljene pogovore.{" "}
           </div>{" "}
           <div className="o-meni-text">
-            Pogovarjanje oziroma komunikacija mi je blizu.Nikoli tudi nisem imela
+            Pogovarjanje oziroma komunikacija mi je blizu. Nikoli tudi nisem imela
             problema načeti pogovora s popolnim tujcem, če sem le» prebrala« skozi
           njegovo telesno govorico, da imam» zeleno luč«.{" "}
           </div>{" "}
@@ -49,7 +49,7 @@ const OMeni = () => (
             da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
             se vse zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
             imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
-            ko so se besede kar vsule. In sem se lotila dela ;) Saj veste, pogled
+            ko so se besede kar vsule. In sem se lotila dela <span className="emoji">😉</span>  Saj veste, pogled
             iz drugega zornega kota in pa moja dva »senzorja«pa smo zadevo
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
           </div>{" "}
@@ -147,7 +147,7 @@ const OMeni = () => (
         </div>
       </div>
       <div className="motivation-quote-1">
-        Naj STRAH ne bo vaša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija ;)
+        Naj STRAH ne bo vaša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji"> 😉</span>
       </div>
     </div>
   </Layout>

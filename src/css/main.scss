@@ -286,6 +286,7 @@ ul.right-list-112 {
     font-style: italic;
     color: #210200;
     font-size: large;
+    font-family: Bellota Text;
 }
 
 .predavanja-content {
@@ -307,7 +308,7 @@ ul.right-list-112 {
     width: 80%;
     margin: 0 auto;
     margin-top: 8%;
-    font-size: x-large;
+    font-size: large;
     font-family: Arima Madurai;
     font-style: italic;
     text-align: justify;
@@ -321,6 +322,18 @@ ul.right-list-112 {
     text-align: justify;
     color: #210200;
     font-size: larger;
+}
+.predavanja-content {
+    width: 80%;
+    margin: 6% auto;
+    font-style: italic;
+    text-align: justify;
+    color: #210200;
+    font-size: larger;
+}
+
+.predavanja-item {
+    margin-top: 4%;
 }
 
 .zahvale {
@@ -765,7 +778,7 @@ table > tr > th {
     color: #ffeaa0;
     text-decoration: none;
     text-align: center;
-    font-family: "Bad Script";
+    font-family: "Tangerine";
     font-size: larger;
     display: block;
     padding: 0 20px;
@@ -775,8 +788,8 @@ table > tr > th {
     color: #f9f56c;
     font-size: 3.2em;
     font-family: Tangerine;
-    font-family: Allura;
-    font-family: Great Vibes;
+    /*  font-family: Allura;
+    font-family: Great Vibes; */
     /* font-family: Arizonia; */
     /*  font-family: Calligraffitti; */
 
@@ -795,6 +808,10 @@ a.header-title-link:hover {
     padding: 10px;
 }
 
+.emoji {
+    font-style: normal;
+}
+
 .motivation-quote-1 {
     margin-top: 4%;
     padding: 6% 2%;
@@ -802,7 +819,7 @@ a.header-title-link:hover {
     line-height: 40px;
     font-family: Arima Madurai;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     letter-spacing: 1px;
     color: #78070b;
     /* font-family: Great Vibes; */
@@ -883,6 +900,10 @@ a.header-title-link:hover {
     .header {
         flex-direction: column;
         padding: 25px;
+    }
+
+    .header-title-link {
+        font-size: medium;
     }
 
     .dropdown {
@@ -1000,9 +1021,49 @@ a.header-title-link:hover {
         column-count: 3;
     }
 }
+@media only screen and (max-width: 1024px) and (min-width: 200px) and (orientation: landscape) {
+    .zahvala {
+        width: 40%;
+    }
+
+    .motivation-quote-1 {
+        font-size: large;
+    }
+    .blog-title {
+        font-size: x-large;
+    }
+}
 
 /* Masonry on small screens */
 @media only screen and (max-width: 767px) and (min-width: 200px) {
+    .page-title-link {
+        font-size: 3rem;
+    }
+
+    .blog-title {
+        font-size: x-large;
+    }
+
+    .header-main-div {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .komunikacija-content-bottom {
+        padding: 0;
+    }
+
+    .kom-sluzba-img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    @media screen and (orientation: landscape) {
+        .blog-item > .blog-title {
+            font-size: x-large;
+        }
+    }
+
     .gallery-content {
         column-count: 2;
     }

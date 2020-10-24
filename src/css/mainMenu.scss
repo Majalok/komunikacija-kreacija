@@ -26,7 +26,6 @@ $selected-item: #f9f4ee;
 }
 
 .main-menu-top {
-    background-color: $menu-box-top-bck;
     /* box-shadow: 4px 4px 11px rgba(13, 13, 13, 0.3); */
     top: 0px;
     margin-top: -2px;
@@ -35,7 +34,7 @@ $selected-item: #f9f4ee;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: linear-gradient(#fbf43a, #fbf43a);
+    background: linear-gradient(#faf567, #faf472);
     color: #740b0b;
     /*  border-top: 0.5px solid #85a4ae;
     border-bottom: 0.5px solid #85a4ae; */
@@ -48,10 +47,8 @@ $selected-item: #f9f4ee;
     width: 200px;
     flex-direction: row;
     cursor: pointer;
-    background-color: rgb(250, 250, 250);
     text-decoration: none;
     transition: 0.5s;
-    background-color: #fbf43a;
     color: #740b0b;
 }
 
@@ -79,7 +76,7 @@ $selected-item: #f9f4ee;
     text-shadow: 2px 1px #f8ae7f;
     margin: 0px 10px;
     text-decoration: none;
-    font-size: x-large;
+    font-size: large;
     width: auto;
     background-color: transparent;
     border: none;
@@ -132,16 +129,17 @@ $selected-item: #f9f4ee;
     justify-content: center;
     background-color: #f9f4ee;
     box-shadow: 3px 5px 6px rgba(86, 86, 86, 0.3);
+    z-index: 99999;
     /*     border-top-right-radius: 6%;
     border-bottom-right-radius: 21%;
     border-bottom-left-radius: 4%; */
-    background-color: #fbf43a;
+    background: linear-gradient(rgb(250, 245, 103), rgb(250, 244, 114));
     /*  background-image: linear-gradient(#f2efef, #fff9f9, #e6e5e5); */
 }
 
 .main-menu-product-desc {
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     border-bottom: 1px solid lightgray;
     font-family: Arima Madurai;
     color: #740b0b;
@@ -185,8 +183,17 @@ $selected-item: #f9f4ee;
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
     .main-menu-top {
-        height: 50px;
+        height: 80px;
         opacity: 1;
+    }
+
+    .box-container,
+    .box-container-1 {
+        display: none !important;
+    }
+
+    .content-menu {
+        margin-top: unset;
     }
 
     li {

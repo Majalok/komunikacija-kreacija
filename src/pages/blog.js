@@ -4,6 +4,7 @@ import { FaCalendarAlt } from "react-icons/fa"
 import DropdownMenu from "../components/dropdown"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import SplosnaKomunikacija from "./komunikacija-splosna"
 
 class Blog extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ class Blog extends Component {
               na tvoj list.
               <br />
               Nato spoznaš Ljubezen svojega življenja (če ne gre v prvo, pa mogoče v drugo, tretje….no,
-              kakorkoli že ;)).
+              kakorkoli že <span className="emoji">😉</span>).
               <br />
                 <br />
               Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na plano, čez vest ta »balast«.  Na začetku
@@ -70,11 +71,11 @@ class Blog extends Component {
               zadržuje, je potrebno zopet delati na sebi.
               <br />
                 <br />
-              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela :D.
+              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela  <span className="emoji">😃</span> .
               <br />
                 <br />
-              Je pa noro dober OBČUTEK, ko se osvobodiš določenih spon, prepričan, vzorcev...POLETIŠ ;)
-                </div>
+              Je pa noro dober OBČUTEK, ko se osvobodiš določenih spon, prepričan, vzorcev...POLETIŠ <span className="emoji">😉</span>
+              </div>
             </div>
           </div>
         </div>
