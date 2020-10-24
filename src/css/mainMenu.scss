@@ -1,11 +1,13 @@
 $menu-box-top-bck: #292929;
 $selected-item: #f9f4ee;
+$yellow-bck: #faf46d;
 
 .main-menu-panel {
     position: absolute;
-    margin-top: 380px;
+    margin-top: 475px;
     margin-left: -35px;
     opacity: 1;
+    z-index: 99999;
 }
 
 @keyframes fadeInOpacity {
@@ -44,21 +46,6 @@ $selected-item: #f9f4ee;
     color: #740b0b;
 }
 
-.main-menu-product-box:hover {
-    /* background-color: white; */
-    /* animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s; */
-    /*  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
- */
-    transform: scale(1.01);
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    text-decoration: none;
-}
-
 .content-menu {
     margin-top: -80px;
 }
@@ -78,7 +65,7 @@ $selected-item: #f9f4ee;
     display: flex;
     font-style: italic;
     align-items: center;
-    transition: linear 0.4s;
+
     height: 80px;
 
     /*     font-family: Arizonia;
@@ -92,12 +79,21 @@ $selected-item: #f9f4ee;
 .main-menu-link.vps {
   display: none;
 } */
+.menu-title {
+    transition: linear 0.4s;
+    text-decoration: none;
+}
 
-.main-menu-link:hover {
+a:hover {
+    text-decoration: none !important;
+    color: unset !important;
+}
+
+.menu-title:hover {
     background-color: none;
     color: black;
+    transform: scale(1.15);
     text-decoration: none;
-    transform: scale(1.2);
 }
 
 .top-content-menu {
@@ -124,17 +120,19 @@ $selected-item: #f9f4ee;
 
 .main-menu-product-desc {
     font-size: large;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #f0afaf;
     font-variant: normal;
     font-family: Arima Madurai;
     color: #740b0b;
     text-shadow: 2px 1px #f8ae7f;
     padding: 5px 10px;
     font-style: italic;
+    transition: linear 0.4s;
 }
 
 .main-menu-product-desc:hover {
     text-decoration: none;
+    transform: scale(1.15);
 }
 
 .main-menu-img {
@@ -218,7 +216,7 @@ $selected-item: #f9f4ee;
             position: absolute;
             height: 22px;
             width: 36px;
-            color: white;
+            color: #7e7676;
             z-index: 99999;
             cursor: pointer;
         }
@@ -287,7 +285,7 @@ $selected-item: #f9f4ee;
         position: absolute;
         height: 30px;
         width: 36px;
-        color: white;
+        color: #740b0b;
         z-index: 99999;
         cursor: pointer;
     }
@@ -296,7 +294,7 @@ $selected-item: #f9f4ee;
         height: auto;
         display: flex;
         flex-direction: column;
-        background-color: #fbf43a;
+        background-color: $yellow-bck;
         top: 49px;
         left: 0px;
         width: auto;
@@ -323,7 +321,7 @@ $selected-item: #f9f4ee;
     }
 
     .burger-menu-icon {
-        top: 7px;
+        top: -3px;
         left: 0px;
         height: 16px;
     }

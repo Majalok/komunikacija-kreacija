@@ -170,17 +170,18 @@ ul.right-list-112 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 1800px;
-    width: 80%;
-    font-family: Arima Madurai;
+    /* width: 80%; */
+    font-family: Bellota Text;
     font-size: x-large;
     font-style: italic;
     color: #720707;
+    text-align: justify;
 }
 
 .komunikacija-intro {
-    margin-top: 10%;
+    margin-top: 2%;
     padding: 0px 3%;
 }
 
@@ -193,7 +194,7 @@ ul.right-list-112 {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -213,6 +214,7 @@ ul.right-list-112 {
 .komunikacija-text {
     width: 60%;
     font-size: large;
+    margin-right: 2%;
 }
 
 .komunikacija-content-bottom {
@@ -232,7 +234,7 @@ ul.right-list-112 {
 .komunikacija-title {
     font-size: x-large;
     font-weight: bold;
-    margin-bottom: 4%;
+    margin-bottom: 2.5%;
     width: 60rem;
     text-align: center;
 }
@@ -577,6 +579,7 @@ li {
     margin-bottom: 10px;
     display: inline-block;
     opacity: 0.7;
+    z-index: 999;
 }
 
 a.povezava-item > img {

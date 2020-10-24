@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{"Zy+o":function(a,e,n){"use strict";n.r(e);var t=n("q1tI"),i=n.n(t),o=n("Bl7J");e.default=function(){return i.a.createElement(o.a,null,i.a.createElement("div",{className:"predavanja-content"},i.a.createElement("div",{className:"predavanja-item"},"-Kaj je diamantni dotik oziroma kako povečati vrednost vaše dragocene lastnine – vaših odnosov!"),i.a.createElement("div",{className:"predavanja-item"},"- Nebesedna izražanja")))}}}]);
+//# sourceMappingURL=component---src-pages-predavanja-js-99fba662653ebdd989f8.js.map

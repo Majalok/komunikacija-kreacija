@@ -10,24 +10,20 @@ const KomunikacijaSluzba = () => (
     </div> */}
 
     <div className="komunikacija-content">
-      <div className="komunikacija-title">Komunikacija na delovnem mestu, v šoli, s prijatelji, znanci, lahko
-          tudi neznanci <span className="emoji">😉</span></div>
+      <div className="komunikacija-title">Komunikacija na delovnem mestu-nadrejenimi in sodelavci</div>
       <div className="komunikacija-item kom-sluzba">
         <br />
         <div className="komunikacija-text">
-          Se zatika, ni vedno tekoča, kar je popolnoma razumljivo, saj nismo
-          vedno v najboljši »izvedbi« samega sebe, vendar si želimo več svetlih
-          trenutkov. Vse se da urediti.
+          Ko sem pred približno 30 leti pričela delati v podjetju, kjer se je pričakovala da boš samoiniciativen, fleksibilen, učljiv, skoraj vedno na razpolago in še kaj bi se našlo, sem dala vse od sebe, da bi »zadovoljila te kriterije« oziroma pričakovanja. Rezultat tega je bil (skozi daljše obdobje), da ko sem se ozrla nazaj, sem videla kako malo sem bila pravzaprav cenjena.
+          Kako sem dovolila, da sem bila velikokrat izkoriščena in nikoli pohvaljena –znano, mar ne?- kaj šele nagrajena (čeprav je bilo in je še izvedljivo).
+          <br />
+          Ko sem pričela z delom na sebi, sem prišla do določenih spoznaj, ki so mi pomagala, da sem postopoma postavila stvari na prava mesta. Postala sem opažena, cenjena in tudi nagrajena.
+          <br />
+          Kasneje je tudi komunikacija odigrala veliko vlogo. In spoznala sem tudi razliko med zlatim in diamantnim pravilom, glede odnosov.
         </div>
         <img className="kom-sluzba-img" src="../assets/kom4.png" alt="" />
       </div>
-
     </div>
-    <div className="komunikacija-content-bottom">
-      Bistvo vsega je DIALOG, ki se odraža skozi SLIŠATI in BITI SLIŠAN.
-      Monolog pa je zelo pomemben pri komunikaciji s seboj.<span className="emoji"> 🙂👍 </span>
-    </div>
-
   </Layout>
 )
 

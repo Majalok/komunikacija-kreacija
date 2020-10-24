@@ -34,7 +34,7 @@ class MainMenu extends React.Component {
                 productList: [{
                     id: 2,
                     name: 'Osebna komunikacija',
-                    link: '/komunikacija-partner',
+                    link: '/osebna-komunikacija',
                     /*  img_url: logo1 */
                 },
                 {
@@ -44,15 +44,21 @@ class MainMenu extends React.Component {
                     /*  img_url: logo1 */
                 },
                 {
+                    id: 3,
+                    name: 'Komunikacija z otrokom',
+                    link: '/komunikacija-otrok',
+                    /*  img_url: logo1 */
+                },
+                {
                     id: 4,
                     name: 'Komunikacija v službi',
                     link: '/komunikacija-sluzba',
 /*                     img_url: logo2
- */                },
+ */             },
                 {
                     id: 5,
                     name: 'Splošna komunikacija',
-                    link: '/komunikacija-splosna',
+                    link: '/komunikacija-prijatelji',
                     /*  img_url: logo1 */
                 },
                 {
@@ -183,7 +189,7 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/omeni/"
                                 onClick={this.setMenuItemSelected}
-                            >O meni</Link>
+                            ><span className="menu-title">O meni</span></Link>
 
                             <Link id="1" to=""
                                 ref='products'
@@ -191,7 +197,7 @@ class MainMenu extends React.Component {
                                 className={"main-menu-link " + (this.state.selectedMenuItem === 1 ? "selected" : '')}
                                 onClick={this.setMenuItemSelected}
                                 onMouseOver={this.displayMenuBoxPanel}
-                                name="product1">Komunikacija{' '}
+                                name="product1"><span className="menu-title">Komunikacija{' '}</span>
 
                                 {/*                             <FontAwesomeIcon icon={faAngleDown} />
 
@@ -255,14 +261,14 @@ class MainMenu extends React.Component {
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/predavanja/"
-                            > Predavanja
+                            > <span className="menu-title">Predavanja</span>
                             </Link>
                             <Link id="6"
                                 key="6"
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/delavnice/"
-                            > Delavnice
+                            > <span className="menu-title">Delavnice</span>
                             </Link>
 
                             <Link id="2"
@@ -271,14 +277,14 @@ class MainMenu extends React.Component {
                                 className={"main-menu-link" + (this.state.selectedMenuItem === 2 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 onClick={this.setMenuItemSelected}
-                                to="/pomoc-pri-promociji/" >Pomoč pri promociji</Link>
+                                to="/pomoc-pri-promociji/" ><span className="menu-title">Pomoč pri promociji</span></Link>
                             <Link id="4"
                                 key="4"
                                 ref="4"
                                 className={"main-menu-link " + (this.state.selectedMenuItem === 4 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/blog/"
-                                onClick={this.setMenuItemSelected} >Blog</Link>
+                                onClick={this.setMenuItemSelected} ><span className="menu-title">Blog</span></Link>
                         </div>
                     </div>
                 </div>
