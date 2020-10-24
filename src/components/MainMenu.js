@@ -44,19 +44,19 @@ class MainMenu extends React.Component {
                     /*  img_url: logo1 */
                 },
                 {
-                    id: 3,
+                    id: 4,
                     name: 'Komunikacija z otrokom',
                     link: '/komunikacija-otrok',
                     /*  img_url: logo1 */
                 },
                 {
-                    id: 4,
+                    id: 5,
                     name: 'Komunikacija v službi',
                     link: '/komunikacija-sluzba',
 /*                     img_url: logo2
  */             },
                 {
-                    id: 5,
+                    id: 6,
                     name: 'Splošna komunikacija',
                     link: '/komunikacija-prijatelji',
                     /*  img_url: logo1 */
@@ -169,7 +169,7 @@ class MainMenu extends React.Component {
 
 
                 <div className="content-menu">
-                    <div class="box-container-1" style={{
+                    <div className="box-container-1" style={{
                         backgroundImage: `url(../assets/pngTest1111-inv.png)`,
                         backgroundSize: 'cover',
                         backgroundRepeat: 'repeat-x',
