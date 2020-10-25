@@ -88,9 +88,9 @@ ul.right-list-112 {
     align-items: center;
     padding: 20px;
     font-family: "Baloo Thambi 2";
-    background-color: #fdffcc;
+    background-color: #fffcda;
     /* opacity: 0.93; */
-    box-shadow: 5px 5px 18px 4px #fa5608;
+    box-shadow: 2px 19px 8px #fadd95;
     /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
  */
 }
@@ -212,7 +212,7 @@ ul.right-list-112 {
 }
 
 .komunikacija-text {
-    width: 60%;
+    width: 68%;
     font-size: large;
     margin-right: 2%;
 }
@@ -251,9 +251,7 @@ ul.right-list-112 {
     justify-content: center;
     margin: 0 auto;
     margin-top: 4%;
-    background-color: #fffdc2;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 30px;
+    background-color: #fdf6d0;
     /*     box-shadow: 3px 4px 17px 6px #efdac3;
  */
     font-size: larger;
@@ -418,11 +416,12 @@ ul.right-list-112 {
 
 .zahvala-1 {
     transform: rotateZ(2deg);
-    background-color: #fbfdb3;
+    background-color: #fdf2cf;
 }
 
 .zahvala-2 {
     transform: (-2deg);
+    background-color: #fdfece;
 }
 
 .zahvala-3 {
@@ -448,7 +447,7 @@ ul.right-list-112 {
 }
 .zahvala-8 {
     transform: rotateZ(4deg);
-    background-color: #fcf7d7;
+    background-color: #f4f9e6;
 }
 .zahvala-9 {
     transform: rotateZ(-1deg);
@@ -513,7 +512,9 @@ li {
     background: linear-gradient(45deg, #fdfd7a, #fd6b6b, #f35555, #f9fc71); */
 
     /* background: linear-gradient(45deg, #f8f87a, #ff9437, #f35555, #f93131); */
-    background: linear-gradient(45deg, #f73c3c, #ff9437, #f35555, #f93131);
+    /* background: linear-gradient(#fd4343a3, #fdc37f, #de7d4a); */
+    background: linear-gradient(45deg, transparent, #f87271, #f77070, transparent);
+    /*   background: linear-gradient(45deg, brown, #f77070, transparent); */
 }
 
 .header-image {
@@ -564,13 +565,13 @@ li {
 
 .quote-text {
     line-height: 40px;
-    font-family: Arima Madurai;
+    font-family: Bellota Text;
     font-weight: bold;
     font-size: large;
     letter-spacing: 1px;
-    color: #78070b;
-    /*  font-family: Great Vibes; */
-    text-shadow: 2px 1px #ccccca;
+    color: #6b4200;
+    /* font-family: Great Vibes; */
+    text-shadow: 2px 1px #f5f5f5;
     font-style: italic;
 }
 
@@ -674,7 +675,6 @@ table {
 }
 
 .footer {
-    background: linear-gradient(#f25a06, #f15906, #f15906, #d05805);
     height: 65px;
     display: flex;
     justify-content: center;
@@ -682,7 +682,8 @@ table {
 }
 
 .footer-text {
-    color: #fdf4ba;
+    visibility: hidden;
+    color: black;
     display: inline-block;
     font-style: italic;
 }
@@ -768,7 +769,7 @@ table > tr > th {
 }
 
 .header-title-link {
-    color: #fff0d5;
+    color: #fff2c3;
     text-decoration: none;
     text-align: center;
     font-family: Tangerine;
@@ -778,17 +779,17 @@ table > tr > th {
 }
 
 .header-title-p {
-    color: #ffeaa0;
+    color: #fff2c3;
     text-decoration: none;
     text-align: center;
-    font-family: "Tangerine";
+    font-family: "Marck Script";
     font-size: larger;
     display: block;
     padding: 0 20px;
 }
 
 .page-title-link {
-    color: #f9f56c;
+    color: #fbf67e;
     font-size: 3.2em;
     font-family: Tangerine;
     /*  font-family: Allura;
@@ -797,17 +798,17 @@ table > tr > th {
     /*  font-family: Calligraffitti; */
 
     /* font-family: Montez; */
-    text-shadow: -0.5px 0 #ff1212, 0 2.5px #843507, 1.5px 0 #fc3030, 0 3.5px black;
+    text-shadow: 2px 2px #a55454;
 }
 
 .page-title-link:hover {
     text-decoration: none;
-    color: #ffea83;
+    color: #ffea83 !important;
 }
 
 a.header-title-link:hover {
     text-decoration: none;
-    color: $title-hover;
+    color: #ffea83;
     padding: 10px;
 }
 
@@ -820,15 +821,19 @@ a.header-title-link:hover {
     padding: 6% 2%;
     width: 80%;
     line-height: 40px;
-    font-family: Arima Madurai;
     font-weight: bold;
     font-size: x-large;
     letter-spacing: 1px;
-    color: #78070b;
     /* font-family: Great Vibes; */
-    text-shadow: 2px 2px #ccccca;
-    font-style: italic;
     margin: 0 auto;
+    font-style: italic;
+    font-family: Bellota Text;
+    font-size: large;
+    letter-spacing: 1px;
+    color: #550306;
+    /*  font-family: Great Vibes; */
+    text-shadow: 1px 1px #f0f0f0;
+    font-style: italic;
 }
 
 .gallery-image {

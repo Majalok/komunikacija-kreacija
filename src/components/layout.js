@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="top-div" style={{
-        backgroundImage: `url(../assets/1414.jpg)`,
+        backgroundImage: `url(../assets/23.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         height: '100 %'
