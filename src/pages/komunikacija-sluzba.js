@@ -12,7 +12,6 @@ const KomunikacijaSluzba = () => (
     <div className="komunikacija-content">
       <div className="komunikacija-title">Komunikacija na delovnem mestu-nadrejenimi in sodelavci</div>
       <div className="komunikacija-item kom-sluzba">
-        <br />
         <div className="komunikacija-text">
           Ko sem pred približno 30 leti pričela delati v podjetju, kjer se je pričakovala da boš samoiniciativen, fleksibilen, učljiv, skoraj vedno na razpolago in še kaj bi se našlo, sem dala vse od sebe, da bi »zadovoljila te kriterije« oziroma pričakovanja. Rezultat tega je bil (skozi daljše obdobje), da ko sem se ozrla nazaj, sem videla kako malo sem bila pravzaprav cenjena.
           Kako sem dovolila, da sem bila velikokrat izkoriščena in nikoli pohvaljena –znano, mar ne?- kaj šele nagrajena (čeprav je bilo in je še izvedljivo).

@@ -10,9 +10,10 @@ const SplosnaKomunikacija = () => (
     </div> */}
 
     <div className="komunikacija-content">
-      <div className="komunikacija-title">Komunikacija na delovnem mestu, v šoli, s prijatelji, znanci, lahko
-          tudi neznanci <span className="emoji">😉 </span> </div>
       <div className="komunikacija-item">
+
+        <div className="komunikacija-title">Komunikacija na delovnem mestu, v šoli, s prijatelji, znanci, lahko
+          tudi neznanci <span className="emoji">😉 </span> </div>
         <br />
         <div className="komunikacija-text">
           Se zatika, ni vedno tekoča, kar je popolnoma razumljivo, saj nismo

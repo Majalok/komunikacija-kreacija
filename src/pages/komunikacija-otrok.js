@@ -6,8 +6,7 @@ const KomunikacijaOtrok = () => (
   <Layout>
     <div className="komunikacija-content">
       <div className="komunikacija-title">Komunikacija z otrokom </div>
-      <div className="komunikacija-item kom-sluzba">
-        <br />
+      <div className="komunikacija-item">
         <div className="komunikacija-text">
           Super, odločila sta se da povečata svojo družinico. V glavi preigravata, kako bo, se pripravljata, bereta knjige o starševstvu in vzgoji otroka, pogovarjata s prijatelji, ki že imajo to izkušnjo ipd.
           Ok lahko pa vaju je njena nosečnost tudi en malce presenetila <span className="emoji">😉 </span>. Nič hudega, podata se na pot starševstva.

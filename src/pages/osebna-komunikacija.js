@@ -4,12 +4,10 @@ import Layout from "../components/layout"
 
 const komunikacija = () => (
   <Layout>
-    <div className="komunikacija-intro">
-
-    </div>
     <div className="komunikacija-content">
+      <div className="komunikacija-title">Osebna komunikacija</div>
+
       <div className="komunikacija-item">
-        <div className="komunikacija-title">Osebna komunikacija</div>
         <div className="komunikacija-text">
           Zame je <strong>osebna komunikacija</strong> najpomembnejša in izhodišče za vse ostalo.
           <br />

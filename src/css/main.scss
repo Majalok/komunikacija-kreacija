@@ -170,7 +170,7 @@ ul.right-list-112 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin: 5% auto 1% auto;
     max-width: 1800px;
     /* width: 80%; */
     font-family: Bellota Text;
@@ -995,6 +995,23 @@ a.header-title-link:hover {
 
     .right-title {
         padding-left: 10px;
+    }
+    .zahvala {
+        width: 40%;
+    }
+    .blog-content,
+    .komunikacija-content {
+        width: 100%;
+    }
+
+    .kom-sluzba-img,
+    .kom-partner-img {
+        width: 90%;
+    }
+
+    .komunikacija-text {
+        width: 90%;
+        margin-bottom: 4%;
     }
 }
 

@@ -62,7 +62,7 @@ class MainMenu extends React.Component {
                     /*  img_url: logo1 */
                 },
                 {
-                    id: 6,
+                    id: 7,
                     name: 'Poslušalka',
                     link: '/poslusalka',
                     /*  img_url: logo1 */
@@ -112,31 +112,50 @@ class MainMenu extends React.Component {
         }
     }
     setMenuItemSelected = (e) => {
-        let selectedId = e.target.id
+        console.log("EEE", e.target.id)
+        console.log("EEE", e.currentTarget.id)
+        let selectedId = e.currentTarget.id
+        console.log("selectedId:: ", selectedId)
         switch (selectedId) {
+            case 2:
+                selectedId = 1
+                break
+            case 3:
+                selectedId = 1
+                break
             case 4:
                 selectedId = 1
                 break
             case 5:
                 selectedId = 1
-                break
             case 6:
+                selectedId = 1
+                break
+            case 7:
                 selectedId = 1
                 break
             default:
                 selectedId = e.target.id
+                break
         }
+        console.log("0", selectedId)
+
         this.setState({
             selectedMenuItem: selectedId
         })
 
+
+        console.log("A", this.state.selectedMenuItem)
+
         if (selectedId == 1) {
+            console.log("A", selectedId)
+
             this.setState({
                 displaySubmenu: true,
                 show: true
             })
         }
-        else if (Number(selectedId) === 5 || Number(selectedId) === 6 || Number(selectedId) === 4) {
+        else if (Number(selectedId) === 2 || Number(selectedId) === 3 || Number(selectedId) === 4 || Number(selectedId) === 5 || Number(selectedId) === 6 || Number(selectedId) === 4) {
             this.setState({
                 displaySubmenu: false,
                 displayResponsiveMenu: false,
@@ -225,62 +244,78 @@ class MainMenu extends React.Component {
                                         </div>
                                     </div>
                                 }
-
-
-
                             </Link>
+                            {/*  <div key="main-menu-submenu" className={"main-menu-submenu " + (this.state.displaySubmenu === true ? "submenu-show" : '')}>
+                            */}
+                            <div key="main-menu-submenu" className={"main-menu-submenu submenu-show"}>
 
-                            {/* {
-                                this.state.displayMenu &&
-                                <div className="main-menu-panel">
-
-                                    <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
-                                        {
-                                            this.state.selectedProduct.productList.map((product) =>
-
-                                                <Link key={product.id}
-                                                    className="main-menu-product-box"
-                                                    id={product.type}
-                                                    to={product.link}
-                                                    onClick={this.selectedMenuItem}
-                                                >
-                                                    <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
-                                                    <LazyLoad
-                                                        debounce={false}
-                                                    >
-                                                        <img key={product.id} id={product.id} className={'main-menu-img ' + product.name} src={product.img_url} alt="" />
-                                                    </LazyLoad>
-                                                </Link>
-                                            )
-                                        }
-                                    </div>
-                                </div>
-                            } */}
-                            <Link id="5"
-                                key="5"
+                                <Link id="2"
+                                    key="2"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/osebna-komunikacija"
+                                > Osebna komunikacija
+                                    </Link>
+                                <Link id="3"
+                                    key="3"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/komunikacija-partner"
+                                > Komunikacija s partnerjem
+                                    </Link>
+                                <Link id="4"
+                                    key="4"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/komunikacija-otrok"
+                                > Komunikacija z otrokom
+                                    </Link>
+                                <Link id="5"
+                                    key="5"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/komunikacija-sluzba"
+                                > Komunikacija v službi
+                                    </Link>
+                                <Link id="6"
+                                    key="6"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/komunikacija-prijatelji"
+                                > Splošna komunikacija
+                                    </Link>
+                                <Link id="7"
+                                    key="7"
+                                    className="main-menu-link submenu"
+                                    onClick={this.setMenuItemSelected}
+                                    to="/poslusalka"
+                                > Poslušalka
+                                    </Link>
+                            </div>
+                            <Link id="8"
+                                key="8"
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/predavanja/"
                             > <span className="menu-title">Predavanja</span>
                             </Link>
-                            <Link id="6"
-                                key="6"
+                            <Link id="9"
+                                key="9"
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/delavnice/"
                             > <span className="menu-title">Delavnice</span>
                             </Link>
 
-                            <Link id="2"
-                                key="2"
-                                ref="2"
+                            <Link id="10"
+                                key="10"
                                 className={"main-menu-link" + (this.state.selectedMenuItem === 2 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 onClick={this.setMenuItemSelected}
                                 to="/pomoc-pri-promociji/" ><span className="menu-title">Pomoč pri promociji</span></Link>
-                            <Link id="4"
-                                key="4"
-                                ref="4"
+                            <Link id="11"
+                                key="11"
+                                ref="11"
                                 className={"main-menu-link " + (this.state.selectedMenuItem === 4 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/blog/"
