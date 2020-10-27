@@ -3,12 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, subtitle, description }) => (
-  <header /* style={{
+  <header style={{
     backgroundImage: `url(../assets/10.jpg)`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     height: '100 %'
-  }} */ className="header" >
+  }} className="header" >
     {/* <div className="box-container-1" style={{
       backgroundImage: `url(../assets/wave4.png)`,
       backgroundSize: 'contain',

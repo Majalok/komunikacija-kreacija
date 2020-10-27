@@ -54,9 +54,7 @@ const OMeni = () => (
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
           </div>{" "}
           <div className="o-meni-text">
-            Zato sem se odločila, da se izpostavim in vam sporočim, da sem vam na
-            razpolago. Kajti vedno bolj se odraža, da nam je komunikacija postala
-          nekaj tujega in reševanje problemov je postal velik bavbav.{" "}
+            Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postalo velik bavbav. Zato si želim pomagati, spremeniti stvari na bolje. Naj komunikacija postane lahkotna, ljubeča in razumevajoča.{" "}
           </div>{" "}
         </div>{" "}
       </div>
