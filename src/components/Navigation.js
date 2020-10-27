@@ -114,7 +114,7 @@ const Navigation = class extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div class="box-container" style={{
+        <div className="box-container" style={{
           backgroundImage: `url(../assets/wave4.png)`,
           backgroundSize: 'contain',
           backgroundRepeat: 'repeat-x',

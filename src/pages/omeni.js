@@ -21,7 +21,7 @@ const OMeni = () => (
             </span>
           </p>
         </div>{" "}
-        <div class="box-container-1" /* style={{
+        <div className="box-container" /* style={{
           backgroundImage: `url(../assets/wave2.png)`,
           backgroundSize: 'contain',
           backgroundRepeat: 'repeat-x',
