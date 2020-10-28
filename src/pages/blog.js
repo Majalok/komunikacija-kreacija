@@ -86,19 +86,19 @@ class Blog extends Component {
                 Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
                 <br />
                 <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju.  Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd 😉 ), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo 😜 . No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
+                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju.  Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji">😉</span> ), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji">😜</span> . No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
                 <br />
                 <br />
                 Pa da razložim malo bolj podrobno.
                 <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne 😂 ). In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. V službi je mojemu šefu to prišlo zelo prav. Ugotovil je, da se name lahko zanese in da bo vse narejeno. Posledično je bilo moje privat življenje en malo prikrajšano. Kajti velikokrat je bilo potrebno potegniti, še sploh na začetku, ko še nisem imela izkušenj, ko sem še lovila svoj tempo in natančnost. Pač v laboratoriju je to ključnega pomena. Zdaj pa poglejmo še moje privat življenje, ki pa se je tudi dobro začelo razvijati ( mož, otrok, starši, tašča, tast, pa še pol sorodstva na obeh straneh😏).
+                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji">😂 </span>). In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. V službi je mojemu šefu to prišlo zelo prav. Ugotovil je, da se name lahko zanese in da bo vse narejeno. Posledično je bilo moje privat življenje en malo prikrajšano. Kajti velikokrat je bilo potrebno potegniti, še sploh na začetku, ko še nisem imela izkušenj, ko sem še lovila svoj tempo in natančnost. Pač v laboratoriju je to ključnega pomena. Zdaj pa poglejmo še moje privat življenje, ki pa se je tudi dobro začelo razvijati ( mož, otrok, starši, tašča, tast, pa še pol sorodstva na obeh straneh<span className="emoji">😏</span>).
                 <br />
                 <br />
                 Vam je že jasno, kam pes taco moli??
                 <br />
                 <br />
 
-                Prevečkrat sem prišla domov »crknjena« . Potem pa zaradi mojih prepričanj (itak jih imamo veliko) da mora biti vse pospravljeno in na svojem mestu (delavnost) sem »norela« še doma. Pričakovala, da mi bo kdo še priskočil na pomoč in se zapletala v nepotrebne situacije. Najbolj hecno od vsega pa je, da nisem znala prositi za pomoč. Od ostalih akterjev v takratnem obdobju sem namreč pričakovali, da znajo misli brati🤔😏.
+                Prevečkrat sem prišla domov »crknjena« . Potem pa zaradi mojih prepričanj (itak jih imamo veliko) da mora biti vse pospravljeno in na svojem mestu (delavnost) sem »norela« še doma. Pričakovala, da mi bo kdo še priskočil na pomoč in se zapletala v nepotrebne situacije. Najbolj hecno od vsega pa je, da nisem znala prositi za pomoč. Od ostalih akterjev v takratnem obdobju sem namreč pričakovali, da znajo misli brati <span className="emoji">🤔</span><span className="emoji">😏</span>.
                 <br />
                 <br />
                 Jaz zaradi svojih prepričanj nisem "videla" kaj za vraga je razlog (vzrok), da doma skoraj nič več ni štimalo. In moški (bivši mož) mi je skušal povedati, na svoj redkobesedni način (tak pač je bil) vzrok tega. Ampak jaz, nič! Nisem razumela. In po določenem času je sledila posledica - ločitev.
@@ -108,7 +108,7 @@ class Blog extends Component {
                 <br />
                 Zato dobro poglejte, dajte pod drobnogled, področja svojega življenja, kjer se vam zatika. Preverite kakšna so vaša prepričanja. Prisluhnite razlagi vzroka, da preprečite posledico. Ali pa jo izpeljite (posledico namreč) in dano situacijo izkoristite za osebno rast.
                 <br />
-                Up to you😉
+                Up to you <span className="emoji">😉</span>
               </div>
             </div>
           </div>
