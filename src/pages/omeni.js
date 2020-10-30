@@ -145,7 +145,7 @@ const OMeni = () => (
         </div>
       </div>
       <div className="motivation-quote-1">
-        Naj STRAH ne bo vaša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji"> 😉</span>
+        Naj STRAH ne bo naša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji"> 😉</span>
       </div>
     </div>
   </Layout>
