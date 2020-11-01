@@ -38,6 +38,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-catch-links`,
+      options: {
+        /* excludePattern: /(excluded-link|external)/, */
+        excludeRegex: /excluded-link/,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
