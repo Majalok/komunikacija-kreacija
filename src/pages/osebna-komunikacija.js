@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 
+const scrollToRefObject = (ref) => window.scrollTo(0, ref.current.offsetTop)
+
 const komunikacija = () => (
   <Layout>
     <div className="komunikacija-content">

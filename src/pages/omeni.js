@@ -60,11 +60,26 @@ const OMeni = () => (
       </div>
 
       <div className="zahvale-section">
-        <div className="zahvala zahvala-4">
-          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Pro at etiam dignissim, nam purto timeam explicari an. Ei per errem debitis. Vim fuisset mentitum ne, ex quo omnium nostrud. Nibh torquatos interpretaris mea eu.
-          Ut docendi phaedrum consetetur mea. Cu sea fabellas accommodare. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
+        <div className="zahvala zahvala-3">
+          Minilo je par let, kar si mi prvič pomagala. S partnerjem , s katerim sem bila v zvezi 2 leti, sva
+          se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
+          narekovala, da me pokličeš, kljub temu da je bil vikend. Roko na srce, nekih tesnih stikov
+          takrat nisva imeli, sva se pa vedno imeli lepo, ko sva »treščili« skupaj. Brez oklevanja si
+          prišla do mene. Poslušala si me, mi svetovala in na koncu pomirila. Z upoštevanjem tvojih
+          nasvetov in kasneje tvoje občasne pomoči, sva kasneje postala par, ki se zna pogovarjati,
+          podpirati, poslušati in sodelovati. Pika na i pa je bila poroka. Hvaležna ker si!
           <div className="zahvala-name">
-            Maja
+            A.
+          </div>
+        </div>
+        <div className="zahvala zahvala-10">
+          Natašo sem spoznala na mojem prejšnjem delovnem mestu in takoj sem začutila, da izžareva neko posebno energijo. Takoj sem jo začutila. Postali sva prijateljici in velikokrat sem se nanjo obrnila za nasvet,najprej pri reševanju konfliktov na delovnem mestu. Znala mi je pravilno svetovati, kako in na kakšen način komunicirati z konfliktnimi osebami.
+
+          Sčasoma sva prišli na reševanje mojih osebnih problemov, kot je reševanje zapletenega razmerja in tudi tu me je usmerila na pravo pot, predvsem kako naj pri sebi ugotovim, kje so moje težave,ki izvirajo iz moje preteklosti.
+
+          Nataša ti da veliko energije, pozitive in enostavno jo moraš "ubogati", ker spoznaš, da ti zelo pomagajo njeni nasveti.
+          <div className="zahvala-name">
+            Brigita
           </div>
         </div>
         <div className="zahvala zahvala-2">
@@ -87,34 +102,10 @@ const OMeni = () => (
             Joži
           </div>
         </div>
-        <div className="zahvala zahvala-3">
-          Minilo je par let, kar si mi prvič pomagala. S partnerjem , s katerim sem bila v zvezi 2 leti, sva
-          se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
-          narekovala, da me pokličeš, kljub temu da je bil vikend. Roko na srce, nekih tesnih stikov
-          takrat nisva imeli, sva se pa vedno imeli lepo, ko sva »treščili« skupaj. Brez oklevanja si
-          prišla do mene. Poslušala si me, mi svetovala in na koncu pomirila. Z upoštevanjem tvojih
-          nasvetov in kasneje tvoje občasne pomoči, sva kasneje postala par, ki se zna pogovarjati,
-          podpirati, poslušati in sodelovati. Pika na i pa je bila poroka. Hvaležna ker si!
-          <div className="zahvala-name">
-            A.
-          </div>
-        </div>
-
-        <div className="zahvala zahvala-5">
-          Reque iusto insolens ius at, eos vocibus placerat dissentias at, sed veniam scribentur ea. Docendi noluisse id nam, graece corrumpit persequeris ad cum.
-          <div className="zahvala-name">
-            Maja Testira
-          </div>
-        </div>
-
-        <div className="zahvala zahvala-10">
-          Natašo sem spoznala na mojem prejšnjem delovnem mestu in takoj sem začutila, da izžareva neko posebno energijo. Takoj sem jo začutila. Postali sva prijateljici in velikokrat sem se nanjo obrnila za nasvet,najprej pri reševanju konfliktov na delovnem mestu. Znala mi je pravilno svetovati, kako in na kakšen način komunicirati z konfliktnimi osebami.
-
-          Sčasoma sva prišli na reševanje mojih osebnih problemov, kot je reševanje zapletenega razmerja in tudi tu me je usmerila na pravo pot, predvsem kako naj pri sebi ugotovim, kje so moje težave,ki izvirajo iz moje preteklosti.
-
-          Nataša ti da veliko energije, pozitive in enostavno jo moraš "ubogati", ker spoznaš, da ti zelo pomagajo njeni nasveti.
-          <div className="zahvala-name">
-            Brigita
+        <div className="zahvala zahvala-8">
+          Obvladaš!
+        <div className="zahvala-name">
+            Blaž
           </div>
         </div>
         <div className="zahvala zahvala-6">
@@ -131,12 +122,7 @@ const OMeni = () => (
             Blaž
           </div>
         </div>
-        <div className="zahvala zahvala-8">
-          Obvladaš!
-        <div className="zahvala-name">
-            Blaž
-          </div>
-        </div>
+
         <div className="zahvala zahvala-9">
           Imaš veliko znanja.
         <div className="zahvala-name">

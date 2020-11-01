@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
-import Navigation from "./Navigation"
 import ContentRight from "./ContentRight"
 import Helmet from "react-helmet"
 import MainMenu from "./MainMenu"
@@ -23,7 +22,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="top-div" style={{
-        backgroundImage: `url(../assets/23.png)`,
+        backgroundImage: `url(../assets/2.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         height: '100 %'

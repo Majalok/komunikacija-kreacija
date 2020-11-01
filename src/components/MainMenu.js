@@ -97,17 +97,19 @@ class MainMenu extends React.Component {
 
     displayMenuBoxPanel(event, id) {
 
+        console.log("ID>> ", event, event.currentTarget.name, id)
         event.preventDefault();
 
-        let productName = event.target.name
+        let productName = event.currentTarget.id
 
         /*   this.refs.products.style.background = "linear-gradient(to bottom, #8aa9ff 1px, #fffefe 3px)";
           this.refs.products.style.color = "#292929";
    */
+
         if (productName) {
             this.setState({
                 displayMenu: true,
-                selectedProduct: this.state[productName]
+                selectedProduct: this.state.product1
             })
         }
     }
@@ -178,7 +180,7 @@ class MainMenu extends React.Component {
         })
         /*  this.refs.products.style.background = "#292929";
          this.refs.products.style.color = "white";
-  */
+    */
     }
     render() {
 
@@ -210,7 +212,7 @@ class MainMenu extends React.Component {
                                 onClick={this.setMenuItemSelected}
                             ><span className="menu-title">O meni</span></Link>
 
-                            <Link id="1" to=""
+                            <div id="1" to=""
                                 ref='products'
                                 key="1"
                                 className={"main-menu-link " + (this.state.selectedMenuItem === 1 ? "selected" : '')}
@@ -244,7 +246,7 @@ class MainMenu extends React.Component {
                                         </div>
                                     </div>
                                 }
-                            </Link>
+                            </div>
                             {/*  <div key="main-menu-submenu" className={"main-menu-submenu " + (this.state.displaySubmenu === true ? "submenu-show" : '')}>
                             */}
                             <div key="main-menu-submenu" className={"main-menu-submenu submenu-show"}>
