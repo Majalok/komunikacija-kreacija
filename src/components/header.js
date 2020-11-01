@@ -23,7 +23,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
     <div className="header-main-div">
       <span className="header-title">
         <h3>
-          <Link to="/" className="page-title-link">
+          <Link to="/omeni" className="page-title-link">
             {siteTitle}
           </Link>
         </h3>
