@@ -98,8 +98,6 @@ class MainMenu extends React.Component {
     displayMenuBoxPanel(event, id) {
 
         console.log("ID>> ", event, event.currentTarget.name, id)
-        event.preventDefault();
-
         let productName = event.currentTarget.id
 
         /*   this.refs.products.style.background = "linear-gradient(to bottom, #8aa9ff 1px, #fffefe 3px)";
