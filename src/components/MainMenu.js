@@ -6,8 +6,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { Link } from "@reach/router"
 import LazyLoad from 'react-lazy-load';
 
+import { CSSTransition, CSSTransitionGroup } from 'react-transition-group';
+
 
 import { FaAlignJustify } from 'react-icons/fa'
+
 
 
 
@@ -75,6 +78,7 @@ class MainMenu extends React.Component {
             displaySubmenu: false
 
         };
+        this.state.selectedProduct.productList = []
 
         this.toggleMenu = this.toggleMenu.bind(this)
         this.displayMenuBoxPanel = this.displayMenuBoxPanel.bind(this);
@@ -105,11 +109,15 @@ class MainMenu extends React.Component {
    */
 
         if (productName) {
+
+
             this.setState({
                 displayMenu: true,
                 selectedProduct: this.state.product1
             })
         }
+
+        // todo: tukaj daj animacijo za
     }
     setMenuItemSelected = (e) => {
         console.log("EEE", e.target.id)
@@ -222,27 +230,35 @@ class MainMenu extends React.Component {
 
  */}
                                 {
-                                    this.state.displayMenu &&
+                                    /* this.state.displayMenu && */
+                                    <CSSTransition
+                                        in={this.state.displayMenu}
+                                        unmountOnExit
+                                        timeout={200}
+                                        classNames="example"
+                                    >
 
 
-                                    <div className="main-menu-panel">
+                                        <div className="main-menu-panel">
 
-                                        <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
-                                            {
-                                                this.state.selectedProduct.productList.map((product) =>
+                                            <div className="main-menu-products" onMouseEnter={this.displayMenuBoxPanel} onMouseLeave={this.hideMenuBoxPanel} >
+                                                {
+                                                    this.state.selectedProduct.productList.map((product) =>
 
-                                                    <Link key={product.id}
-                                                        className="main-menu-product-box"
-                                                        id={product.type}
-                                                        to={product.link}
-                                                        onClick={this.selectedMenuItem}
-                                                    >
-                                                        <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
-                                                    </Link>
-                                                )
-                                            }
+                                                        <Link key={product.id}
+                                                            className="main-menu-product-box"
+                                                            id={product.type}
+                                                            to={product.link}
+                                                            onClick={this.selectedMenuItem}
+                                                        >
+                                                            <p key={product.id} id={product.id} className="main-menu-product-desc" >{product.name}</p>
+                                                        </Link>
+                                                    )
+                                                }
+                                            </div>
                                         </div>
-                                    </div>
+                                    </CSSTransition>
+
                                 }
                             </div>
                             {/*  <div key="main-menu-submenu" className={"main-menu-submenu " + (this.state.displaySubmenu === true ? "submenu-show" : '')}>

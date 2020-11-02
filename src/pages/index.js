@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import StickyNews from "./stickyNews"
 import Blog from "./blog"
 /* function initNetlifyIdentity() {
   console.log("initNetlifyIdentity called")
@@ -56,32 +55,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    stickyNews: allMarkdownRemark(
-      filter: { frontmatter: { top: { eq: true } } }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            image1 {
-              childImageSharp {
-                fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            title
-            intro
-            date(formatString: "DD.MM.YYYY")
-            category
-            top
-          }
-        }
       }
     }
     newsfor2020: allMarkdownRemark(

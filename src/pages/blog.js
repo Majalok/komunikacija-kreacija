@@ -82,33 +82,33 @@ class Blog extends Component {
                 Prepričanje, vzrok in posledica
               </div>
               <div className="blog-text">
-
                 Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
+              <br />
                 <br />
-                <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju.  Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji">😉</span> ), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji">😜</span> . No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
+                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
                 <br />
                 <br />
                 Pa da razložim malo bolj podrobno.
                 <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji">😂 </span>). In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. V službi je mojemu šefu to prišlo zelo prav. Ugotovil je, da se name lahko zanese in da bo vse narejeno. Posledično je bilo moje privat življenje en malo prikrajšano. Kajti velikokrat je bilo potrebno potegniti, še sploh na začetku, ko še nisem imela izkušenj, ko sem še lovila svoj tempo in natančnost. Pač v laboratoriju je to ključnega pomena. Zdaj pa poglejmo še moje privat življenje, ki pa se je tudi dobro začelo razvijati ( mož, otrok, starši, tašča, tast, pa še pol sorodstva na obeh straneh<span className="emoji">😏</span>).
+                <br />
+                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji" role="img">😉</span>) - <i><strong>prepričanje</strong></i>. In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. Moj takratni partner (mož in kasneje bivši mož, zato sem, napisala takratni <span className="emoji" role="img">😏</span>) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda en malce odstopala od mojih. To je seveda popolnoma razumljivo, ker izhajava iz različnih celic (primarne družine) in vsak od naju je s seboj prinesel svoja prepričanja in vzorce.
                 <br />
                 <br />
-                Vam je že jasno, kam pes taco moli??
+                Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
                 <br />
                 <br />
-
-                Prevečkrat sem prišla domov »crknjena« . Potem pa zaradi mojih prepričanj (itak jih imamo veliko) da mora biti vse pospravljeno in na svojem mestu (delavnost) sem »norela« še doma. Pričakovala, da mi bo kdo še priskočil na pomoč in se zapletala v nepotrebne situacije. Najbolj hecno od vsega pa je, da nisem znala prositi za pomoč. Od ostalih akterjev v takratnem obdobju sem namreč pričakovali, da znajo misli brati <span className="emoji">🤔</span><span className="emoji">😏</span>.
+                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost «, da imamo »pravo« in »nepravo« komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
                 <br />
                 <br />
-                Jaz zaradi svojih prepričanj nisem "videla" kaj za vraga je razlog (vzrok), da doma skoraj nič več ni štimalo. In moški (bivši mož) mi je skušal povedati, na svoj redkobesedni način (tak pač je bil) vzrok tega. Ampak jaz, nič! Nisem razumela. In po določenem času je sledila posledica - ločitev.
+                In šele sedaj, po parih letih dela na sebi, sem dojela koncept <strong>prepričanje/vzrok/posledica</strong>.
                 <br />
-                <br />
-                In šele sedaj po parih letih dela na sebi, sem dojela koncept prepričanje/vzrok/posledica.
                 <br />
                 Zato dobro poglejte, dajte pod drobnogled, področja svojega življenja, kjer se vam zatika. Preverite kakšna so vaša prepričanja. Prisluhnite razlagi vzroka, da preprečite posledico. Ali pa jo izpeljite (posledico namreč) in dano situacijo izkoristite za osebno rast.
                 <br />
-                Up to you <span className="emoji">😉</span>
+                <br />
+
+                Up to you <span className="emoji" role="img">😉</span>
+
               </div>
             </div>
           </div>

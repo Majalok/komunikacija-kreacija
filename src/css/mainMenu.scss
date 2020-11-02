@@ -2,21 +2,23 @@ $menu-box-top-bck: #292929;
 $selected-item: #f9f4ee;
 $yellow-bck: #faf46d;
 
+:root {
+    --bg: #242526;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --nav-size: 60px;
+    --border: 1px solid #474a4d;
+    --border-radius: 8px;
+    --speed: 500ms;
+}
+
 .main-menu-panel {
     position: absolute;
     margin-top: 550px;
     margin-left: -35px;
     opacity: 1;
     z-index: 99999;
-}
-
-@keyframes fadeInOpacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    display: block;
 }
 
 .main-menu-top {
@@ -32,6 +34,38 @@ $yellow-bck: #faf46d;
     color: #740b0b;
     /*  border-top: 0.5px solid #85a4ae;
     border-bottom: 0.5px solid #85a4ae; */
+}
+
+.example-enter {
+    opacity: 0.8;
+    /* transform: translateX(-110%); */
+    background-color: green;
+    color: red;
+    /*   margin-top: 0px; */
+    transition: opacity 0.5s ease-in;
+    overflow: hidden;
+    /*     transition: height 3s ease-in; */
+    /* transform: scaleY(200%); */
+}
+
+.example-enter-active {
+    opacity: 1;
+    /* transition: all var(--speed) ease; */
+    transition: opacity 0.5s ease-in;
+}
+
+/** tukaj bomo dali, da se zapelje nazaj gor**/
+.example-exit {
+    opacity: 0.95;
+    transition: opacity 0.5s ease-out;
+}
+
+/**/
+.example-exit-active {
+    opacity: 0.5;
+    transition: opacity 0.4s ease-out;
+    /*  transform: translateX(-110%); */
+    /*    transition: all var(--speed) ease/; */
 }
 
 .main-menu-product-box {
@@ -66,13 +100,6 @@ $yellow-bck: #faf46d;
     align-items: center;
 
     height: 80px;
-
-    /*     font-family: Arizonia;
-    font-family: Calligraffitti;
-    font-family: Montez;
-    font-family: Tangerine;
-    font-family: Allura;
-    font-family: Great Vibes; */
 }
 /* 
 .main-menu-link.vps {
@@ -95,6 +122,10 @@ a:hover {
     color: black;
     transform: scale(1.15);
     text-decoration: none;
+    /*    box-shadow: 3px -5px 7px 0px #f488205e;
+    padding: 8px 8px;
+    border-radius: 74px;
+    color: #873901;*/
 }
 
 .top-content-menu {

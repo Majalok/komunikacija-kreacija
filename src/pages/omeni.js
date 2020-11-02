@@ -130,11 +130,14 @@ const OMeni = () => (
           </div>
         </div>
       </div>
-      <div className="motivation-quote-1">
-        Naj STRAH ne bo naša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji"> 😉</span>
+      {/*  <div className="motivation-quote-1"> */}
+      <div className="o-meni-quote motivation-quote-1">
+        <p className="quote-text">
+          Naj STRAH ne bo naša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
+        </p>
       </div>
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default OMeni

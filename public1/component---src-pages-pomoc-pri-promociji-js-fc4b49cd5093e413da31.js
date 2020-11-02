@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{D4h0:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a),l=n("Bl7J");t.default=function(){return c.a.createElement(l.a,null,c.a.createElement("article",null,c.a.createElement("section",{className:"content-section history-section"},c.a.createElement("p",{className:"item-title"},"Pomoc pri promociji")),c.a.createElement("footer",null)))}}}]);
-//# sourceMappingURL=component---src-pages-pomoc-pri-promociji-js-fc4b49cd5093e413da31.js.map
