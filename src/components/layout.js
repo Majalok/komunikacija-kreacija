@@ -46,14 +46,21 @@ const Layout = ({ children }) => (
         </Header>
         {/*  <Navigation /> */}
         <MainMenu />
-        <div className="content-main-div">
+        {/*         border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 20% round; */}
+        <div className="content-main-div" >
           <div className="main-content-left" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100 %'
           }} */ ></div>
-          <main className="main-content">{children}</main>
+          <main className="main-content" style={{
+            border: '40px solid transparent',
+            borderImage: `url("../assets/vil1.png") 100%`,
+            padding: '15px',
+          }}>{children}</main>
           <div className="main-content-right" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,
             backgroundSize: 'cover',

@@ -216,6 +216,14 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/omeni/"
                                 onClick={this.setMenuItemSelected}
+                                style={{
+                                    backgroundImage: `url("../assets/vil11.png")`,
+                                    backgroundSize: 'contain',
+                                    backgroundRepeat: 'no-repeat',
+                                    height: '70px',
+                                    backgroundPositionX: 'center',
+                                    backgroundPositionY: 'center'
+                                }}
                             ><span className="menu-title">O meni</span></Link>
 
                             <div id="1" to=""
@@ -271,7 +279,7 @@ class MainMenu extends React.Component {
                                     onClick={this.setMenuItemSelected}
                                     to="/osebna-komunikacija"
                                 > Osebna komunikacija
-                                    </Link>
+                                </Link>
                                 <Link id="3"
                                     key="3"
                                     className="main-menu-link submenu"
@@ -313,6 +321,14 @@ class MainMenu extends React.Component {
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/predavanja/"
+                                style={{
+                                    backgroundImage: `url("../assets/vil22.png")`,
+                                    backgroundSize: 'contain',
+                                    backgroundRepeat: 'no-repeat',
+                                    height: 'auto',
+                                    backgroundPositionX: 'center',
+                                    backgroundPositionY: 'center'
+                                }}
                             > <span className="menu-title">Predavanja</span>
                             </Link>
                             <Link id="9"
@@ -328,7 +344,16 @@ class MainMenu extends React.Component {
                                 className={"main-menu-link" + (this.state.selectedMenuItem === 2 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 onClick={this.setMenuItemSelected}
-                                to="/pomoc-pri-promociji/" ><span className="menu-title">Pomoč pri promociji</span></Link>
+                                to="/pomoc-pri-promociji/"
+                                style={{
+                                    backgroundImage: `url("../assets/vil33.png")`,
+                                    backgroundSize: 'contain',
+                                    backgroundRepeat: 'no-repeat',
+                                    height: 'auto',
+                                    backgroundPositionX: 'center',
+                                    backgroundPositionY: 'center'
+                                }}
+                            ><span className="menu-title">Pomoč pri promociji</span></Link>
                             <Link id="11"
                                 key="11"
                                 ref="11"

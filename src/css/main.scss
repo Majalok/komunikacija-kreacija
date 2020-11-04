@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Ranga|Glass+Antiqua|Hind+Guntur|Lobster|Playball|Sansita+Swashed|Galada|Farsan|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
 
 $dark-red: #640c0c;
 $content-title: #505050;
@@ -55,10 +55,6 @@ body {
     background: wheat !important;
 }
 
-.content-main-div {
-    color: black;
-}
-
 .top-div {
     min-height: 800px;
     background: none;
@@ -99,7 +95,7 @@ ul.right-list-112 {
     font-family: "Bellota Text";
     background-color: #fffcda;
     /* opacity: 0.93; */
-    box-shadow: 2px 19px 8px #fadd95;
+    box-shadow: 2px 9px 17px #d2c7ac;
     /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
  */
 }
@@ -172,6 +168,34 @@ ul.right-list-112 {
     font-family: Marck Script;
     margin-bottom: 30px;
 }
+.pisava-14 {
+    font-family: Lobster;
+    margin-bottom: 30px;
+}
+.pisava-15 {
+    font-family: PlayBall;
+    margin-bottom: 30px;
+}
+
+.pisava-16 {
+    font-family: Sansita Swashed;
+    margin-bottom: 30px;
+}
+
+.pisava-17 {
+    font-family: Kavivanar;
+    margin-bottom: 30px;
+}
+
+.pisava-18 {
+    font-family: Ranga;
+    margin-bottom: 30px;
+}
+.pisava-19 {
+    font-family: Glass Antiqua;
+    margin-bottom: 30px;
+    font-style: italic;
+}
 
 .komunikacija-content {
     display: flex;
@@ -185,7 +209,7 @@ ul.right-list-112 {
     font-family: Bellota Text;
     font-size: x-large;
     font-style: italic;
-    color: #720707;
+    color: #220202;
     text-align: justify;
 }
 
@@ -278,12 +302,12 @@ ul.right-list-112 {
 
 }*/
 
-.povezave-right {
+/* .povezave-right {
     font-size: x-small;
     text-align: center;
     margin-top: 30px;
     padding: 0px 5px;
-}
+} */
 
 .povezave-right.address {
     font-size: small;
@@ -419,9 +443,15 @@ ul.right-list-112 {
     padding: 4% 4%;
     background-color: #fbfdb3;
     box-shadow: 5px 5px 15px 5px #fce5d1;
-    color: #633106;
+    /* color: #633106; */
+    color: rgb(0, 0, 0);
     margin: 0 20px;
     margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    opacity: 0.6;
 }
 
 .zahvala-1 {
@@ -563,7 +593,8 @@ li {
 .content-main-div {
     margin: 0 auto;
     width: auto;
-    padding-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
     /* background-color: #ffecec; */
     /* background: linear-gradient(to bottom, #fcfde9, #fffbee, #fffbee, #fffbee, #fbead7);
      */
@@ -572,10 +603,18 @@ li {
     display: flex;
     flex-wrap: wrap;
     min-height: 1200px;
+    /** varianta 1 */
+    background: linear-gradient(to bottom, #f4f391, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
+    /** varianta 2 */
+    background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
+    /** varianta 4*/
+    background: linear-gradient(to bottom, #fdaa44, #f6f5a4, #faecb7);
+    /** varianta 5 */
+    background: linear-gradient(to bottom, #face8c, #feec90, #fffcef);
 }
 
 .quote-text {
-    line-height: 40px;
+    line-height: 60px;
     font-family: Italianno;
     font-size: xx-large;
     letter-spacing: 1px;
@@ -685,10 +724,11 @@ table {
 }
 
 .footer {
-    height: 65px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fffced;
 }
 
 .footer-text {

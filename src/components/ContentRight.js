@@ -9,11 +9,10 @@ const ContentRight = () => (
     }} */ >
         {/*  <p className="right-title">naslov vsebina na desni </p>
  */}
-        <div className="povezave-right">
+        {/* <div className="povezave-right">
 
-        </div>
+        </div> */}
 
-        <hr />
 
         {/*   <p className="right-title">POVEZAVE</p>
  */}
@@ -27,16 +26,14 @@ const ContentRight = () => (
             >
                 <img src="../icons/arso.png" alt="Logo" />
             </a>       */}
-            <hr />
-            <div className="povezave-right address">
+            {/* <div className="povezave-right address">
                 <br />
-            </div>
+            </div> */}
             <br />
             <p className="povezave-link">
                 {/*   */}
             </p>
             <br />
-            <hr />
         </div >
     </div >
 )

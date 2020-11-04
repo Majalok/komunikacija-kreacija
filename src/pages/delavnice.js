@@ -64,6 +64,30 @@ const Delavnice = () => (
           To je pisava 13. čžšć
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
      </div>
+        <div className="pisava-14">
+          To je pisava 14. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-15">
+          To je pisava 15. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-16">
+          To je pisava 16. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-17">
+          To je pisava 17. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-18">
+          To je pisava 18. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-19">
+          To je pisava 19. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
       </div>
     </div>
   </Layout>
