@@ -220,7 +220,7 @@ class MainMenu extends React.Component {
                                     backgroundImage: `url("../assets/vil11.png")`,
                                     backgroundSize: 'contain',
                                     backgroundRepeat: 'no-repeat',
-                                    height: '70px',
+                                    height: 'auto',
                                     backgroundPositionX: 'center',
                                     backgroundPositionY: 'center'
                                 }}
