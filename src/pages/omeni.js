@@ -217,7 +217,7 @@ const OMeni = () => (
       </div>
       <div className="o-meni-quote motivation-quote-1 test-quote-1">
         <p className="quote-text">
-          Naj STRAH ne bo naša <stong>ovira</stong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
+          Naj <strong>strah</strong> ne bo naša <stong>ovira</stong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
         </p>
       </div>
     </div>
