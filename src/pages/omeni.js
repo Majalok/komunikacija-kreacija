@@ -20,7 +20,67 @@ const OMeni = () => (
               <br />
             </span>
           </p>
-        </div>{" "}
+        </div>
+        <div className="o-meni-quote ">
+          <span className="quote-logo">
+            <img src="../icons/quote-left.png" alt="Logo" />
+          </span>
+          <p className="quote-text test-1">
+            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo.{'    '}
+            <span className="author">(dr.Nate Booth)</span>
+
+            <span className="quote-logo">
+              <img src="../icons/quote-right.png" alt="Logo" />
+              <br />
+            </span>
+          </p>
+        </div>
+        <div className="o-meni-quote">
+          <span className="quote-logo">
+            <img src="../icons/quote-left.png" alt="Logo" />
+          </span>
+          <p className="quote-text test-2">
+            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo.{'    '}
+            <span className="author">(dr.Nate Booth)</span>
+
+            <span className="quote-logo">
+              <img src="../icons/quote-right.png" alt="Logo" />
+              <br />
+            </span>
+          </p>
+        </div>
+        <div className="o-meni-quote">
+          <span className="quote-logo">
+            <img src="../icons/quote-left.png" alt="Logo" />
+          </span>
+          <p className="quote-text test-3">
+            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo.{'    '}
+            <span className="author">(dr.Nate Booth)</span>
+
+            <span className="quote-logo">
+              <img src="../icons/quote-right.png" alt="Logo" />
+              <br />
+            </span>
+          </p>
+        </div>
+        <div className="o-meni-quote">
+          <span className="quote-logo">
+            <img src="../icons/quote-left.png" alt="Logo" />
+          </span>
+          <p className="quote-text test-4">
+            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo.{'    '}
+            <span className="author">(dr.Nate Booth)</span>
+
+            <span className="quote-logo">
+              <img src="../icons/quote-right.png" alt="Logo" />
+              <br />
+            </span>
+          </p>
+        </div>
         <div className="box-container" /* style={{
           backgroundImage: `url(../assets/wave2.png)`,
           backgroundSize: 'contain',
@@ -153,6 +213,11 @@ const OMeni = () => (
       <div className="o-meni-quote motivation-quote-1">
         <p className="quote-text">
           Naj STRAH ne bo naša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
+        </p>
+      </div>
+      <div className="o-meni-quote motivation-quote-1 test-quote-1">
+        <p className="quote-text">
+          Naj STRAH ne bo naša <stong>ovira</stong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
         </p>
       </div>
     </div>

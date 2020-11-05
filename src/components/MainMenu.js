@@ -61,7 +61,7 @@ class MainMenu extends React.Component {
                 {
                     id: 6,
                     name: 'Splošna komunikacija',
-                    link: '/komunikacija-prijatelji',
+                    link: '/komunikacija-splosna',
                     /*  img_url: logo1 */
                 },
                 {
@@ -216,14 +216,14 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/omeni/"
                                 onClick={this.setMenuItemSelected}
-                                style={{
-                                    backgroundImage: `url("../assets/vil11.png")`,
-                                    backgroundSize: 'contain',
-                                    backgroundRepeat: 'no-repeat',
-                                    height: 'auto',
-                                    backgroundPositionX: 'center',
-                                    backgroundPositionY: 'center'
-                                }}
+                            /*  style={{
+                                 backgroundImage: `url("../assets/vil11.png")`,
+                                 backgroundSize: 'contain',
+                                 backgroundRepeat: 'no-repeat',
+                                 height: 'auto',
+                                 backgroundPositionX: 'center',
+                                 backgroundPositionY: 'center'
+                             }} */
                             ><span className="menu-title">O meni</span></Link>
 
                             <div id="1" to=""
@@ -305,7 +305,7 @@ class MainMenu extends React.Component {
                                     key="6"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
-                                    to="/komunikacija-prijatelji"
+                                    to="/komunikacija-splosna"
                                 > Splošna komunikacija
                                     </Link>
                                 <Link id="7"
@@ -321,14 +321,6 @@ class MainMenu extends React.Component {
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/predavanja/"
-                                style={{
-                                    backgroundImage: `url("../assets/vil22.png")`,
-                                    backgroundSize: 'contain',
-                                    backgroundRepeat: 'no-repeat',
-                                    height: 'auto',
-                                    backgroundPositionX: 'center',
-                                    backgroundPositionY: 'center'
-                                }}
                             > <span className="menu-title">Predavanja</span>
                             </Link>
                             <Link id="9"
@@ -345,14 +337,6 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 onClick={this.setMenuItemSelected}
                                 to="/pomoc-pri-promociji/"
-                                style={{
-                                    backgroundImage: `url("../assets/vil33.png")`,
-                                    backgroundSize: 'contain',
-                                    backgroundRepeat: 'no-repeat',
-                                    height: 'auto',
-                                    backgroundPositionX: 'center',
-                                    backgroundPositionY: 'center'
-                                }}
                             ><span className="menu-title">Pomoč pri promociji</span></Link>
                             <Link id="11"
                                 key="11"

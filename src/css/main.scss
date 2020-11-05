@@ -114,6 +114,23 @@ ul.right-list-112 {
     margin-bottom: 60px;
 }
 
+.test-1 {
+    font-family: PlayBall !important;
+}
+
+.test-2 {
+    font-family: Marck Script !important;
+}
+
+.test-3 {
+    font-family: Glass Antiqua !important;
+    font-style: italic;
+}
+
+.test-4 {
+    font-family: Lobster !important;
+}
+
 .pisava-1 {
     font-family: Italianno;
     margin-bottom: 30px;
@@ -228,19 +245,15 @@ ul.right-list-112 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
-.kom-sluzba {
+.kom-img {
     justify-content: center;
 }
 
-.kom-sluzba-img,
-.kom-partner-img {
-    opacity: 0.9;
-}
-
-.komunikacija-item.kom-sluzba > .komunikacija-text {
+.komunikacija-item.kom-sluzimgba > .komunikacija-text {
     margin-bottom: 4%;
 }
 

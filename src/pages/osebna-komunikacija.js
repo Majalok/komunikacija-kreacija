@@ -23,6 +23,7 @@ const komunikacija = () => (
             Poiskati svoje občutke, misli in besede…tisto kar nam služi, nas dviguje in pomaga. Step by step – vse se da.
         </div>
       </div>
+      <img className="kom-partner-img" src="../assets/vil-komunikacija.png" alt="" />
     </div>
     <div className="komunikacija-content-bottom">
 
