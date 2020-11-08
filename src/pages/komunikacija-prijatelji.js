@@ -17,7 +17,7 @@ const KomunikacijaPrijatelji = () => (
           <br />
         </div>
       </div>
-      <img className="kom-partner-img" src="../assets/vil-komunikacija.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-komunikacija-1.png" alt="" />
     </div>
   </Layout>
 )

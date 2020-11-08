@@ -56,11 +56,11 @@ const Layout = ({ children }) => (
             backgroundRepeat: 'no-repeat',
             height: '100 %'
           }} */ ></div>
-          <main className="main-content" style={{
+          <main className="main-content" /* style={{
             border: '40px solid transparent',
             borderImage: `url("../assets/vil1.png") 100%`,
             padding: '15px',
-          }}>{children}</main>
+          }} */>{children}</main>
           <div className="main-content-right" /* style={{
             backgroundImage: `url(../assets/11.jpg)`,
             backgroundSize: 'cover',

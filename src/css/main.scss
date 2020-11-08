@@ -41,6 +41,7 @@ body {
     -o-transition: all 5s ease;
     transition: all 5s ease;
     transition: height 8s ease;
+    margin: 0 auto;
 }
 
 body,
@@ -114,6 +115,26 @@ ul.right-list-112 {
     margin-bottom: 60px;
 }
 
+.kom-item-img {
+    margin-top: 5%;
+}
+
+.quote-text.test-1 {
+    font-size: 24px;
+}
+
+.quote-text.test-2 {
+    font-size: 24px;
+}
+
+.quote-text.test-3 {
+    font-size: 24px;
+}
+
+.quote-text.test-4 {
+    font-size: 24px;
+}
+
 .test-1 {
     font-family: PlayBall !important;
 }
@@ -132,86 +153,99 @@ ul.right-list-112 {
 }
 
 .pisava-1 {
-    font-family: Italianno;
+    font-family: Italianno !important;
     margin-bottom: 30px;
 }
 .pisava-2 {
-    font-family: Felipa;
+    font-family: Felipa !important;
     margin-bottom: 30px;
 }
 .pisava-3 {
-    font-family: Bad Script;
+    font-family: Bad Script !important;
     margin-bottom: 30px;
 }
 .pisava-4 {
-    font-family: Grandstarter;
+    font-family: Grandstarter !important;
     margin-bottom: 30px;
 }
 
 .pisava-5 {
-    font-family: Happy Monkey;
+    font-family: Happy Monkey !important;
     margin-bottom: 30px;
 }
 .pisava-6 {
-    font-family: Merienda;
+    font-family: Merienda !important;
     margin-bottom: 30px;
 }
 .pisava-7 {
-    font-family: Coming Soon;
+    font-family: Coming Soon !important;
     margin-bottom: 30px;
 }
 .pisava-8 {
-    font-family: Handlee;
+    font-family: Handlee !important;
     margin-bottom: 30px;
 }
 .pisava-9 {
-    font-family: Patrick Hand;
+    font-family: Patrick Hand !important;
     margin-bottom: 30px;
 }
 .pisava-10 {
-    font-family: Tangerine;
+    font-family: Tangerine !important;
     margin-bottom: 30px;
 }
 .pisava-11 {
-    font-family: Stalemate;
+    font-family: Stalemate !important;
     margin-bottom: 30px;
 }
 .pisava-12 {
-    font-family: Balsamiq Sans;
+    font-family: Balsamiq Sans !important;
     margin-bottom: 30px;
 }
 
 .pisava-13 {
-    font-family: Marck Script;
+    font-family: Marck Script !important;
     margin-bottom: 30px;
 }
 .pisava-14 {
-    font-family: Lobster;
+    font-family: Lobster !important;
     margin-bottom: 30px;
 }
 .pisava-15 {
-    font-family: PlayBall;
+    font-family: PlayBall !important;
     margin-bottom: 30px;
 }
 
 .pisava-16 {
-    font-family: Sansita Swashed;
+    font-family: Sansita Swashed !important;
     margin-bottom: 30px;
 }
 
 .pisava-17 {
-    font-family: Kavivanar;
+    font-family: Kavivanar !important;
     margin-bottom: 30px;
 }
 
 .pisava-18 {
-    font-family: Ranga;
+    font-family: Ranga !important;
     margin-bottom: 30px;
 }
 .pisava-19 {
-    font-family: Glass Antiqua;
+    font-family: Glass Antiqua !important;
     margin-bottom: 30px;
     font-style: italic;
+}
+
+.blog-text.pisava-19 {
+    font-style: italic !important;
+    font-size: 22px;
+}
+
+.blog-text.pisava-17 {
+    font-style: italic !important;
+}
+
+.blog-text.pisava-13 {
+    font-size: 21px !important;
 }
 
 .komunikacija-content {
@@ -630,6 +664,7 @@ li {
     line-height: 60px;
     font-family: Italianno;
     font-size: xx-large;
+    font-size: 38px;
     letter-spacing: 1px;
     color: #6b4200;
     /* font-family: Great Vibes; */
@@ -889,6 +924,7 @@ a.header-title-link:hover {
     width: 80%;
     font-family: Italianno;
     font-size: xx-large;
+    font-size: 38px;
     letter-spacing: 1px;
     color: #6b4200;
     margin: 0 auto;
@@ -1066,7 +1102,7 @@ a.header-title-link:hover {
     }
 
     .kom-sluzba-img,
-    .kom-partner-img {
+    .kom-item-img {
         width: 90%;
     }
 

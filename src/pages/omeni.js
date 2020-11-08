@@ -178,7 +178,7 @@ const OMeni = () => (
         }}>
           Obvladaš!
         <div className="zahvala-name">
-            Blaž
+            Tim
           </div>
         </div>
         <div className="zahvala zahvala-6" style={{
@@ -210,14 +210,9 @@ const OMeni = () => (
         </div>
       </div>
       {/*  <div className="motivation-quote-1"> */}
-      <div className="o-meni-quote motivation-quote-1">
-        <p className="quote-text">
-          Naj STRAH ne bo naša OVIRA. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na WC. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
-        </p>
-      </div>
       <div className="o-meni-quote motivation-quote-1 test-quote-1">
         <p className="quote-text">
-          Naj <strong>strah</strong> ne bo naša <stong>ovira</stong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
+          Naj <strong>strah</strong> ne bo naša <strong>ovira</strong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img"> 😉</span>
         </p>
       </div>
     </div>

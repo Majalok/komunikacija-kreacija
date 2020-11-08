@@ -225,7 +225,22 @@ class MainMenu extends React.Component {
                                  backgroundPositionY: 'center'
                              }} */
                             ><span className="menu-title">O meni</span></Link>
-
+                            <Link id="12"
+                                className={"main-menu-link " + (this.state.selectedMenuItem === 0 ? "selected" : '')}
+                                ref="12"
+                                key="12"
+                                onMouseOver={this.hideMenuBoxPanel}
+                                to="/aktualno/"
+                                onClick={this.setMenuItemSelected}
+                            /*  style={{
+                                 backgroundImage: `url("../assets/vil11.png")`,
+                                 backgroundSize: 'contain',
+                                 backgroundRepeat: 'no-repeat',
+                                 height: 'auto',
+                                 backgroundPositionX: 'center',
+                                 backgroundPositionY: 'center'
+                             }} */
+                            ><span className="menu-title">Aktualno</span></Link>
                             <div id="1" to=""
                                 ref='products'
                                 key="1"

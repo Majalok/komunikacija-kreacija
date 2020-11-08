@@ -20,11 +20,11 @@ class Blog extends Component {
               border: '40px solid transparent',
               borderImage: `url("https://mdn.mozillademos.org/files/6011/border-image-6.svg")`,
               padding: '15px',
-            }} */>
+            }} */ >
               <div className="blog-title">
                 Bel list
               </div>
-              <div className="blog-text">Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list. Nato prve zapise, na ta tvoj lep beli list,
+              <div className="blog-text pisava-17">Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list. Nato prve zapise, na ta tvoj lep beli list,
               naredijo tvoji starši, kasneje jim seveda pomagajo tudi stari starši (ker bog ne daj, brez njih res
               ne gre ;)). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče še kakšna starejša sestra ali
               brat, za povrh, da je mera polna <span className="emoji">😉</span>. Ja, prav vsi te učijo, usmerjajo in itak vedo kaj je najbolje zate.
@@ -85,7 +85,7 @@ class Blog extends Component {
               <div className="blog-title">
                 Prepričanje, vzrok in posledica
               </div>
-              <div className="blog-text">
+              <div className="blog-text pisava-13">
                 Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
               <br />
                 <br />
@@ -119,109 +119,7 @@ class Blog extends Component {
               <div className="blog-title">
                 Prepričanje, vzrok in posledica
               </div>
-              <div className="blog-text test-1">
-                Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
-              <br />
-                <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
-                <br />
-                <br />
-                Pa da razložim malo bolj podrobno.
-                <br />
-                <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji" role="img">😉</span>) - <i><strong>prepričanje</strong></i>. In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. Moj takratni partner (mož in kasneje bivši mož, zato sem, napisala takratni <span className="emoji" role="img">😏</span>) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda en malce odstopala od mojih. To je seveda popolnoma razumljivo, ker izhajava iz različnih celic (primarne družine) in vsak od naju je s seboj prinesel svoja prepričanja in vzorce.
-                <br />
-                <br />
-                Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
-                <br />
-                <br />
-                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost «, da imamo »pravo« in »nepravo« komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
-                <br />
-                <br />
-                In šele sedaj, po parih letih dela na sebi, sem dojela koncept <strong>prepričanje/vzrok/posledica</strong>.
-                <br />
-                <br />
-                Zato dobro poglejte, dajte pod drobnogled, področja svojega življenja, kjer se vam zatika. Preverite kakšna so vaša prepričanja. Prisluhnite razlagi vzroka, da preprečite posledico. Ali pa jo izpeljite (posledico namreč) in dano situacijo izkoristite za osebno rast.
-                <br />
-                <br />
-
-                Up to you <span className="emoji" role="img">😉</span>
-
-              </div>
-            </div>
-            <div className="blog-item">
-              <div className="blog-title">
-                Prepričanje, vzrok in posledica
-              </div>
-              <div className="blog-text test-2">
-                Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
-              <br />
-                <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
-                <br />
-                <br />
-                Pa da razložim malo bolj podrobno.
-                <br />
-                <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji" role="img">😉</span>) - <i><strong>prepričanje</strong></i>. In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. Moj takratni partner (mož in kasneje bivši mož, zato sem, napisala takratni <span className="emoji" role="img">😏</span>) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda en malce odstopala od mojih. To je seveda popolnoma razumljivo, ker izhajava iz različnih celic (primarne družine) in vsak od naju je s seboj prinesel svoja prepričanja in vzorce.
-                <br />
-                <br />
-                Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
-                <br />
-                <br />
-                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost «, da imamo »pravo« in »nepravo« komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
-                <br />
-                <br />
-                In šele sedaj, po parih letih dela na sebi, sem dojela koncept <strong>prepričanje/vzrok/posledica</strong>.
-                <br />
-                <br />
-                Zato dobro poglejte, dajte pod drobnogled, področja svojega življenja, kjer se vam zatika. Preverite kakšna so vaša prepričanja. Prisluhnite razlagi vzroka, da preprečite posledico. Ali pa jo izpeljite (posledico namreč) in dano situacijo izkoristite za osebno rast.
-                <br />
-                <br />
-
-                Up to you <span className="emoji" role="img">😉</span>
-
-              </div>
-            </div>
-            <div className="blog-item">
-              <div className="blog-title">
-                Prepričanje, vzrok in posledica
-              </div>
-              <div className="blog-text test-3">
-                Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
-              <br />
-                <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
-                <br />
-                <br />
-                Pa da razložim malo bolj podrobno.
-                <br />
-                <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji" role="img">😉</span>) - <i><strong>prepričanje</strong></i>. In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. Moj takratni partner (mož in kasneje bivši mož, zato sem, napisala takratni <span className="emoji" role="img">😏</span>) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda en malce odstopala od mojih. To je seveda popolnoma razumljivo, ker izhajava iz različnih celic (primarne družine) in vsak od naju je s seboj prinesel svoja prepričanja in vzorce.
-                <br />
-                <br />
-                Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
-                <br />
-                <br />
-                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost «, da imamo »pravo« in »nepravo« komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
-                <br />
-                <br />
-                In šele sedaj, po parih letih dela na sebi, sem dojela koncept <strong>prepričanje/vzrok/posledica</strong>.
-                <br />
-                <br />
-                Zato dobro poglejte, dajte pod drobnogled, področja svojega življenja, kjer se vam zatika. Preverite kakšna so vaša prepričanja. Prisluhnite razlagi vzroka, da preprečite posledico. Ali pa jo izpeljite (posledico namreč) in dano situacijo izkoristite za osebno rast.
-                <br />
-                <br />
-
-                Up to you <span className="emoji" role="img">😉</span>
-
-              </div>
-            </div>
-            <div className="blog-item">
-              <div className="blog-title">
-                Prepričanje, vzrok in posledica
-              </div>
-              <div className="blog-text test-4">
+              <div className="blog-text pisava-19">
                 Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
               <br />
                 <br />
