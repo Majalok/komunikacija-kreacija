@@ -18,7 +18,7 @@ const KomunikacijaPartner = () => (
           Ampak tudi za to obstaja »zdravilo«. Tu gre za proces, da se naučite, kako najbolj optimalno glede na situacijo, skomunicirati stvari.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-zaupanje-4.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-zaupanje-2.png" alt="" />
     </div>
   </Layout>
 )

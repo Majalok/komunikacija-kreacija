@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{gG2B:function(n,a,e){"use strict";e.r(a);var t=e("q1tI"),c=e.n(t),l=e("Bl7J");a.default=function(){return c.a.createElement(l.a,null,c.a.createElement("div",{className:"predavanja-content"},"Aktualna vsebina"))}}}]);
+//# sourceMappingURL=component---src-pages-aktualno-js-d022ceafb08f1a521c47.js.map
