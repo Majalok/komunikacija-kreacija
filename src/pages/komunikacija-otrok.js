@@ -9,7 +9,7 @@ const KomunikacijaOtrok = () => (
       <div className="komunikacija-item kom-img">
         <div className="komunikacija-text">
           Super, odločila sta se da povečata svojo družinico. V glavi preigravata, kako bo, se pripravljata, bereta knjige o starševstvu in vzgoji otroka, pogovarjata s prijatelji, ki že imajo to izkušnjo ipd.
-          Ok lahko pa vaju je njena nosečnost tudi en malce presenetila <span className="emoji">😉 </span>. Nič hudega, podata se na pot starševstva.
+          Ok, lahko pa vaju je njena nosečnost tudi en malce presenetila <span className="emoji">😉</span>. Nič hudega, podata se na pot starševstva.
           <br />
           Običajno, na začetku vse teče kot sta si predstavljala, no več ali manj <span className="emoji">😉 </span>.
           <br />

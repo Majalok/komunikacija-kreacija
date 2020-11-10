@@ -12,10 +12,10 @@ const Poslusalka = () => (
         <br />
         In včasih je dovolj že to, da breme ki ga nosiš, podeliš še z nekom, neznancem, ki ne obsoja in ne pametuje, ampak samo posluša.
         <br />
-        Lahko pa kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, vam povem/nakaže v kateri smeri poskušajte rešiti ali iti. Temu jaz pravim, POGLED IZ DRUGEGE ZORNEGA KOTA.
+        Lahko pa kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, vam povem/nakaže v kateri smeri poskušajte rešiti ali iti. Temu jaz pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-uspeh-2.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-uspeh-11.png" alt="" />
     </div>
     <div className="komunikacija-content-bottom">
       ...

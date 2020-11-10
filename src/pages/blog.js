@@ -24,7 +24,7 @@ class Blog extends Component {
               <div className="blog-title">
                 Bel list
               </div>
-              <div className="blog-text pisava-17">Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list. Nato prve zapise, na ta tvoj lep beli list,
+              <div className="blog-text pisava-13">Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list. Nato prve zapise, na ta tvoj lep beli list,
               naredijo tvoji starši, kasneje jim seveda pomagajo tudi stari starši (ker bog ne daj, brez njih res
               ne gre ;)). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče še kakšna starejša sestra ali
               brat, za povrh, da je mera polna <span className="emoji">😉</span>. Ja, prav vsi te učijo, usmerjajo in itak vedo kaj je najbolje zate.
@@ -33,7 +33,7 @@ class Blog extends Component {
               Zraven pa puščajo svojo sled, na tem čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
               tisti malo manj »boljši«.
               <br />
-              Potem nastopi »ta resen« del….služba. Okolica in sodelavci pridno igrajo svojo vlogo pri pisanju
+              Potem nastopi »ta resen« del… služba. Okolica in sodelavci pridno igrajo svojo vlogo pri pisanju
               na tvoj list.
               <br />
               Nato spoznaš Ljubezen svojega življenja (če ne gre v prvo, pa mogoče v drugo, tretje….no,
@@ -42,7 +42,7 @@ class Blog extends Component {
                 <br />
               Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na plano, čez vest ta »balast«.  Na začetku
               se ti razprejo krila, zadihaš s polnimi pljuči, imaš zalet. In ko imaš občutek, da boš poletel v svoji
-              najboljši verziji…BAM…pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je zmanjkalo ali
+              najboljši verziji… BAM …pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je zmanjkalo ali
               smetana se je polizala.
               <br />
               Na plano pridejo vsi ti »tvoji« zapisi. In velikokrat niti ne »porajtaš«, da pravzaprav razmišljaš,
@@ -75,10 +75,10 @@ class Blog extends Component {
               zadržuje, je potrebno zopet delati na sebi.
               <br />
                 <br />
-              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela  <span className="emoji">😃</span> .
+              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela  <span className="emoji">😃</span>.
               <br />
                 <br />
-              Je pa noro dober OBČUTEK, ko se osvobodiš določenih spon, prepričan, vzorcev...POLETIŠ <span className="emoji">😉</span>
+              Je pa noro dober OBČUTEK, ko se osvobodiš določenih spon, prepričan, vzorcev... POLETIŠ <span className="emoji">😉</span>
               </div>
             </div>
             <div className="blog-item">
@@ -101,7 +101,7 @@ class Blog extends Component {
                 Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
                 <br />
                 <br />
-                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost «, da imamo »pravo« in »nepravo« komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
+                Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost«, da imamo pravo in nepravo komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
                 <br />
                 <br />
                 In šele sedaj, po parih letih dela na sebi, sem dojela koncept <strong>prepričanje/vzrok/posledica</strong>.

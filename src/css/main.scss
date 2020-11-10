@@ -236,12 +236,10 @@ ul.right-list-112 {
 }
 
 .blog-text.pisava-19 {
-    font-style: italic !important;
     font-size: 22px;
 }
 
 .blog-text.pisava-17 {
-    font-style: italic !important;
 }
 
 .blog-text.pisava-13 {
@@ -262,6 +260,30 @@ ul.right-list-112 {
     font-style: italic;
     color: #220202;
     text-align: justify;
+}
+
+.aktualno-content {
+    color: #220202;
+    margin: 5% auto 1% auto;
+    font-size: x-large;
+    font-style: italic;
+    width: 70%;
+}
+
+.aktualno-li {
+    list-style: disclosure-closed;
+}
+
+.aktualno-li > a {
+    color: rgb(143, 34, 34);
+    font-size: larger;
+}
+
+.aktualno-li > div {
+    color: rgb(100, 77, 77);
+    font-size: small;
+    margin-left: 2%;
+    display: inline-block;
 }
 
 .komunikacija-intro {
@@ -297,6 +319,12 @@ ul.right-list-112 {
     margin-right: 2%;
 }
 
+.aktualno-text {
+    width: 68%;
+    font-size: large;
+    margin-right: 2%;
+}
+
 .komunikacija-content-bottom {
     margin-top: 10%;
     padding: 0px 3%;
@@ -317,6 +345,13 @@ ul.right-list-112 {
     margin-bottom: 2.5%;
     width: 60rem;
     text-align: center;
+}
+
+.aktualno-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    width: 60rem;
 }
 
 .o-meni-quote {
@@ -655,9 +690,7 @@ li {
     /** varianta 2 */
     background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
     /** varianta 4*/
-    background: linear-gradient(to bottom, #fdaa44, #f6f5a4, #faecb7);
-    /** varianta 5 */
-    background: linear-gradient(to bottom, #face8c, #feec90, #fffcef);
+    background: linear-gradient(to bottom, #ffcc8e, #f9f0aa, #fff9cb, #fff7da);
 }
 
 .quote-text {

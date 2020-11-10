@@ -21,66 +21,6 @@ const OMeni = () => (
             </span>
           </p>
         </div>
-        <div className="o-meni-quote ">
-          <span className="quote-logo">
-            <img src="../icons/quote-left.png" alt="Logo" />
-          </span>
-          <p className="quote-text test-1">
-            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
-          da z njimi tako tudi ravnamo.{'    '}
-            <span className="author">(dr.Nate Booth)</span>
-
-            <span className="quote-logo">
-              <img src="../icons/quote-right.png" alt="Logo" />
-              <br />
-            </span>
-          </p>
-        </div>
-        <div className="o-meni-quote">
-          <span className="quote-logo">
-            <img src="../icons/quote-left.png" alt="Logo" />
-          </span>
-          <p className="quote-text test-2">
-            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
-          da z njimi tako tudi ravnamo.{'    '}
-            <span className="author">(dr.Nate Booth)</span>
-
-            <span className="quote-logo">
-              <img src="../icons/quote-right.png" alt="Logo" />
-              <br />
-            </span>
-          </p>
-        </div>
-        <div className="o-meni-quote">
-          <span className="quote-logo">
-            <img src="../icons/quote-left.png" alt="Logo" />
-          </span>
-          <p className="quote-text test-3">
-            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
-          da z njimi tako tudi ravnamo.{'    '}
-            <span className="author">(dr.Nate Booth)</span>
-
-            <span className="quote-logo">
-              <img src="../icons/quote-right.png" alt="Logo" />
-              <br />
-            </span>
-          </p>
-        </div>
-        <div className="o-meni-quote">
-          <span className="quote-logo">
-            <img src="../icons/quote-left.png" alt="Logo" />
-          </span>
-          <p className="quote-text test-4">
-            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
-          da z njimi tako tudi ravnamo.{'    '}
-            <span className="author">(dr.Nate Booth)</span>
-
-            <span className="quote-logo">
-              <img src="../icons/quote-right.png" alt="Logo" />
-              <br />
-            </span>
-          </p>
-        </div>
         <div className="box-container" /* style={{
           backgroundImage: `url(../assets/wave2.png)`,
           backgroundSize: 'contain',
@@ -121,7 +61,7 @@ const OMeni = () => (
 
       <div className="zahvale-section">
         <div className="zahvala zahvala-3" style={{
-          backgroundImage: `url(../assets/vil1.png)`,
+          backgroundImage: `url(../assets/vil2.png)`,
         }}>
           Minilo je par let, kar si mi prvič pomagala. S partnerjem , s katerim sem bila v zvezi 2 leti, sva
           se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
@@ -136,7 +76,7 @@ const OMeni = () => (
         </div>
         <div className="zahvala zahvala-10"
           style={{
-            backgroundImage: `url(../assets/vil2.png)`,
+            backgroundImage: `url(../assets/vil1.png)`,
           }}>
           Natašo sem spoznala na mojem prejšnjem delovnem mestu in takoj sem začutila, da izžareva neko posebno energijo. Takoj sem jo začutila. Postali sva prijateljici in velikokrat sem se nanjo obrnila za nasvet,najprej pri reševanju konfliktov na delovnem mestu. Znala mi je pravilno svetovati, kako in na kakšen način komunicirati z konfliktnimi osebami.
 
@@ -160,7 +100,7 @@ const OMeni = () => (
         </div>
         <div className="zahvala zahvala-1"
           style={{
-            backgroundImage: `url(../assets/vil1.png)`,
+            backgroundImage: `url(../assets/vil2.png)`,
           }}>
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te človek ne spozna, niti ne ve
           kam ga je pahnil hitri tempo življenja in vsa ta tehnika...
@@ -178,8 +118,8 @@ const OMeni = () => (
         }}>
           Obvladaš!
         <div className="zahvala-name">
-            Tim
-          </div>
+            Rok
+        </div>
         </div>
         <div className="zahvala zahvala-6" style={{
           backgroundImage: `url(../assets/vil1.png)`,
@@ -201,7 +141,7 @@ const OMeni = () => (
         </div>
 
         <div className="zahvala zahvala-9" style={{
-          backgroundImage: `url(../assets/vil1.png)`,
+          backgroundImage: `url(../assets/vil2.png)`,
         }}>
           Imaš veliko znanja.
         <div className="zahvala-name">
