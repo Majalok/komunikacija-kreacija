@@ -86,7 +86,7 @@ class Blog extends Component {
                 Prepričanje, vzrok in posledica
               </div>
               <div className="blog-text pisava-13">
-                Vsi ste že slišali za vzrok in posledico ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
+                Vsi ste že slišali za vzrok in posledico, ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
               <br />
                 <br />
                 Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.

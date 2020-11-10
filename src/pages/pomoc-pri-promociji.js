@@ -7,7 +7,7 @@ const PomocPriPromociji = () => (
     <div className="promocija-content">
 
       <p className="promotion-text">
-        Ja, nekateri živijo svoje sanje spet drugi , so v nizkem zaletu in tretji… še ni zrelo <span className="emoji">😉</span>
+        Ja, nekateri živijo svoje sanje, spet drugi so v nizkem zaletu in tretji… še ni zrelo <span className="emoji">😉</span>
         <br />
         <br />
         Imaš idejo, znanje, veselje in produkt a nikakor zadeva ne steče, tako kot si želiš.

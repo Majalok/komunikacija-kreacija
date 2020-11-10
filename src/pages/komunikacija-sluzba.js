@@ -18,7 +18,7 @@ const KomunikacijaSluzba = () => (
           <br />
           Ko sem pričela z delom na sebi, sem prišla do določenih spoznaj, ki so mi pomagala, da sem postopoma postavila stvari na prava mesta. Postala sem opažena, cenjena in tudi nagrajena.
           <br />
-          Kasneje je tudi komunikacija odigrala veliko vlogo. In spoznala sem tudi razliko med zlatim in diamantnim pravilom, glede odnosov.
+          Kasneje je tudi komunikacija odigrala veliko vlogo. In spoznala sem tudi razliko med zlatim in diamantnim pravilom glede odnosov.
         </div>
       </div>
       <img className="kom-item-img" src="../assets/vil-odprtost-1.png" alt="" />
