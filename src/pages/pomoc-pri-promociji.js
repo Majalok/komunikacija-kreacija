@@ -22,7 +22,7 @@ const PomocPriPromociji = () => (
         <br />
         <br />
         Spoznajva se, poglejva kaj ponujaš oziroma kaj iščeš in kako ti lahko pomagam.
-        Mogoče pa potrebuješ samo potrditev, da si na pravi poti <span className="emoji">😉 </span>
+        Mogoče pa potrebuješ samo potrditev, da si na pravi poti <span className="emoji">😉</span>
         <br />
         <br />
       </p>
