@@ -237,6 +237,7 @@ ul.right-list-112 {
 
 .blog-text.pisava-19 {
     font-size: 22px;
+    letter-spacing: 0.8px;
 }
 
 .blog-text.pisava-17 {
@@ -244,6 +245,11 @@ ul.right-list-112 {
 
 .blog-text.pisava-13 {
     font-size: 21px !important;
+}
+.blog-text.pisava-arima {
+    font-size: 20px !important;
+    font-family: Arima Madurai;
+    font-style: italic;
 }
 
 .komunikacija-content {
@@ -686,7 +692,7 @@ li {
     /** varianta 2 */
     background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
     /** varianta 4*/
-    background: linear-gradient(to bottom, #ffcc8e, #f9f0aa, #fff9cb, #fff7da);
+    background: linear-gradient(to bottom, #fdb154, #f9f0aa, #fff9cb, #fff7da);
 }
 
 .quote-text {

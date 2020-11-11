@@ -89,7 +89,7 @@ $yellow-bck: #faf46d;
     color: #000000;
     margin: 0px 10px;
     text-decoration: none;
-    font-size: large;
+    font-size: larger;
     width: auto;
     background-color: transparent;
     border: none;
@@ -107,7 +107,11 @@ $yellow-bck: #faf46d;
     transition: linear 0.4s;
     text-decoration: none;
     color: #734938;
+    /*   font-weight: bold; */
+    font-family: Glass Antiqua;
+    font-style: normal;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 a:hover {

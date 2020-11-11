@@ -14,7 +14,7 @@ const komunikacija = () => (
           Zame je <strong>osebna komunikacija</strong> najpomembnejša in izhodišče za vse ostalo.
           <br />
           <br />
-           Ste kdaj pomislili oz. razmišljali o tem, da ko se rodimo smo kot bel nepopisan list.
+           Ste kdaj pomislili oz. razmišljali o tem, da ko se rodimo, smo kot bel nepopisan list.
            <br />
             In ko se dobro zavemo svojega obstoja in okolice, kar naenkrat ugotovimo, da smo »prejeli« veliko »dobronamernih« usmeritev, navodila, prepričanj, ki velikokrat ne delujejo optimalno za nas.
             In ko ozavestimo in si priznamo, da imamo v svojem življenju kar nekaj »prtljage« od staršev, starih staršev itd, nas lahko prevzame groza.
