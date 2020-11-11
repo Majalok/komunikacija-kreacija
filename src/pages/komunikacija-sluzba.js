@@ -21,7 +21,7 @@ const KomunikacijaSluzba = () => (
           Kasneje je tudi komunikacija odigrala veliko vlogo. In spoznala sem tudi razliko med zlatim in diamantnim pravilom glede odnosov.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-odprtost-1.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-odprtost-12.png" alt="" />
     </div>
   </Layout>
 )

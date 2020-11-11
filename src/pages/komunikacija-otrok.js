@@ -21,7 +21,7 @@ const KomunikacijaOtrok = () => (
           Tu pogledamo, zakaj se zatikamo, ne razumemo in kako to preseči.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-varnostInZascita-1.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
     </div>
   </Layout>
 )

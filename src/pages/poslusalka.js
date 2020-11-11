@@ -15,7 +15,7 @@ const Poslusalka = () => (
         Lahko pa kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, vam povem/nakaže v kateri smeri poskušajte rešiti ali iti. Temu jaz pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-uspeh-11.png" alt="" />
+      <img className="kom-item-img" src="../assets/vil-uspeh-12.png" alt="" />
     </div>
     <div className="komunikacija-content-bottom">
       ...
