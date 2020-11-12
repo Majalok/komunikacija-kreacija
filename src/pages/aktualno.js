@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "@reach/router"
 import Layout from "../components/layout"
 
 const Aktualno = () => (
@@ -11,18 +10,12 @@ const Aktualno = () => (
         <ul className="aktualno-ul">
           <br />
           <li className="aktualno-li">
-            <Link id="1"
-              key="1"
-              to="/blog/"
-            > Prepričanje</Link>
+            Prepričanje
             <div>1.11.2020</div>
           </li>
           <br />
           <li className="aktualno-li">
-            <Link id="0"
-              key="0"
-              to="/blog/"
-            > Bel list</Link>
+            Bel list
             <div>15.10.2020</div>
           </li>
           <br />

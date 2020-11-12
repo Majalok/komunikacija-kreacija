@@ -14,7 +14,7 @@ $yellow-bck: #faf46d;
 
 .main-menu-panel {
     position: absolute;
-    margin-top: 666px;
+    margin-top: 566px;
     margin-left: -35px;
     opacity: 1;
     z-index: 99999;
@@ -89,14 +89,13 @@ $yellow-bck: #faf46d;
     color: #000000;
     margin: 0px 10px;
     text-decoration: none;
-    font-size: larger;
+    font-size: large;
     width: auto;
     background-color: transparent;
     border: none;
     padding: 0px 29px;
     display: flex;
     align-items: center;
-    font-style: italic;
     height: 80px;
 }
 /* 
@@ -106,12 +105,10 @@ $yellow-bck: #faf46d;
 .menu-title {
     transition: linear 0.4s;
     text-decoration: none;
-    color: #734938;
+    color: #000000;
     /*   font-weight: bold; */
-    font-family: Glass Antiqua;
+    font-family: Bellota Text;
     font-style: normal;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
 a:hover {
@@ -155,10 +152,12 @@ a:hover {
     font-size: large;
     border-bottom: 1px solid #f0afaf;
     font-variant: normal;
+    font-weight: normal;
     color: #000000;
     text-shadow: 1px -1px #f7c5a6;
     padding: 5px 10px;
     transition: linear 0.4s;
+    font-family: Bellota Text;
 }
 
 .main-menu-product-desc:hover {

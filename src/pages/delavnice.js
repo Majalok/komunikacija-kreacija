@@ -71,7 +71,7 @@ const Delavnice = () => (
         <div className="pisava-15">
           To je pisava 15. čžšć
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     </div>
+    </div>
         <div className="pisava-16">
           To je pisava 16. čžšć
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -88,6 +88,103 @@ const Delavnice = () => (
           To je pisava 19. čžšć
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
      </div>
+        <div className="pisava-20">
+          To je pisava 20. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-21">
+          To je pisava 21. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+        <div className="pisava-22">
+          To je pisava 22. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-23">
+          To je pisava 23. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-24">
+          To je pisava 24. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-25">
+          To je pisava 25. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-26">
+          To je pisava 26. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+        <div className="pisava-27">
+          To je pisava 27. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-28">
+          To je pisava 28. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-29">
+          To je pisava 29. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-30">
+          To je pisava 30. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-31">
+          To je pisava 31. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-32">
+          To je pisava 32. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-33">
+          To je pisava 33. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        {/*         <div className="pisava-34">
+          To je pisava 34. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-35">
+          To je pisava 35. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-36">
+          To je pisava 36. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-37">
+          To je pisava 37. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-38">
+          To je pisava 38. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-39">
+          To je pisava 39. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-40">
+          To je pisava 40. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-41">
+          To je pisava 41. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-42">
+          To je pisava 42. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div>
+        <div className="pisava-43">
+          To je pisava 43. čžšć
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </div> */}
+
       </div>
     </div>
   </Layout>

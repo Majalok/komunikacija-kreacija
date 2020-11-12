@@ -1,6 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Ranga|Glass+Antiqua|Hind+Guntur|Lobster|Playball|Sansita+Swashed|Galada|Farsan|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Ranga|Glass+Antiqua|Hind+Guntur|Lobster|Playball|Sansita+Swashed|Galada|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
+
+// nove pisave
+@import url("https://fonts.googleapis.com/css?family=Grandstander|Dynalight|Open+Sans+Condensed|Cormorant+Upright|Bellota|Forum|Corben|Srisakdi|McLaren|Katibeh|Atma|Life+Savers|Oregano|Farsan");
 
 $dark-red: #640c0c;
 $content-title: #505050;
@@ -107,7 +110,7 @@ ul.right-list-112 {
     font-style: bold;
 }
 .pisave-div {
-    font-size: xx-large;
+    font-size: x-large;
     margin-top: 100px;
 }
 
@@ -239,6 +242,81 @@ ul.right-list-112 {
     font-size: 22px;
     letter-spacing: 0.8px;
 }
+.pisava-20 {
+    font-family: Grandstander;
+    font-style: italic;
+}
+.pisava-21 {
+    font-family: Forum;
+    font-style: italic;
+}
+.pisava-22 {
+    font-family: Corben;
+    font-style: italic;
+}
+.pisava-23 {
+    font-family: McLaren;
+    font-style: italic;
+}
+.pisava-24 {
+    font-family: Oregano;
+    font-style: italic;
+}
+.pisava-25 {
+    font-family: Life Savers;
+    font-style: italic;
+}
+.pisava-26 {
+    font-family: Katibeh;
+    font-style: italic;
+}
+.pisava-27 {
+    font-family: Atma;
+    font-style: italic;
+}
+.pisava-28 {
+    font-family: Farsan;
+    font-style: italic;
+}
+.pisava-29 {
+    font-family: Srisakdi;
+}
+.pisava-30 {
+    font-family: Dynalight;
+}
+.pisava-31 {
+    font-family: Bellota;
+    font-style: italic;
+}
+.pisava-32 {
+    font-family: Cormorant Upright;
+    font-style: italic;
+}
+.pisava-33 {
+    font-family: Open Sans Condensed;
+    font-style: italic;
+}
+.pisava-34 {
+    font-family: Forum;
+}
+.pisava-35 {
+    font-family: Forum;
+}
+.pisava-36 {
+    font-family: Forum;
+}
+.pisava-37 {
+    font-family: Forum;
+}
+.pisava-38 {
+    font-family: Forum;
+}
+.pisava-39 {
+    font-family: Forum;
+}
+.pisava-40 {
+    font-family: Forum;
+}
 
 .blog-text.pisava-17 {
 }
@@ -276,9 +354,10 @@ ul.right-list-112 {
     width: 70%;
 }
 
-.aktualno-li > a {
+.aktualno-li {
     color: rgb(143, 34, 34);
     font-size: larger;
+    list-style: disclosure-closed;
 }
 
 .aktualno-li > div {
@@ -692,7 +771,7 @@ li {
     /** varianta 2 */
     background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
     /** varianta 4*/
-    background: linear-gradient(to bottom, #fdb154, #f9f0aa, #fff9cb, #fff7da);
+    background: linear-gradient(to bottom, #fdb154, #fff39c, #fdf3a8, #ffbf70);
 }
 
 .quote-text {
