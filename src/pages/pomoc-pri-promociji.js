@@ -17,7 +17,7 @@ const PomocPriPromociji = () => (
         Moja strast in želja je, da si pomagamo, da se povežemo.
         <br />
         <br />
-        Zato, če potrebuješ malo pomoči pri »vzletu« sem tu <span className="emoji">😉</span>. Vsi vemo, da ko te nekdo priporoči ali govori
+        Zato, če potrebuješ malo pomoči pri »vzletu«, sem tu <span className="emoji">😉</span>. Vsi vemo, da ko te nekdo priporoči ali govori
         o tvoji strasti, ki jo želiš deliti z drugimi, gre veliko hitreje.
         <br />
         <br />

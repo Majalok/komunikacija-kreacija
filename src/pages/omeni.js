@@ -33,24 +33,23 @@ const OMeni = () => (
         </div>
         <div className="o-meni-content">
           <div className="o-meni-text">
-            Naj se predstavim.Ime mi je Nataša in zelo rada čvekam. Pa ne kar tja v
-          tri dni(no, občasno tudi) ampak obožujem poglobljene pogovore.{" "}
+            Naj se predstavim. Ime mi je Nataša in zelo rada čvekam. Pa ne kar tja v
+          tri dni (no, občasno tudi) ampak obožujem poglobljene pogovore.{" "}
           </div>{" "}
           <div className="o-meni-text">
             Pogovarjanje oziroma komunikacija mi je blizu. Nikoli tudi nisem imela
-            problema načeti pogovora s popolnim tujcem, če sem le» prebrala« skozi
-          njegovo telesno govorico, da imam» zeleno luč«.{" "}
+            problema načeti pogovora s popolnim tujcem, če sem le »prebrala« skozi
+          njegovo telesno govorico, da »imam« zeleno luč«.{" "}
           </div>{" "}
           <div className="o-meni-text">
-            Imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost,
-            sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
+            Imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
             komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
             tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
             da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
             se vse zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
             imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
             ko so se besede kar vsule. In sem se lotila dela <span className="emoji">😉</span>  Saj veste, pogled
-            iz drugega zornega kota in pa moja dva »senzorja«pa smo zadevo
+            iz drugega zornega kota in pa moja dva »senzorja« pa smo zadevo
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
           </div>{" "}
           <div className="o-meni-text">
@@ -63,7 +62,7 @@ const OMeni = () => (
         <div className="zahvala zahvala-3" style={{
           backgroundImage: `url(../assets/vil2.png)`,
         }}>
-          Minilo je par let, kar si mi prvič pomagala. S partnerjem , s katerim sem bila v zvezi 2 leti, sva
+          Minilo je par let, kar si mi prvič pomagala. S partnerjem, s katerim sem bila v zvezi 2 leti, sva
           se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
           narekovala, da me pokličeš, kljub temu da je bil vikend. Roko na srce, nekih tesnih stikov
           takrat nisva imeli, sva se pa vedno imeli lepo, ko sva »treščili« skupaj. Brez oklevanja si
@@ -103,10 +102,10 @@ const OMeni = () => (
             backgroundImage: `url(../assets/vil2.png)`,
           }}>
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te človek ne spozna, niti ne ve
-          kam ga je pahnil hitri tempo življenja in vsa ta tehnika...
-          Kdo si je mislil, da nas bojo leta 2020 učili umivati roke....( večina smo bili prepričani da je
+          kam ga je pahnil hitri tempo življenja in vsa ta tehnika ...
+          Kdo si je mislil, da nas bojo leta 2020 učili umivati roke ...( večina smo bili prepričani da je
           umivanje rok splošno znano in enostavno)
-          Tako kot pravim - dokler ne veš kako moraš , je enostavno dobro to kar delaš!
+          Tako kot pravim - dokler ne veš kako moraš, je enostavno dobro to kar delaš!
           Meni si ogromno pomagala pri osebnosti rasti in kljub svojim letom sem iz grdega malega
           račka postala ponosni labod. Iz srca ti hvala
           <div className="zahvala-name">

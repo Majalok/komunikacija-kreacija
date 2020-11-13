@@ -16,7 +16,7 @@ const komunikacija = () => (
           <br />
            Ste kdaj pomislili oz. razmišljali o tem, da ko se rodimo, smo kot bel nepopisan list.
            <br />
-            In ko se dobro zavemo svojega obstoja in okolice, kar naenkrat ugotovimo, da smo »prejeli« veliko »dobronamernih« usmeritev, navodila, prepričanj, ki velikokrat ne delujejo optimalno za nas.
+            In ko se dobro zavemo svojega obstoja in okolice, kar naenkrat ugotovimo, da smo »prejeli« veliko »dobronamernih« usmeritev, navodil, prepričanj, ki velikokrat ne delujejo optimalno za nas.
             In ko ozavestimo in si priznamo, da imamo v svojem življenju kar nekaj »prtljage« od staršev, starih staršev itd, nas lahko prevzame groza.
             Da spremenimo svoja prepričanja, vzorce in vse kar nas ustavlja je potrebno zagristi v »kislo jabolko«. Vendar tam kje je volja je tudi moč in uspeh.
             Rada se pohecam, da je potrebno stari program izbrisati in naložiti novi softwere, ki je naš in pisan nam na kožo <span className="emoji">😉</span>.

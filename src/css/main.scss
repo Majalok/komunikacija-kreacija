@@ -289,12 +289,13 @@ ul.right-list-112 {
     font-style: italic;
 }
 .pisava-32 {
-    font-family: Cormorant Upright;
-    font-style: italic;
+    font-family: Cormorant Upright !important;
+    font-style: italic !important;
+    font-size: 1.2rem !important;
 }
 .pisava-33 {
-    font-family: Open Sans Condensed;
-    font-style: italic;
+    font-family: Open Sans Condensed !important;
+    font-style: italic !important;
 }
 .pisava-34 {
     font-family: Forum;
@@ -350,7 +351,7 @@ ul.right-list-112 {
     color: #220202;
     margin: 5% auto 1% auto;
     font-size: x-large;
-    font-style: italic;
+    /*  font-style: italic; */
     width: 70%;
 }
 
@@ -479,7 +480,7 @@ ul.right-list-112 {
 .o-meni-content {
     width: 80%;
     margin: 5% auto;
-    font-style: italic;
+    /* font-style: italic; */
     color: #210200;
     font-size: large;
     font-family: Bellota Text;
