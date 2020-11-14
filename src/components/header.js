@@ -20,7 +20,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
       {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
        */}{" "}
     </div>
-    <div className="header-main-div">
+    {/*  <div className="header-main-div">
       <span className="header-title">
         <h3>
           <Link to="/omeni" className="page-title-link">
@@ -34,23 +34,12 @@ const Header = ({ siteTitle, subtitle, description }) => (
       <div className="header-image-div">
         <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" />
       </div>
-    </div>
-    {/*   <div className="header-icons">
-      <a
-        href="https://www.facebook.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="../icons/fb.svg" width="25px" alt="" />
-      </a>
-      <a
-        href="https://www.instagram.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="../icons/instagram_25x.png" alt="" />
-      </a>
     </div> */}
+    <div className="header-main-div">
+      <div className="header-image-div">
+        <img className="header-image-test" src="../assets/h1.png" alt="" />
+      </div>
+    </div>
   </header >
 )
 
