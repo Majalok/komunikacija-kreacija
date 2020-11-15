@@ -327,6 +327,13 @@ ul.right-list-112 {
 .blog-text.pisava-31 {
     font-style: normal !important;
 }
+.blog-text.pisava-31.italic {
+    font-style: italic !important;
+}
+
+.blog-text.pisava-21.italic {
+    font-style: italic !important;
+}
 
 .blog-text.pisava-19 {
     font-style: normal !important;
@@ -352,7 +359,6 @@ ul.right-list-112 {
     /* width: 80%; */
     font-family: Bellota Text;
     font-size: x-large;
-    font-style: italic;
     color: #220202;
     text-align: justify;
 }
@@ -517,7 +523,6 @@ ul.right-list-112 {
     margin-top: 8%;
     font-size: large;
     font-family: Bellota Text;
-    font-style: italic;
     text-align: justify;
     color: #210200;
 }
@@ -594,7 +599,6 @@ ul.right-list-112 {
     width: 80%;
     margin: 6% auto;
     font-family: "Handlee";
-    font-style: italic;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
