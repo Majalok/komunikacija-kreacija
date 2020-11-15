@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-catch-links`,
       options: {
-        /* excludePattern: /(excluded-link|external)/, */
-        excludeRegex: /excluded-link/,
+        excludePattern: /(excluded-link|external)/,
+
       },
     },
     {

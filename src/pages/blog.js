@@ -8,8 +8,7 @@ import SplosnaKomunikacija from "./komunikacija-splosna"
 
 class Blog extends Component {
   constructor(props) {
-    super(props);
-
+    super(props)
   }
   render() {
     return (
