@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ranga|Glass+Antiqua|Hind+Guntur|Lobster|Playball|Sansita+Swashed|Galada|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
 
 // nove pisave
-@import url("https://fonts.googleapis.com/css?family=Grandstander|Dynalight|Open+Sans+Condensed|Cormorant+Upright|Bellota|Forum|Corben|Srisakdi|McLaren|Katibeh|Atma|Life+Savers|Oregano|Farsan");
+@import url("https://fonts.googleapis.com/css?family=Grandstander|Special+Elite|Dynalight|Open+Sans+Condensed|Cormorant+Upright|Bellota|Forum|Corben|Srisakdi|McLaren|Katibeh|Atma|Life+Savers|Oregano|Farsan");
 
 $dark-red: #640c0c;
 $content-title: #505050;
@@ -329,6 +329,19 @@ ul.right-list-112 {
 }
 .blog-text.pisava-31.italic {
     font-style: italic !important;
+}
+.blog-text.pisava-special.italic {
+    font-family: Special Elite !important;
+    font-style: italic !important;
+}
+
+.blog-text.pisava-special {
+    font-family: Special Elite !important;
+}
+
+.blog-title.pisava-special {
+    font-family: Special Elite !important;
+    font-style: normal !important;
 }
 
 .blog-text.pisava-21.italic {
