@@ -2,6 +2,7 @@ require("./src/css/Navigation.scss")
 require("./src/css/mainMenu.scss")
 require("./src/css/main.scss")
 require("./src/css/blog.scss")
+require("./src/css/gallery.scss")
 // in gastby-browser.js
 exports.shouldUpdateScroll = ({
     routerProps: { location },

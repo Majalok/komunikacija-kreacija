@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import ImageContainer from "../components/ImageContainer"
 
 const PomocPriPromociji = () => (
   <Layout>
@@ -26,8 +27,26 @@ const PomocPriPromociji = () => (
         <br />
         <br />
       </p>
+
+      <div className="gallery-content">
+        <img className="gallery-img img-1" width="100px" src="../assets/1-p.jpg" alt="" />
+        <img className="gallery-img img-3" src="../assets/3-p.jpg" alt="" />
+        <img className="gallery-img img-4" src="../assets/4-p.jpg" alt="" />
+        <img className="gallery-img img-7" src="../assets/7-p.jpg" alt="" />
+
+        <img className="gallery-img img-5" src="../assets/5-p.jpg" alt="" />
+
+        <img className="gallery-img img-6" src="../assets/6-p.jpg" alt="" />
+        <img className="gallery-img img-2" src="../assets/2-p.jpg" alt="" />
+
+
+        {/* <ImageContainer
+          images={this.state.images}
+          thumbs={this.state.thumbs}
+        /> */}
+      </div>
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default PomocPriPromociji
