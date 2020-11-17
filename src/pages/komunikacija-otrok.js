@@ -21,7 +21,12 @@ const KomunikacijaOtrok = () => (
           Tu pogledamo, zakaj se zatikamo, ne razumemo in kako to preseči.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
+      <div className="kom-img-desc">
+        <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
+        <div className="vil-description">
+          Gre za izjemno močan simbol, ki okrog njegovega uporabnika naredi energijski ščit, tako da v notranjost lahko prodreta le ljubezen in luč, pozitivna energija iz zunanjega sveta.
+      </div>
+      </div>
     </div>
   </Layout>
 )

@@ -338,13 +338,13 @@ class MainMenu extends React.Component {
                                 to="/predavanja/"
                             > <span className="menu-title">Predavanja</span>
                             </Link>
-                            <Link id="9"
+                            {/* <Link id="9"
                                 key="9"
                                 className="main-menu-link"
                                 onClick={this.setMenuItemSelected}
                                 to="/delavnice/"
                             > <span className="menu-title">Delavnice</span>
-                            </Link>
+                            </Link> */}
 
                             <Link id="10"
                                 key="10"
@@ -360,6 +360,15 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/blog/"
                                 onClick={this.setMenuItemSelected} ><span className="menu-title">Blog</span></Link>
+                            <Link id="12"
+                                key="12"
+                                ref="12"
+                                className={"main-menu-link " + (this.state.selectedMenuItem === 4 ? "selected" : '')}
+                                onMouseOver={this.hideMenuBoxPanel}
+                                to="/kontakt/"
+                                onClick={this.setMenuItemSelected} ><span className="menu-title">Kontakt</span></Link>
+
+
                         </div>
                     </div>
                 </div>

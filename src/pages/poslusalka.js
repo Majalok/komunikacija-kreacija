@@ -15,11 +15,13 @@ const Poslusalka = () => (
         Lahko pa kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, vam povem/nakaže v kateri smeri poskušajte rešiti ali iti. Temu jaz pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-uspeh-131.png" alt="" />
+      <div className="kom-img-desc">
+        <img className="kom-item-img" src="../assets/vil-uspeh-131.png" alt="" />
+        <div className="vil-description">
+          Tir Kairi nam pomaga usvojiti novo pojmovanje uspešnosti in nas premakne v krog zmagovalcev. Pred nami se odprejo nove, neslutene priložnosti, mi pa z magnetno privlačnostjo pritegnemo energijo uspeha v svoje življenje.      </div>
+      </div>
     </div>
-    <div className="komunikacija-content-bottom">
-      ...
-    </div>
+
 
   </Layout>
 )

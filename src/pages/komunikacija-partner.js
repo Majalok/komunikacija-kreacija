@@ -18,7 +18,12 @@ const KomunikacijaPartner = () => (
           Ampak tudi za to obstaja »zdravilo«. Tu gre za proces, da se naučite, kako najbolj optimalno glede na situacijo, skomunicirati stvari.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-zaupanje-12.png" alt="" />
+      <div className="kom-img-desc">
+        <img className="kom-item-img" src="../assets/vil-zaupanje-12.png" alt="" />
+        <div className="vil-description">
+          Elam Lin nas uči, da zaupanje nima nobene zveze z logiko ali razumom, ker je po svoji naravi stanje duha. Vsa naša dejanja, vse naše izrečene besede, čustva, misli, situacije, ki jih doživljamo, so le droben delček veličastnega mozaika neizmerne ljubezni. Zaupati je treba drugim, zaupati je treba stvarstvu, predvsem pa je treba zaupati samemu sebi.
+      </div>
+      </div>
     </div>
   </Layout>
 )

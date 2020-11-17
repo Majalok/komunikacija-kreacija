@@ -19,16 +19,17 @@ const komunikacija = () => (
             In ko se dobro zavemo svojega obstoja in okolice, kar naenkrat ugotovimo, da smo »prejeli« veliko »dobronamernih« usmeritev, navodil, prepričanj, ki velikokrat ne delujejo optimalno za nas.
             In ko ozavestimo in si priznamo, da imamo v svojem življenju kar nekaj »prtljage« od staršev, starih staršev itd, nas lahko prevzame groza.
             Da spremenimo svoja prepričanja, vzorce in vse kar nas ustavlja je potrebno zagristi v »kislo jabolko«. Vendar tam kje je volja je tudi moč in uspeh.
-            Rada se pohecam, da je potrebno stari program izbrisati in naložiti novi softwere, ki je naš in pisan nam na kožo <span className="emoji">😉</span>.
+            Rada se pohecam, da je potrebno stari program izbrisati in naložiti novi software, ki je naš in pisan nam na kožo <span className="emoji">😉</span>.
             Poiskati svoje občutke, misli in besede… tisto kar nam služi, nas dviguje in pomaga. Step by step – vse se da.
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-komunikacija-12.png" alt="" />
+      <div className="kom-img-desc">
+        <img className="kom-item-img" src="../assets/vil-komunikacija-12.png" alt="" />
+        <div className="vil-description">
+          Prava komunikacija pomeni umetnost stika, zmožnost odprtosti in povezovanja z vsemi in vsem: s samim seboj in svojim resničnim bistvom, z drugimi bitji, s svetom in okoljem okoli nas in z oddaljenimi vzporednimi razsežnostmi, v katere vstopamo skozi skrivnostne prehode.
+      </div>
+      </div>
     </div>
-    <div className="komunikacija-content-bottom">
-
-    </div>
-
   </Layout>
 )
 

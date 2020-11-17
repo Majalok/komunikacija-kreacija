@@ -17,7 +17,12 @@ const KomunikacijaSplosna = () => (
           <br />
         </div>
       </div>
-      <img className="kom-item-img" src="../assets/vil-novZacetek-12.png" alt="" />
+      <div className="kom-img-desc">
+        <img className="kom-item-img" src="../assets/vil-novZacetek-12.png" alt="" />
+        <div className="vil-description">
+          Samo takrat, ko smo odprti in pretočni, se nam lahko dodajajo čudeži in spremembe.
+      </div>
+      </div>
     </div>
   </Layout>
 )

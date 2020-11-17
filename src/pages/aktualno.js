@@ -22,6 +22,10 @@ const Aktualno = () => (
         </ul>
       </div>
     </div>
+    <div className="delavnice-content">
+      <div className="delavnice-item">
+      </div>
+    </div>
 
   </Layout >
 )
