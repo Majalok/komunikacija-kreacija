@@ -1,0 +1,49 @@
+.blog-content {
+    font-family: Arima Madurai;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.blog-item {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 30px 40px;
+    font-size: xx-large;
+    border-image-slice: 15 15 15 15 !important;
+    border-image-width: 10px 10px 10px 10px !important;
+    border-image-outset: 0px 0px 0px 0px !important;
+    border-image-repeat: round round !important;
+    /*  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg"); */
+}
+
+.blog-title {
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-shadow: 1px -3px 6px #bfbfbe;
+    border-bottom: 1px solid #7c7c7c;
+    color: rgb(46, 46, 46);
+}
+
+.blog-text {
+    font-size: large;
+    font-family: charm;
+    font-style: normal;
+}
+
+.blog-text.test-3 {
+    font-style: italic;
+    font-size: x-large;
+}
+.blog-text.test-1 {
+    font-size: x-large;
+}
+.blog-text.test-2 {
+    font-size: x-large;
+}
+.blog-text.test-3 {
+    font-size: x-large;
+}
+
+.blog-text > .emoji {
+    font-size: medium;
+}

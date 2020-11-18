@@ -26,8 +26,8 @@ const komunikacija = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-komunikacija-12.png" alt="" />
         <div className="vil-description">
-          Prava komunikacija pomeni umetnost stika, zmožnost odprtosti in povezovanja z vsemi in vsem: s samim seboj in svojim resničnim bistvom, z drugimi bitji, s svetom in okoljem okoli nas in z oddaljenimi vzporednimi razsežnostmi, v katere vstopamo skozi skrivnostne prehode.
-      </div>
+          Komunikacija
+        </div>
       </div>
     </div>
   </Layout>

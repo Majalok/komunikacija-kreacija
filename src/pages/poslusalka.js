@@ -18,11 +18,10 @@ const Poslusalka = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-uspeh-131.png" alt="" />
         <div className="vil-description">
-          Tir Kairi nam pomaga usvojiti novo pojmovanje uspešnosti in nas premakne v krog zmagovalcev. Pred nami se odprejo nove, neslutene priložnosti, mi pa z magnetno privlačnostjo pritegnemo energijo uspeha v svoje življenje.      </div>
+          Uspeh
+        </div>
       </div>
     </div>
-
-
   </Layout>
 )
 

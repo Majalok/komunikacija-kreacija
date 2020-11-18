@@ -20,7 +20,8 @@ const KomunikacijaPrijatelji = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-komunikacija-1.png" alt="" />
         <div className="vil-description">
-          Ta simbol uporabljamo kadar, kadar želimo sprožiti začetek nečesa novega, svežega, drugačnega. To je lahko začetek ljubezenske zveze, rojstvo otroka, nova služba, nov način življenja ali poslovni projekt.      </div>
+          Nov začetek
+        </div>
       </div>
     </div>
   </Layout>

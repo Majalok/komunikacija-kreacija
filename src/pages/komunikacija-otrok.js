@@ -24,8 +24,8 @@ const KomunikacijaOtrok = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
         <div className="vil-description">
-          Gre za izjemno močan simbol, ki okrog njegovega uporabnika naredi energijski ščit, tako da v notranjost lahko prodreta le ljubezen in luč, pozitivna energija iz zunanjega sveta.
-      </div>
+          Varnost in zaščita
+        </div>
       </div>
     </div>
   </Layout>

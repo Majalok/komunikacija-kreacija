@@ -24,7 +24,8 @@ const KomunikacijaSluzba = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-odprtost-12.png" alt="" />
         <div className="vil-description">
-          Samo takrat, ko smo odprti in pretočni, se nam lahko dodajajo čudeži in spremembe.      </div>
+          Odprtost
+        </div>
       </div>
     </div>
   </Layout>

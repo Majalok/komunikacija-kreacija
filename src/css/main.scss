@@ -88,7 +88,7 @@ body {
     align-items: center;
     padding: 20px;
     font-family: "Bellota Text";
-    background-color: #fffcda;
+    background-color: #fefdec;
     /* opacity: 0.93; */
     box-shadow: 2px 9px 17px #d2c7ac;
     /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
@@ -333,9 +333,8 @@ body {
 }
 
 .vil-description {
-    font-size: small;
-    width: 30%;
-    font-style: italic;
+    font-size: medium;
+    /* width: 30%; */
 }
 
 .blog-title.pisava-special {
@@ -346,7 +345,7 @@ body {
 .blog-title.pisava-special.black {
     font-family: Special Elite !important;
     font-style: normal !important;
-    color: black;
+    color: black !important;
 }
 
 .blog-text.pisava-21.italic {
@@ -809,7 +808,7 @@ li {
     /** varianta 2 */
     background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
     /** varianta 4*/
-    background: linear-gradient(to bottom, #fdb154, #fff39c, #fdf3a8, #ffbf70);
+    background: linear-gradient(to bottom, #ffbf70, #fff39c, #fdf3a8, #ffbf70);
 }
 
 .quote-text {
@@ -1256,9 +1255,6 @@ a.header-title-link:hover {
     .gallery-content {
         column-count: 3;
     }
-    .vil-description {
-        width: 70%;
-    }
 
     .header {
         background-position-y: unset !important;
@@ -1291,7 +1287,8 @@ a.header-title-link:hover {
     }
 
     .vil-description {
-        width: 70%;
+        text-align: center;
+        width: 100%;
     }
 
     .blog-title {
@@ -1356,9 +1353,6 @@ a.header-title-link:hover {
         width: auto;
         text-align: left;
         font-size: large;
-    }
-    .vil-description {
-        text-align: left;
     }
 
     .blog-content > .blog-item {
