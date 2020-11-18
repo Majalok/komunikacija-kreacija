@@ -1256,6 +1256,13 @@ a.header-title-link:hover {
     .gallery-content {
         column-count: 3;
     }
+    .vil-description {
+        width: 70%;
+    }
+
+    .header {
+        background-position-y: unset !important;
+    }
 }
 @media only screen and (max-width: 1024px) and (min-width: 200px) and (orientation: landscape) {
     .zahvala {
@@ -1274,6 +1281,17 @@ a.header-title-link:hover {
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .page-title-link {
         font-size: 3rem;
+    }
+    .header {
+        background-position-y: unset !important;
+    }
+
+    .kom-img-desc {
+        flex-direction: column;
+    }
+
+    .vil-description {
+        width: 70%;
     }
 
     .blog-title {

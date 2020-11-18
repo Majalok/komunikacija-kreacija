@@ -20,8 +20,7 @@ const KomunikacijaPrijatelji = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-komunikacija-1.png" alt="" />
         <div className="vil-description">
-          Gre za izjemno močan simbol, ki okrog njegovega uporabnika naredi energijski ščit, tako da v notranjost lahko prodreta le ljubezen in luč, pozitivna energija iz zunanjega sveta.
-      </div>
+          Ta simbol uporabljamo kadar, kadar želimo sprožiti začetek nečesa novega, svežega, drugačnega. To je lahko začetek ljubezenske zveze, rojstvo otroka, nova služba, nov način življenja ali poslovni projekt.      </div>
       </div>
     </div>
   </Layout>

@@ -234,7 +234,9 @@ a:hover {
 
         .main-menu-links.toggleMenu > div > .main-menu-link.submenu {
             font-size: small;
-            border-bottom: 1px solid white;
+            /*             border-bottom: 1px solid rgb(255, 145, 0);
+ */
+            color: #350028;
         }
 
         .burger-menu-icon {
@@ -264,7 +266,7 @@ a:hover {
 
         .main-menu-links.toggleMenu > div > .main-menu-link {
             font-size: medium;
-            height: 55px;
+            height: 50px;
         }
 
         .main-menu-links {

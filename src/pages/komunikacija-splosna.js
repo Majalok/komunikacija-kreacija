@@ -20,8 +20,7 @@ const KomunikacijaSplosna = () => (
       <div className="kom-img-desc">
         <img className="kom-item-img" src="../assets/vil-novZacetek-12.png" alt="" />
         <div className="vil-description">
-          Samo takrat, ko smo odprti in pretočni, se nam lahko dodajajo čudeži in spremembe.
-      </div>
+          Ta simbol uporabljamo kadar, kadar želimo sprožiti začetek nečesa novega, svežega, drugačnega. To je lahko začetek ljubezenske zveze, rojstvo otroka, nova služba, nov način življenja ali poslovni projekt.      </div>
       </div>
     </div>
   </Layout>
