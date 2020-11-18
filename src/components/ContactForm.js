@@ -35,21 +35,21 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <div className="App">
-                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <div className="contact-form-div">
+                <form id="contact-form" className="form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                     <div className="form-group">
-                        <label htmlFor="name">Ime</label>
+                        <label className="form-label" htmlFor="name">Ime</label>
                         <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="exampleInputEmail1">Email naslov</label>
+                        <label className="form-label" htmlFor="exampleInputEmail1">Email naslov</label>
                         <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Sporočilo</label>
+                        <label className="form-label" htmlFor="message">Sporočilo</label>
                         <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                     </div>
-                    <button type="submit" className="btn btn-primary">Pošlji sporočilo</button>
+                    <button type="submit" className="send-msg-btn">Pošlji sporočilo</button>
                 </form>
             </div>
         );

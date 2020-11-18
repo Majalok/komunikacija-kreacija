@@ -1,49 +1,48 @@
-.blog-content {
-    font-family: Arima Madurai;
-    margin-top: 60px;
-    margin-bottom: 100px;
+.form {
+    color: black;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
-.blog-item {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    padding: 30px 40px;
-    font-size: xx-large;
-    border-image-slice: 15 15 15 15 !important;
-    border-image-width: 10px 10px 10px 10px !important;
-    border-image-outset: 0px 0px 0px 0px !important;
-    border-image-repeat: round round !important;
-    /*  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg"); */
+.form-label {
+    display: block;
+    margin-bottom: 1%;
 }
 
-.blog-title {
-    font-size: x-large;
-    margin-bottom: 20px;
-    text-shadow: 1px -3px 6px #bfbfbe;
-    border-bottom: 1px solid #7c7c7c;
-    color: rgb(46, 46, 46);
+.form-group {
+    margin-bottom: 3%;
 }
 
-.blog-text {
-    font-size: large;
-    font-family: charm;
-    font-style: normal;
+.form-control {
+    width: 300px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #999998;
 }
 
-.blog-text.test-3 {
-    font-style: italic;
-    font-size: x-large;
-}
-.blog-text.test-1 {
-    font-size: x-large;
-}
-.blog-text.test-2 {
-    font-size: x-large;
-}
-.blog-text.test-3 {
-    font-size: x-large;
+input.form-control {
+    height: 30px;
 }
 
-.blog-text > .emoji {
-    font-size: medium;
+textarea.form-control {
+    height: 150px;
+}
+
+.send-msg-btn {
+    display: block;
+    background-color: #ecf75a;
+    color: #000;
+    width: 32%;
+    padding: 6px 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: inset 0px -1px 9px 0px #fafc80;
+    transition: all 0.15s ease-in-out;
+    background: radial-gradient(#fffde4, #f9ff9f);
+    padding: 10px 8px;
+    border: 1px solid #f0a157;
+    /* border: 1px solid #b3b3b3; */
+    color: rgb(82, 82, 82);
 }
