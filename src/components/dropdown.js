@@ -6,7 +6,7 @@ const options = ["2020", "2019", "2018", "2017"]
 
 class DropdownMenu extends Component {
   constructor(props) {
-    super(props)
+    super()
     this.state = {
       selected: "",
     }

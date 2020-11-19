@@ -5,7 +5,7 @@ import "../lib/bootstrap.min.css"
 
 const Navigation = class extends React.Component {
   constructor(props) {
-    super(props)
+    super()
     this.state = {
       active: false,
       navBarActiveClass: "",

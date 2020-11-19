@@ -5,7 +5,7 @@ import axios from 'axios';
 class ContactForm extends Component {
 
     constructor(props) {
-        super(props);
+        super();
         this.state = {
             name: '',
             email: '',

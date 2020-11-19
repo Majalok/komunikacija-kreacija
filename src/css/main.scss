@@ -1281,6 +1281,9 @@ a.header-title-link:hover {
     .header {
         background-position-y: unset !important;
     }
+    .header-image {
+        margin-left: 0px;
+    }
 
     .kom-img-desc {
         flex-direction: column;
@@ -1330,6 +1333,7 @@ a.header-title-link:hover {
     }
     .o-meni-quote > .quote-text {
         line-height: unset;
+        padding: 0px 13px;
     }
 
     .motivation-quote-1 {
