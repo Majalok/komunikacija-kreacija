@@ -11,7 +11,7 @@ let nextIndex = state =>
 
 export default class ImageContainer extends Component {
   constructor(props) {
-    super()
+    super(props)
 
     this.state = {
       index: 0,
