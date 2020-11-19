@@ -22,7 +22,7 @@ const KomunikacijaSluzba = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/vil-odprtost-12.png" alt="" />
+        <img className="kom-item-img sluzba" src="../assets/vil-odprtost-12.png" alt="" />
         <div className="vil-description">
           Odprtost
         </div>

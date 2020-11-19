@@ -18,7 +18,7 @@ const KomunikacijaSplosna = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/vil-novZacetek-12.png" alt="" />
+        <img className="kom-item-img splosna" src="../assets/vil-novZacetek-12.png" alt="" />
         <div className="vil-description">
           Nov začetek
           </div>

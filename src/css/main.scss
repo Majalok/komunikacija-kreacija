@@ -72,7 +72,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .main-content {
@@ -111,6 +111,18 @@ body {
 
 .kom-item-img {
     margin-top: 5%;
+}
+
+.kom-item-img.partner {
+    margin-top: 7%;
+}
+
+.kom-item-img.sluzba {
+    margin-top: 7%;
+}
+
+.kom-item-img.splosna {
+    margin-top: 7%;
 }
 
 .quote-text.test-1 {
@@ -332,6 +344,14 @@ body {
     color: #4c4c4c;
 }
 
+.blog-text.pisava-special.brown {
+    color: #6b4200;
+}
+
+.blog-title.pisava-special.brown {
+    color: #6b4200;
+}
+
 .vil-description {
     font-size: medium;
     /* width: 30%; */
@@ -371,7 +391,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5% auto 1% auto;
+    margin: 11% auto 1% auto;
     max-width: 1800px;
     /* width: 80%; */
     font-family: Bellota Text;
@@ -646,7 +666,7 @@ body {
     background-position-x: center;
     background-position-y: center;
     background-size: contain;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .zahvala-1 {
