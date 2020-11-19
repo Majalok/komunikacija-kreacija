@@ -30,9 +30,10 @@ $yellow-bck: #faf46d;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: linear-gradient(#f4f391, #f4f391);
-    background: linear-gradient(to bottom, #f4f391, #f4f391, #f4f391);
+    /*  background: linear-gradient(#f4f391, #f4f391);
+    background: linear-gradient(to bottom, #f4f391, #f4f391, #f4f391); */
     color: #740b0b;
+    background-color: #fff394;
     /*  border-top: 0.5px solid #85a4ae;
     border-bottom: 0.5px solid #85a4ae; */
 }
@@ -131,7 +132,8 @@ a:hover {
     height: 300px;
     /*ToDo*/
     position: absolute;
-    top: 435px;
+    /*  top: 435px; */
+    top: 510px;
     width: 100%;
 }
 
@@ -198,6 +200,7 @@ a:hover {
     .main-menu-top {
         height: 80px;
         opacity: 1;
+        margin-top: -75px;
     }
 
     .box-container,
@@ -214,7 +217,7 @@ a:hover {
     }
 
     .burger-menu-icon {
-        margin-top: 87px;
+        /* margin-top: 87px; */
     }
 }
 
@@ -242,7 +245,7 @@ a:hover {
             display: flex;
             align-items: center;
             justify-content: center;
-            top: 0px;
+            margin-top: -10px;
             left: 2px;
             position: absolute;
             height: 22px;
@@ -281,6 +284,7 @@ a:hover {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
     .main-menu-top {
         height: 30px;
+        margin-top: 70px;
     }
 
     .burger-menu-icon {
@@ -311,7 +315,8 @@ a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 10px;
+        /*  top: 10px; */
+        margin-top: -20px;
         left: 10px;
         position: absolute;
         height: 30px;
@@ -348,12 +353,12 @@ a:hover {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 640px) and (orientation: landscape) {
     .main-menu-top {
-        height: 30px;
+        height: 35px;
     }
 
     .burger-menu-icon {
-        top: -3px;
+        /*   top: -3px;
+        top: -73px; */
         left: 0px;
-        height: 16px;
     }
 }

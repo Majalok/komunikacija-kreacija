@@ -481,8 +481,8 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-top: 4%;
-    background-color: #fdf6d0;
-    /*     box-shadow: 3px 4px 17px 6px #efdac3;
+    /*     background-color: #fdf6d0;
+ */ /*     box-shadow: 3px 4px 17px 6px #efdac3;
  */
     font-size: larger;
 }
@@ -804,11 +804,13 @@ li {
     flex-wrap: wrap;
     min-height: 1200px;
     /** varianta 1 */
-    background: linear-gradient(to bottom, #f4f391, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
-    /** varianta 2 */
-    background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
-    /** varianta 4*/
-    background: linear-gradient(to bottom, #ffbf70, #fff39c, #fdf3a8, #ffbf70);
+    /*  background: linear-gradient(to bottom, #f4f391, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
+    */ /** varianta 2 */
+    /*   background: linear-gradient(to bottom, #f4f391, #f4db91, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
+   */ /** varianta 4*/
+    /*  background: linear-gradient(to bottom, #ffbf70, #fff39c, #fdf3a8, #ffbf70);
+ */
+    background: linear-gradient(to bottom, #fff8d4, antiquewhite);
 }
 
 .quote-text {
@@ -1278,11 +1280,17 @@ a.header-title-link:hover {
     .page-title-link {
         font-size: 3rem;
     }
+
+    .main-content {
+        padding: 4% 3%;
+    }
     .header {
         background-position-y: unset !important;
     }
     .header-image {
         margin-left: 0px;
+        width: 70%;
+        height: auto;
     }
 
     .kom-img-desc {
@@ -1307,14 +1315,16 @@ a.header-title-link:hover {
         padding: 0;
     }
 
-    .kom-sluzba-img {
-        width: 100%;
-        max-width: 250px;
+    .kom-item-img {
+        width: 80%;
     }
 
     @media screen and (orientation: landscape) {
         .blog-item > .blog-title {
             font-size: x-large;
+        }
+        .header-image {
+            width: 50%;
         }
     }
 
