@@ -4,9 +4,6 @@ import Layout from "../components/layout"
 
 const KomunikacijaSplosna = () => (
   <Layout>
-    <div className="komunikacija-partner-intro">
-
-    </div>
     <div className="komunikacija-content">
       <div className="komunikacija-title">Komunikacija s prijatelji, sošolci ali na sploh</div>
       <div className="komunikacija-item kom-img">
