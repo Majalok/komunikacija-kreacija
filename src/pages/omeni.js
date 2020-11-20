@@ -32,30 +32,33 @@ const OMeni = () => (
           </svg> */}
         </div>
         <div className="o-meni-content">
-          <div className="o-meni-text">
-            Naj se predstavim. Ime mi je Nataša in zelo rada čvekam. Pa ne kar tja v
+          <div className="o-meni-textdiv">
+            <div className="o-meni-text">
+              Naj se predstavim. Ime mi je Nataša in zelo rada čvekam. Pa ne kar tja v
           tri dni (no, občasno tudi) ampak obožujem poglobljene pogovore.{" "}
-          </div>{" "}
-          <div className="o-meni-text">
-            Pogovarjanje oziroma komunikacija mi je blizu. Nikoli tudi nisem imela
-            problema načeti pogovora s popolnim tujcem, če sem le »prebrala« skozi
+            </div>{" "}
+            <div className="o-meni-text">
+              Pogovarjanje oziroma komunikacija mi je blizu. Nikoli tudi nisem imela
+              problema načeti pogovora s popolnim tujcem, če sem le »prebrala« skozi
           njegovo telesno govorico, da »imam« zeleno luč«.{" "}
-          </div>{" "}
-          <div className="o-meni-text">
-            Imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
-            komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
-            tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
-            da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
-            se vse zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
-            imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
+            </div>{" "}
+            <div className="o-meni-text">
+              Imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
+              komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
+              tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
+              da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
+              se vse zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
+              imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
             ko so se besede kar vsule. In sem se lotila dela <span className="emoji">😉</span>  Saj veste, pogled
             iz drugega zornega kota in pa moja dva »senzorja« pa smo zadevo
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
-          </div>{" "}
-          <div className="o-meni-text">
-            Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postalo velik bavbav. Zato si želim pomagati, spremeniti stvari na bolje. Naj komunikacija postane lahkotna, ljubeča in razumevajoča.{" "}
-          </div>{" "}
-        </div>{" "}
+          </div>
+            <div className="o-meni-text">
+              Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postalo velik bavbav. Zato si želim pomagati, spremeniti stvari na bolje. Naj komunikacija postane lahkotna, ljubeča in razumevajoča.{" "}
+            </div>
+          </div>
+          <img src="../assets/natasa.png" className="profile-img" alt="Logo" width="400px" />
+        </div>
       </div>
 
       <div className="zahvale-section">

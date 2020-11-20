@@ -491,6 +491,12 @@ body {
     width: 60rem;
 }
 
+.profile-img {
+    border: 10px solid antiquewhite;
+    width: 30%;
+    max-width: 400px;
+}
+
 .o-meni-quote {
     font-family: "Merienda";
     width: 80%;
@@ -539,6 +545,17 @@ body {
     color: #210200;
     font-size: large;
     font-family: Bellota Text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.o-meni-textdiv {
+    width: 63%;
+    margin-right: 4%;
 }
 
 .predavanja-content {
