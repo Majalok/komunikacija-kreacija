@@ -8,8 +8,6 @@ import ContactForm from "../components/ContactForm"
 const Kontakt = () => (
   <Layout>
     <div className="kontakt-content">
-      <div className="kontakt-title">Kontakt: komunikacija-kreacija@gmail.com</div>
-
       <ContactForm />
     </div>
   </Layout>

@@ -2,12 +2,28 @@
     color: black;
     max-width: 600px;
     margin-left: 10%;
-    margin-top: 5%;
 }
 
 .form-label {
     display: block;
     margin-bottom: 1%;
+}
+
+.contact-form-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.contact-form {
+    width: 60%;
+}
+
+.contact-description {
+    margin-left: 5%;
 }
 
 .form-group {

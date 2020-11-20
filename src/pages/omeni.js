@@ -57,7 +57,7 @@ const OMeni = () => (
               Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postalo velik bavbav. Zato si želim pomagati, spremeniti stvari na bolje. Naj komunikacija postane lahkotna, ljubeča in razumevajoča.{" "}
             </div>
           </div>
-          <img src="../assets/natasa.png" className="profile-img" alt="Logo" width="400px" />
+          <img src="../assets/natasa.png" className="profile-img" alt="Logo" />
         </div>
       </div>
 

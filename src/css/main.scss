@@ -95,6 +95,10 @@ body {
  */
 }
 
+.kontakt-content {
+    color: black;
+}
+
 .bla {
     font-size: xx-large;
     margin: 100px 0px;
@@ -114,15 +118,15 @@ body {
 }
 
 .kom-item-img.partner {
-    margin-top: 7%;
+    margin-top: 9%;
 }
 
 .kom-item-img.sluzba {
-    margin-top: 7%;
+    margin-top: 9%;
 }
 
 .kom-item-img.splosna {
-    margin-top: 7%;
+    margin-top: 9%;
 }
 
 .quote-text.test-1 {
@@ -546,7 +550,7 @@ body {
     font-size: large;
     font-family: Bellota Text;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;

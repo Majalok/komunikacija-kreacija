@@ -51,6 +51,14 @@ class ContactForm extends Component {
                     </div>
                     <button type="submit" className="send-msg-btn">Pošlji sporočilo</button>
                 </form>
+                <div className="contact-description">
+                    <div className="contact-text">
+                        Nataša Muc
+                    </div>
+                    <div className="contact-text">
+                        info@komunikacija-kreacija.si
+                    </div>
+                </div>
             </div>
         );
     }
