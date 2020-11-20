@@ -1,12 +1,20 @@
 .form {
-    color: black;
+    color: #482d03;
     max-width: 600px;
     margin-left: 10%;
+    /* background-color: #fffeec;
+    padding: 20px 30px;
+    box-shadow: 5px -2px 19px 0px #d6d6d6;
+ */
 }
 
 .form-label {
     display: block;
     margin-bottom: 1%;
+}
+
+.contact-text {
+    margin-bottom: 30px;
 }
 
 .contact-form-div {
@@ -23,7 +31,11 @@
 }
 
 .contact-description {
+    width: 20%;
     margin-left: 5%;
+    padding: 40px 50px;
+    background-color: #fbf8d9;
+    box-shadow: 5px -2px 19px 0px #d6d6d6;
 }
 
 .form-group {

@@ -42,6 +42,10 @@ class ContactForm extends Component {
                         <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                     </div>
                     <div className="form-group">
+                        <label className="form-label" htmlFor="surname">Priimek</label>
+                        <input type="text" className="form-control" id="surname" value={this.state.surname} onChange={this.onSurnameChange.bind(this)} />
+                    </div>
+                    <div className="form-group">
                         <label className="form-label" htmlFor="exampleInputEmail1">Email naslov</label>
                         <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                     </div>
@@ -64,6 +68,9 @@ class ContactForm extends Component {
     }
 
     onNameChange(event) {
+        this.setState({ name: event.target.value })
+    }
+    onSurnameChange(event) {
         this.setState({ name: event.target.value })
     }
 
