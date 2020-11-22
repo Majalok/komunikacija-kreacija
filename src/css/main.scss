@@ -1382,18 +1382,33 @@ a.header-title-link:hover {
     }
 
     .o-meni-quote {
-        width: auto;
+        width: 90%;
         padding-left: 0;
         padding-right: 0;
     }
+
+    .quote-logo > img {
+        width: 30px;
+    }
+
+    .o-meni-textdiv {
+        margin-top: 2%;
+        width: 85%;
+    }
     .o-meni-quote > .quote-text {
         line-height: unset;
-        padding: 0px 13px;
+        padding: 5px 17px;
     }
 
     .motivation-quote-1 {
         font-size: large;
-        width: auto;
+        width: 88%;
+    }
+
+    .profile-img {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 60%;
     }
 
     .o-meni-content {

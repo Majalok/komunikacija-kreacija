@@ -1,5 +1,4 @@
 .form {
-    color: #482d03;
     max-width: 600px;
     margin-left: 10%;
     /* background-color: #fffeec;
@@ -61,16 +60,20 @@ textarea.form-control {
     display: block;
     background-color: #ecf75a;
     color: #000;
-    width: 32%;
-    padding: 6px 3px;
+    width: 37%;
+    padding: 6px 6px;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: inset 0px -1px 9px 0px #fafc80;
+    box-shadow: 0px -1px 9px 0px #f9ba80;
     transition: all 0.15s ease-in-out;
-    background: radial-gradient(#fffde4, #f9ff9f);
+    background: radial-gradient(#f8f5c3, #ffeb9f);
     padding: 10px 8px;
-    border: 1px solid #f0a157;
-    /* border: 1px solid #b3b3b3; */
-    color: rgb(82, 82, 82);
+    border: #eca72d 1px solid;
+    color: rgb(59, 59, 59);
+    &:hover {
+        box-shadow: 0 0 5px 0 #ffbe73 inset, 0 0 1px 1px #fdff6b;
+        /*  font-weight: bold; */
+        background: radial-gradient(#fffaa2, #fff494);
+    }
 }
