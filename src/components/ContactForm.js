@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import axios from 'axios';
+import ReCAPTCHA from 'react-google-recaptcha'
 
 
 class ContactForm extends Component {
@@ -53,6 +54,16 @@ class ContactForm extends Component {
                     <div className="form-group">
                         <label className="form-label" htmlFor="message">Sporočilo</label>
                         <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                    </div>
+                    <br />
+                    <div className="recaptcha">
+                        <ReCAPTCHA
+                            ref={(el) => { this.recaptcha = el; }}
+                            sitekey="6LcLxssZAAAAADaG4O-rdUq2FyvDQmDCTtEHoUZ-"
+                            onChange={this.handleCaptchaResponseChange}
+                        />
+                        <br />
+                        <br />
                     </div>
                     <button type="submit" className="send-msg-btn">Pošlji sporočilo</button>
                 </form>
