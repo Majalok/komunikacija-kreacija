@@ -17,6 +17,8 @@ function SEO({ description, lang, meta, title }) {
         site {
           siteMetadata {
             title
+            description
+            
           }
         }
       }
@@ -71,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `sl`,
   meta: [],
   description: ``,
 }

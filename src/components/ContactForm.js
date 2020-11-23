@@ -8,6 +8,7 @@ class ContactForm extends Component {
         super();
         this.state = {
             name: '',
+            surName: '',
             email: '',
             message: ''
         }
@@ -30,7 +31,7 @@ class ContactForm extends Component {
     }
 
     resetForm() {
-        this.setState({ name: '', email: '', message: '' })
+        this.setState({ name: '', surName: '', email: '', message: '' })
     }
 
     render() {
@@ -71,7 +72,7 @@ class ContactForm extends Component {
         this.setState({ name: event.target.value })
     }
     onSurnameChange(event) {
-        this.setState({ name: event.target.value })
+        this.setState({ surName: event.target.value })
     }
 
     onEmailChange(event) {

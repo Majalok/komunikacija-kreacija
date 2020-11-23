@@ -1,14 +1,8 @@
 import React from "react"
-
 import Layout from "../components/layout"
 
 const KomunikacijaSluzba = () => (
   <Layout>
-    {/*  <div className="komunikacija-intro">
-      Občutek imaš, da ti v življenju nič ( ali skoraj nič) ne »laufa«. Poglejva
-      kako »stoji« osebna komunikacija 
-    </div> */}
-
     <div className="komunikacija-content">
       <div className="komunikacija-title">Komunikacija na delovnem mestu - nadrejenimi in sodelavci</div>
       <div className="komunikacija-item kom-img">

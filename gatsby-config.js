@@ -3,6 +3,8 @@ module.exports = {
     title: "Komunikacija je kreacija",
     subtitle:
       "by Nataša Muc",
+    description: " opis Komunikacija je kreacija",
+    url: "www.komunikacija-kreacija.si",
     author: "Maja L",
   },
   plugins: [

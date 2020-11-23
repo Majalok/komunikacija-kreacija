@@ -1,10 +1,6 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-import { FaCalendarAlt } from "react-icons/fa"
-import DropdownMenu from "../components/dropdown"
-import Img from "gatsby-image"
+/* import { FaCalendarAlt } from "react-icons/fa" */
 import Layout from "../components/layout"
-import SplosnaKomunikacija from "./komunikacija-splosna"
 
 class Blog extends Component {
 
