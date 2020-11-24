@@ -1,8 +1,10 @@
-require("./src/css/Navigation.scss")
+require("./src/css/header.scss")
 require("./src/css/mainMenu.scss")
 require("./src/css/main.scss")
 require("./src/css/blog.scss")
+require("./src/css/omeni.scss")
 require("./src/css/gallery.scss")
+require("./src/css/komunikacija.scss")
 require("./src/css/contactForm.scss")
 
 // in gastby-browser.js

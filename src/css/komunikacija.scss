@@ -1,0 +1,69 @@
+.komunikacija-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 11% auto 1% auto;
+    max-width: 1800px;
+    /* width: 80%; */
+    font-family: Bellota Text;
+    font-size: x-large;
+    color: #220202;
+    text-align: justify;
+}
+
+.komunikacija-intro {
+    margin-top: 2%;
+    padding: 0px 3%;
+}
+
+.komunikacija-item {
+    padding: 2%;
+    /*     border: 1px solid #f9d9d9;
+    border-top: 25px solid #e9c9f2; */
+    max-width: 1900px;
+    border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.kom-img {
+    justify-content: center;
+}
+
+.komunikacija-item.kom-sluzimgba > .komunikacija-text {
+    margin-bottom: 4%;
+}
+
+.komunikacija-text {
+    width: 68%;
+    font-size: large;
+    margin-right: 2%;
+}
+
+.komunikacija-content-bottom {
+    margin-top: 10%;
+    padding: 0px 3%;
+    font-family: Arima Madurai;
+    font-size: large;
+    margin: 10% auto 0%;
+    width: 80%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #78070b;
+    /*  font-family: Great Vibes; */
+    font-style: italic;
+}
+
+.komunikacija-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    width: 60rem;
+    text-align: center;
+}

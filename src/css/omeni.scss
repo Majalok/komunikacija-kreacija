@@ -1,0 +1,185 @@
+.o-meni-quote {
+    font-family: "Merienda";
+    width: 80%;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    box-shadow: 4px 1px 14px 4px #f1e1ca;
+    /*     background-color: #fdf6d0;
+ */ /*     box-shadow: 3px 4px 17px 6px #efdac3;
+ */
+    font-size: larger;
+}
+
+/* .povezave-right {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 5px;
+} */
+
+.o-meni-content {
+    width: 80%;
+    margin: 5% auto 10%;
+    /* font-style: italic; */
+    color: #210200;
+    font-size: large;
+    font-family: Bellota Text;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.o-meni-textdiv {
+    width: 63%;
+    margin-right: 4%;
+}
+/* svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+} */
+.box-container {
+    /* position: relative; */
+    width: 100%;
+    /* padding-bottom: 10%; */
+    vertical-align: middle;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 8888888;
+    margin-top: -2px;
+}
+/**  zaenkrat skrijemo svg**/
+.box-container > svg {
+    height: 0;
+}
+
+.zahvala {
+    width: 28%;
+    margin-bottom: 3%;
+    padding: 4% 4%;
+    background-color: #fbfdb3;
+    box-shadow: 5px 5px 15px 5px #fce5d1;
+    /* color: #633106; */
+    color: rgb(0, 0, 0);
+    margin: 0 20px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.o-meni-text {
+    font-family: Bellota Text;
+}
+
+/*.o-meni-quote::before{
+  display: block;
+   background: url("/assets/icon/quote-left.png");
+
+}*/
+
+.zahvale-section {
+    width: 80%;
+    margin: 6% auto;
+    font-family: "Handlee";
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+}
+
+.quote-text {
+    line-height: 60px;
+    font-family: Italianno;
+    font-size: xx-large;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #6b4200;
+    /* font-family: Great Vibes; */
+    text-shadow: 8px 0px 8px #aba49e;
+    transition: height 8s linear;
+}
+
+.quote-logo > img {
+    width: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+    opacity: 0.7;
+    z-index: 999;
+}
+
+.profile-img {
+    border: 10px solid antiquewhite;
+    width: 30%;
+    max-width: 400px;
+}
+
+.zahvala-1 {
+    transform: rotateZ(2deg);
+    background-color: #fdf2cf;
+}
+
+.zahvala-2 {
+    transform: (-2deg);
+    background-color: #fdfece;
+}
+
+.zahvala-3 {
+    transform: rotateZ(-2deg);
+    background-color: #f2ffd3;
+}
+
+.zahvala-4 {
+    transform: rotateZ(1deg);
+    background-color: #fff7e0;
+}
+.zahvala-5 {
+    transform: rotateZ(1deg);
+    background-color: #faf4d9;
+}
+.zahvala-6 {
+    transform: rotateZ(-2deg);
+    background-color: #fcfecb;
+}
+.zahvala-7 {
+    transform: rotateZ(1deg);
+    background-color: #fcf7d7;
+}
+.zahvala-8 {
+    transform: rotateZ(4deg);
+    background-color: #f4f9e6;
+}
+.zahvala-9 {
+    transform: rotateZ(-1deg);
+    background-color: #fdf5c7;
+}
+.zahvala-10 {
+    transform: rotateZ(2deg);
+    background-color: #fff7e0;
+}
+
+.zahvala-name {
+    font-family: Happy Monkey;
+    margin-top: 10px;
+}

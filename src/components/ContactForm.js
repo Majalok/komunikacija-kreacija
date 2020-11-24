@@ -9,7 +9,6 @@ class ContactForm extends Component {
         super();
         this.state = {
             name: '',
-            surName: '',
             email: '',
             message: ''
         }
@@ -32,7 +31,7 @@ class ContactForm extends Component {
     }
 
     resetForm() {
-        this.setState({ name: '', surName: '', email: '', message: '' })
+        this.setState({ name: '', email: '', message: '' })
     }
 
     render() {
@@ -40,12 +39,8 @@ class ContactForm extends Component {
             <div className="contact-form-div">
                 <form id="contact-form" className="form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                     <div className="form-group">
-                        <label className="form-label" htmlFor="name">Ime</label>
+                        <label className="form-label" htmlFor="name">Ime in priimek</label>
                         <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                    </div>
-                    <div className="form-group">
-                        <label className="form-label" htmlFor="surname">Priimek</label>
-                        <input type="text" className="form-control" id="surname" value={this.state.surname} onChange={this.onSurnameChange.bind(this)} />
                     </div>
                     <div className="form-group">
                         <label className="form-label" htmlFor="exampleInputEmail1">Email naslov</label>
@@ -81,9 +76,6 @@ class ContactForm extends Component {
 
     onNameChange(event) {
         this.setState({ name: event.target.value })
-    }
-    onSurnameChange(event) {
-        this.setState({ surName: event.target.value })
     }
 
     onEmailChange(event) {
