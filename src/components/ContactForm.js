@@ -63,6 +63,7 @@ class ContactForm extends Component {
                     <button type="submit" className="send-msg-btn">Pošlji sporočilo</button>
                 </form>
                 <div className="contact-description">
+                    <img className="contact-img" src="../icons/kom-kr-logo-2.png" alt="" />
                     <div className="contact-text">
                         Nataša Muc
                     </div>

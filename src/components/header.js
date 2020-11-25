@@ -4,11 +4,11 @@ import React from "react"
 
 const Header = ({ siteTitle, subtitle, description }) => (
   <header style={{
-    backgroundImage: `url(../assets/13.jpg)`,
-    backgroundSize: 'cover',
+    backgroundImage: `url(../assets/13-1.jpg)`,
+    backgroundSize: '100%',
     backgroundRepeat: 'no-repeat',
     height: '100 %',
-    backgroundPositionY: '-90px'
+    /*  backgroundPositionY: '-90px' */
     /*  backgroundPositionY: '-130px' */
   }} className="header" >
     {/* <div className="box-container-1" style={{
@@ -35,6 +35,22 @@ const Header = ({ siteTitle, subtitle, description }) => (
       <div className="header-image-div">
         <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" />
       </div>
+    </div>
+    <div className="header-icons">
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../icons/fb2.png" width="25px" alt="" />
+      </a>
+      <a
+        href="https://www.instagram.com/natasamuc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../icons/inst2.png" alt="" />
+      </a>
     </div>
     {/*  <div className="header-main-div">
       <div className="header-image-div">

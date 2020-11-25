@@ -79,6 +79,14 @@
     padding: 0 20px;
 }
 
+.header-icons {
+    flex-grow: 1;
+    padding-top: 10px;
+}
+.header-icons > a {
+    margin: 5px;
+}
+
 .page-title-link {
     color: #fbf67e;
     font-size: 3.2em;
@@ -103,4 +111,32 @@ a.header-title-link:hover {
     text-decoration: none;
     color: #ffea83;
     padding: 10px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .header {
+        background-position-y: unset !important;
+        background-size: cover !important;
+    }
+    .header-image {
+        margin-left: 0px;
+        width: 30%;
+        height: auto;
+    }
+
+    .header-main-div {
+        padding: 0;
+        flex-direction: column;
+    }
+    .header-icons {
+        align-self: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .header {
+        background-size: cover !important;
+    }
+    .header-image {
+        width: 200px;
+    }
 }

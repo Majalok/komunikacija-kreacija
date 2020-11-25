@@ -11,8 +11,8 @@ const OMeni = () => (
             <img src="../icons/quote-left.png" alt="Logo" />
           </span>
           <p className="quote-text">
-            {' '}Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
-          da z njimi tako tudi ravnamo.{'    '}
+            {' '}"Odnosi so najdragocenejša lastnina v naših življenjih in si zaslužijo,
+          da z njimi tako tudi ravnamo."{'    '}
             <span className="author">(dr.Nate Booth)</span>
 
             <span className="quote-logo">
