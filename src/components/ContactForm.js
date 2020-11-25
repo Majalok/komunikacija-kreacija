@@ -64,11 +64,13 @@ class ContactForm extends Component {
                 </form>
                 <div className="contact-description">
                     <img className="contact-img" src="../icons/kom-kr-logo-2.png" alt="" />
-                    <div className="contact-text">
-                        Nataša Muc
+                    <div>
+                        <div className="contact-text">
+                            Nataša Muc
                     </div>
-                    <div className="contact-text">
-                        info@komunikacija-kreacija.si
+                        <div className="contact-text">
+                            info@komunikacija-kreacija.si
+                    </div>
                     </div>
                 </div>
             </div>

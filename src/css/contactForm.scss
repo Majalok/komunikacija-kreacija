@@ -104,13 +104,24 @@ textarea.form-control {
 
         .contact-description {
             margin-top: 10%;
-            padding: 7%;
-            width: 75%;
+            width: 50%;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contact-img {
+            width: 100%;
         }
 
         .form {
             margin: 0 auto;
             margin-top: 10%;
+            margin-left: 13%;
+        }
+        .contact-text {
+            margin: 5% auto;
         }
     }
 
