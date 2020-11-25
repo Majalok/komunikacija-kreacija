@@ -376,10 +376,6 @@ a.povezava-item > img {
         width: auto;
     }
 
-    .header-icons {
-        align-self: center;
-    }
-
     .povezave-content {
         width: 100%;
     }
@@ -469,6 +465,9 @@ a.povezava-item > img {
     .header {
         background-position-y: unset !important;
     }
+    .o-meni-textdiv {
+        width: 80%;
+    }
 }
 @media only screen and (max-width: 1024px) and (min-width: 200px) and (orientation: landscape) {
     .zahvala {
@@ -517,9 +516,6 @@ a.povezava-item > img {
     @media screen and (orientation: landscape) {
         .blog-item > .blog-title {
             font-size: x-large;
-        }
-        .header-image {
-            width: 50%;
         }
     }
 

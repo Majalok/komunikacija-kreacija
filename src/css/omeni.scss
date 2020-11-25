@@ -183,3 +183,88 @@
     font-family: Happy Monkey;
     margin-top: 10px;
 }
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .o-meni-textdiv {
+        width: 80%;
+        margin-bottom: 7%;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 200px) and (orientation: landscape) {
+    .zahvala {
+        width: 40%;
+    }
+
+    .motivation-quote-1 {
+        font-size: large;
+    }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .o-meni-quote {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quote-logo > img {
+        width: 30px;
+    }
+
+    .o-meni-textdiv {
+        margin-top: 2%;
+        width: 85%;
+    }
+    .o-meni-quote > .quote-text {
+        line-height: unset;
+        padding: 5px 17px;
+    }
+
+    .motivation-quote-1 {
+        font-size: large;
+        width: 88%;
+    }
+
+    .profile-img {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 60%;
+    }
+
+    .o-meni-content {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        width: auto;
+    }
+
+    .predavanja-content,
+    .delavnice-content,
+    .promocija-content,
+    .o-meni-content,
+    .blog-content,
+    .komunikacija-content {
+        margin-top: 5%;
+        width: 90%;
+        text-align: left;
+        font-size: large;
+    }
+
+    .zahvala {
+        width: 100%;
+    }
+
+    .zahvale-section {
+        width: auto;
+    }
+
+    .komunikacija-item {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .komunikacija-text {
+        width: auto;
+        margin-bottom: 4%;
+    }
+}

@@ -131,6 +131,14 @@ a.header-title-link:hover {
     .header-icons {
         align-self: center;
     }
+
+    @media screen and (orientation: landscape) {
+        .header-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
     .header {
@@ -138,5 +146,6 @@ a.header-title-link:hover {
     }
     .header-image {
         width: 200px;
+        height: auto;
     }
 }
