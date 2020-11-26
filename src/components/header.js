@@ -5,11 +5,11 @@ import React from "react"
 const Header = ({ siteTitle, subtitle, description }) => (
   <header style={{
     backgroundImage: `url(../assets/13-1.jpg)`,
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     height: '100 %',
-    /*  backgroundPositionY: '-90px' */
-    /*  backgroundPositionY: '-130px' */
+    backgroundPositionY: '-90px'
+    /*     backgroundPositionY: '-130px' */
   }} className="header" >
     {/* <div className="box-container-1" style={{
       backgroundImage: `url(../assets/wave4.png)`,
