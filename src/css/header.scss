@@ -52,9 +52,10 @@
     justify-content: center;
 }
 
-.header-icons {
+.contact-icons {
     flex-grow: 1;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-title-link {
     color: #fff2c3;
@@ -76,11 +77,7 @@
     padding: 0 20px;
 }
 
-.header-icons {
-    flex-grow: 1;
-    padding-top: 10px;
-}
-.header-icons > a {
+.contact-icons > a {
     margin: 5px;
 }
 
@@ -125,12 +122,12 @@ a.header-title-link:hover {
         padding: 0;
         flex-direction: column;
     }
-    .header-icons {
+    .contact-icons {
         align-self: center;
     }
 
     @media screen and (orientation: landscape) {
-        .header-icons {
+        .contact-icons {
             display: flex;
             align-items: center;
             justify-content: center;

@@ -360,9 +360,9 @@ class MainMenu extends React.Component {
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/blog/"
                                 onClick={this.setMenuItemSelected} ><span className="menu-title">Blog</span></Link>
-                            <Link id="12"
-                                key="12"
-                                ref="12"
+                            <Link id="13"
+                                key="13"
+                                ref="13"
                                 className={"main-menu-link " + (this.state.selectedMenuItem === 4 ? "selected" : '')}
                                 onMouseOver={this.hideMenuBoxPanel}
                                 to="/kontakt/"

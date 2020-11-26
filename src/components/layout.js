@@ -51,6 +51,7 @@ const Layout = ({ children }) => (
     border-image: url(border.png) 20% round; */}
         <div className="content-main-div" style={{
           backgroundImage: `url(../assets/paper4.jpg)`,
+          /*backgroundImage: `url(../assets/paper5.jpg)`, **/
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           height: '100 %'

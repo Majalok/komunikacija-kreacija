@@ -14,7 +14,7 @@ const Kontakt = () => (
           Naj <strong>strah</strong> ne bo naša <strong>ovira</strong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img">😉</span>
         </p>
       </div>
-      <ContactForm />
+      {/*  <ContactForm /> */}
     </div>
   </Layout>
 )
