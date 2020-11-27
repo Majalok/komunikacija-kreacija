@@ -98,11 +98,9 @@ $yellow-bck: #faf46d;
     display: flex;
     align-items: center;
     height: 80px;
+    cursor: pointer;
 }
-/* 
-.main-menu-link.vps {
-  display: none;
-} */
+
 .menu-title {
     transition: linear 0.4s;
     text-decoration: none;
