@@ -8,7 +8,8 @@ const Header = ({ siteTitle, subtitle, description }) => (
     /*  backgroundSize: 'cover', */
     backgroundRepeat: 'no-repeat',
     height: '100 %',
-    backgroundPositionY: '-50px'
+    backgroundPositionY: '-45px',
+    backgroundSize: '104% 141%'
     /*     backgroundPositionY: '-130px' */
   }} className="header" >
     {/* <div className="box-container-1" style={{
@@ -17,10 +18,10 @@ const Header = ({ siteTitle, subtitle, description }) => (
       backgroundRepeat: 'repeat-x',
       height: '70px'
     }}></div> */}
-    <div className="header-logo">
+    < div className="header-logo" >
       {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
        */}{" "}
-    </div>
+    </div >
     <div className="header-main-div">
       <span className="header-title">
         <h3>
