@@ -132,39 +132,6 @@ textarea {
     margin-top: 9%;
 }
 
-.quote-text.test-1 {
-    font-size: 24px;
-}
-
-.quote-text.test-2 {
-    font-size: 24px;
-}
-
-.quote-text.test-3 {
-    font-size: 24px;
-}
-
-.quote-text.test-4 {
-    font-size: 24px;
-}
-
-.test-1 {
-    font-family: PlayBall !important;
-}
-
-.test-2 {
-    font-family: Marck Script !important;
-}
-
-.test-3 {
-    font-family: Glass Antiqua !important;
-    font-style: italic;
-}
-
-.test-4 {
-    font-family: Lobster !important;
-}
-
 .aktualno-content {
     color: #220202;
     margin: 5% auto 1% auto;
@@ -343,6 +310,7 @@ a.povezava-item > img {
 .emoji {
     font-size: medium;
     font-style: normal;
+    text-shadow: none;
 }
 
 .motivation-quote-1 {
@@ -484,10 +452,6 @@ a.povezava-item > img {
 
 /* Masonry on small screens */
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-    .page-title-link {
-        font-size: 3rem;
-    }
-
     .main-content {
         padding: 4% 3%;
     }
@@ -540,10 +504,6 @@ a.povezava-item > img {
     .o-meni-textdiv {
         margin-top: 2%;
         width: 85%;
-    }
-    .o-meni-quote > .quote-text {
-        line-height: unset;
-        padding: 5px 17px;
     }
 
     .motivation-quote-1 {

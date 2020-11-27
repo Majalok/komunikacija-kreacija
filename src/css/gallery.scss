@@ -12,6 +12,7 @@ $gallery-image-background: #eeeeee;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .gallery-image-content {
@@ -27,6 +28,23 @@ $gallery-image-background: #eeeeee;
 .gallery-img {
     border: 10px solid #ffe5cd;
     /* mix-blend-mode: multiply; */
+}
+
+/* Zoom In #2 */
+.gallery-content img {
+    /*  height: auto;
+    width: 100px; */
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-in;
+}
+/* .gallery-content figure:hover img { */
+.gallery-img:hover {
+    /* transform: scale(1.001); */
+    opacity: 1;
+    filter: brightness(1.2);
+    border: 10px solid #ffb26a;
+    /*     z-index: 99999;
+ */ /*  width: 330px; */
 }
 
 .img-1.gallery-img {
@@ -57,7 +75,7 @@ $gallery-image-background: #eeeeee;
 }
 
 .img-7 {
-    transform: rotateZ(8deg);
+    transform: rotateZ(-4deg);
     max-width: 300px;
 }
 

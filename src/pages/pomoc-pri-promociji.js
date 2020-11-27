@@ -28,7 +28,7 @@ const PomocPriPromociji = () => (
 
       <div className="gallery-content">
 
-        <img className="gallery-img img-1" width="100px" src="../assets/1-p.jpg" alt="" />
+        <img className="gallery-img img-1" src="../assets/1-p.jpg" alt="" />
 
         <img className="gallery-img img-4" src="../assets/4-p.jpg" alt="" />
         <img className="gallery-img img-7" src="../assets/7-p.jpg" alt="" />

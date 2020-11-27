@@ -8,7 +8,7 @@ import ContactForm from "../components/ContactForm"
 const Kontakt = () => (
   <Layout>
     <div className="kontakt-content">
-      <div className="o-meni-quote motivation-quote-1 test-quote-1">
+      <div className="o-meni-quote">
 
         <p className="quote-text">
           Naj <strong>strah</strong> ne bo naša <strong>ovira</strong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img">😉</span>

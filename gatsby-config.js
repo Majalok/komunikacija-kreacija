@@ -3,7 +3,7 @@ module.exports = {
     title: "Komunikacija je kreacija",
     subtitle:
       "by Nataša Muc",
-    description: " opis Komunikacija je kreacija",
+    description: "Komunikacija, kreacija, pogovor, pogovarjati se, slišati, poslušanje, pomoč, svetovanje, sprememba, naučiti se, zdrav odnos, odnosi, partner, otrok, družba, služba, okolica, blog, delavnice, vilinski simboli, origami, ptica",
     url: "www.komunikacija-kreacija.si",
     author: "Maja L",
   },
