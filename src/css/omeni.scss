@@ -219,7 +219,7 @@
     }
     .o-meni-quote > .quote-text {
         line-height: unset;
-        padding: 5px 17px;
+        padding: 5px 6px;
     }
 
     .motivation-quote-1 {
@@ -263,8 +263,12 @@
         flex-direction: row;
         justify-content: center;
     }
-    .komunikacija-text {
-        width: auto;
+    div.komunikacija-text {
+        width: 90%;
         margin-bottom: 4%;
+        text-align: left;
+    }
+    .komunikacija-item {
+        padding: unset;
     }
 }

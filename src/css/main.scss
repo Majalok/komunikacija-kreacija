@@ -477,6 +477,15 @@ a.povezava-item > img {
         width: 80%;
     }
 
+    .aktualno-text {
+        margin: unset;
+        width: 90%;
+    }
+
+    .aktualno-content {
+        width: 90%;
+    }
+
     @media screen and (orientation: landscape) {
         .blog-item > .blog-title {
             font-size: x-large;

@@ -9,7 +9,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
     backgroundRepeat: 'no-repeat',
     height: '100 %',
     backgroundPositionY: '-45px',
-    backgroundSize: '104% 141%'
+    backgroundSize: '116% 141%'
     /*     backgroundPositionY: '-130px' */
   }} className="header" >
     {/* <div className="box-container-1" style={{
