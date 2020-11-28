@@ -60,7 +60,7 @@ class ContactForm extends Component {
                         <br />
                         <br />
                     </div>
-                    <button type="submit" className="send-msg-btn">Pošlji sporočilo</button>
+                    <button type="submit" className="send-msg-btn"><span class="btn__text">Pošlji sporočilo</span></button>
                 </form>
                 <div className="contact-description" /* style={{
                     backgroundImage: `url(../assets/paper3.jpg)`,

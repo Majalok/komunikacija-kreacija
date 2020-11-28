@@ -273,7 +273,7 @@ li {
    */ /** varianta 4*/
     /*  background: linear-gradient(to bottom, #ffbf70, #fff39c, #fdf3a8, #ffbf70);
  */
-    background: linear-gradient(to bottom, #fff8d4, antiquewhite);
+    background: linear-gradient(to bottom, antiquewhite, #fffff3, antiquewhite);
 }
 
 a.povezava-item > img {
@@ -519,13 +519,6 @@ a.povezava-item > img {
         font-size: large;
         width: 88%;
     }
-
-    .profile-img {
-        margin-top: 7%;
-        margin-bottom: 7%;
-        width: 60%;
-    }
-
     .o-meni-content {
         margin-top: 8%;
         margin-bottom: 5%;

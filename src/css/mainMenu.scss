@@ -14,7 +14,7 @@ $yellow-bck: #faf46d;
 
 .main-menu-panel {
     position: absolute;
-    margin-top: 566px;
+    margin-top: 555px;
     margin-left: -35px;
     opacity: 1;
     z-index: 99999;
@@ -33,7 +33,7 @@ $yellow-bck: #faf46d;
     /*  background: linear-gradient(#f4f391, #f4f391);
     background: linear-gradient(to bottom, #f4f391, #f4f391, #f4f391); */
     color: #740b0b;
-    background-color: #f4f391;
+    background-color: #fdfcaf;
     /*  border-top: 0.5px solid #85a4ae;
     border-bottom: 0.5px solid #85a4ae; */
 }
@@ -139,7 +139,7 @@ a:hover {
     padding-top: 11px;
     padding-bottom: 12px;
 
-    background-color: #fff394;
+    background-color: #fdfcaf;
     box-shadow: 3px 5px 6px rgba(86, 86, 86, 0.3);
     z-index: 99999;
     /*     border-top-right-radius: 6%;
@@ -150,7 +150,6 @@ a:hover {
 
 .main-menu-product-desc {
     font-size: large;
-    border-bottom: 1px solid #f0afaf;
     font-variant: normal;
     font-weight: normal;
     color: #000000;
@@ -188,6 +187,8 @@ a:hover {
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    border-bottom: 1px solid #dfdedd;
+    border-top: 1px solid #dfdedd;
 }
 
 .main-menu-submenu {

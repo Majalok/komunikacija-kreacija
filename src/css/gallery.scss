@@ -42,7 +42,9 @@ $gallery-image-background: #eeeeee;
     /* transform: scale(1.001); */
     opacity: 1;
     filter: brightness(1.3);
-    border: 10px solid #ffb26a;
+    border-image: none !important;
+
+    border: 10px solid #ffb26a !important;
     /*     z-index: 99999;
  */ /*  width: 330px; */
 }

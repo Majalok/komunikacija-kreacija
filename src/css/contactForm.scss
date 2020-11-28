@@ -19,14 +19,14 @@
 
 .contact-text.email {
     font-size: medium;
-    color: rgb(104, 26, 26);
+    color: #82533c;
 }
 
 .contact-text.name {
     font-weight: bold;
-    font-size: large;
-    color: rgb(114, 6, 6);
-    letter-spacing: 0.9px;
+    font-size: larger;
+    color: #82533c;
+    font-family: Marck Script;
 }
 
 .contact-form-div {
@@ -74,7 +74,7 @@
     width: 300px;
     color: black;
     border-radius: 4px;
-    border: 1px solid #999998;
+    border: 1px solid #8c7164;
 }
 
 input.form-control {
@@ -89,23 +89,53 @@ textarea.form-control {
 .send-msg-btn {
     display: block;
     font-size: large;
-    background-color: #ecf75a;
+    /* background-color: #ffcf86; */
     color: #000;
     width: 45%;
-    padding: 6px 6px;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0px -1px 9px 0px #f9ba80;
     transition: all 0.15s ease-in-out;
-    background: radial-gradient(#f8f5c3, #ffeb9f);
+    /* background: radial-gradient(#f8f5c3, #ffeb9f); */
     padding: 10px 8px;
-    border: #eca72d 1px solid;
+    /* border: #eca72d 1px solid; */
     color: rgb(59, 59, 59);
-    &:hover {
+    position: relative;
+    /*  &:hover {
         box-shadow: 0 0 5px 0 #ffbe73 inset, 0 0 1px 1px #fdff6b;
-        /*  font-weight: bold; */
         background: radial-gradient(#fffaa2, #fff494);
+    } */
+
+    border: 1px solid #eeac89;
+}
+
+.send-msg-btn {
+    .btn__text {
+        position: relative;
+        z-index: 1;
+    }
+
+    &::after {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: "";
+        border-radius: 5px;
+    }
+
+    &::after {
+        background-color: rgb(255, 250, 176);
+        transition: all 0.6s;
+    }
+
+    &:hover::after {
+        background-color: rgb(255, 236, 131);
+        box-shadow: 1px 1px 5px gray;
+        transform: scale(1.1);
     }
 }
 
