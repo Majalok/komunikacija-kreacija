@@ -75,7 +75,7 @@
     margin-bottom: 3%;
     padding: 4% 4%;
     background-color: #fbfdb3;
-    box-shadow: 5px 5px 15px 5px #fce5d1;
+    box-shadow: -5px 3px 15px 3px #c5c5c5;
     /* color: #633106; */
     color: rgb(0, 0, 0);
     margin: 0 20px;
@@ -90,13 +90,6 @@
 .o-meni-text {
     font-family: Bellota Text;
 }
-
-/*.o-meni-quote::before{
-  display: block;
-   background: url("/assets/icon/quote-left.png");
-
-}*/
-
 .zahvale-section {
     width: 80%;
     margin: 6% auto;
@@ -161,6 +154,7 @@
 .zahvala-6 {
     transform: rotateZ(-2deg);
     background-color: #f8ffd5;
+    box-shadow: 2px 9px 19px 5px #c5c5c5;
 }
 .zahvala-7 {
     transform: rotateZ(1deg);
@@ -169,6 +163,7 @@
 .zahvala-8 {
     transform: rotateZ(4deg);
     background-color: #f4f9e6;
+    box-shadow: 5px 1px 14px 1px #c5c5c5;
 }
 .zahvala-9 {
     transform: rotateZ(-1deg);
@@ -177,6 +172,7 @@
 .zahvala-10 {
     transform: rotateZ(2deg);
     background-color: #fff7e0;
+    box-shadow: 5px 1px 14px 4px #c5c5c5;
 }
 
 .zahvala-name {

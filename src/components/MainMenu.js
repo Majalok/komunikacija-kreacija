@@ -101,29 +101,16 @@ class MainMenu extends React.Component {
 
     displayMenuBoxPanel(event, id) {
 
-        console.log("ID>> ", event, event.currentTarget.name, id)
         let productName = event.currentTarget.id
-
-        /*   this.refs.products.style.background = "linear-gradient(to bottom, #8aa9ff 1px, #fffefe 3px)";
-          this.refs.products.style.color = "#292929";
-   */
-
         if (productName) {
-
-
             this.setState({
                 displayMenu: true,
                 selectedProduct: this.state.product1
             })
         }
-
-        // todo: tukaj daj animacijo za
     }
     setMenuItemSelected = (e) => {
-        console.log("EEE", e.target.id)
-        console.log("EEE", e.currentTarget.id)
         let selectedId = e.currentTarget.id
-        console.log("selectedId:: ", selectedId)
         switch (selectedId) {
             case 2:
                 selectedId = 1
@@ -146,18 +133,12 @@ class MainMenu extends React.Component {
                 selectedId = e.target.id
                 break
         }
-        console.log("0", selectedId)
 
         this.setState({
             selectedMenuItem: selectedId
         })
-
-
-        console.log("A", this.state.selectedMenuItem)
-
         if (selectedId == 1) {
-            console.log("A", selectedId)
-
+            // console.log("A", selectedId)
             this.setState({
                 displaySubmenu: true,
                 show: true
