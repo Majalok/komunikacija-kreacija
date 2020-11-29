@@ -68,8 +68,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "GatsbyJS",
-        short_name: "GatsbyJS",
+        name: "Komunikacija je kreacija",
+        short_name: "komunikacija-kreacija",
         start_url: "/",
         background_color: "#6b37bf",
         theme_color: "#6b37bf",
