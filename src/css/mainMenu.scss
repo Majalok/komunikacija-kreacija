@@ -144,6 +144,7 @@ a:hover {
 
     box-shadow: 3px 5px 6px rgba(86, 86, 86, 0.3);
     z-index: 99999;
+    background-color: #fff394;
     /*     border-top-right-radius: 6%;
     border-bottom-right-radius: 21%;
     border-bottom-left-radius: 4%; */
@@ -154,9 +155,10 @@ a:hover {
     font-size: large;
     font-variant: normal;
     font-weight: normal;
-    color: #000000;
-    text-shadow: 1px -1px #f7c5a6;
+    color: #560000;
+    /* text-shadow: 1px -1px #f7c5a6; */
     padding: 5px 10px;
+    font-weight: bold;
     transition: linear 0.4s;
     font-family: Bellota Text;
 }
