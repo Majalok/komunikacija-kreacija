@@ -196,12 +196,12 @@ class MainMenu extends React.Component {
 
 
                 <div className="content-menu">
-                    {/* <div className="box-container-1" style={{
+                    <div className="box-container-1" style={{
                         backgroundImage: `url(../assets/pngTest1111-inv.png)`,
                         backgroundSize: 'cover',
                         backgroundRepeat: 'repeat-x',
                         height: '70px'
-                    }} ></div> */}
+                    }} ></div>
                     <div className="main-menu-top" key="main-menu-top">
                         <div onClick={this.toggleMenu} >
                             <FaAlignJustify className="burger-menu-icon" />
@@ -372,13 +372,13 @@ class MainMenu extends React.Component {
                         </div>
                     </div>
                 </div>
-                {/*  <div className="box-container" style={{
+                <div className="box-container" style={{
                     backgroundImage: `url(../assets/pngTest111-bottom.png)`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'repeat-x',
                     height: '70px'
                 }} ></div>
- */}
+
 
             </div>]
             ;

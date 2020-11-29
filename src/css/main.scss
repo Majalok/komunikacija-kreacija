@@ -56,6 +56,9 @@ body {
     position: sticky;
     width: 100%;
     background: wheat !important;
+    --theme-ui-colors-text: none;
+    --theme-ui-colors-background: none;
+    --theme-ui-colors-primary: none;
 }
 
 .top-div {
@@ -87,7 +90,7 @@ body {
     align-items: center;
     padding: 20px;
     font-family: "Bellota Text";
-    background-color: #fefdec;
+    background-color: #fffbf4;
     /* opacity: 0.93; */
     box-shadow: 2px 9px 17px #d2c7ac;
     /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
