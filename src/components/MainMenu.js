@@ -274,42 +274,42 @@ class MainMenu extends React.Component {
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/osebna-komunikacija"
-                                > Osebna komunikacija
+                                >&nbsp;&nbsp;Osebna komunikacija
                                 </Link>
                                 <Link id="3"
                                     key="3"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/komunikacija-partner"
-                                > Komunikacija s partnerjem
+                                >&nbsp;&nbsp;Komunikacija s partnerjem
                                     </Link>
                                 <Link id="4"
                                     key="4"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/komunikacija-otrok"
-                                > Komunikacija z otrokom
+                                >&nbsp;&nbsp;Komunikacija z otrokom
                                     </Link>
                                 <Link id="5"
                                     key="5"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/komunikacija-sluzba"
-                                > Komunikacija v službi
+                                >&nbsp;&nbsp;Komunikacija v službi
                                     </Link>
                                 <Link id="6"
                                     key="6"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/komunikacija-splosna"
-                                > Splošna komunikacija
+                                >&nbsp;&nbsp;Splošna komunikacija
                                     </Link>
                                 <Link id="7"
                                     key="7"
                                     className="main-menu-link submenu"
                                     onClick={this.setMenuItemSelected}
                                     to="/poslusalka"
-                                > Poslušalka
+                                >&nbsp;&nbsp;Poslušalka
                                     </Link>
                             </div>
                             <Link id="8"

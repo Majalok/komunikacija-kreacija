@@ -87,7 +87,7 @@ $yellow-bck: #faf46d;
 }
 
 .main-menu-link {
-    color: #000000;
+    color: #560000;
     margin: 0px 10px;
     text-decoration: none;
     font-size: large;
@@ -309,7 +309,6 @@ a:hover {
 
     .main-menu-links.toggleMenu > div > .main-menu-link.submenu {
         font-size: small;
-        border-bottom: 1px solid white;
     }
 
     .burger-menu-icon {
@@ -339,7 +338,7 @@ a:hover {
 
     .main-menu-links.toggleMenu > div > .main-menu-link {
         font-size: medium;
-        height: 55px;
+        height: 45px;
     }
 
     .main-menu-links {

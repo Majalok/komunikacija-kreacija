@@ -116,8 +116,9 @@ a.header-title-link:hover {
     }
     .header-image {
         margin-left: 0px;
-        width: 30%;
+        width: 60%;
         height: auto;
+        margin-top: 5%;
     }
 
     .header-main-div {
@@ -133,6 +134,13 @@ a.header-title-link:hover {
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .header-image {
+            margin-left: 0px;
+            width: 30%;
+            height: auto;
+            margin-top: 5%;
         }
     }
 }
