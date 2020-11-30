@@ -101,7 +101,7 @@ textarea.form-control {
     font-size: large;
     /* background-color: #ffcf86; */
     color: #000;
-    width: 45%;
+    width: 50%;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
@@ -163,11 +163,11 @@ textarea.form-control {
     @media screen and (orientation: portrait) {
         textarea.form-control {
             height: 150px;
-            width: 90%;
+            width: 220px;
         }
 
         .form-control {
-            width: 90%;
+            width: 200px;
         }
 
         .contact-description {
@@ -177,6 +177,7 @@ textarea.form-control {
             align-items: center;
             display: flex;
             flex-wrap: wrap;
+            height: 200px;
         }
         .contact-img {
             width: 100%;

@@ -1,16 +1,20 @@
 import React, { Component } from "react"
 import axios from 'axios';
+/* import ReCAPTCHA from 'react-google-recaptcha-v3' */
 import ReCAPTCHA from 'react-google-recaptcha'
+
 
 
 class ContactForm extends Component {
 
     constructor(props) {
-        super();
+        super(props);
         this.state = {
             name: '',
             email: '',
-            message: ''
+            message: '',
+            loading: false,
+            response: null
         }
     }
 
@@ -52,11 +56,11 @@ class ContactForm extends Component {
                     </div>
                     <br />
                     <div className="recaptcha">
-                        {/*  <ReCAPTCHA
+                        <ReCAPTCHA
                             ref={(el) => { this.recaptcha = el; }}
                             sitekey="6LcLxssZAAAAADaG4O-rdUq2FyvDQmDCTtEHoUZ-"
-                            onChange={this.handleCaptchaResponseChange}
-                        /> */}
+                        /*  onChange={this.handleCaptchaResponseChange} */
+                        />
                         <br />
                         <br />
                     </div>
