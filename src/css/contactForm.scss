@@ -176,8 +176,8 @@ textarea.form-control {
             justify-content: center;
             align-items: center;
             display: flex;
-            flex-wrap: wrap;
-            height: 200px;
+            padding: 10px 30px;
+            height: 180px;
         }
         .contact-img {
             width: 100%;
@@ -196,7 +196,7 @@ textarea.form-control {
 
     @media screen and (orientation: landscape) {
         .contact-description {
-            width: 50%;
+            width: 55%;
             margin-bottom: 10%;
         }
 

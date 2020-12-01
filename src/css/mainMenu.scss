@@ -104,7 +104,7 @@ $yellow-bck: #faf46d;
 .menu-title {
     transition: linear 0.4s;
     text-decoration: none;
-    color: #560000;
+    color: #390101;
     /*   font-weight: bold; */
     font-family: Bellota Text;
     font-style: normal;
@@ -155,10 +155,9 @@ a:hover {
     font-size: large;
     font-variant: normal;
     font-weight: normal;
-    color: #560000;
+    color: #360000;
     /* text-shadow: 1px -1px #f7c5a6; */
     padding: 5px 10px;
-    font-weight: bold;
     transition: linear 0.4s;
     font-family: Bellota Text;
 }
@@ -309,6 +308,8 @@ a:hover {
 
     .main-menu-links.toggleMenu > div > .main-menu-link.submenu {
         font-size: small;
+        font-family: Hind Guntur;
+        text-shadow: none;
     }
 
     .burger-menu-icon {
@@ -339,6 +340,9 @@ a:hover {
     .main-menu-links.toggleMenu > div > .main-menu-link {
         font-size: medium;
         height: 45px;
+        color: #3b0101;
+        letter-spacing: 0.3px;
+        text-shadow: none;
     }
 
     .main-menu-links {
