@@ -17,7 +17,7 @@ exports.shouldUpdateScroll = ({
     const scrollToTopRoutes = [`/privacy-policy`, `/page-2`]
     // if the new route is part of the list above, scroll to top (0, 0)
     if (scrollToTopRoutes.indexOf(pathname) !== -1) {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 500)
     }
 
     return false
