@@ -56,11 +56,11 @@ class ContactForm extends Component {
                     </div>
                     <br />
                     <div className="recaptcha">
-                        <ReCAPTCHA
+                        {/*  <ReCAPTCHA
                             ref={(el) => { this.recaptcha = el; }}
                             sitekey="6LcLxssZAAAAADaG4O-rdUq2FyvDQmDCTtEHoUZ-"
-                        /*  onChange={this.handleCaptchaResponseChange} */
-                        />
+                         onChange={this.handleCaptchaResponseChange} 
+                        /> */}
                         <br />
                         <br />
                     </div>
