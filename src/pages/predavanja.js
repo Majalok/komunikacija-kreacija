@@ -12,6 +12,14 @@ const Predavanja = () => (
       </div>
     </div>
 
+    <div className="box-container" style={{
+      backgroundImage: `url(../assets/crta3.png)`,
+      backgroundSize: '100%',
+      backgroundRepeat: 'no-repeat',
+      height: '300px',
+      width: '80%'
+    }}></div>
+
   </Layout>
 )
 

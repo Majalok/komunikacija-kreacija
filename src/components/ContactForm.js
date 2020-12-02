@@ -1,121 +1,96 @@
-import React, { Component } from "react"
-import axios from 'axios';
-/* import ReCAPTCHA from 'react-google-recaptcha-v3' */
-import ReCAPTCHA from 'react-google-recaptcha'
+import React, { useState } from "react"
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
 
+const useFormInput = initialValue => {
+    const [value, setValue] = useState(initialValue)
 
-
-class ContactForm extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: '',
-            loading: false,
-            response: null
-        }
+    const handleChange = e => {
+        setValue(e.target.value)
     }
 
-    handleSubmit(e) {
-        e.preventDefault();
-        axios({
-            method: "POST",
-            url: "http://localhost:3002/send",
-            data: this.state
-        }).then((response) => {
-            if (response.data.status === 'success') {
-                alert("Message Sent.");
-                this.resetForm()
-            } else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
-    }
-
-    resetForm() {
-        this.setState({ name: '', email: '', message: '' })
-    }
-
-    render() {
-        return (
-            <div className="contact-form-div">
-                <form id="contact-form" className="form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <div className="form-group">
-                        <label className="form-label" htmlFor="name">Ime in priimek</label>
-                        <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-                    </div>
-                    <div className="form-group">
-                        <label className="form-label" htmlFor="exampleInputEmail1">Email naslov</label>
-                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-                    </div>
-                    <div className="form-group">
-                        <label className="form-label" htmlFor="message">Sporočilo</label>
-                        <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-                    </div>
-                    <br />
-                    <div className="recaptcha">
-                        {/*  <ReCAPTCHA
-                            ref={(el) => { this.recaptcha = el; }}
-                            sitekey="6LcLxssZAAAAADaG4O-rdUq2FyvDQmDCTtEHoUZ-"
-                         onChange={this.handleCaptchaResponseChange} 
-                        /> */}
-                        <br />
-                        <br />
-                    </div>
-                    <button type="submit" className="send-msg-btn"><span class="btn__text">Pošlji sporočilo</span></button>
-                </form>
-                <div className="contact-description" /* style={{
-                    backgroundImage: `url(../assets/paper3.jpg)`,
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    height: '100 %',
-                    backgroundPositionY: '-50px'
-                }} */>
-                    <img className="contact-img" src="../icons/kom-kr-logo-2.png" alt="" />
-                    <div className="contact-div">
-                        <div >
-                            <div className="contact-text name">
-                                Nataša Muc
-                            </div>
-                            <div className="contact-text email">
-                                info@komunikacija-kreacija.si
-                            </div>
-                        </div>
-                        <div className="contact-icons">
-                            <a
-                                href="https://www.facebook.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <img src="../icons/fb2.png" width="30px" alt="" />
-                            </a>
-                            <a
-                                href="https://www.instagram.com/natasamuc"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <img src="../icons/inst1.png" width="30px" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-
-    onNameChange(event) {
-        this.setState({ name: event.target.value })
-    }
-
-    onEmailChange(event) {
-        this.setState({ email: event.target.value })
-    }
-
-    onMessageChange(event) {
-        this.setState({ message: event.target.value })
+    return {
+        value,
+        onChange: handleChange,
     }
 }
 
-export default ContactForm;
+export default function Form() {
+    const email = useFormInput("")
+    const message = useFormInput("")
+    const name = useFormInput("")
+
+    const { executeRecaptcha } = useGoogleReCaptcha()
+    const [token, setToken] = useState("")
+    const [notification, setNotification] = useState("")
+
+    // Value for body-parser
+    const nameVal = name.value
+    const emailVal = email.value
+    const messageVal = message.value
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        // Check if the captcha was skipped or not
+        if (!executeRecaptcha) {
+            return
+        }
+
+        // handle empty fields just in case
+        if (!name.value) {
+            setNotification(`Prosimo vnesite ime.`)
+        } if (!email.value) {
+            setNotification(`Prosimo vnesite e-mail.`)
+        }
+        else if (!message.value) {
+            setNotification(`Prosim vnesite sporočilo.`)
+        }
+
+        // This is the same as grecaptcha.execute on traditional html script tags
+        const result = await executeRecaptcha("homepage")
+        setToken(result) //--> grab the generated token by the reCAPTCHA
+        debugger
+        console.log("nameVal> ", nameVal, " emailVal> ", emailVal, "messageVal> ", messageVal)
+        // Prepare the data for the server, specifically body-parser
+        const data = JSON.stringify({ nameVal, emailVal, messageVal, token })
+        alert("DATA> ", data)
+        // POST request to your server
+        // fetch("/submit", {
+        //     method: "POST",
+        //     headers: {
+        //         Accept: "application/json, text/plain, */*",
+        //         "Content-type": "application/json",
+        //     },
+        //     body: data,
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         setNotification(data.msg)
+        //     })
+    }
+
+    return (
+
+        <form onSubmit={handleSubmit} id="contact-form" className="form" >
+
+            <div className="form-group">
+                <label className="form-label" htmlFor="name">Ime in priimek</label>
+                <input type="text" className="form-control" id="name" {...name} />
+            </div>
+            <div className="form-group">
+                <label className="form-label" htmlFor="email">Email naslov</label>
+                <input type="email" className="form-control" id="email" {...email} aria-describedby="emailHelp" />
+            </div>
+            <div className="form-group">
+                <label className="form-label" htmlFor="message">Sporočilo</label>
+                <textarea className="form-control" rows="5" name="message" {...message} id="message" />
+            </div>
+            <br />
+            <br />
+            <input type="submit" className="send-msg-btn" value="Pošlji sporočilo"></input>
+            <br />
+            {notification && <span>{notification}</span>}
+        </form >
+
+    )
+}

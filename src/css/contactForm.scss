@@ -101,13 +101,12 @@ textarea.form-control {
     font-size: large;
     /* background-color: #ffcf86; */
     color: #000;
-    width: 50%;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0px -1px 9px 0px #f9ba80;
     transition: all 0.15s ease-in-out;
-    /* background: radial-gradient(#f8f5c3, #ffeb9f); */
+    background: radial-gradient(#f8f5c3, #ffeb9f);
     padding: 10px 8px;
     /* border: #eca72d 1px solid; */
     color: rgb(59, 59, 59);
@@ -160,10 +159,14 @@ textarea.form-control {
         padding: 20px 15px;
     }
 
+    .contact-text.email {
+        font-size: small;
+    }
+
     @media screen and (orientation: portrait) {
         textarea.form-control {
             height: 150px;
-            width: 220px;
+            width: 240px;
         }
 
         .form-control {
@@ -171,14 +174,14 @@ textarea.form-control {
         }
 
         .contact-description {
-            margin-top: 10%;
             margin: 0 auto;
             justify-content: center;
             align-items: center;
             display: flex;
             padding: 10px 30px;
-            height: 180px;
+            height: 155px;
         }
+
         .contact-img {
             width: 100%;
         }
@@ -202,6 +205,47 @@ textarea.form-control {
 
         .contact-form-div {
             align-items: center;
+        }
+
+        .contact-text.email {
+            font-size: small;
+        }
+        .form {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+    @media screen and (orientation: landscape) {
+        .contact-text.email {
+            font-size: small;
+        }
+
+        .contact-description {
+            padding: 10px 20px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 844px) {
+    .contact-text.email {
+        font-size: small;
+    }
+
+    @media screen and (orientation: portrait) {
+        .contact-description {
+            padding: 10px 20px;
+        }
+        .contact-form-div {
+            flex-direction: column-reverse;
+        }
+        .contact-description {
+            margin: 0 auto;
+            margin-bottom: 10%;
+        }
+        .form {
+            margin: 0 auto;
         }
     }
 }
