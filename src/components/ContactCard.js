@@ -40,7 +40,7 @@ class ContactCard extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="../icons/instagram_50x.png" width="30px" alt="" />
+                            <img src="../icons/Instagram_50x.png" width="30px" alt="" />
                         </a>
                     </div>
                 </div>
