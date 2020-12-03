@@ -18,8 +18,11 @@ const KomunikacijaPartner = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img partner" src="../assets/vil-zaupanje-12.png" alt="" />
-        <div className="vil-description">
+        <img className="kom-item-img" src="../assets/kom-partner.png" alt="" />
+
+
+        {/*   <img className="kom-item-img partner" src="../assets/vil-zaupanje-12.png" alt="" />
+      */}   <div className="vil-description">
           Zaupanje
         </div>
       </div>

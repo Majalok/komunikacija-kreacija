@@ -34,7 +34,8 @@ const Header = ({ siteTitle, subtitle, description }) => (
         </p>
       </span>
       <div className="header-image-div">
-        <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" />
+        {/*   <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" /> */}
+        <img className="header-image" src="../icons/pticki-png-barva1.png" alt="" />
       </div>
     </div>
     {/*  <div className="header-main-div">

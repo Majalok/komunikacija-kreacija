@@ -12,8 +12,8 @@ const Predavanja = () => (
       </div>
     </div>
 
-    <div className="box-container" style={{
-      backgroundImage: `url(../assets/crta3.png)`,
+    <div className="box-container picture" style={{
+      backgroundImage: `url(../assets/crta5.png)`,
       backgroundSize: '100%',
       backgroundRepeat: 'no-repeat',
       height: '300px',
