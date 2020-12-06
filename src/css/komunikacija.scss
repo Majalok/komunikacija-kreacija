@@ -18,6 +18,14 @@
     padding: 0px 3%;
 }
 
+.vil-description {
+    margin-top: 5%;
+    color: #4d3625;
+    font-size: xx-large;
+    font-family: Italianno;
+    letter-spacing: 1.5px;
+}
+
 .komunikacija-item {
     padding: 2%;
     /*     border: 1px solid #f9d9d9;
@@ -35,8 +43,30 @@
 .kom-img {
     justify-content: center;
 }
+.kom-item-img {
+    margin-top: 5%;
+    max-width: 400px;
+}
 
-.komunikacija-item.kom-sluzimgba > .komunikacija-text {
+.kom-item-img.partner {
+    margin-top: 9%;
+}
+
+/* .kom-item-img.sluzba {
+    margin-top: 9%;
+} */
+
+.kom-item-img.sluzba {
+    width: 600px;
+    max-width: 600px;
+}
+
+.kom-item-img.splosna {
+    margin-top: 9%;
+    width: 600px;
+}
+
+.komunikacija-item.kom-sluzba-img > .komunikacija-text {
     margin-bottom: 4%;
 }
 
@@ -66,4 +96,36 @@
     margin-bottom: 2.5%;
     width: 60rem;
     text-align: center;
+}
+@media (min-width: 700px) and (max-width: 1200px) and (orientation: portrait) {
+    .komunikacija-content {
+        width: 100%;
+    }
+
+    .kom-sluzba-img,
+    .kom-item-img {
+        width: 90%;
+    }
+
+    .komunikacija-text {
+        width: 90%;
+        margin-bottom: 4%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .kom-img-desc {
+        flex-direction: column;
+    }
+    .komunikacija-content-bottom {
+        padding: 0;
+    }
+
+    .kom-item-img {
+        width: 80%;
+    }
+    .vil-description {
+        text-align: center;
+        width: 100%;
+    }
 }

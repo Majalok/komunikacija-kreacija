@@ -5,33 +5,6 @@
 // nove pisave
 @import url("https://fonts.googleapis.com/css?family=Grandstander|Special+Elite|Dynalight|Open+Sans+Condensed|Cormorant+Upright|Bellota|Forum|Corben|Srisakdi|McLaren|Katibeh|Atma|Life+Savers|Oregano|Farsan");
 
-$dark-red: #640c0c;
-$main-content-background: #fffbee;
-$th-item-title: rgb(224, 224, 224);
-$header-title-link: #dbd9d9;
-$news-content-color: rgb(63, 63, 66);
-$header-subtitle: #f0e6fc;
-$gallery-image-background: #eeeeee;
-$title-hover: lightgray;
-$body-font-color: black;
-$header-title-color: #e0e0e0;
-
-@mixin bg-gradient-header() {
-    background-image: linear-gradient(to bottom, #991f0d, #9b1a1a, #820404);
-}
-
-@mixin item-title-gradient() {
-    background-image: linear-gradient(to left, #eae9e9, #e3e3e3, #e2dddd);
-}
-
-@mixin content-main-div-background() {
-    background-image: linear-gradient(#b5b5b5, #dedcdc, #cacaca, #b9b7b7);
-}
-
-@mixin news-item-header-background() {
-    background-image: linear-gradient(#cccbcb, #fff9f9, #d2d0d0);
-}
-
 html {
     background-color: rgb(255, 219, 219);
     font-family: "Tangerine", "Bellota Text", "Charm", "Arima Madurai", "Handlee", Helvetica, Arial;
@@ -46,13 +19,8 @@ body {
     margin: 0 auto;
 }
 
-body,
-article,
-section {
-    font-family: "Hind Guntur";
-    color: $body-font-color;
-}
 body {
+    font-family: "Hind Guntur";
     position: sticky;
     width: 100%;
     background: wheat !important;
@@ -78,8 +46,6 @@ body {
 }
 
 .main-content {
-    /* background-color: $main-content-background;
- */
     padding: 10px;
     width: 60%;
     margin: 0 auto;
@@ -91,10 +57,7 @@ body {
     padding: 20px;
     font-family: "Bellota Text";
     background-color: #fffbf4;
-    /* opacity: 0.93; */
     box-shadow: 2px 9px 17px #d2c7ac;
-    /* background: linear-gradient(to left, #fcfafa00 1%, #ffffff, #fff2e5, #fbecdd, #fbecdd, #fbecdd, #fffbfb05);
- */
 }
 
 .kontakt-content {
@@ -110,6 +73,8 @@ textarea {
     margin: 100px 0px;
     font-style: bold;
 }
+
+/***  delete test code **/
 .pisave-div {
     font-size: x-large;
     margin-top: 100px;
@@ -119,22 +84,7 @@ textarea {
     margin-bottom: 60px;
 }
 
-.kom-item-img {
-    margin-top: 5%;
-    max-width: 400px;
-}
-
-.kom-item-img.partner {
-    margin-top: 9%;
-}
-
-.kom-item-img.sluzba {
-    margin-top: 9%;
-}
-
-.kom-item-img.splosna {
-    margin-top: 9%;
-}
+/***  end delete test code **/
 
 .aktualno-content {
     color: #220202;
@@ -208,15 +158,6 @@ textarea {
     margin-top: 4%;
 }
 
-.zahvale {
-    width: 80%;
-    margin: 2% auto;
-    font-family: "Bellota Text";
-    font-size: x-large;
-    margin-top: 6%;
-    color: #250101;
-}
-
 /* .box-container-1 {
     width: 100%;
     vertical-align: middle;
@@ -283,16 +224,6 @@ li {
     background: linear-gradient(to bottom, antiquewhite, #fffff3, antiquewhite);
 }
 
-a.povezava-item > img {
-    width: 70px;
-    margin-bottom: 10px;
-}
-
-.content-section-contact {
-    padding: 10px;
-    line-height: 0.4rem;
-}
-
 .footer {
     height: 25px;
     display: flex;
@@ -319,28 +250,9 @@ a.povezava-item > img {
     font-style: normal;
     text-shadow: none;
 }
-.blog-text > .emoji {
-    font-size: medium;
-}
 
 .emoji-img {
     width: 20px;
-}
-
-.motivation-quote-1 {
-    margin-top: 4%;
-    padding: 3% 2%;
-    margin-bottom: 4%;
-    width: 80%;
-    font-family: Italianno;
-    font-size: xx-large;
-    font-size: 38px;
-    letter-spacing: 1px;
-    color: #6b4200;
-    margin: 0 auto;
-    text-shadow: 2px 1px #f5f5f5;
-    -webkit-transition: height 8s linear;
-    transition: height 8s linear;
 }
 
 @media (min-width: 200px) and (max-width: 500px) and (orientation: portrait),
@@ -353,15 +265,6 @@ a.povezava-item > img {
     .header-title-link {
         font-size: medium;
     }
-
-    .dropdown {
-        width: auto;
-    }
-
-    .povezave-content {
-        width: 100%;
-    }
-
     .gallery-content {
         margin: 0;
     }
@@ -369,15 +272,6 @@ a.povezava-item > img {
     .gallery-image {
         width: auto;
         height: auto;
-    }
-
-    .news-front-image {
-        flex-basis: auto;
-        width: 100%;
-    }
-
-    .news-item-header {
-        flex-wrap: wrap;
     }
 
     .main-content {
@@ -390,105 +284,9 @@ a.povezava-item > img {
     }
 }
 
-@media (min-width: 700px) and (max-width: 1200px) and (orientation: portrait) {
-    .right-title {
-        padding-left: 10px;
-    }
-    .zahvala {
-        width: 40%;
-    }
-    .blog-content,
-    .komunikacija-content {
-        width: 100%;
-    }
-
-    .kom-sluzba-img,
-    .kom-item-img {
-        width: 90%;
-    }
-
-    .komunikacija-text {
-        width: 90%;
-        margin-bottom: 4%;
-    }
-}
-
-@media (max-height: 400px) and (min-width: 500px) and (orientation: landscape) {
-    .right-title {
-        padding-left: 10px;
-    }
-
-    .povezave-right {
-        margin-left: -20px;
-    }
-
-    .povezave-right.address {
-        font-size: x-small;
-        margin: 5px;
-    }
-
-    .navbar-nav {
-        position: absolute;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .gallery-content {
-        column-count: 4;
-    }
-}
-
-/* Masonry on medium-sized screens */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-    .gallery-content {
-        column-count: 3;
-    }
-
-    .header {
-        background-position-y: unset !important;
-    }
-    .o-meni-textdiv {
-        width: 80%;
-    }
-}
-@media only screen and (max-width: 1024px) and (min-width: 200px) and (orientation: landscape) {
-    .zahvala {
-        width: 40%;
-    }
-
-    .motivation-quote-1 {
-        font-size: large;
-    }
-    .blog-title {
-        font-size: x-large;
-    }
-}
-
-/* Masonry on small screens */
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .main-content {
         padding: 4% 3%;
-    }
-
-    .kom-img-desc {
-        flex-direction: column;
-    }
-
-    .vil-description {
-        text-align: center;
-        width: 100%;
-    }
-
-    .blog-title {
-        font-size: x-large;
-    }
-
-    .komunikacija-content-bottom {
-        padding: 0;
-    }
-
-    .kom-item-img {
-        width: 80%;
     }
 
     .aktualno-text {
@@ -498,45 +296,6 @@ a.povezava-item > img {
 
     .aktualno-content {
         width: 90%;
-    }
-
-    @media screen and (orientation: landscape) {
-        .blog-item > .blog-title {
-            font-size: x-large;
-        }
-    }
-
-    .gallery-content {
-        column-count: 2;
-    }
-
-    .news-item-header {
-        display: block;
-    }
-
-    .o-meni-quote {
-        width: 90%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .quote-logo > img {
-        width: 15px;
-    }
-
-    .o-meni-textdiv {
-        margin-top: 2%;
-        width: 85%;
-    }
-
-    .motivation-quote-1 {
-        font-size: large;
-        width: 88%;
-    }
-    .o-meni-content {
-        margin-top: 8%;
-        margin-bottom: 5%;
-        width: auto;
     }
 
     .predavanja-content,
@@ -549,30 +308,5 @@ a.povezava-item > img {
         width: 90%;
         text-align: left;
         font-size: large;
-    }
-
-    .blog-content > .blog-item {
-        padding: 0px;
-    }
-
-    .blog-item > .blog-text {
-        font-size: medium;
-    }
-
-    .zahvala {
-        width: 100%;
-    }
-
-    .zahvale-section {
-        width: auto;
-    }
-
-    .komunikacija-item {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .komunikacija-text {
-        width: auto;
-        margin-bottom: 4%;
     }
 }

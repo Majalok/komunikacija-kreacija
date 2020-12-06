@@ -22,7 +22,7 @@ const KomunikacijaPartner = () => (
 
 
         {/*   <img className="kom-item-img partner" src="../assets/vil-zaupanje-12.png" alt="" />
-      */}   <div className="vil-description">
+      */}    <div className="vil-description">
           Zaupanje
         </div>
       </div>
