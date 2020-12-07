@@ -21,7 +21,7 @@ const KomunikacijaOtrok = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/kom-otrok3.png" alt="" />
+        <img className="kom-item-img" src="../assets/kom-otrok5.png" alt="" />
 
         {/* <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
         */}
