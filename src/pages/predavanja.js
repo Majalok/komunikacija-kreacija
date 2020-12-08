@@ -11,14 +11,16 @@ const Predavanja = () => (
         - Nebesedna izražanja
       </div>
     </div>
-
-    <div className="box-container picture" style={{
-      backgroundImage: `url(../assets/pticek-trak.png)`,
-      backgroundSize: '100%',
-      backgroundRepeat: 'no-repeat',
-      height: '300px',
-      width: '80%'
-    }}></div>
+    <div className="trak-div">
+      <div className="trak" style={{
+        backgroundImage: `url(../assets/pticek-trak.png)`,
+        backgroundSize: '88%',
+        backgroundRepeat: 'no-repeat',
+        height: '300px',
+        width: '100%',
+        backgroundPositionX: 'center'
+      }}></div>
+    </div>
 
   </Layout>
 )

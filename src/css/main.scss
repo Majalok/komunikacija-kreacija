@@ -50,12 +50,12 @@ body {
     width: 60%;
     margin: 0 auto;
     margin-top: 48px;
-    padding-top: 150px;
     /* min-height: 1500px; */
     flex-grow: 3;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-bottom: 100px;
     font-family: "Bellota Text";
     background-color: #fffbf4;
     box-shadow: 2px 9px 17px #d2c7ac;
@@ -155,6 +155,12 @@ textarea {
     font-size: larger;
 }
 
+.trak-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .predavanja-item {
     margin-top: 4%;
 }
@@ -214,7 +220,8 @@ li {
  */
     display: flex;
     flex-wrap: wrap;
-    min-height: 1200px;
+    /* min-height: 1200px; */
+    padding-bottom: 70px;
     /** varianta 1 */
     /*  background: linear-gradient(to bottom, #f4f391, #f7ae51, #fd8967, #f4a35d, #f9ee95, #f9ee95);
     */ /** varianta 2 */
