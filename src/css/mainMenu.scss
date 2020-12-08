@@ -343,7 +343,7 @@ a:hover {
         height: auto;
         display: flex;
         flex-direction: column;
-        top: 145px;
+        top: 177px;
         left: 0px;
         width: auto;
         z-index: 999;
@@ -363,6 +363,18 @@ a:hover {
 
     .main-menu-panel {
         display: none;
+    }
+
+    @media only screen and (min-device-width: 768px) {
+        .main-menu-links.toggleMenu {
+            top: 75px;
+        }
+    }
+
+    @media only screen and (max-device-width: 767px) {
+        .main-menu-links.toggleMenu {
+            top: 135px;
+        }
     }
 }
 
