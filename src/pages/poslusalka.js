@@ -15,7 +15,7 @@ const Poslusalka = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/kom-poslusalka5.png" alt="" />
+        <img className="kom-item-img" src="../assets/kom-poslusalka.png" alt="" />
         <div className="vil-description">
           Uspeh
         </div>

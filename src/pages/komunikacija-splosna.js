@@ -9,12 +9,12 @@ const KomunikacijaSplosna = () => (
         <div className="komunikacija-text">
           Verjetno se vam je že pripetilo, da ste nekomu poskušali nekaj dopovedati, pa enostavno ni »štekal«. Ali pa, da ste še z nekom doživela isto stvar, videla isti dogodek, osebo ipd. pa sta jo vsak po svoje doživela in opisala. To je nekaj čisto običajnega. Ljudje smo si različni (hvala bogu <span className="emoji">🙂</span>) z različnimi prioritetami, zaznavanji, občutki…To pomeni, da je za nekoga sončni zahod WOW, za drugega pa NIČ POSEBNEGA.
           <br />
-          Če želimo, da smo slišani, razumljeni, da na primer premagamo strah, se je potrebno naučiti jasnega izražanja in seveda na pravi način podati informacije.
+          Če želimo, da smo slišani, razumljeni, da premagamo strah, si zaupamo, se je potrebno naučiti jasnega izražanja in seveda na pravi način podati informacije. Na novo začneš graditi odnose skozi komunikacijo, v katerih je izražena jasnost in kjer se dopušča, da ima vsak svojo prepričanje.
           <br />
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img splosna" src="../assets/kom-splosna5.png" alt="" />
+        <img className="kom-item-img splosna" src="../assets/kom-splosna.png" alt="" />
         <div className="vil-description">
           Nov začetek
           </div>

@@ -48,10 +48,10 @@ const OMeni = () => (
             <div className="o-meni-text">
               Pogovarjanje oziroma komunikacija mi je blizu. Nikoli tudi nisem imela
               problema načeti pogovora s popolnim tujcem, če sem le »prebrala« skozi
-          njegovo telesno govorico, da »imam« zeleno luč«.{" "}
+          njegovo telesno govorico, da lahko pristopim.{" "}
             </div>{" "}
             <div className="o-meni-text">
-              Imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
+              Prišla sem do spoznanja, da imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
               komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
               tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
               da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
@@ -62,7 +62,8 @@ const OMeni = () => (
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
           </div>
             <div className="o-meni-text">
-              Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postalo velik bavbav. Zato si želim pomagati, spremeniti stvari na bolje. Naj komunikacija postane lahkotna, ljubeča in razumevajoča.{" "}
+              Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega in reševanje problemov je postal velik bavbav.
+              Zato si želim pomagati. Naj komunikacija postane lahkotna, razumevajoča in ljubeča.
             </div>
           </div>
           <img src="../assets/natasa.png" className="profile-img" alt="Logo"
