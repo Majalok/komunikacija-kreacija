@@ -51,7 +51,7 @@ const OMeni = () => (
           njegovo telesno govorico, da lahko pristopim.{" "}
             </div>{" "}
             <div className="o-meni-text">
-              Prišla sem do spoznanja, da imam izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
+              Prišla sem do spoznanja, da imam dobro izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
               komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
               tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
               da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
@@ -168,11 +168,11 @@ const OMeni = () => (
         </div>
       </div>
       {/*  <div className="motivation-quote-1"> */}
-      <div className="o-meni-quote">
+      {/* <div className="o-meni-quote">
         <p className="quote-text">
           Naj <strong>strah</strong> ne bo naša <strong>ovira</strong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img">😉</span>
         </p>
-      </div>
+      </div> */}
     </div>
   </Layout >
 )

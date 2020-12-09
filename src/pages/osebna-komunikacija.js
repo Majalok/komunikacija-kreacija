@@ -21,7 +21,7 @@ const komunikacija = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/vil-komunikacija-12.png" alt="" />
+        <img className="kom-item-img" src="../assets/kom-osebna.png" alt="" />
         <div className="vil-description">
           Komunikacija
         </div>

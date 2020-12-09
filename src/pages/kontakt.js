@@ -10,10 +10,9 @@ const Kontakt = () => (
   <Layout>
     <div className="kontakt-content">
       <div className="o-meni-quote">
-
         <p className="quote-text">
-          Naj <strong>strah</strong> ne bo naša <strong>ovira</strong>. Vsi smo ljudje, krvavi pod kožo in prav vsi hodimo na <strong>wc</strong>. Od tod naprej naj se vklopi vaša domišljija <span className="emoji" role="img">😉</span>
-        </p>
+          Naj <strong>strah</strong> ne bo naša ovira. Naj nas ne hromi. Ko se soočimo z njim in ga presežemo, postanemo zmagovalci.
+      </p>
       </div>
       <div className="contact-form-div">
         <ContactForm />
