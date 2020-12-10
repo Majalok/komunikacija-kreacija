@@ -7,8 +7,7 @@ const KomunikacijaSluzba = () => (
       <div className="komunikacija-title">Komunikacija na delovnem mestu - nadrejenimi in sodelavci</div>
       <div className="komunikacija-item kom-img">
         <div className="komunikacija-text">
-          Ko sem pred približno 30 leti pričela delati v podjetju, kjer se je pričakovala da boš samoiniciativen, fleksibilen, učljiv, skoraj vedno na razpolago in še kaj bi se našlo, sem dala vse od sebe, da bi »zadovoljila te kriterije« oziroma pričakovanja. Rezultat tega je bil ko sem se ozrla nazaj, seveda gledano skozi daljše obdobje, kako malo sem bila pravzaprav cenjena. Kako sem dovoljevala nespoštljivo komunikacijo, delo ki sem ga vestno opravljala in samoiniciativa nista bili opažena, kaj šele priznana. Ko sem pričela z delom na sebi, sem prišla do določenih spoznaj, ki so mi pomagala, da sem postopoma postavila stvari na prava mesta. Postala sem opažena, cenjena in tudi nagrajena.
-          Kako sem dovolila, da sem bila velikokrat izkoriščena in nikoli pohvaljena –znano, mar ne?- kaj šele nagrajena (čeprav je bilo in je še izvedljivo).
+          Ko sem pred približno 30 leti pričela delati v podjetju, kjer se je pričakovalo, da boš samoiniciativen, fleksibilen, učljiv, skoraj vedno na razpolago in še kaj bi se našlo, sem dala vse od sebe, da bi »zadovoljila te kriterije« oziroma pričakovanja. Rezultat tega je bil ko sem se ozrla nazaj, seveda gledano skozi daljše obdobje, kako malo sem bila pravzaprav cenjena. Kako sem dovoljevala nespoštljivo komunikacijo, delo ki sem ga vestno opravljala in samoiniciativa nista bili opažena, kaj šele priznana. Ko sem pričela z delom na sebi, sem prišla do določenih spoznaj, ki so mi pomagala, da sem postopoma postavila stvari na prava mesta. Postala sem opažena, cenjena in tudi nagrajena.
           <br />
           Način komunikacije in zaupanje vase sta odigrali veliko vlogo.
           <br />

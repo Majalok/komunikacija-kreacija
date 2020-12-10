@@ -53,9 +53,7 @@ const OMeni = () => (
             <div className="o-meni-text">
               Prišla sem do spoznanja, da imam dobro izostren šesti čut ali intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra. Skozi daljše obdobje sem pridno pilila svojo
               komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
-              tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
-              da morajo nekaj spremeniti, pa ne vedo kaj in kako. V večini primerov
-              se vse zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
+              tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo, da morajo oziroma si želijo nekaj spremeniti, pa ne vedo kaj in kako.V večino primerov se zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
               imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
             ko so se besede kar vsule. In sem se lotila dela <span className="emoji">😉</span>  Saj veste, pogled
             iz drugega zornega kota in pa moja dva »senzorja« pa smo zadevo

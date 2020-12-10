@@ -24,6 +24,10 @@ const PomocPriPromociji = () => (
         Mogoče pa potrebuješ samo potrditev, da si na pravi poti <span className="emoji">😉</span>
         <br />
         <br />
+        Poznate tisti rek: "Dobro blago se samo hvali".
+        Jaz pa dodajam, še bolje in hitreje pa je, če ti nekdo pri tem pomaga ;)
+        <br />
+        <br />
       </p>
 
       <div className="gallery-content">
