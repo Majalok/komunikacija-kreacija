@@ -83,6 +83,16 @@
     margin: 5px;
 }
 
+.contact-icons > a > img {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.contact-icons > a > img:hover {
+    -webkit-filter: brightness(130%);
+    filter: brightness(130%);
+}
+
 .page-title-link {
     color: #fbf67e;
     font-size: 4.5rem;

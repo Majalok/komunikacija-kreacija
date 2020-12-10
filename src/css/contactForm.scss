@@ -119,33 +119,10 @@ textarea.form-control {
     border: 1px solid #eeac89;
 }
 
-.send-msg-btn {
-    .btn__text {
-        position: relative;
-        z-index: 1;
-    }
-
-    &::after {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        display: block;
-        width: 100%;
-        height: 100%;
-        content: "";
-        border-radius: 5px;
-    }
-
-    &::after {
-        background-color: #fffbd1;
-        transition: all 0.6s;
-    }
-
-    &:hover::after {
-        background-color: rgb(255, 236, 131);
-        box-shadow: 1px 1px 5px gray;
-        transform: scale(1.1);
-    }
+.send-msg-btn:hover {
+    box-shadow: 0px -1px 9px 0px #ffd369;
+    border: 1px solid #fff17c;
+    background: radial-gradient(antiquewhite, #fffd92);
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
