@@ -25,7 +25,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
     <div className="header-main-div">
       <span className="header-title">
         <h3>
-          <Link to="/omeni" className="page-title-link">
+          <Link to="/omeni" className="page-title-link" data-content="Komunikacija je kreacija">
             {siteTitle}
           </Link>
         </h3>
@@ -35,7 +35,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
       </span>
       <div className="header-image-div">
         {/*   <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" /> */}
-        <img className="header-image" src="../icons/pticki-png-barva1.png" alt="" />
+        <img className="header-image" src="../assets/logo-png.png" alt="" />
       </div>
     </div>
     {/*  <div className="header-main-div">

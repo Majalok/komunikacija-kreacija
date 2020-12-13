@@ -280,18 +280,6 @@
         width: auto;
     }
 
-    .predavanja-content,
-    .delavnice-content,
-    .promocija-content,
-    .o-meni-content,
-    .blog-content,
-    .komunikacija-content {
-        margin-top: 5%;
-        width: 90%;
-        text-align: left;
-        font-size: large;
-    }
-
     .zahvala {
         width: 100%;
     }
@@ -308,6 +296,7 @@
         width: 90%;
         margin-bottom: 4%;
         text-align: left;
+        font-size: large;
     }
     .komunikacija-item {
         padding: unset;

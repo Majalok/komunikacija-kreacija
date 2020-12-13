@@ -103,11 +103,45 @@
     /*  font-family: Calligraffitti; */
 
     /* font-family: Montez; */
-    text-shadow: 2px 2px #a55454;
+    /* text-shadow: 2px 2px #a55454; */
     text-decoration: none;
     font-weight: normal;
+    /*   background: -webkit-linear-gradient(#f2f290, #fbec87, #fffce4, #f0ebbf, #ffff8f, #ffef59);
+ */
+    background: -webkit-linear-gradient(#fff8da, #fdf48f, #ffffff, #fdf8be, #ffffff, #fbec87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px 2px #ac4f4f);
 }
 
+.page-title-link:before {
+    background: none;
+    content: attr(data-text);
+    left: 0;
+    position: absolute;
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+    top: 0;
+    z-index: -1;
+}
+/* .page-title-link::after {
+    background-image: linear-gradient(#f00, #fcc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: attr(data-content);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-title-link::before {
+    text-shadow: #000 1px 1px 2px;
+    content: attr(data-content);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ */
 .page-title-link:hover {
     text-decoration: none;
     color: #ffea83 !important;
