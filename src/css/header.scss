@@ -36,8 +36,7 @@
 }
 .author {
     text-align: center;
-    font-size: small;
-    opacity: 0.8;
+    font-size: x-large;
 }
 
 .header-logo {
@@ -109,9 +108,11 @@
     /*   background: -webkit-linear-gradient(#f2f290, #fbec87, #fffce4, #f0ebbf, #ffff8f, #ffef59);
  */
     background: -webkit-linear-gradient(#fff8da, #fdf48f, #ffffff, #fdf8be, #ffffff, #fbec87);
+    background: -webkit-linear-gradient(#fff8da, #f2f2f2, #fff, #fdf8be, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(2px 2px 2px #ac4f4f);
+    filter: drop-shadow(2px 2px 1px brown);
 }
 
 .page-title-link:before {
@@ -145,6 +146,7 @@
 .page-title-link:hover {
     text-decoration: none;
     color: #ffea83 !important;
+    text-shadow: 2px 1px #f5f5f5;
 }
 
 a.header-title-link:hover {
