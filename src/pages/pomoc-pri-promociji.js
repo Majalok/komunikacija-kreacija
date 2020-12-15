@@ -6,7 +6,7 @@ const PomocPriPromociji = () => (
     <div className="promocija-content">
 
       <p className="promotion-text">
-        Ja, nekateri živijo svoje sanje, spet drugi so v nizkem zaletu in tretji… še ni zrelo <span className="emoji">😉</span>
+        Ja, nekateri živijo svoje sanje, spet drugi so v nizkem zaletu in tretji… še ni zrelo <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />
         <br />
         <br />
         Imaš idejo, znanje, veselje in produkt a nikakor zadeva ne steče, tako kot si želiš.
@@ -16,12 +16,12 @@ const PomocPriPromociji = () => (
         Moja strast in želja je, da si pomagamo, da se povežemo.
         <br />
         <br />
-        Zato, če potrebuješ malo pomoči pri »vzletu«, sem tu <span className="emoji">😉</span>. Vsi vemo, da ko te nekdo priporoči ali govori
+        Zato, če potrebuješ malo pomoči pri »vzletu«, sem tu <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />. Vsi vemo, da ko te nekdo priporoči ali govori
         o tvoji strasti, ki jo želiš deliti z drugimi, gre veliko hitreje.
         <br />
         <br />
         Spoznajva se, poglejva kaj ponujaš oziroma kaj iščeš in kako ti lahko pomagam.
-        Mogoče pa potrebuješ samo potrditev, da si na pravi poti <span className="emoji">😉</span>
+        Mogoče pa potrebuješ samo potrditev, da si na pravi poti <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />
         <br />
         <br />
         Poznate tisti rek: "Dobro blago se samo hvali".

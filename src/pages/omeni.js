@@ -55,7 +55,7 @@ const OMeni = () => (
               komunikacijo, se poglabljala v razumevanje ljudi in okolice ter mnogim
               tudi pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo, da morajo oziroma si želijo nekaj spremeniti, pa ne vedo kaj in kako.V večino primerov se zgodi čisto spontano. Velikokrat sem jih začutila, da niti niso
               imeli namena spregovoriti o zadevi, ki jih teži. A nastal je trenutek,
-            ko so se besede kar vsule. In sem se lotila dela <span className="emoji">😉</span>  Saj veste, pogled
+            ko so se besede kar vsule. In sem se lotila dela <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /> Saj veste, pogled
             iz drugega zornega kota in pa moja dva »senzorja« pa smo zadevo
             premaknili iz mrtve točke. Znašla pa sem se tudi v vlogi mediatorja.
           </div>
