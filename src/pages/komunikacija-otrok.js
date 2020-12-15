@@ -11,7 +11,7 @@ const KomunikacijaOtrok = () => (
           
           Lahko pa vaju je nosečnost tudi en malce presenetila. Nič hudega, podata se na pot starševstva.
           <br />
-          Običajno, na začetku vse teče kot sta si predstavljala, no več ali manj <span className="emoji">😉 </span>.
+          Običajno, na začetku vse teče kot sta si predstavljala, no več ali manj <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />.
           <br />
           Potem pa se počasi prikradejo neprespane noči, ritem življenja, ki ga poznaš, se počasi spreminja. In predno se pravzaprav dobro zaveš, kaj se dogaja, si že ve nekem drugem svetu oziroma scenariju.
           Skozi daljše obdobje pa še ugotoviš, da rek »Majhni otroci, majhni problemi, veliki otroci, veliki problemi.« še kako drži.

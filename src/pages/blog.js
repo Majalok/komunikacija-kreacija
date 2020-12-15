@@ -26,7 +26,7 @@ class Blog extends Component {
               na tvoj list.
               <br />
               Nato spoznaš Ljubezen svojega življenja (če ne gre v prvo, pa mogoče v drugo, tretje….no,
-              kakorkoli že <span className="emoji">😉</span>).
+              kakorkoli že <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />).
               <br />
                 <br />
               Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na plano, čez vest ta »balast«.  Na začetku
@@ -64,10 +64,10 @@ class Blog extends Component {
               zadržuje, je potrebno zopet delati na sebi.
               <br />
                 <br />
-              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela <span className="emoji">😃</span>.
+              Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti dolgčas in ne bo ti zmanjkalo dela <img className="emoji-img" src="../icons/laugh.png" width="30px" alt="" />.
               <br />
                 <br />
-              Je pa noro dober <strong>občutek</strong>, ko se osvobodiš določenih spon, prepričan, vzorcev... <strong>poletiš</strong> <span className="emoji">😉</span>
+              Je pa noro dober <strong>občutek</strong>, ko se osvobodiš določenih spon, prepričan, vzorcev... <strong>poletiš</strong> <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />
               </div>
             </div>
 
@@ -95,7 +95,7 @@ class Blog extends Component {
                 Vsi ste že slišali za vzrok in posledico, ampak ali ste se kdaj tudi dejansko poglobili v pomen tega?
               <br />
                 <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <span className="emoji" role="img">😉</span>. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
+                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to sosledje, ko se mi pripeti v življenju. Pa kako sem se motila. Sem morala parkrat pristati na riti, da sem se začela poglabljati v svoje življenje in ga analizirati. Kmalu sem ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega, delujemo po določenem konceptu, ki pripelje do vzroka in posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen način podajanja informacij pri moških kot pri ženskah. Mislim res drži, da znamo me eno dokaj preprosto zadevo povedati tako slikovito, malce bolj na dolgo in široko (ker pač rade uporabljamo pridevnike, prislove ipd <span className="emoji" role="img">😏</span>), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato, včasih celo pomanjkljivo <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />. No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so iz Marsa, ženske pa iz Venere.
                 <br />
                 <br />
                 Pa da razložim malo bolj podrobno.
@@ -104,7 +104,7 @@ class Blog extends Component {
                 Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera je "treba" skoz neki delat. V službi, pa potem doma, pa še malo pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno ne zgodi to vemo, a ne <span className="emoji" role="img">😉</span>) - <i><strong>prepričanje</strong></i>. In posledično skozi to, sem potihoma to delavnost vpeljala v svoje življenje. Službeno in privat. Moj takratni partner (mož in kasneje bivši mož, zato sem, napisala takratni <span className="emoji" role="img">😏</span>) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda en malce odstopala od mojih. To je seveda popolnoma razumljivo, ker izhajava iz različnih celic (primarne družine) in vsak od naju je s seboj prinesel svoja prepričanja in vzorce.
                 <br />
                 <br />
-                Vam je že jasno, kam pes taco moli?? <span className="emoji" role="img">🤔</span><span className="emoji" role="img">😎</span>
+                Vam je že jasno, kam pes taco moli?? <img className="emoji-img" src="../icons/think.png" width="30px" alt="" /><img className="emoji-img" src="../icons/sunglasses.png" width="30px" alt="" />
                 <br />
                 <br />
                 Ker sva imela različne poglede na določene situacije in ker se nisva znala pogovarjat, izraziti, kaj šele poslušati je velikokrat prišlo, da je bila slika brez tona <span className="emoji" role="img">😕</span> (to je bil <strong><i>vzrok</i></strong> najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri situaciji »merila« moči<span className="emoji" role="img">😊</span>. Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji (pa pustimo  »malenkost«, da imamo pravo in nepravo komunikacijo <span className="emoji" role="img">🙂</span>  ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še dovoljevala vmešavanje (direktno in indirektno) okolice. In ker se take situacije nikoli ne vlečejo v nedogled, je sledila <i><strong>posledica</strong></i> - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
