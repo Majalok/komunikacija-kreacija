@@ -2,9 +2,6 @@ import React, { Component } from "react"
 
 class ContactCard extends Component {
 
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

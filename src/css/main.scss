@@ -64,6 +64,9 @@ body {
 .kontakt-content {
     color: #482d03;
 }
+.kontakt-content:first-child {
+    margin-top: 4%;
+}
 
 textarea {
     resize: none;

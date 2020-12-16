@@ -76,9 +76,7 @@ const OMeni = () => (
       </div>
 
       <div className="zahvale-section">
-        <div className="zahvala zahvala-3" style={{
-          backgroundImage: `url(../assets/vil2.png)`,
-        }}>
+        <div className="zahvala zahvala-3">
           Minilo je par let, kar si mi prvič pomagala. S partnerjem, s katerim sem bila v zvezi 2 leti, sva
           se razšla. Iz meni, ne čisto jasnih razlogov. Bila sem obupana in na tleh. Tvoja intuicija, ti je
           narekovala, da me pokličeš, kljub temu da je bil vikend. Roko na srce, nekih tesnih stikov
@@ -89,23 +87,27 @@ const OMeni = () => (
           <div className="zahvala-name">
             A.
           </div>
+          <img className="header-image bottom-img" src="../assets/kom-partner1.png" height="10px" alt="" />
+      
         </div>
         <div className="zahvala zahvala-10"
-          style={{
+          /* style={{
             backgroundImage: `url(../assets/vil1.png)`,
-          }}>
+          }} */>
           Natašo sem spoznala na mojem prejšnjem delovnem mestu in takoj sem začutila, da izžareva neko posebno energijo. Takoj sem jo začutila. Postali sva prijateljici in velikokrat sem se nanjo obrnila za nasvet,najprej pri reševanju konfliktov na delovnem mestu. Znala mi je pravilno svetovati, kako in na kakšen način komunicirati z konfliktnimi osebami.
 
           Sčasoma sva prišli na reševanje mojih osebnih problemov, kot je reševanje zapletenega razmerja in tudi tu me je usmerila na pravo pot, predvsem kako naj pri sebi ugotovim, kje so moje težave,ki izvirajo iz moje preteklosti.
 
           Nataša ti da veliko energije, pozitive in enostavno jo moraš "ubogati", ker spoznaš, da ti zelo pomagajo njeni nasveti.
+          
           <div className="zahvala-name">
             Brigita
           </div>
+          <img className="header-image bottom-img" src="../assets/kom-partner5.png" height="10px" alt="" />
         </div>
         <div className="zahvala zahvala-2"
           style={{
-            backgroundImage: `url(../assets/vil3.png)`,
+            backgroundImage: `url(../assets/kom-partner5.png)`,
           }}>
           Hvala ti za vso pomoč in nasvete, ki si mi jih podala, ko sem bila v dvomih in ne sigurna glede svojih
           odločitev. Pomagala si mi, da sem na določene stvari pogledala iz drugega zornega kota. So osebe, ki
@@ -115,9 +117,7 @@ const OMeni = () => (
           </div>
         </div>
         <div className="zahvala zahvala-1"
-          style={{
-            backgroundImage: `url(../assets/vil2.png)`,
-          }}>
+          >
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te človek ne spozna, niti ne ve
           kam ga je pahnil hitri tempo življenja in vsa ta tehnika ...
           Kdo si je mislil, da nas bojo leta 2020 učili umivati roke ...( večina smo bili prepričani da je
@@ -129,17 +129,13 @@ const OMeni = () => (
             Joži
           </div>
         </div>
-        <div className="zahvala zahvala-8" style={{
-          backgroundImage: `url(../assets/vil2.png)`,
-        }}>
+        <div className="zahvala zahvala-8" >
           Obvladaš!
         <div className="zahvala-name">
             Rok
         </div>
         </div>
-        <div className="zahvala zahvala-6" style={{
-          backgroundImage: `url(../assets/vil1.png)`,
-        }}>
+        <div className="zahvala zahvala-6" >
           Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z razlogom. Nataša, ko si se ti pojavila v mojem življenju je bilo čisto poslovno ampak sva hitro ugotovili, da to ni tako. Vnesla si v moje življenje voljo, energijo, odprla mi oči in dala krila, da lahko poletim. Če me zanese, mi boš znala pokazati, katera pot je prava.
 
           Hvaležna, ker te je tvoja pot pripeljala k meni.
@@ -147,18 +143,14 @@ const OMeni = () => (
             L.S.
           </div>
         </div>
-        <div className="zahvala zahvala-7" style={{
-          backgroundImage: `url(../assets/vil3.png)`,
-        }}>
+        <div className="zahvala zahvala-7" >
           Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih se je potrebno tudi poglobit, če želiš ohraniti ali napredovati v določenih stvareh. In zato je dobro, če poznaš koga, ki ti pri temu pomaga. In ti si mi. Hvala.
         <div className="zahvala-name">
             Blaž
           </div>
         </div>
 
-        <div className="zahvala zahvala-9" style={{
-          backgroundImage: `url(../assets/vil2.png)`,
-        }}>
+        <div className="zahvala zahvala-9">
           Imaš veliko znanja.
         <div className="zahvala-name">
             Ana P.

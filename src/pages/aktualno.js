@@ -8,6 +8,10 @@ const Aktualno = () => (
 
       <div className="aktualno-text">
         <ul className="aktualno-ul">
+          <li className="aktualno-li">
+            Trenutek zdaj
+            <div>16.12.2020</div>
+          </li>
           <br />
           <li className="aktualno-li">
             Prepričanje
