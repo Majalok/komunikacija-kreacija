@@ -121,6 +121,78 @@ class Blog extends Component {
 
               </div>
             </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">
+                Trenutek zdaj
+              </div>
+              <div className="blog-text pisava-special brown">
+                Že kar nekaj časa nazaj sem spoznala, da sem v preteklosti večino dneva preživela  v prihodnosti ali v preteklosti.  Kaj s tem mislim?
+                <br />
+                <br />
+                Običajno zjutraj ko sem se zbudila in sem še ležala, se mi je že vrtelo po glavi kaj bom oblekla, kakšno vreme je zunaj,  kaj me danes čaka v službi , koliko dela, kaj moram čez dan postoriti ipd. Misli so švigale naprej in nazaj, samo v trenutku zdaj jih ni bilo.
+                <br />
+                <br />
+                Potem sem se za trenutek vrnila v sedanjost, ko sem se zagledal  v ogledalo, kako »pomečkano« izgledam. Na hitro sem se pokritizirala in že letela v kuhinjo pristavljat vodo za kavo.  Ob pitju zame tega čudežnega napitka ( ker me dodobra prebudi in postavi na noge, da nisem več kot kura, ki leta brez glave in ne ve sama zase ) sem običajno premišljevala, kako bi bilo fino če….prihodnost.
+                <br />
+                <br />
+                Ker sem takole odtavala v prihodnost  sem običajno izgubila en malce občutek za čas. Šele prazna skodelica kave, pa moja je tista »ta velika«  za čaj, me je povrnila v sedanjost in : »O groza! Koliko je že ura!« Lahko si mislite, da sem postala kot tisti iz risanke, modri dirkač. Same sebe sem presenetila s hitrostjo in gibčnostjo, ki jo premorem že navsezgodaj zjutraj ( zame je to med 6 in 7 uro, za nekoga drugega pa je to že sredi dela <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /> ).
+                <br />
+                <br />
+                Ko sem se končno  peljala proti službi, sem en malce se posvečala prometu, ker varnost je pa ipak na prvem mestu, en mal  pa preigravala misli po glavi <strong>kaj bo če bo, kaj je bilo… </strong>. Mimogrede mi je še švignila misel, kaj moram kupiti, kaj bi bilo fino popoldan še postoriti in tako naprej in tako nazaj.
+                <br />
+                <br />
+                Na delovnem mestu, če sem le imela trenutek, ki ni zahtevalo 100% skoncetriranosti, ampak sem lahko malce z mislim odplavala, sem že razmišljala:«  Kaj hudimana, je bilo pa tisto zjutraj pri kavi? Kje že je rekla, da je to prebrala? Hm, kaj sem že rekla, da moram kupit? Ob kateri uri je danes…? Kaj bomo počeli ta vikend? Moram preveriti, če je kakšen dober film na sporedu.« ipd.
+                <br />
+                <br />
+                Zopet sem bila z glavo nekje v preteklosti ali pa razmišljala o prihajajočih dneh. Samo v trenutku ZDAJ sem bila bore malo.
+
+                <br />
+                <br />
+                In zmeraj bolj se mi je dogajalo, da me je preletel občutek, da je dan kar izpuhtel. Začela sem se spraševati, kako hudimana je zdaj to, da se 2x obrnem in je že večer. Občutek, da mi je dan spolzel skozi prste mi ni bil prijeten. Neka praznina se je naselila v meni, kot da ga nisem izkoristila.
+                <br />
+                <br />
+                No, in če pogledamo malo bolj podrobno, ga res nisem. Če sem bila z mislimi konstantno v preteklosti ali prihodnosti nisem mogla biti v sedanjosti. In ko sem začela analizirati, kako »upočasnit« čas, sem prišla do spoznanja, da je ključno da sem čim več z glavo/mislimi v sedanjem trenutku.
+                <br />
+                <br />
+                Da zjutraj ko se prebudim, misli namenim sebi in se pozitivno naravnam, da si pomižiknem ko se zagledam v ogledalu, uživam v opojnem okusu kave in absolutno tudi en malce odtavam z mislim kako bi bilo fajn, če bi…, samo tokrat kontrolirano <img className="emoji-img" src="../icons/smile.png" width="30px" alt="" />
+                <br />
+                <br />
+                Ko se peljem v službo sem skoncentrirana na promet in še en malce na okolico, prečudovito naravo, nebo.
+                <br />
+                <br />
+                <strong> Poskušam zaznati vse odtenke dneva, da sem kar se da prisotna z mislimi in občutki v trenutku. <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /></strong>
+                <br />
+                <br />
+                <i>
+                  Je pa potrebna vaja in vztrajnost, ker misli tako rade uidejo izpod nadzora.
+                </i>
+                <br />
+                <br />
+                Ugotovila sem, da se mi je dan čudežno začel podaljševati.  No, sej vemo, da je to samo feeling, ampak  občutek je pa dober <img className="emoji-img" src="../icons/smile.png" width="30px" alt="" />.  Dan poteka bolj »oprijemljivo«,  doživeto. Tudi počutje je postalo drugačno, boljše. Dobila sem tisti občutek »prisotnosti«. Ko sem se začela fokusirati nase in ne biti toliko naokoli z mislim, sem postala tudi bolj zadovoljna.  Je pa res, da sem marsikaj o sebi tudi spoznala. In to so dobre, pa tudi malo manj dobre stvari. Na teh pa delam, da jih popravim.  Čas, ki mi sedaj ostane namenim sebi.  Delam stvari ki me veselijo. Berem knjige, se izobražujem, pogovarjamo se  ali pa preprosto čepimo skupaj na kavču in uživamo v gledanju TV-ja. In še nekaj sem ugotovila. Če imaš doma kosmatega hišnega ljubljenčka, je greh,  ko se pride stisniti k tebi in se želi »cortati«, da si z mislim nekje drugje. Ker to je tako fajn  antistresna terapija, da ni zapovedati.  Samo prisoten moraš biti. Z mislimi in občutki.  <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />
+
+                <br />
+                <br />
+                Jah, okolici, dogodkom in osebam ne posvečam več toliko pozornosti.  Poskušam tudi čim manj vse skupaj opredeljevati z predznakom + ali – .  Učim se, da dogodki in ljudje samo so/smo. Mi pa jih z našo reakcijo opredelimo kot pozitivne ali negativne.
+
+                <br />
+                <br />To pa je že druga tema <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" />
+
+                <br />
+                <br />
+                In ti?
+                <br />
+                <br />
+                Kolikokrat na dan si sam s seboj, v trenutku ZDAJ? Opazuješ svoje misli in jih imaš pod kontrolo? Kaj se ti plete po glavi? Si v pozitivnem ali med nerganjem in pritoževanjem ? <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /> Razmisli kako ti teče tok misli tekom dneva in poglej kakšno je tvoje življenje. Je odsev?
+                <br />
+                <br />
+
+                <strong>S komunikacijo kreiramo, ta pa se navezuje na naše misli in občutke.</strong>
+                <strong>A vse se da obrniti, spremeniti, če je želja, ker tam je pot </strong><img className="emoji-img" src="../icons/smile.png" width="30px" alt="" />
+
+
+              </div>
+            </div>
           </div>
         </div>
 
