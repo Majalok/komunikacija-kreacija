@@ -183,7 +183,7 @@ class Blog extends Component {
                 In ti?
                 <br />
                 <br />
-                Kolikokrat na dan si sam s seboj, v trenutku ZDAJ? Opazuješ svoje misli in jih imaš pod kontrolo? Kaj se ti plete po glavi? Si v pozitivnem ali med nerganjem in pritoževanjem ? <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /> Razmisli kako ti teče tok misli tekom dneva in poglej kakšno je tvoje življenje. Je odsev?
+                Kolikokrat na dan si sam s seboj, v trenutku ZDAJ? Opazuješ svoje misli in jih imaš pod kontrolo? Kaj se ti plete po glavi? Si v pozitivnem ali med nerganjem in pritoževanjem ? <img className="emoji-img" src="../icons/wink.png" width="30px" alt="" /> Opazuj, kako ti teče tok misli tekom dneva in poglej kakšno je tvoje življenje. Je odsev?
                 <br />
                 <br />
 

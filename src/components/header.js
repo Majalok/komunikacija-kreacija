@@ -35,7 +35,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
       </span>
       <div className="header-image-div">
         {/*   <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" /> */}
-        <img className="header-image" src="../assets/kom-logo1.png" alt="" />
+        <img className="header-image" src="../assets/kom-logoTst.png" alt="" />
       </div>
     </div>
     {/*  <div className="header-main-div">
