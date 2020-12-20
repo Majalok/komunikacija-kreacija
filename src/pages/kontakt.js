@@ -17,9 +17,8 @@ const Kontakt = () => (
       <div className="kontakt-quote-1">
         <p className="">
           Soočanje s samim seboj je <i>zanimivo</i>, a občudovanja vredno dejanje. Če pa imaš ob tem še podporo, ki ne obsoja, te usmerja, pokaže kje lahko nekaj spremeniš, je pa veliko lažje.
-        </p>
-        <br />
-        <p className="">Če si želite spremembe v življenju, ker niste več zadovoljni s tem kar ste imeli do sedaj, lahko pričnete s spremembo načina komunikacije.</p>
+
+        Če si želite spremembe v življenju, ker niste več zadovoljni s tem kar ste imeli do sedaj, lahko pričnete s spremembo načina komunikacije.</p>
         <br />
       </div>
 

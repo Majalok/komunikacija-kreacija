@@ -75,6 +75,15 @@ const OMeni = () => (
         </div>
       </div>
 
+      <div className="kontakt-quote-1">
+        <p className="">
+          Soočanje s samim seboj je <i>zanimivo</i>, a občudovanja vredno dejanje. Če pa imaš ob tem še podporo, ki ne obsoja, te usmerja, pokaže kje lahko nekaj spremeniš, je pa veliko lažje.
+        
+        Če si želite spremembe v življenju, ker niste več zadovoljni s tem kar ste imeli do sedaj, lahko pričnete s spremembo načina komunikacije.
+        </p>
+        <br />
+      </div>
+
       <div className="zahvale-section">
         <div className="zahvala zahvala-3">
           Minilo je par let, kar si mi prvič pomagala. S partnerjem, s katerim sem bila v zvezi 2 leti, sva

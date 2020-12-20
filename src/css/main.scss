@@ -132,7 +132,6 @@ textarea {
 .predavanja-content {
     width: 80%;
     margin: 4% auto 2%;
-    font-style: italic;
     text-align: justify;
     color: #210200;
 }
@@ -157,7 +156,6 @@ textarea {
 .predavanja-content {
     width: 80%;
     margin: 6% auto;
-    font-style: italic;
     text-align: justify;
     color: #210200;
     font-size: larger;
@@ -171,6 +169,11 @@ textarea {
 
 .predavanja-item {
     margin-top: 4%;
+}
+
+.predavanja-item-title {
+    font-weight: bold;
+    font-size: larger;
 }
 
 /* .box-container-1 {
