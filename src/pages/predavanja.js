@@ -38,7 +38,7 @@ const Predavanja = () => (
 
       <br />
         <br />
-      Na predavanju  pogledamo, zakaj so odnosi dragocenejša od denarja, kaj inspirira Diamantno pravilo in katera so tista ključna vprašanja, da osvojiš <i>Diamantni dotik</i>.
+      Na predavanju  pogledamo, zakaj so odnosi <strong>dragocenejši</strong> od denarja, kaj inspirira Diamantno pravilo in katera so tista ključna vprašanja, da osvojiš <i>Diamantni dotik</i>.
 
       <br />
         <br />
