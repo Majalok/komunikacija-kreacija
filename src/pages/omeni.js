@@ -121,7 +121,7 @@ const OMeni = () => (
           <div className="zahvala-name">A.</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner1.png"
+            src="../assets/kom-partner55.png"
             height="10px"
             alt=""
           />
@@ -146,7 +146,7 @@ const OMeni = () => (
           <div className="zahvala-name">Brigita</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner5.png"
+            src="../assets/kom-partner55.png"
             height="10px"
             alt=""
           />
@@ -202,17 +202,18 @@ const OMeni = () => (
         {/* nova zahvala
           }} */}
 
-        <div
-          className="zahvala zahvala-11"
-          style={{
-            backgroundImage: `url(../assets/kom-partner5.png)`,
-          }}
-        >
+        <div className="zahvala zahvala-11">
           Hvala, ker si moja občasna poslušalka. Prav paše, da se lahko spiham
           in dam iz sebe ven, vse kar mi gre na živce, ali kot ti rada rečeš:
           "me vrže iz tira, ker sem preveč v okolici." In vedno do sedaj, si mi
           dala koristen nasvet, na kaj naj bom pozorna.
           <div className="zahvala-name">Renata</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-poslusalka55.png"
+            height="10px"
+            alt=""
+          />
         </div>
 
         <div className="zahvala zahvala-10">
@@ -235,7 +236,7 @@ const OMeni = () => (
           <div className="zahvala-name">Nik</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner5.png"
+            src="../assets/kom-partner55.png"
             height="10px"
             alt=""
           />
