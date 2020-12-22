@@ -1,8 +1,5 @@
 import React from "react"
 
-const ContentRight = () => (
-    <div >
-    </div >
-)
+const ContentRight = () => <div></div>
 
 export default ContentRight

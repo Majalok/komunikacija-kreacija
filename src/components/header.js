@@ -3,29 +3,36 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, subtitle, description }) => (
-  <header style={{
-    backgroundImage: `url(../assets/13-13.png)`,
-    /*  backgroundSize: 'cover', */
-    backgroundRepeat: 'no-repeat',
-    height: '100 %',
-    backgroundPositionY: '-45px',
-    backgroundSize: '116% 141%'
-    /*     backgroundPositionY: '-130px' */
-  }} className="header" >
+  <header
+    style={{
+      backgroundImage: `url(../assets/13-13.png)`,
+      /*  backgroundSize: 'cover', */
+      backgroundRepeat: "no-repeat",
+      height: "100 %",
+      backgroundPositionY: "-45px",
+      backgroundSize: "116% 141%",
+      /*     backgroundPositionY: '-130px' */
+    }}
+    className="header"
+  >
     {/* <div className="box-container-1" style={{
       backgroundImage: `url(../assets/wave4.png)`,
       backgroundSize: 'contain',
       backgroundRepeat: 'repeat-x',
       height: '70px'
     }}></div> */}
-    < div className="header-logo" >
+    <div className="header-logo">
       {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
        */}{" "}
-    </div >
+    </div>
     <div className="header-main-div">
       <span className="header-title">
         <h3>
-          <Link to="/omeni" className="page-title-link" data-content="Komunikacija je kreacija">
+          <Link
+            to="/omeni"
+            className="page-title-link"
+            data-content="Komunikacija je kreacija"
+          >
             {siteTitle}
           </Link>
         </h3>
@@ -43,7 +50,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
         <img className="header-image-test" src="../assets/h1.png" alt="" />
       </div>
     </div> */}
-  </header >
+  </header>
 )
 
 Header.propTypes = {

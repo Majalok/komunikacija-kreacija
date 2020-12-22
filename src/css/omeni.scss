@@ -19,7 +19,8 @@
 }
 
 .o-meni > .kontakt-quote-1 {
-    font-style: italic;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .motivation-quote-1 {
@@ -191,7 +192,7 @@
     background-color: #fcf7d7;
 }
 .zahvala-8 {
-    transform: rotateZ(4deg);
+    transform: rotateZ(-1deg);
     background-color: #f4f9e6;
     box-shadow: 5px 1px 14px 1px #c5c5c5;
 }
@@ -203,6 +204,16 @@
     transform: rotateZ(2deg);
     background-color: #fff7e0;
     box-shadow: 5px 1px 14px 4px #c5c5c5;
+}
+
+.zahvala-11 {
+    transform: rotateZ(-2deg);
+    background-color: #fff7e0;
+}
+
+.zahvala-12 {
+    transform: rotateZ(-1deg);
+    background-color: #f7fffd;
 }
 
 .zahvala-name {

@@ -22,11 +22,11 @@ const Navigation = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-            navBarActiveClass: "is-active",
-          })
+              navBarActiveClass: "is-active",
+            })
           : this.setState({
-            navBarActiveClass: "",
-          })
+              navBarActiveClass: "",
+            })
       }
     )
   }
@@ -45,18 +45,21 @@ const Navigation = class extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <div className="dropdown-divider"></div>
-              <NavLink className="navigation-link" to="/omeni/"  >
-                <div className="nav-link-background" style={{
-                  backgroundImage: `url(../icons/vilinski2.png)`,
-                  backgroundSize: 'contain',
-                  backgroundRepeat: 'no-repeat',
-                  height: '105px',
-                  opacity: '1'
-                }} ><div className="nav-text">O&nbsp;meni </div>
+              <NavLink className="navigation-link" to="/omeni/">
+                <div
+                  className="nav-link-background"
+                  style={{
+                    backgroundImage: `url(../icons/vilinski2.png)`,
+                    backgroundSize: "contain",
+                    backgroundRepeat: "no-repeat",
+                    height: "105px",
+                    opacity: "1",
+                  }}
+                >
+                  <div className="nav-text">O&nbsp;meni </div>
                 </div>
 
                 {/*         <div className="nav-text">O&nbsp;meni</div> */}
-
               </NavLink>
 
               {/* <div className="navigation-icons">
@@ -75,7 +78,10 @@ const Navigation = class extends React.Component {
               >
                 <div className="dropdown-divider"></div>
 
-                <NavLink className="navigation-link" to="/komunikacija-partner/">
+                <NavLink
+                  className="navigation-link"
+                  to="/komunikacija-partner/"
+                >
                   <div className="nav-text">Komunikacija s partnerjem</div>
                 </NavLink>
                 <div className="dropdown-divider"></div>
@@ -86,18 +92,20 @@ const Navigation = class extends React.Component {
               </NavDropdown>
               <div className="dropdown-divider"></div>
 
-              <NavLink className="navigation-link" to="/predavanja/" >
+              <NavLink className="navigation-link" to="/predavanja/">
                 <div className="nav-link-background"></div>
                 <div className="nav-text"> Predavanja </div>
               </NavLink>
               <div className="dropdown-divider"></div>
               <NavLink className="navigation-link" to="/delavnice/">
-                <div className="nav-link-background">
-                </div>
+                <div className="nav-link-background"></div>
                 <div className="nav-text"> Delavnice </div>
               </NavLink>
               <div className="dropdown-divider"></div>
-              <NavLink className="navigation-link pomoc" to="/pomoc-pri-promociji/">
+              <NavLink
+                className="navigation-link pomoc"
+                to="/pomoc-pri-promociji/"
+              >
                 <div className="nav-link-background"></div>
 
                 <div className="nav-text">Pomoč pri promociji</div>
@@ -114,12 +122,15 @@ const Navigation = class extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div className="box-container" style={{
-          backgroundImage: `url(../assets/wave4.png)`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'repeat-x',
-          height: '70px'
-        }} >
+        <div
+          className="box-container"
+          style={{
+            backgroundImage: `url(../assets/wave4.png)`,
+            backgroundSize: "contain",
+            backgroundRepeat: "repeat-x",
+            height: "70px",
+          }}
+        >
           {/*  <svg>
             <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: "none", fill: "#fbef94" }} ></path>
           </svg>
@@ -145,7 +156,7 @@ const NavLink = props => (
           color: isCurrent ? "black" : "black",
           backgroundColor: isCurrent ? "fbf0af" : "",
           /* boxShadow: isCurrent ? "3px 4px 17px 6px #f8a406" : "", */
-          borderRadius: isCurrent ? "18px" : ""
+          borderRadius: isCurrent ? "18px" : "",
         },
       }
     }}

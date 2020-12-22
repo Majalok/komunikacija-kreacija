@@ -27,11 +27,9 @@ const Aktualno = () => (
       </div>
     </div>
     <div className="delavnice-content">
-      <div className="delavnice-item">
-      </div>
+      <div className="delavnice-item"></div>
     </div>
-
-  </Layout >
+  </Layout>
 )
 
 export default Aktualno

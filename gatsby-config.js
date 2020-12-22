@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Komunikacija je kreacija",
-    subtitle:
-      "by Nataša Muc",
-    description: "Komunikacija, kreacija, pogovor, pogovarjati se, slišati, poslušanje, pomoč, svetovanje, sprememba, naučiti se, zdrav odnos, odnosi, partner, otrok, družba, služba, okolica, blog, delavnice, vilinski simboli, origami, ptica",
+    subtitle: "by Nataša Muc",
+    description:
+      "Komunikacija, kreacija, pogovor, pogovarjati se, slišati, poslušanje, pomoč, svetovanje, sprememba, naučiti se, zdrav odnos, odnosi, partner, otrok, družba, služba, okolica, blog, delavnice, vilinski simboli, origami, ptica",
     url: "www.komunikacija-kreacija.si",
     author: "Maja L",
   },
@@ -43,7 +43,6 @@ module.exports = {
       resolve: `gatsby-plugin-catch-links`,
       options: {
         excludePattern: /(excluded-link|external)/,
-
       },
     },
     {
@@ -81,7 +80,7 @@ module.exports = {
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
         crossOrigin: `use-credentials`,
-      }
+      },
     },
     "gatsby-plugin-netlify-cms",
 
