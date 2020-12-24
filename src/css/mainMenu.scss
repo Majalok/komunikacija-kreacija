@@ -33,9 +33,10 @@ $yellow-bck: #faf46d;
     /*  background: linear-gradient(#f4f391, #f4f391);
     background: linear-gradient(to bottom, #f4f391, #f4f391, #f4f391); */
     color: #740b0b;
-    background-color: #fff394;
-    /*  border-top: 0.5px solid #85a4ae;
+/*     background-color: #fff394;
+ */    /*  border-top: 0.5px solid #85a4ae;
     border-bottom: 0.5px solid #85a4ae; */
+    background: linear-gradient(to bottom, #fff9ce, #fff6d6, #ffe2aa);
 }
 
 .example-enter {
@@ -284,7 +285,7 @@ a:hover {
             height: auto;
             display: flex;
             flex-direction: column;
-            background-color: #fff394;
+            background: linear-gradient(to top, #fff9ce, #fff6d6, #ffe2aa);
             margin-top: 900px;
             left: 0px;
             width: auto;
@@ -351,6 +352,7 @@ a:hover {
         left: 0px;
         width: auto;
         z-index: 999;
+        background: linear-gradient(to bottom, #ffe6b4, #fff6d6, #ffe2aa);
     }
 
     .main-menu-links.toggleMenu > div > .main-menu-link {
@@ -377,7 +379,7 @@ a:hover {
 
     @media only screen and (max-device-width: 767px) {
         .main-menu-links.toggleMenu {
-            top: 135px;
+            top: 144px;
         }
     }
 }
