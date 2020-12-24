@@ -118,6 +118,13 @@ a:hover {
     color: unset !important;
 }
 
+.main-menu-links.toggleMenu {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #f9ecd4,#fff6d5);
+}
+
 .menu-title:hover {
     background-color: none;
     color: black;
@@ -285,7 +292,6 @@ a:hover {
             height: auto;
             display: flex;
             flex-direction: column;
-            background: linear-gradient(to top, #fff9ce, #fff6d6, #ffe2aa);
             margin-top: 900px;
             left: 0px;
             width: auto;
@@ -379,7 +385,7 @@ a:hover {
 
     @media only screen and (max-device-width: 767px) {
         .main-menu-links.toggleMenu {
-            top: 144px;
+            top: 135px;
         }
     }
 }
