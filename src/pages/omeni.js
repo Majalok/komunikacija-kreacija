@@ -95,7 +95,7 @@ const OMeni = () => (
         </div>
       </div>
 
-      <div className="kontakt-quote-1">
+      <div className="omeni-quote-1">
         <p className="">
           Soočanje s samim seboj je <i>zanimivo</i>, a občudovanja vredno
           dejanje. Če pa imaš ob tem še podporo, ki ne obsoja, te usmerja,
@@ -146,22 +146,28 @@ const OMeni = () => (
           <div className="zahvala-name">Brigita</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner55.png"
+            src="../assets/kom-partner555.png"
             height="10px"
             alt=""
           />
         </div>
         <div
           className="zahvala zahvala-2"
-          style={{
+          /*  style={{
             backgroundImage: `url(../assets/kom-partner5.png)`,
-          }}
+          }} */
         >
           Hvala ti za vso pomoč in nasvete, ki si mi jih podala, ko sem bila v
           dvomih in ne sigurna glede svojih odločitev. Pomagala si mi, da sem na
           določene stvari pogledala iz drugega zornega kota. So osebe, ki jim je
           preprosto treba reči hvala in ena izmed takih oseb si ti!
           <div className="zahvala-name">Anja</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
         <div className="zahvala zahvala-1">
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te
@@ -173,10 +179,22 @@ const OMeni = () => (
           osebnosti rasti in kljub svojim letom sem iz grdega malega račka
           postala ponosni labod. Iz srca ti hvala
           <div className="zahvala-name">Joži</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
         <div className="zahvala zahvala-8">
           Obvladaš!
           <div className="zahvala-name">Rok</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
         <div className="zahvala zahvala-6">
           Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z
@@ -186,6 +204,12 @@ const OMeni = () => (
           poletim. Če me zanese, mi boš znala pokazati, katera pot je prava.
           Hvaležna, ker te je tvoja pot pripeljala k meni.
           <div className="zahvala-name">L.S.</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
         <div className="zahvala zahvala-7">
           Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih
@@ -193,14 +217,24 @@ const OMeni = () => (
           določenih stvareh. In zato je dobro, če poznaš koga, ki ti pri temu
           pomaga. In ti si mi. Hvala.
           <div className="zahvala-name">Blaž</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
 
         <div className="zahvala zahvala-9">
           Imaš veliko znanja.
           <div className="zahvala-name">Ana P.</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
-        {/* nova zahvala
-          }} */}
 
         <div className="zahvala zahvala-11">
           Hvala, ker si moja občasna poslušalka. Prav paše, da se lahko spiham
@@ -221,6 +255,12 @@ const OMeni = () => (
           Manj se fajtamo, kljub temu, da mi še vedno »najedata«. Sorry, ampak
           tko je . We stay in touch.
           <div className="zahvala-name">Aleš</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
         <div className="zahvala zahvala-12">
           Srednja šola je obdobje v našem življenju, v katerem "splavaš" ali
@@ -236,7 +276,7 @@ const OMeni = () => (
           <div className="zahvala-name">Nik</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner55.png"
+            src="../assets/kom-partner555.png"
             height="10px"
             alt=""
           />
@@ -253,6 +293,12 @@ const OMeni = () => (
           vztrajnost. A se strinjava oba, da je vredno. Kot novopečena familja
           kar dobro furamo.
           <div className="zahvala-name">T&M</div>
+          <img
+            className="header-image bottom-img"
+            src="../assets/kom-partner555.png"
+            height="10px"
+            alt=""
+          />
         </div>
       </div>
       {/*  <div className="motivation-quote-1"> */}
