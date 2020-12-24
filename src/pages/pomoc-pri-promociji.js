@@ -46,7 +46,13 @@ const PomocPriPromociji = () => (
         <br />
         <br />
         Poznate tisti rek: "Dobro blago se samo hvali". Jaz pa dodajam, še bolje
-        in hitreje pa je, če ti nekdo pri tem pomaga ;)
+        in hitreje pa je, če ti nekdo pri tem pomaga{" "}
+        <img
+          className="emoji-img"
+          src="../icons/wink.png"
+          width="30px"
+          alt=""
+        />
         <br />
         <br />
       </p>
