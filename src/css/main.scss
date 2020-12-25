@@ -61,29 +61,6 @@ body {
     box-shadow: 2px 9px 17px #d2c7ac;
 }
 
-.kontakt-content {
-    color: #482d03;
-}
-.kontakt-content:first-child {
-    margin-top: 4%;
-}
-
-.kontakt-quote-1, .omeni-quote-1 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-textarea {
-    resize: none;
-}
-
-.bla {
-    font-size: xx-large;
-    margin: 100px 0px;
-    font-style: bold;
-}
-
-/***  delete test code **/
 .pisave-div {
     font-size: x-large;
     margin-top: 100px;
@@ -92,8 +69,6 @@ textarea {
 .pisave-div > div {
     margin-bottom: 60px;
 }
-
-/***  end delete test code **/
 
 .aktualno-content {
     color: #220202;
@@ -276,14 +251,7 @@ li {
 
 @media (min-width: 200px) and (max-width: 500px) and (orientation: portrait),
     (min-width: 200px) and (max-width: 500px) and (orientation: landscape) {
-    .header {
-        flex-direction: column;
-        padding: 25px;
-    }
 
-    .header-title-link {
-        font-size: medium;
-    }
     .gallery-content {
         margin: 0;
     }

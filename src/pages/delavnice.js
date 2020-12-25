@@ -7,12 +7,6 @@ const Delavnice = () => (
       <div className="delavnice-item">
         Zaradi trenutne situacije se delavnice ne izvajajo.
       </div>
-      <div className="bla">
-        {" "}
-        tukaj lahko pregledas, katere pisave so ti vsec. vse pisave so
-        nastavljene na enako velikost in nobena od njih ni nastavljena na
-        krepko/lezece
-      </div>
 
       <div className="pisave-div">
         <div className="pisava-1">

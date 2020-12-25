@@ -127,4 +127,17 @@
         text-align: center;
         width: 100%;
     }
+
+    .komunikacija-item {
+        flex-direction: row;
+        justify-content: center;
+        padding: unset;
+
+    }
+    div.komunikacija-text {
+        width: 90%;
+        margin-bottom: 4%;
+        text-align: left;
+        font-size: large;
+    }
 }

@@ -205,3 +205,14 @@ a.header-title-link:hover {
         height: auto;
     }
 }
+@media (min-width: 200px) and (max-width: 500px) and (orientation: portrait),
+    (min-width: 200px) and (max-width: 500px) and (orientation: landscape) {
+    .header {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .header-title-link {
+        font-size: medium;
+    }
+}

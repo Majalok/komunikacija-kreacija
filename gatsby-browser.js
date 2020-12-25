@@ -9,6 +9,8 @@ require("./src/css/omeni.scss")
 require("./src/css/gallery.scss")
 require("./src/css/komunikacija.scss")
 require("./src/css/contactForm.scss")
+require("./src/css/kontakt.scss")
+require("./src/css/aktualno.scss")
 
 // in gastby-browser.js
 export const shouldUpdateScroll = ({
