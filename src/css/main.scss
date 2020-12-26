@@ -161,10 +161,6 @@ body {
     box-shadow: -4px 20px 15px #8e774c;
 } */
 
-.box-container.picture {
-    margin-top: 200px;
-}
-
 .main-content-left {
     width: 9%;
     /* background: linear-gradient(to bottom, #fda64c, #f14706); */
@@ -274,15 +270,6 @@ li {
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .main-content {
         padding: 4% 3%;
-    }
-
-    .aktualno-text {
-        margin: unset;
-        width: 90%;
-    }
-
-    .aktualno-content {
-        width: 90%;
     }
 
     .predavanja-content,

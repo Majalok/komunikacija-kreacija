@@ -59,11 +59,7 @@
     margin-top: -6%;
 }
 
-.contact-icons {
-    flex-grow: 1;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
+
 .header-title-link {
     color: #fff2c3;
     text-decoration: none;
@@ -84,19 +80,6 @@
     padding: 0 20px;
 }
 
-.contact-icons > a {
-    margin: 5px;
-}
-
-.contact-icons > a > img {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-.contact-icons > a > img:hover {
-    -webkit-filter: brightness(130%);
-    filter: brightness(130%);
-}
 
 .page-title-link {
     color: #fff2ad;
@@ -176,16 +159,8 @@ a.header-title-link:hover {
         padding: 0;
         flex-direction: column;
     }
-    .contact-icons {
-        align-self: center;
-    }
 
     @media screen and (orientation: landscape) {
-        .contact-icons {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
 
         .header-image {
             margin-left: 0px;

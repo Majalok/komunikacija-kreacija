@@ -45,6 +45,26 @@
     margin-left: 10px;
 }
 
+.contact-icons {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-icons > a {
+    margin: 5px;
+}
+
+.contact-icons > a > img {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.contact-icons > a > img:hover {
+    -webkit-filter: brightness(130%);
+    filter: brightness(130%);
+}
+
 .contact-form {
     width: 60%;
 }
@@ -223,6 +243,20 @@ textarea.form-control {
         }
         .form {
             margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    
+    .contact-icons {
+        align-self: center;
+    }
+    @media screen and (orientation: landscape) {
+        .contact-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }

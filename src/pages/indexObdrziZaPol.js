@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 /* import { graphql } from "gatsby" */
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 /* import Blog from "./blog" */
 /* function initNetlifyIdentity() {
   console.log("initNetlifyIdentity called")
@@ -29,14 +29,10 @@ class NetlifyIdentity extends Component {
     return <div></div>
   }
 } */
-class IndexPage extends Component {
+class IndexPage1 extends Component {
   render() {
-    return (
-      <Layout>
-        <h5 className="item-title">test</h5>
-      </Layout>
-    )
+    return <Layout>{/* <h5 className="item-title">test</h5> */}</Layout>
   }
 }
 
-export default IndexPage
+export default IndexPage1

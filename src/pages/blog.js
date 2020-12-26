@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 /* import { FaCalendarAlt } from "react-icons/fa" */
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 class Blog extends Component {
   render() {
