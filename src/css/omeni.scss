@@ -11,7 +11,8 @@
     margin: 0 auto;
     margin-top: 4%;
     margin-bottom: 4%;
-    font-size: larger;
+    font-size: large;
+    text-align: justify;
 }
 
 .o-meni {
@@ -23,6 +24,7 @@
 .o-meni > .omeni-quote-1 {
     width: 80%;
     margin: 0 auto;
+    font-size: large;
 }
 
 .motivation-quote-1 {
@@ -46,6 +48,7 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 0%;
+    font-size: large;
 }
 
 .o-meni-content {
@@ -112,6 +115,10 @@
 
 .o-meni-text {
     font-family: Bellota Text;
+}
+
+.o-meni-quote-1{
+    font-size: large;
 }
 
 .zahvale {
@@ -298,6 +305,7 @@
         line-height: unset;
         padding: 5px 6px;
         font-size: 2rem;
+        font-size: large;
     }
 
     .motivation-quote-1 {

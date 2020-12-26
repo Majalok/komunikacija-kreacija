@@ -3,7 +3,9 @@ import React from "react"
 const Footer = () => (
   <footer className="footer">
     <small className="footer-text">
-      {" © Copyright 2019-2020 Vse pravice pridržane"}
+      {" © Copyright 2020"}
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      {"Vse pravice pridržane"}
     </small>
   </footer>
 )
