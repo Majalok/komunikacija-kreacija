@@ -120,7 +120,7 @@ const OMeni = () => (
           poroka. Hvaležna ker si!
           <div className="zahvala-name">A.</div>
           <img
-            className="header-image bottom-img"
+            className="header-image bottom-img partner"
             src="../assets/kom-partner55.png"
             height="10px"
             alt=""
@@ -145,8 +145,8 @@ const OMeni = () => (
           zelo pomagajo njeni nasveti.
           <div className="zahvala-name">Brigita</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img sluzba"
+            src="../assets/kom-sluzba.png"
             height="10px"
             alt=""
           />
@@ -164,7 +164,7 @@ const OMeni = () => (
           <div className="zahvala-name">Anja</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            src="../assets/kom-poslusalka.png"
             height="10px"
             alt=""
           />
@@ -181,7 +181,7 @@ const OMeni = () => (
           <div className="zahvala-name">Joži</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            src="../assets/kom-osebna.png"
             height="10px"
             alt=""
           />
@@ -190,8 +190,8 @@ const OMeni = () => (
           Obvladaš!
           <div className="zahvala-name">Rok</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img sluzba"
+            src="../assets/kom-sluzba.png"
             height="10px"
             alt=""
           />
@@ -206,7 +206,7 @@ const OMeni = () => (
           <div className="zahvala-name">L.S.</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            src="../assets/kom-poslusalka.png"
             height="10px"
             alt=""
           />
@@ -219,7 +219,7 @@ const OMeni = () => (
           <div className="zahvala-name">Blaž</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            src="../assets/kom-poslusalka.png"
             height="10px"
             alt=""
           />
@@ -229,8 +229,8 @@ const OMeni = () => (
           Imaš veliko znanja.
           <div className="zahvala-name">Ana P.</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img splosna"
+            src="../assets/kom-splosna.png"
             height="10px"
             alt=""
           />
@@ -244,7 +244,7 @@ const OMeni = () => (
           <div className="zahvala-name">Renata</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-poslusalka55.png"
+            src="../assets/kom-poslusalka.png"
             height="10px"
             alt=""
           />
@@ -256,8 +256,8 @@ const OMeni = () => (
           tko je . We stay in touch.
           <div className="zahvala-name">Aleš</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img partner"
+            src="../assets/kom-partner.png"
             height="10px"
             alt=""
           />
@@ -275,8 +275,8 @@ const OMeni = () => (
           enkrat hvala.
           <div className="zahvala-name">Nik</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img splosna"
+            src="../assets/kom-splosna.png"
             height="10px"
             alt=""
           />
@@ -294,8 +294,8 @@ const OMeni = () => (
           kar dobro furamo.
           <div className="zahvala-name">T&M</div>
           <img
-            className="header-image bottom-img"
-            src="../assets/kom-partner555.png"
+            className="header-image bottom-img partner"
+            src="../assets/kom-partner.png"
             height="10px"
             alt=""
           />

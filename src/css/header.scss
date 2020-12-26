@@ -26,9 +26,26 @@
 }
 
 .header-image.bottom-img {
-    height: 50px;
+    height: 74px;
     width: auto;
     float: right;
+    margin-top: -23px;
+}
+
+.header-image.bottom-img.sluzba {
+    height: 94px;
+}
+
+.header-image.bottom-img.otrok {
+    height: 94px;
+}
+
+.header-image.bottom-img.splosna {
+    height: 94px;
+}
+
+.header-image.bottom-img.partner {
+    height: 62px;
 }
 
 .header-image-test {
@@ -169,6 +186,12 @@ a.header-title-link:hover {
             margin-top: 5%;
         }
     }
+}
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+.header-image {
+    width: 40%;
+}
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
     .header {
