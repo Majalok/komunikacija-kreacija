@@ -244,8 +244,8 @@ import logo3 from "./../../assets/icons/icon_backup_box1.png" */
                   (this.state.selectedMenuItem === 1 ? "selected" : "")
                 }
                 onClick={this.setMenuItemSelected}
-                onMouseOver={this.displayMenuBoxPanel}
-                name="product1"
+                /*  onMouseOver={this.displayMenuBoxPanel}
+                 */ name="product1"
               >
                 <span className="menu-title">Komunikacija </span>
 
@@ -254,38 +254,39 @@ import logo3 from "./../../assets/icons/icon_backup_box1.png" */
  */}
                 {
                   /* this.state.displayMenu && */
-                  <CSSTransition
-                    in={this.state.displayMenu}
+                  /*  <CSSTransition */
+                  /*  in={this.state.displayMenu}
                     unmountOnExit
                     timeout={200}
-                    classNames="example"
-                  >
-                    <div className="main-menu-panel">
-                      <div
-                        className="main-menu-products"
-                        onMouseEnter={this.displayMenuBoxPanel}
-                        onMouseLeave={this.hideMenuBoxPanel}
-                      >
-                        {this.state.selectedProduct.productList.map(product => (
-                          <Link
+                    classNames="example" */
+                  /*  > */
+                  <div className="main-menu-panel">
+                    <div
+                      className="main-menu-products"
+                      /*    onMouseEnter={this.displayMenuBoxPanel}
+                      onMouseLeave={this.hideMenuBoxPanel}
+                  */
+                    >
+                      {this.state.product1.productList.map(product => (
+                        <Link
+                          key={product.id}
+                          className="main-menu-product-box"
+                          id={product.type}
+                          to={product.link}
+                          onClick={this.selectedMenuItem}
+                        >
+                          <p
                             key={product.id}
-                            className="main-menu-product-box"
-                            id={product.type}
-                            to={product.link}
-                            onClick={this.selectedMenuItem}
+                            id={product.id}
+                            className="main-menu-product-desc"
                           >
-                            <p
-                              key={product.id}
-                              id={product.id}
-                              className="main-menu-product-desc"
-                            >
-                              {product.name}
-                            </p>
-                          </Link>
-                        ))}
-                      </div>
+                            {product.name}
+                          </p>
+                        </Link>
+                      ))}
                     </div>
-                  </CSSTransition>
+                  </div>
+                  /*              </CSSTransition> */
                 }
               </div>
               {/*  <div key="main-menu-submenu" className={"main-menu-submenu " + (this.state.displaySubmenu === true ? "submenu-show" : '')}>

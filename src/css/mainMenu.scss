@@ -51,6 +51,8 @@ $yellow-bck: #faf46d;
     /* transform: scaleY(200%); */
 }
 
+
+
 .example-enter-active {
     opacity: 1;
     /* transition: all var(--speed) ease; */
@@ -59,7 +61,7 @@ $yellow-bck: #faf46d;
 
 /** tukaj bomo dali, da se zapelje nazaj gor**/
 .example-exit {
-    opacity: 0.95;
+    opacity: 0.55;
     transition: opacity 0.5s ease-out;
 }
 
@@ -125,6 +127,8 @@ a:hover {
     background: linear-gradient(to top, #f9ecd4,#fff6d5);
 }
 
+
+
 .menu-title:hover {
     background-color: none;
     color: black;
@@ -136,6 +140,31 @@ a:hover {
     border-radius: 74px;
     color: #873901;*/
 }
+/* 
+.main-menu-link:hover:nth-child(1) {
+    display: block;
+    visibility: visible;
+    background-color: green;
+}*/
+
+.main-menu-products {
+    display: none;
+} 
+
+.main-menu-link {
+    transition: all 3ms ease-out;
+
+}
+
+ .main-menu-link:hover > .main-menu-panel >.main-menu-products{
+    display: block;
+    background-color: orange;
+    transition: all 3ms ease-out;
+} 
+
+/* .main-menu-link:not( :hover ) > .main-menu-panel > .main-menu-products{
+    display: none;
+}   */ 
 
 .top-content-menu {
     height: 300px;
