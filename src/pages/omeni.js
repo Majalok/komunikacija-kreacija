@@ -55,7 +55,7 @@ const OMeni = () => (
             </div>{" "}
             <div className="o-meni-text">
               Prišla sem do spoznanja, da imam dobro izostren šesti čut ali
-              intuicijo. Jasnovednost in jasnočutnost sta moja podporna stebra.
+              intuicijo. <i>Jasnovednost in jasnočutnost</i> sta moja podporna stebra.
               Skozi daljše obdobje sem pridno pilila svojo komunikacijo, se
               poglabljala v razumevanje ljudi in okolice ter mnogim tudi
               pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
@@ -97,7 +97,7 @@ const OMeni = () => (
 
       <div className="omeni-quote-1">
         <p className="">
-          Soočanje s samim seboj je <i>zanimivo</i>, a občudovanja vredno
+          Soočanje s samim seboj je <i>zanimivo</i> in občudovanja vredno
           dejanje. Če pa imaš ob tem še podporo, ki ne obsoja, te usmerja,
           pokaže kje lahko nekaj spremeniš, je pa veliko lažje. Če si želite
           spremembe v življenju, ker niste več zadovoljni s tem kar ste imeli do
@@ -199,8 +199,7 @@ const OMeni = () => (
         <div className="zahvala zahvala-6">
           Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z
           razlogom. Nataša, ko si se ti pojavila v mojem življenju je bilo čisto
-          poslovno ampak sva hitro ugotovili, da to ni tako. Vnesla si v moje
-          življenje voljo, energijo, odprla mi oči in dala krila, da lahko
+          poslovno ampak sva hitro ugotovili, da to ni tako.V moje življenje si vnesla voljo, energijo, mi odprla oči in dala krila, da lahko
           poletim. Če me zanese, mi boš znala pokazati, katera pot je prava.
           Hvaležna, ker te je tvoja pot pripeljala k meni.
           <div className="zahvala-name">L.S.</div>
@@ -213,7 +212,7 @@ const OMeni = () => (
         </div>
         <div className="zahvala zahvala-7">
           Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih
-          se je potrebno tudi poglobit, če želiš ohraniti ali napredovati v
+          se je potrebno tudi poglobiti, če želiš napredovati v
           določenih stvareh. In zato je dobro, če poznaš koga, ki ti pri temu
           pomaga. In ti si mi. Hvala.
           <div className="zahvala-name">Blaž</div>
@@ -239,7 +238,7 @@ const OMeni = () => (
         <div className="zahvala zahvala-11">
           Hvala, ker si moja občasna poslušalka. Prav paše, da se lahko spiham
           in dam iz sebe ven, vse kar mi gre na živce, ali kot ti rada rečeš:
-          "me vrže iz tira, ker sem preveč v okolici." In vedno do sedaj, si mi
+          "me vrže iz tira, ker se preveč ukvarjam z  okolico." In vedno do sedaj, si mi
           dala koristen nasvet, na kaj naj bom pozorna.
           <div className="zahvala-name">Renata</div>
           <img

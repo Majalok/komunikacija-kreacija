@@ -35,7 +35,7 @@ class Blog extends Component {
                 koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi cel
                 tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
                 čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
-                tisti malo manj »boljši«.
+                tisti malo manj dobri.
                 <br />
                 Potem nastopi »ta resen« del… služba. Okolica in sodelavci
                 pridno igrajo svojo vlogo pri pisanju na tvoj list.
@@ -96,7 +96,7 @@ class Blog extends Component {
                 In da prideš do tega, kdo pravzaprav si <strong>
                   ti ti
                 </strong>{" "}
-                in ne kdo si, kot te je definirala okolica in vsi njeni akterji
+                in ne nekdo, kot ga je in ki ga je »popredalčkala« okolica in vsi njeni akterji
                 prisotni v tvojem življenju, zato je potrebno delo na sebi. In
                 za preseči vse to, kar te zadržuje, je potrebno zopet delati na
                 sebi.
@@ -227,7 +227,7 @@ class Blog extends Component {
                 <br />
                 Ker sva imela različne poglede na določene situacije in ker se
                 nisva znala pogovarjat, izraziti, kaj šele poslušati je
-                velikokrat prišlo, da je bila slika brez tona{" "}
+                velikokrat prišlo, da je bila najina komunikacija, »slika brez tona« {" "}
                 <img
                   className="emoji-img"
                   src="../icons/confused.png"
@@ -261,7 +261,7 @@ class Blog extends Component {
                 <i>
                   <strong>posledica</strong>
                 </i>{" "}
-                - ločitev. In vsak od naju je doprinesel 50:50 k situaciji.
+                - ločitev. In vsak od naju, je k situaciji doprinesel svojih 50%.
                 <br />
                 <br />
                 In šele sedaj, po parih letih dela na sebi, sem dojela koncept{" "}
@@ -270,7 +270,7 @@ class Blog extends Component {
                 <br />
                 Zato dobro poglejte, dajte pod drobnogled področja svojega
                 življenja, kjer se vam zatika. Preverite kakšna so vaša
-                prepričanja. Prisluhnite razlagi vzroka, da preprečite
+                prepričanja. Prisluhnite razlagi vzroka (zakaj je ali ni do nečesa prišlo, se naredilo, se izgovorilo), da preprečite
                 posledico. Ali pa jo izpeljite (posledico namreč) in dano
                 situacijo izkoristite za osebno rast.
                 <br />
@@ -295,11 +295,7 @@ class Blog extends Component {
                 tem mislim?
                 <br />
                 <br />
-                Običajno zjutraj ko sem se zbudila in sem še ležala, se mi je že
-                vrtelo po glavi kaj bom oblekla, kakšno vreme je zunaj, kaj me
-                danes čaka v službi , koliko dela, kaj moram čez dan postoriti
-                ipd. Misli so švigale naprej in nazaj, samo v trenutku zdaj jih
-                ni bilo.
+                Običajno že zjutraj, ko sem se zbudila in sem še ležala v postelji, se mi je že »vrtelo po glavi«, kaj bom oblekla, kakšno vreme bo tisti dan, kaj me danes čaka v službi, koliko dela, kaj moram čez dan postoriti, ali sem včeraj kaj pozabila narediti, ipd. Misli so švigale naprej in nazaj, samo v trenutku »zdaj« jih ni bilo.
                 <br />
                 <br />
                 Potem sem se za trenutek vrnila v sedanjost, ko sem se zagledala
@@ -505,7 +501,7 @@ class Blog extends Component {
                 <br />
                 Kolikokrat na dan si sam s seboj, v trenutku ZDAJ? Opazuješ
                 svoje misli in jih imaš pod kontrolo? Kaj se ti plete po glavi?
-                Si v pozitivnem ali med nerganjem in pritoževanjem ?{" "}
+                Si v pozitivnem »mood-u«, ali »samozaloten« med nerganjem in pritoževanjem?{" "}
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
@@ -521,7 +517,7 @@ class Blog extends Component {
                   občutke.
                 </strong>
                 <strong>
-                  A vse se da obrniti, spremeniti, če je želja, ker tam je pot{" "}
+                  A vse se da obrniti, spremeniti kjer je želja, ker tam je pot{" "}
                 </strong>
                 <img
                   className="emoji-img"

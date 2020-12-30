@@ -65,7 +65,7 @@ const Predavanja = () => (
         <br />
         Z govorico telesa,pravzaprav na nezavedni ravni, odražamo svoje čustveno
         stanje. Obstajajo tri pravila za pravilno branje znakov in pa metode za
-        razlaganje pomena kretenj, branja misli in čustev.
+        razlaganje pomena kretenj, "branja misli" in čustev.
         <br />
         <br />
         Tu po sklopih pogledamo, na kakšen način, z osnovnim razumevanje telesne
@@ -82,6 +82,7 @@ const Predavanja = () => (
           height: "300px",
           width: "100%",
           backgroundPositionX: "center",
+          backgroundPositionY: "50%",
         }}
       ></div>
     </div>

@@ -15,8 +15,7 @@ const Poslusalka = () => (
           In včasih je dovolj že to, da breme, ki ga nosiš, podeliš še z nekom,
           neznancem, ki ne obsoja in ne pametuje, ampak samo posluša.
           <br />
-          Lahko pa kot zunanja opazovalka, ki ni čustveno vpletena v situacijo,
-          vam povem/nakažem v kateri smeri poskušajte rešiti ali iti. Temu jaz
+          Lahko pa vam, kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, povem/nakažem v kateri smeri poskušajte situacijo rešiti, oziroma v katero smer iti, da boste šli proti rešitvi in ne od nje. Temu jaz
           pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
         </div>
       </div>

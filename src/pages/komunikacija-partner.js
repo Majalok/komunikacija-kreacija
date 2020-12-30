@@ -24,7 +24,7 @@ const KomunikacijaPartner = () => (
             width="30px"
             alt=""
           />
-          ), se vas označi kot: »Ti si kriv/kriva za vse!«
+          ), se vas obtoži v smislu: »Ti si kriv/kriva za vse!«
           <br />
           Partner je vaše ogledalo in vi njemu. Kaj to pomeni? Da na vse kar
           odreagirate, je pravzaprav neka rana, vzorec v vas, ki ga je potrebno
