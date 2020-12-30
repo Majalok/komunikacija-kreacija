@@ -68,7 +68,7 @@
 
 .o-meni-textdiv {
     width: 63%;
-    margin-right: 4%; 
+    margin-right: 4%;
 }
 /* svg {
     display: inline-block;
@@ -117,7 +117,7 @@
     font-family: Bellota Text;
 }
 
-.o-meni-quote-1{
+.o-meni-quote-1 {
     font-size: large;
 }
 
@@ -170,18 +170,17 @@
 
 .zahvala-1 {
     transform: rotateZ(2deg);
-    background-color: #FFF2EA;
+    background-color: #fff2ea;
 }
 
 .zahvala-2 {
     transform: (-2deg);
-    background-color: #FEFDD9;
+    background-color: #fefdd9;
 }
 
 .zahvala-3 {
     transform: rotateZ(-2deg);
-    background-color: #F6FEDD;
-
+    background-color: #f6fedd;
 }
 
 .zahvala-4 {
@@ -194,36 +193,36 @@
 }
 .zahvala-6 {
     transform: rotateZ(-2deg);
-    background-color: #FAFEDE;
+    background-color: #fafede;
     box-shadow: 2px 9px 19px 5px #c5c5c5;
 }
 .zahvala-7 {
     transform: rotateZ(1deg);
-    background-color: #FDF8E0;
+    background-color: #fdf8e0;
 }
 .zahvala-8 {
     transform: rotateZ(-1deg);
-    background-color: #F7FAEA;
+    background-color: #f7faea;
     box-shadow: 5px 1px 14px 1px #c5c5c5;
 }
 .zahvala-9 {
     transform: rotateZ(-1deg);
-    background-color: #FFF1E5;
+    background-color: #fff1e5;
 }
 .zahvala-10 {
     transform: rotateZ(2deg);
-    background-color: #FFF8E6;
+    background-color: #fff8e6;
     box-shadow: 5px 1px 14px 4px #c5c5c5;
 }
 
 .zahvala-11 {
     transform: rotateZ(-2deg);
-    background-color: #FFF8E6;
+    background-color: #fff8e6;
 }
 
 .zahvala-12 {
     transform: rotateZ(-1deg);
-    background-color: #F9FEFA;
+    background-color: #f9fefa;
 }
 
 .zahvala-name {
@@ -260,7 +259,6 @@
     }
 }
 @media only screen and (max-width: 1024px) and (min-width: 200px) {
-
     @media only screen and (orientation: landscape) {
         .zahvala {
             width: 80%;
@@ -272,7 +270,6 @@
         }
     }
     @media only screen and (orientation: portrait) {
-
         .o-meni-textdiv {
             margin-right: unset;
         }
@@ -305,8 +302,9 @@
     .o-meni-quote > .quote-text {
         line-height: unset;
         padding: 5px 6px;
-        font-size: 2rem;
-        font-size: large;
+        font-size: 1.7rem;
+        font-size: x-large;
+        text-align: justify;
     }
 
     .motivation-quote-1 {
@@ -333,6 +331,4 @@
     .zahvale-section {
         width: auto;
     }
-
-    
 }
