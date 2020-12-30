@@ -76,7 +76,7 @@ const Predavanja = () => (
       <div
         className="trak"
         style={{
-          backgroundImage: `url(../assets/pticek-trak.png)`,
+          backgroundImage: `url(../assets/pticek-trak1.png)`,
           backgroundSize: "88%",
           backgroundRepeat: "no-repeat",
           height: "300px",
