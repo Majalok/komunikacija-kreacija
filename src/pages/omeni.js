@@ -256,8 +256,8 @@ const OMeni = () => (
           tko je . We stay in touch.
           <div className="zahvala-name">Aleš</div>
           <img
-            className="header-image bottom-img partner"
-            src="../assets/kom-partner.png"
+            className="header-image bottom-img sluzba"
+            src="../assets/kom-otrok.png"
             height="10px"
             alt=""
           />
