@@ -82,7 +82,7 @@ const Predavanja = () => (
           height: "300px",
           width: "100%",
           backgroundPositionX: "center",
-          backgroundPositionY: "50%",
+          backgroundPositionY: "100%",
         }}
       ></div>
     </div>

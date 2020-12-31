@@ -14,7 +14,7 @@ const Kontakt = () => (
           ne hromi. Ko se soočimo z njim in ga presežemo, postanemo zmagovalci.
         </p>
       </div>
-      <div className="kontakt-quote-1">
+    {/*   <div className="kontakt-quote-1">
         <p className="">
           Soočanje s samim seboj je <i>zanimivo</i>, a občudovanja vredno
           dejanje. Če pa imaš ob tem še podporo, ki ne obsoja, te usmerja,
@@ -23,7 +23,7 @@ const Kontakt = () => (
           sedaj, lahko pričnete s spremembo načina komunikacije.
         </p>
         <br />
-      </div>
+      </div> */}
 
       <div className="contact-form-div">
         <ContactForm />

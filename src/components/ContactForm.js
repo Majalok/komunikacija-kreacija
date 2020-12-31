@@ -19,8 +19,8 @@ export default function Form() {
   const message = useFormInput("")
   const name = useFormInput("")
 
-  const { executeRecaptcha } = useGoogleReCaptcha()
-  const [token, setToken] = useState("")
+/*   const { executeRecaptcha } = useGoogleReCaptcha()
+  const [token, setToken] = useState("") */
   const [notification, setNotification] = useState("")
 
   // Value for body-parser
@@ -30,11 +30,11 @@ export default function Form() {
 
   const handleSubmit = async e => {
     e.preventDefault()
-
+debugger
     // Check if the captcha was skipped or not
-    if (!executeRecaptcha) {
+   /*  if (!executeRecaptcha) {
       return
-    }
+    } */
 
     // handle empty fields just in case
     if (!name.value) {
@@ -47,8 +47,8 @@ export default function Form() {
     }
 
     // This is the same as grecaptcha.execute on traditional html script tags
-    const result = await executeRecaptcha("homepage")
-    setToken(result) //--> grab the generated token by the reCAPTCHA
+   // const result = await executeRecaptcha("homepage")
+   // setToken(result) //--> grab the generated token by the reCAPTCHA
     debugger
     console.log(
       "nameVal> ",
@@ -59,21 +59,27 @@ export default function Form() {
       messageVal
     )
     // Prepare the data for the server, specifically body-parser
-    const data = JSON.stringify({ nameVal, emailVal, messageVal, token })
-    alert("DATA> ", data)
+    /* const data = JSON.stringify({ nameVal, emailVal, messageVal, token }) */
+    const data = JSON.stringify({ nameVal, emailVal, messageVal })
+    
+     console.log("DATA> ", data)
     // POST request to your server
-    // fetch("/submit", {
-    //     method: "POST",
-    //     headers: {
-    //         Accept: "application/json, text/plain, */*",
-    //         "Content-type": "application/json",
-    //     },
-    //     body: data,
-    // })
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         setNotification(data.msg)
-    //     })
+    fetch("http://localhost:5000/submit", {
+        method: "POST",
+        headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-type": "application/json",
+            'Access-Control-Allow-Origin': 'http://localhost:3000',
+            'Access-Control-Allow-Credentials':'true'
+        },
+        body: data,
+    })
+       // .then(res => res.json())
+        .then(data => {
+            debugger
+            console.log("THEN..",data)
+            setNotification(data.msg)
+        })
   }
 
   return (

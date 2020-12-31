@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 const request = require('request')
+var cors = require('cors')
 
 // Config
 const app = express()
@@ -13,6 +14,10 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 app.use(express.static(publicPath))
 const secretKey = process.env.RECAPTCHA_SECRET_KEY
+
+
+
+app.use(cors()) 
 
 // Render landing page
 app.get('', (req, res) => {
@@ -27,6 +32,8 @@ app.post('/submit', (req, res) => {
     } = req.body
     const verificationUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`
 
+
+    console.log("call /submit ...", req.body.emailVal, req.body.messageVal, req.body.token)
     if (!token) {
         return res.json({
             "msg": 'There was a problem with your request. Please try again later.',
