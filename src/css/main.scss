@@ -140,6 +140,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -50px;
 }
 
 .predavanja-item {
@@ -274,6 +275,10 @@ li {
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .main-content {
         padding: 4% 3%;
+    }
+
+    .trak-div {
+        margin-bottom: 0px;
     }
 
     .predavanja-content,
