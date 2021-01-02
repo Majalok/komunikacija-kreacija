@@ -30,7 +30,6 @@ export default function Form() {
 
   const handleSubmit = async e => {
     e.preventDefault()
-    debugger
     // Check if the captcha was skipped or not
     if (!executeRecaptcha) {
       return
@@ -50,10 +49,13 @@ export default function Form() {
     }
 
     // This is the same as grecaptcha.execute on traditional html script tags
-    const result = await executeRecaptcha("homepage")
+    const resultNew = await executeRecaptcha("homepage")
+    //setToken(result) //--> grab the generated token by the reCAPTCHA
 
-    setToken(result) //--> grab the generated token by the reCAPTCHA
-
+    //use effect
+    let token = result
+    setToken(result)
+    debugger
     console.log("result", result)
     console.log(
       "nameVal> ",
@@ -78,14 +80,14 @@ export default function Form() {
     )
     // POST request to your server
     fetch("https://komunikacija-kreacija.webdev.reavisys.si/api/submit", {
-      // fetch("http://localhost:5001/api/submit", {
+      //fetch("http://localhost:5001/api/submit", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-type": "application/json",
-        // "Access-Control-Allow-Origin": "http://localhost:5001/api/submit",
-        "Access-Control-Allow-Origin":
-          "https://komunikacija-kreacija.webdev.reavisys.si/api/submit",
+        "Access-Control-Allow-Origin": "http://localhost:5001/api/submit",
+        // "Access-Control-Allow-Origin":
+        //   "https://komunikacija-kreacija.webdev.reavisys.si/api/submit",
         "Access-Control-Allow-Credentials": "true",
       },
       body: data,
@@ -95,7 +97,6 @@ export default function Form() {
         res.json()
       )
       .then(data => {
-        debugger
         console.log("THEN.. (calling api/submit)", data)
         setNotification(data.msg)
       })

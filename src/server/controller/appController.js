@@ -131,7 +131,7 @@ const submit = (req, res) => {
     req.body.nameVal,
     req.body.emailVal,
     req.body.messageVal,
-    req.body.token.slice(0, 5)
+    req.body.token
   )
   console.log("verification url ...", verificationUrl)
 
