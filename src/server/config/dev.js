@@ -3,6 +3,5 @@ module.exports = {
 
   //PASSWORD: process.env.PASSWORD
   MAIN_URL: "https://komunikacija-kreacija.webdev.reavisys.si/api",
-}
- // MAIN_URL: "http://localhost:5001/",
+  // MAIN_URL: "http://localhost:5001/",
 }

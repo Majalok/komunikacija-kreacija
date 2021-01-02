@@ -137,6 +137,7 @@ const submit = (req, res) => {
 
   /* to odkomentiraj nazaj */
   if (!token) {
+    console.log("Napaka pri token-u")
     return res.json({
       msg: "There was a problem with your request. Please try again later.",
     })
