@@ -77,12 +77,12 @@ export default function Form() {
       data.token
     )
     // POST request to your server
-    fetch("http://localhost:5000/api/submit", {
+    fetch("http://localhost:5001/api/submit", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-type": "application/json",
-        "Access-Control-Allow-Origin": "http://localhost:5000/api/submit",
+        "Access-Control-Allow-Origin": "http://localhost:5001/api/submit",
         "Access-Control-Allow-Credentials": "true",
       },
       body: data,
@@ -90,7 +90,7 @@ export default function Form() {
       .then(res => res.json())
       .then(data => {
         debugger
-        console.log("THEN.. (calling http://localhost:5000/api/submit)", data)
+        console.log("THEN.. (calling http://localhost:5001/api/submit)", data)
         setNotification(data.msg)
       })
   }

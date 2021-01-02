@@ -6,7 +6,7 @@ var cors = require("cors")
 
 // Config
 const app = express()
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 const publicPath = path.join(__dirname, "../..", "public")
 app.use(
   bodyParser.urlencoded({
