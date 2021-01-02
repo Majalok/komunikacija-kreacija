@@ -11,6 +11,7 @@ require("./src/css/komunikacija.scss")
 require("./src/css/contactForm.scss")
 require("./src/css/kontakt.scss")
 require("./src/css/aktualno.scss")
+require("./src/css/message-confirm.scss")
 
 // in gastby-browser.js
 export const shouldUpdateScroll = ({
@@ -30,7 +31,7 @@ export const shouldUpdateScroll = ({
 
 export const wrapRootElement = ({ element }) => {
   return (
-    <GoogleReCaptchaProvider reCaptchaKey="your-site-key">
+    <GoogleReCaptchaProvider reCaptchaKey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh">
       {element}
     </GoogleReCaptchaProvider>
   )
