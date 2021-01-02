@@ -77,20 +77,26 @@ export default function Form() {
       data.token
     )
     // POST request to your server
-    fetch("http://localhost:5001/api/submit", {
+    fetch("https://komunikacija-kreacija.webdev.reavisys.si/api", {
+      // fetch("http://localhost:5001/api/submit", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-type": "application/json",
-        "Access-Control-Allow-Origin": "http://localhost:5001/api/submit",
+        // "Access-Control-Allow-Origin": "http://localhost:5001/api/submit",
+        "Access-Control-Allow-Origin":
+          "https://komunikacija-kreacija.webdev.reavisys.si/api",
         "Access-Control-Allow-Credentials": "true",
       },
       body: data,
     })
-      .then(res => res.json())
+      .then(res =>
+        // console.log("http://localhost:5001/api/submit> ", res)
+        res.json()
+      )
       .then(data => {
         debugger
-        console.log("THEN.. (calling http://localhost:5001/api/submit)", data)
+        console.log("THEN.. (calling api/submit)", data)
         setNotification(data.msg)
       })
   }

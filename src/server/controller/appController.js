@@ -127,11 +127,11 @@ const submit = (req, res) => {
   const verificationUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`
 
   console.log(
-    "call /submit ...",
+    "\n\ncall /submit- posiljam podatke ...",
     req.body.nameVal,
     req.body.emailVal,
     req.body.messageVal,
-    req.body.token
+    req.body.token.slice(0, 5)
   )
   console.log("verification url ...", verificationUrl)
 
@@ -150,16 +150,16 @@ const submit = (req, res) => {
   console.log("name, userEmail > ", name, userEmail)
 
   //let url = "http://localhost"
-  const dataSignin = JSON.stringify({ userEmail, name })
-  req.body.data = dataSignin
 
   request(verificationUrl, (err, response, body) => {
     // Stop process for any errors
     if (err) {
+      console.log("Error resolving captcha")
       return res.json({
         msg: "Unable to process request.",
       })
     }
+
     // Destructure body object
     // Check the reCAPTCHA v3 documentation for more information
     const { success, score } = JSON.parse(body)
@@ -167,6 +167,9 @@ const submit = (req, res) => {
     console.log("score: , success: ", score, success)
     // reCAPTCHA validation
     if (!success || score < 0.4) {
+      console.log(
+        "call request(verificationUrl Unsuccessful  !success || score < 0.4"
+      )
       return res.json({
         msg: "Pošiljanje neuspešno.",
         score: score,
@@ -187,7 +190,7 @@ const submit = (req, res) => {
     sendMessage(req, res)
 
     /****************************************************/
-
+    console.log("\n\n_________________________")
     // Return feedback to user with msg
     return res.json({
       msg: "Vaše sporočilo je bilo uspešno poslano.",
