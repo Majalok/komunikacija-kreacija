@@ -49,13 +49,13 @@ export default function Form() {
     }
 
     // This is the same as grecaptcha.execute on traditional html script tags
-    const resultNew = await executeRecaptcha("homepage")
+    const result = await executeRecaptcha("homepage")
     //setToken(result) //--> grab the generated token by the reCAPTCHA
 
     //use effect
     let token = result
-    setToken(result)
-    debugger
+    //setToken(result)
+    //debugger
     console.log("result", result)
     console.log(
       "nameVal> ",
@@ -79,8 +79,8 @@ export default function Form() {
       data.token
     )
     // POST request to your server
-    fetch("https://komunikacija-kreacija.webdev.reavisys.si/api/submit", {
-      //fetch("http://localhost:5001/api/submit", {
+    //fetch("https://komunikacija-kreacija.webdev.reavisys.si/api/submit", {
+    fetch("http://localhost:5001/api/submit", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
