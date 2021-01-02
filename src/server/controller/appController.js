@@ -4,7 +4,6 @@ const Mailgen = require("mailgen")
 const { EMAIL, MAIN_URL } = require("../config")
 
 const request = require("request")
-console.log("TEST>>")
 
 const dotenv = require("dotenv")
 dotenv.config()
@@ -30,7 +29,9 @@ let MailGenerator = new Mailgen({
   },
 })
 
-console.log("PROCESS.ENV.email> ", process.env.email)
+console.log("PROCESS.ENV.email (iz config)> ", EMAIL)
+console.log("PROCESS.ENV.password (iz process.env)> ", process.env.PASSWORD)
+console.log("MAIN URL (iz config)> ", MAIN_URL)
 
 const signup = (req, res) => {
   console.log("\n\n_________________________")
