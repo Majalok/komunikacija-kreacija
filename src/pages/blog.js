@@ -281,7 +281,7 @@ class Blog extends Component {
                 situacijo izkoristite za osebno rast.
                 <br />
                 <br />
-                Up to you{" "}
+                It´s up to you{" "}
                 <img
                   className="emoji-img"
                   src="../icons/smile.png"
@@ -530,8 +530,7 @@ class Blog extends Component {
                 </strong>
                 <strong>
                   {" "}
-                  A vse se da obrniti, spremeniti ker kjer je želja, ker tam je
-                  pot{" "}
+                  A vse se da obrniti, spremeniti, ker kjer je želja, tam je pot{" "}
                 </strong>
                 <img
                   className="emoji-img"
