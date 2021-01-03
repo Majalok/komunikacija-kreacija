@@ -191,13 +191,10 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                ) -{" "}
-                <i>
-                  vzorec{" "}
-                  <strong>
-                    <i>prepričanja</i>
-                  </strong>
-                </i>
+                ) - vzorec{" "}
+                <strong>
+                  <i>prepričanja</i>
+                </strong>
                 . In posledično skozi to, sem potihoma to delavnost vpeljala v
                 svoje življenje. Službeno in privat. Moj takratni partner (mož
                 in kasneje bivši mož, zato sem, napisala takratni{" "}
