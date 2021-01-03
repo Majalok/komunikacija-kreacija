@@ -24,12 +24,12 @@ const Layout = ({ children }) => (
     render={data => (
       <div
         className="top-div"
-        style={{
+        /* style={{
           backgroundImage: `url(../assets/2.png)`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100 %",
-        }}
+        }} */
       >
         <Helmet>
           <title>Komunikacija je kreacija</title>
