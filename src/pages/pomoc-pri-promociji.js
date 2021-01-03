@@ -5,7 +5,8 @@ const PomocPriPromociji = () => (
   <Layout>
     <div className="promocija-content">
       <p className="promotion-text">
-        Ja, nekateri živijo svoje sanje, spet drugi so v nizkem štartu in tretji… odlašajo in iščejo izgovore: »še ni zrelo«, ipd… (?){" "}
+        Ja, nekateri živijo svoje sanje, spet drugi so v nizkem štartu in
+        tretji… odlašajo in iščejo izgovore: »še ni zrelo«, ipd…{" "}
         <img
           className="emoji-img"
           src="../icons/wink.png"

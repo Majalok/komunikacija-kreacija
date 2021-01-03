@@ -29,11 +29,12 @@ const KomunikacijaOtrok = () => (
           obdobje pa še ugotoviš, da rek »Majhni otroci, majhni problemi, veliki
           otroci, veliki problemi.« še kako drži.
           <br />
-          Mi kot starš, se moramo zavedati, da smo prvi in najbolj odgovorni pri vzgoji otroka in šele potem so tu okolica, šola in družba. Mi ga »oblikujemo« in mu damo zdrave
-          temelje za samostojno življenje. Mi mu moramo dati tisti pravi občutek
-          varnosti in zaščite.
+          Mi kot starš, se moramo zavedati, da smo prvi in najbolj odgovorni pri
+          vzgoji otroka in šele potem so tu okolica, šola in družba. Mi ga
+          »oblikujemo« in mu damo zdrave temelje za samostojno življenje. Mi mu
+          moramo dati tisti pravi občutek varnosti in zaščite.
           <br />
-          Tu pogledamo, zakaj se "zatikamo", ne razumemo in kako to preseči.
+          Tu pogledamo, zakaj se "zatikamo", se ne razumemo in kako to preseči.
         </div>
       </div>
       <div className="kom-img-desc">

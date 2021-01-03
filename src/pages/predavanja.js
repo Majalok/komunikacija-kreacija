@@ -47,9 +47,9 @@ const Predavanja = () => (
         vprašanja, da osvojiš <i>Diamantni dotik</i>.
         <br />
         <br />
-        Ko osvojiš Diamantno pravilo in ko to postane del tvojega življenja, se
-        spremeni komunikacija, poveča se tvoj uspeh, tako na osebni ravni, kot
-        na poslovni. Postaneš boljši JAZ{" "}
+        Ko ponotranjiš Diamantno pravilo in ko to postane del tvojega življenja,
+        se spremeni komunikacija, poveča se tvoj uspeh, tako na osebni ravni,
+        kot na poslovni. Postaneš boljši JAZ{" "}
         <img
           className="emoji-img"
           src="../icons/smile.png"
