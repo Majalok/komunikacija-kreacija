@@ -94,7 +94,7 @@ class Blog extends Component {
                 <br />
                 <br />
                 In da prideš do tega, kdo pravzaprav si <strong>
-                  ti ti
+                  ti, ti
                 </strong>{" "}
                 in ne nekdo, kot ga je in ki ga je »popredalčkala« okolica in
                 vsi njeni akterji prisotni v tvojem življenju, zato je potrebno
@@ -238,12 +238,12 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />{" "}
-                (to je bil{" "}
+                (pa smo pri{" "}
                 <strong>
-                  <i>vzrok</i>
-                </strong>{" "}
-                najinih prepričanj). Zdaj ko gledam nazaj, je prav hecno, kako
-                sva v marsikateri situaciji »merila« moči{" "}
+                  <i>vzrok-u</i>
+                </strong>
+                ). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri
+                situaciji »merila« moči{" "}
                 <img
                   className="emoji-img"
                   src="../icons/blushed.png"
@@ -529,6 +529,7 @@ class Blog extends Component {
                   občutke.
                 </strong>
                 <strong>
+                  {" "}
                   A vse se da obrniti, spremeniti ker kjer je želja, ker tam je
                   pot{" "}
                 </strong>
