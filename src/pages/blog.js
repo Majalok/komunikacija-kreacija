@@ -29,8 +29,8 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                . Ja, prav vsi te učijo, usmerjajo in itak vedo kaj je najbolje
-                zate. Kasneje se temu »klanu« pridruži vrtec z vsemi
+                . Ja, prav vsi te učijo, usmerjajo in "itak" vedo kaj je
+                najbolje zate. Kasneje se temu »klanu« pridruži vrtec z vsemi
                 pripadajočimi akterji (vrstniki in vzgojitelji), nato šola isti
                 koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi cel
                 tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
@@ -227,8 +227,8 @@ class Blog extends Component {
                 <br />
                 Ker sva imela različne poglede na določene situacije in ker se
                 nisva znala pogovarjat, izraziti, kaj šele poslušati je
-                velikokrat prišlo, da je bila najina komunikacija, »slika brez
-                tona«{" "}
+                velikokrat prišlo do tega, da je bila najina komunikacija,
+                »slika brez tona«{" "}
                 <img
                   className="emoji-img"
                   src="../icons/confused.png"
@@ -357,7 +357,7 @@ class Blog extends Component {
                 sem že razmišljala:« Kaj hudimana, je bilo pa tisto zjutraj pri
                 kavi? Kje že je rekla, da je to prebrala? Hm, kaj sem že rekla,
                 da moram kupit? Ob kateri uri je danes…? Kaj bomo počeli ta
-                vikend? <i>Kako bi bilo fajn...« ipd.</i> ipd.
+                vikend? Kako bi bilo fajn...« ipd. ipd.
                 <br />
                 <br />
                 Zopet sem bila z glavo nekje v preteklosti ali pa razmišljala o
@@ -421,7 +421,7 @@ class Blog extends Component {
                 <br />
                 <br />
                 Ugotovila sem, da se mi je dan čudežno začel podaljševati. No,
-                sej vemo, da je to samo feeling, ampak občutek je pa dober{" "}
+                sej vemo, da je to samo "feeling", ampak občutek je pa dober{" "}
                 <img
                   className="emoji-img"
                   src="../icons/smile.png"
@@ -472,7 +472,7 @@ class Blog extends Component {
                 In še nekaj sem ugotovila. Če imaš doma kosmatega hišnega
                 ljubljenčka, je greh, ko se pride stisniti k tebi in se želi
                 »cortati«, da si z mislimi nekje drugje. Ker to je tako fajn
-                antistresna terapija, da ni zapovedati.{" "}
+                "antistresna" terapija, da ni zapovedati.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/laugh.png"

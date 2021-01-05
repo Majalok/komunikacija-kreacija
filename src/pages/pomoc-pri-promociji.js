@@ -19,7 +19,7 @@ const PomocPriPromociji = () => (
         kot si želiš.
         <br />
         <br />
-        Včasih je potrebno, da te nekdo spromovira, govori o tvojem čudovitem
+        Včasih je potrebno, da te nekdo "spromovira", govori o tvojem čudovitem
         izdelku, znanju ali storitvi. Moja strast in želja je, da si pomagamo,
         da se povežemo.
         <br />
