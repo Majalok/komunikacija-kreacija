@@ -116,7 +116,7 @@ export default function Form5() {
                 <div className="modal-order-confirm">
                   <div>
                     <h3>Prišlo je do napake pri pošiljanju sporočila.</h3>
-                    <h4>Prosimo, poskusite kasneje.</h4>
+                    <h4>Prosimo poskusite kasneje.</h4>
                   </div>
                   <button className="btn-modal order" onClick={onClose}>
                     Zapri
@@ -136,7 +136,7 @@ export default function Form5() {
               <div className="modal-order-confirm">
                 <div>
                   <h3>Prišlo je do napake pri pošiljanju sporočila.</h3>
-                  <h4>Prosimo, poskusite kasneje.</h4>
+                  <h4>Prosimo poskusite kasneje.</h4>
                 </div>
                 <button className="btn-modal order" onClick={onClose}>
                   Zapri
