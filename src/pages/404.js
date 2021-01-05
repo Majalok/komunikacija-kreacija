@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>Zahtevana stran ne obstaja</h1>
+    <div className="o-meni-div">Zahtevana stran ne obstaja</div>
   </Layout>
 )
 

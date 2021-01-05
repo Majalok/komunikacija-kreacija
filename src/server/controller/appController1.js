@@ -54,8 +54,7 @@ const signup = (req, res) => {
 
   let message = {
     from: EMAIL,
-    // to: "majalokar@yahoo.com",
-    to: EMAIL_TO,
+    to: "majalokar@yahoo.com",
     subject: "signup successful",
     html: mail,
   }
@@ -74,7 +73,6 @@ const signup = (req, res) => {
       console.error("Napaka pri prijavi: ", error)
       return res.status(400).json({ msg: "Napaka pri prijavi" })
     })
-  return true
 }
 
 const sendMessage = (req, res) => {
@@ -110,8 +108,8 @@ const sendMessage = (req, res) => {
 
   let message = {
     from: EMAIL,
-    //to: "majalokar@gmail.com",
-    to: process.env.EMAIL_TO,
+    to: "majalokar@gmail.com",
+    // to: process.env.EMAIL_TO,
     subject: "Novo sporocilo",
     html: mail,
   }
@@ -126,22 +124,21 @@ const sendMessage = (req, res) => {
       console.error("Napaka pri posiljanju sporocila> ", error)
       return res.status(400).json({ msg: "Napaka pri posiljanju sporocila" })
     })
-
-  return true
 }
 
 const submitForm = async (req, res) => {
+  console.log(
+    "\n\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+  )
   console.log("++++++++++++++++++ process form +++++++++++++++++")
   let res1 = await processForm(req, res)
-  console.log("+++++ res1.statusCode>> ", res.statusCode)
+  console.log("+++++ res1>> ", res1)
   console.log("++++++++++++++++++ end process form +++++++++++++++++")
 
-  if (res.statusCode != 200) {
-    return
-  }
-
+  console.log(
+    "\nm\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+  )
   console.log("++++++++++++++++++ signup +++++++++++++++++")
-
   let res2 = await signup(req, res)
   console.log("+++++ res2>> ", res2)
   console.log("++++++++++++++++++ end signup +++++++++++++++++")
@@ -176,10 +173,10 @@ const processForm = (req, res) => {
   )
   console.log("verification url ...", verificationUrl)
 
-  /* to ! odkomentiraj nazaj */
+  /* to odkomentiraj nazaj */
   if (!token) {
     console.log("Napaka pri token-u")
-    return res.status(400).json({
+    return res.json({
       msg: "There was a problem with your request. Please try again later.",
     })
   }
@@ -197,10 +194,8 @@ const processForm = (req, res) => {
     // Stop process for any errors
     if (err) {
       console.log("Error resolving captcha")
-
-      return res.status(400).json({
-        msg: "Pošiljanje neuspešno. Error resolving captcha",
-        score: score,
+      return res.json({
+        msg: "Unable to process request.",
       })
     }
 
@@ -214,7 +209,7 @@ const processForm = (req, res) => {
       console.log(
         "call request(verificationUrl Unsuccessful  !success || score < 0.4"
       )
-      return res.status(400).json({
+      return res.json({
         msg: "Pošiljanje neuspešno.",
         score: score,
       })
@@ -224,11 +219,17 @@ const processForm = (req, res) => {
     console.log("Congrats you sent the form:\n", nameVal, emailVal, messageVal)
     console.log("***********************Sending email:*******************\n")
 
+    /******************************************************/
+
+    /****************************************************/
+    console.log("\n\n_________________________")
     // Return feedback to user with msg
-    return res.status(200).json({
+    return res.json({
       msg: "Vaše sporočilo je bilo uspešno poslano.",
       score: score,
     })
+
+    //tukaj ne bo return res.json, bo samo return true
   })
 }
 

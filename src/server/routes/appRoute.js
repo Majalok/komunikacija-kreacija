@@ -1,15 +1,19 @@
-const express = require("express");
+const express = require("express")
 
-const { signup, sendMessage, submit } = require("../controller/appController.js");
+const {
+  submitForm,
+  signup,
+  sendMessage,
+} = require("../controller/appController.js")
 
-const router = express.Router();
+const router = express.Router()
 
 // /api/user/signup
-router.post("/user/signup", signup);
+router.post("/user/signup", signup)
 
 // /send-message
-router.post("/send-message", sendMessage);
+router.post("/send-message", sendMessage)
 
-router.post("/submit", submit);
+router.post("/submit", submitForm)
 
-module.exports = router;
+module.exports = router

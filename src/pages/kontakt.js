@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 /* import { FaFacebook, FaYoutube, FaMailBulk } from "react-icons/fa" */
 import ContactForm from "../components/ContactForm"
 import ContactCard from "../components/ContactCard"
-import MessageSuccess from "../components/MessageSuccess"
+//import MessageSuccess from "../components/MessageSuccess"
 
 class Kontakt extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class Kontakt extends Component {
           </div>
           <div className="contact-form-div">
             <ContactForm />
-            <ContactCard />
+            <ContactCard orderSendResult={this.orderResult} />
             {/* <MessageSuccess
               ref={this.childOrderSuccess}
               closeParent={this.closeModal}

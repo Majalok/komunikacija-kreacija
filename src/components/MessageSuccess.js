@@ -14,7 +14,7 @@ class MessageSuccess extends Component {
   }
 
   closeConfirmSuccess() {
-    this.props.closeParent()
+    //this.props.closeParent()
     this.setState({ modalIsOpen: false })
   }
 
