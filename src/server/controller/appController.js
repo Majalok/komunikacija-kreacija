@@ -55,7 +55,7 @@ const signup = (req, res) => {
   let message = {
     from: EMAIL,
     // to: "majalokar@yahoo.com",
-    to: EMAIL_TO,
+    to: EMAIL,
     subject: "signup successful",
     html: mail,
   }
@@ -115,7 +115,7 @@ const sendMessage = (req, res) => {
     subject: "Novo sporocilo",
     html: mail,
   }
-  console.log("from: ", EMAIL, "to: ", process.env.EMAIL_TO)
+  console.log("from: ", EMAIL, "to: ", EMAIL_TO)
   console.log("Before transporter.sendMail1")
   transporter
     .sendMail(message)
