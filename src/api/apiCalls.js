@@ -2,7 +2,7 @@ import axios from "axios"
 
 const instance = axios.create({
   // baseURL: 'https://reavisys.si/api',
-  baseURL: "https://komunikacija-kreacija.webdev.reavisys.si/api",
+  baseURL: "https://komunikacija-kreacija.webdev.reavisys.si/api/submit",
   // baseURL: "https://localhost:5001",
   headers: {
     "Content-Type": "application/json",
