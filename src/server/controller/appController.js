@@ -111,7 +111,7 @@ const sendMessage = (req, res) => {
   let message = {
     from: EMAIL,
     //to: "majalokar@gmail.com",
-    to: process.env.EMAIL_TO,
+    to: EMAIL_TO,
     subject: "Novo sporocilo",
     html: mail,
   }
