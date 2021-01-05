@@ -472,7 +472,7 @@ class Blog extends Component {
                 In še nekaj sem ugotovila. Če imaš doma kosmatega hišnega
                 ljubljenčka, je greh, ko se pride stisniti k tebi in se želi
                 »cortati«, da si z mislimi nekje drugje. Ker to je tako fajn
-                "antistresna" terapija, da ni zapovedati.{" "}
+                "antistresna terapija", da ni zapovedati.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/laugh.png"
