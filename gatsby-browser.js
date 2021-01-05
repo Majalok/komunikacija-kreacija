@@ -31,7 +31,13 @@ export const shouldUpdateScroll = ({
 
 export const wrapRootElement = ({ element }) => {
   return (
-    <GoogleReCaptchaProvider reCaptchaKey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh">
+    <GoogleReCaptchaProvider
+      reCaptchaKey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+      scriptProps={{
+        async: true, // optional, default to false,
+        defer: true, // optional, default to false
+      }}
+    >
       {element}
     </GoogleReCaptchaProvider>
   )
