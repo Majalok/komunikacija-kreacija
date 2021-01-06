@@ -24,9 +24,10 @@ body {
     position: sticky;
     width: 100%;
 /*     background: wheat !important; */
-    --theme-ui-colors-text: none;
-    --theme-ui-colors-background: none;
-    --theme-ui-colors-primary: none;
+    --theme-ui-colors-text: none !important;
+    --theme-ui-colors-background: none !important;
+    --theme-ui-colors-primary: none !important,
+    
 }
 
 .top-div {
