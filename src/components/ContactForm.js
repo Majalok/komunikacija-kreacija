@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 
 import apiCalls from "../api/apiCalls"
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3"
+import ReCAPTCHA from "react-google-recaptcha"
 //import MessageSuccess from "../components/MessageSuccess"
 import { confirmAlert } from "react-confirm-alert" // Import
 import "react-confirm-alert/src/react-confirm-alert.css" // Import css
@@ -31,7 +30,7 @@ export default function Form() {
     ""
   )
 
-  const { executeRecaptcha } = useGoogleReCaptcha()
+  //const { executeRecaptcha } = useGoogleReCaptcha()
   const [token, setToken] = useState("")
   const [notification, setNotification] = useState("")
 
@@ -45,9 +44,6 @@ export default function Form() {
     console.log("executeRecaptcha ")
     //console.log("executeRecaptcha ", executeRecaptcha)
     // Check if the captcha was skipped or not
-    if (!executeRecaptcha) {
-      return
-    }
 
     // handle empty fields just in case
     if (!nameVal) {
@@ -61,11 +57,6 @@ export default function Form() {
       setNotification(`Prosim vnesite sporočilo.`)
       return
     }
-    // This is the same as grecaptcha.execute on traditional html script tags
-    const result = await executeRecaptcha("homepage")
-    //setToken(result) //--> grab the generated token by the reCAPTCHA
-    let token = result
-    console.log("result", result)
     console.log(
       "nameVal> ",
       nameVal,
@@ -167,6 +158,11 @@ export default function Form() {
     resetMessage()
     resetName()
   }
+
+  const onChange = value => {
+    debugger
+    console.log("\n\n000000000000000 Recaptcha Value:", value)
+  }
   /* 
   const onClose = () => {
     resetName()
@@ -217,6 +213,11 @@ export default function Form() {
         </div>
         <br />
         <br />
+        <ReCAPTCHA
+          // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+          sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
+          onChange={onChange}
+        />
         <input
           type="submit"
           className="send-msg-btn"
