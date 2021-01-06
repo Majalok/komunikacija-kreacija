@@ -3,8 +3,10 @@ import React, { useState } from "react"
 import apiCalls from "../api/apiCalls"
 import { confirmAlert } from "react-confirm-alert" // Import
 //import "react-confirm-alert/src/react-confirm-alert.css" // Import css
+import ReCAPTCHA from "react-google-recaptcha"
+
 import closeIcon from "../assets/icons/close.png"
-var Recaptcha = require("react-gcaptcha")
+//var Recaptcha = require("react-gcaptcha")
 
 export const useInput = initialValue => {
   const [value, setValue] = useState(initialValue)
@@ -211,7 +213,7 @@ export default function Form() {
         </div>
         <br />
         <br />
-        <Recaptcha
+        {/*  <Recaptcha
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
           onloadCallback={loaded}
           verifyCallback={callback}
@@ -220,6 +222,16 @@ export default function Form() {
             defer: true, // optional, default to false
             appendTo: "body",
           }}
+        /> */}
+        <ReCAPTCHA
+          // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+          scriptProps={{
+            async: true, // optional, default to false,
+            defer: true, // optional, default to false
+            appendTo: "body",
+          }}
+          sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
+          onChange={onChange}
         />
         ,
         <input
