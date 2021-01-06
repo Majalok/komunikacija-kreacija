@@ -1,15 +1,11 @@
 import React, { useState } from "react"
 
 import apiCalls from "../api/apiCalls"
-import ReCAPTCHA from "react-google-recaptcha"
 import { confirmAlert } from "react-confirm-alert" // Import
 //import "react-confirm-alert/src/react-confirm-alert.css" // Import css
 import closeIcon from "../assets/icons/close.png"
 var Recaptcha = require("react-gcaptcha")
 
-ReCAPTCHA.focus_response_field = function() {
-  return false
-}
 export const useInput = initialValue => {
   const [value, setValue] = useState(initialValue)
 
@@ -182,14 +178,6 @@ export default function Form() {
 
   return (
     <>
-      {" "}
-      {/*   <GoogleReCaptchaProvider
-        reCaptchaKey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
-        scriptProps={{
-          async: true, // optional, default to false,
-          defer: true, // optional, default to false
-        }}
-      > */}
       <form onSubmit={handleSubmit} id="contact-form" className="form">
         <div className="form-group">
           <label className="form-label" htmlFor="name">
