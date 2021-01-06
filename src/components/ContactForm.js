@@ -215,8 +215,9 @@ export default function Form() {
         <ReCAPTCHA
           // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
           scriptProps={{
-            async: false, // optional, default to false,
+            async: true, // optional, default to false,
             defer: true, // optional, default to false
+            appendTo: "body",
           }}
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
           onChange={onChange}
