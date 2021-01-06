@@ -38,11 +38,11 @@ const Layout = ({ children }) => (
             name="description"
             content="svetovanje odnosi predavanja delavnice partnerski odnos nebesedna izražanja"
           />
-          <script
+          {/*  <script
             src="https://www.google.com/recaptcha/api.js?onload=recaptchaLoaded&render=explicit"
             async
             defer
-          ></script>
+          ></script> */}
         </Helmet>
         <Header
           siteTitle={data.site.siteMetadata.title}
