@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import apiCalls from "../api/apiCalls"
 import ReCAPTCHA from "react-google-recaptcha"
 import { confirmAlert } from "react-confirm-alert" // Import
-import "react-confirm-alert/src/react-confirm-alert.css" // Import css
+//import "react-confirm-alert/src/react-confirm-alert.css" // Import css
 import closeIcon from "../assets/icons/close.png"
 
 ReCAPTCHA.focus_response_field = function() {
@@ -215,7 +215,7 @@ export default function Form() {
         </div>
         <br />
         <br />
-        <ReCAPTCHA
+        {/*   <ReCAPTCHA
           // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
           scriptProps={{
             async: true, // optional, default to false,
@@ -224,7 +224,7 @@ export default function Form() {
           }}
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
           onChange={onChange}
-        />
+        /> */}
         <input
           type="submit"
           className="send-msg-btn"
