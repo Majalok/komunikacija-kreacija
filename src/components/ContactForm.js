@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 
 import apiCalls from "../api/apiCalls"
-//import ReCAPTCHA from "react-google-recaptcha"
-//import MessageSuccess from "../components/MessageSuccess"
+import ReCAPTCHA from "react-google-recaptcha"
 import { confirmAlert } from "react-confirm-alert" // Import
 import "react-confirm-alert/src/react-confirm-alert.css" // Import css
 import closeIcon from "../assets/icons/close.png"
@@ -213,11 +212,15 @@ export default function Form() {
         </div>
         <br />
         <br />
-        {/* <ReCAPTCHA
+        <ReCAPTCHA
           // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+          scriptProps={{
+            async: false, // optional, default to false,
+            defer: true, // optional, default to false
+          }}
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
           onChange={onChange}
-        /> */}
+        />
         <input
           type="submit"
           className="send-msg-btn"
