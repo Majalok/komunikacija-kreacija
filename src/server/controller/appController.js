@@ -192,8 +192,6 @@ const processForm = (req, res) => {
   let name = "Maja Lokar"
   console.log(" process.env.EMAIL > ", name, userEmail)
 
-  //let url = "http://localhost"
-
   request(verificationUrl, (err, response, body) => {
     // Stop process for any errors
     if (err) {
