@@ -180,16 +180,6 @@ export default function Form() {
 
   return (
     <>
-      <ReCAPTCHA
-        // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
-        scriptProps={{
-          async: true, // optional, default to false,
-          defer: true, // optional, default to false
-          appendTo: "body",
-        }}
-        sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
-        onChange={onChange}
-      />
       <form onSubmit={handleSubmit} id="contact-form" className="form">
         <div className="form-group">
           <label className="form-label" htmlFor="name">
@@ -197,7 +187,69 @@ export default function Form() {
           </label>
           <input type="text" className="form-control" id="name" {...bindName} />
         </div>
+        <div className="form-group">
+          <label className="form-label" htmlFor="email">
+            Email naslov
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            {...bindEmail}
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div className="form-group">
+          <label className="form-label" htmlFor="message">
+            Sporočilo
+          </label>
+          <textarea
+            className="form-control"
+            rows="5"
+            name="message"
+            {...bindMessage}
+            id="message"
+          />
+        </div>
+        <br />
+        <br />
+        {/*  <Recaptcha
+          sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
+          onloadCallback={loaded}
+          verifyCallback={callback}
+          scriptProps={{
+            async: true, // optional, default to false,
+            defer: true, // optional, default to false
+            appendTo: "body",
+          }}
+        /> */}
+        <ReCAPTCHA
+          // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+          scriptProps={{
+            async: true, // optional, default to false,
+            defer: true, // optional, default to false
+            appendTo: "body",
+          }}
+          sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
+          onChange={onChange}
+        />
+        ,
+        <input
+          type="submit"
+          className="send-msg-btn"
+          value="Pošlji sporočilo"
+        ></input>
+        <br />
+        <div className="notification-div">
+          {" "}
+          {notification && <span>{notification}</span>}
+        </div>
       </form>
+      {/*     </GoogleReCaptchaProvider> */}
+      {/*     <MessageSuccess
+       ref={this.childOrderSuccess}
+        closeParent={this.closeModal} 
+      /> */}
     </>
   )
 }
