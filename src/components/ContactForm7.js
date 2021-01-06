@@ -5,7 +5,6 @@ import ReCAPTCHA from "react-google-recaptcha"
 import { confirmAlert } from "react-confirm-alert" // Import
 //import "react-confirm-alert/src/react-confirm-alert.css" // Import css
 import closeIcon from "../assets/icons/close.png"
-var Recaptcha = require("react-gcaptcha")
 
 ReCAPTCHA.focus_response_field = function() {
   return false
@@ -26,7 +25,7 @@ export const useInput = initialValue => {
   }
 }
 
-export default function Form() {
+export default function Form7() {
   const { value: name, bind: bindName, reset: resetName } = useInput("")
   const { value: email, bind: bindEmail, reset: resetEmail } = useInput("")
   const { value: message, bind: bindMessage, reset: resetMessage } = useInput(
@@ -173,13 +172,6 @@ export default function Form() {
     resetMessage()
   } */
 
-  var callback = function(key) {
-    console.log(key)
-  }
-  var loaded = function() {
-    console.log("recaptchaLoaded")
-  }
-
   return (
     <>
       {" "}
@@ -193,7 +185,7 @@ export default function Form() {
       <form onSubmit={handleSubmit} id="contact-form" className="form">
         <div className="form-group">
           <label className="form-label" htmlFor="name">
-            Ime in priimek (test grecaptcha)
+            Ime in priimek
           </label>
           <input type="text" className="form-control" id="name" {...bindName} />
         </div>
@@ -223,12 +215,22 @@ export default function Form() {
         </div>
         <br />
         <br />
-        <Recaptcha
+        <script
+          src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit&hl=iw"
+          async
+          defer
+        ></script>
+
+        {/*   <ReCAPTCHA
+          // sitekey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
+          scriptProps={{
+            async: true, // optional, default to false,
+            defer: true, // optional, default to false
+            appendTo: "body",
+          }}
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
-          onloadCallback={loaded}
-          verifyCallback={callback}
-        />
-        ,
+          onChange={onChange}
+        /> */}
         <input
           type="submit"
           className="send-msg-btn"
