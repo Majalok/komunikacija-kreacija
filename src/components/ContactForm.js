@@ -174,7 +174,7 @@ export default function Form() {
   } */
 
   var callback = function(key) {
-    console.log(key)
+    console.log("callback recaptcha: ", key)
   }
   var loaded = function() {
     console.log("recaptchaLoaded")
@@ -227,6 +227,11 @@ export default function Form() {
           sitekey="6Lem9SIaAAAAAOII1S2JAsdbF43UflpQNir8TQsU"
           onloadCallback={loaded}
           verifyCallback={callback}
+          scriptProps={{
+            async: true, // optional, default to false,
+            defer: true, // optional, default to false
+            appendTo: "body",
+          }}
         />
         ,
         <input
