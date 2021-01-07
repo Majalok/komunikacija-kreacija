@@ -61,7 +61,7 @@ const signup = async (req, res) => {
   let message = {
     from: EMAIL,
     // to: "majalokar@yahoo.com",
-    to: EMAIL,
+    to: EMAIL_TO,
     subject: "signup successful",
     html: mail,
   }
