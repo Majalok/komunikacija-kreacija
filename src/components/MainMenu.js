@@ -1,19 +1,10 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { BrowserRouter } from "react-router-dom"
 
-/* import { Link } from 'react-router-dom' */
 import { Link } from "@reach/router"
-import LazyLoad from "react-lazy-load"
 
-import { CSSTransition, CSSTransitionGroup } from "react-transition-group"
+import { FaAlignJustify } from "react-icons/fa"
 
-import { FaAlignJustify } from "react-icons/fa" /* import logo1 from "./../../assets/icons/Synology_logo_black.svg"
-import logo2 from "./../../assets/icons/Qnap_logo_black.svg"
-import logo3 from "./../../assets/icons/icon_backup_box1.png" */
-
-/* import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
- */ class MainMenu extends React.Component {
+class MainMenu extends React.Component {
   constructor() {
     super()
 

@@ -96,10 +96,8 @@
     background: radial-gradient(antiquewhite, #fffd92);
 }
 
-.send-msg-btn:hover {
-    box-shadow: 0px -1px 9px 0px #ffd369;
-    border: 1px solid #fff17c;
-    background: radial-gradient(antiquewhite, #fffd92);
+button.btn-modal.sendMessage {
+    outline: 0;
 }
 
 .modal-close-btn-panel {

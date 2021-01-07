@@ -149,6 +149,10 @@ textarea.form-control {
     border: 1px solid #eeac89;
 }
 
+input.send-msg-btn:focus {
+    outline: 0;
+}
+
 .send-msg-btn:hover {
     box-shadow: 0px -1px 9px 0px #ffd369;
     border: 1px solid #fff17c;
