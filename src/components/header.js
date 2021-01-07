@@ -15,16 +15,7 @@ const Header = ({ siteTitle, subtitle, description }) => (
     }}
     className="header"
   >
-    {/* <div className="box-container-1" style={{
-      backgroundImage: `url(../assets/wave4.png)`,
-      backgroundSize: 'contain',
-      backgroundRepeat: 'repeat-x',
-      height: '70px'
-    }}></div> */}
-    <div className="header-logo">
-      {/* <img className="header-logo-img" src="../icons/icon-96x96.png" alt="" />
-       */}{" "}
-    </div>
+    <div className="header-logo"></div>
     <div className="header-main-div">
       <span className="header-title">
         <h3>
@@ -41,15 +32,9 @@ const Header = ({ siteTitle, subtitle, description }) => (
         </p>
       </span>
       <div className="header-image-div">
-        {/*   <img className="header-image" src="../icons/kom-kr-logo-1.png" alt="" /> */}
         <img className="header-image" src="../assets/kom-logoTst3.png" alt="" />
       </div>
     </div>
-    {/*  <div className="header-main-div">
-      <div className="header-image-div">
-        <img className="header-image-test" src="../assets/h1.png" alt="" />
-      </div>
-    </div> */}
   </header>
 )
 

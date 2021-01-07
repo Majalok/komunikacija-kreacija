@@ -3,7 +3,7 @@ const Mailgen = require("mailgen")
 
 const { EMAIL, EMAIL_TO, MAIN_URL } = require("../config")
 
-const rp = require("request-promise")
+const request = require("request")
 
 const dotenv = require("dotenv")
 dotenv.config()
@@ -13,17 +13,12 @@ const PASSWORD = process.env.PASSWORD
 const secretKey = process.env.RECAPTCHA_SECRET_KEY
 
 let transporter = nodemailer.createTransport({
-  // service: "Yahoo",
-  host: "cwp01.dc01.reavisys.si",
-  port: 465,
+  service: "Yahoo",
+  secure: true,
   auth: {
     user: EMAIL,
     pass: PASSWORD,
   },
-  /*   tls: {
-    rejectUnauthorized: false,
-  }, */
-  secure: true,
 })
 
 let MailGenerator = new Mailgen({
@@ -39,7 +34,7 @@ console.log("PROCESS.ENV.password (iz process.env)> ", process.env.PASSWORD)
 console.log("MAIN URL (iz config)> ", MAIN_URL)
 console.log("PROCESS.ENV.email_TO EMAIL_TO URL (iz config)> ", EMAIL_TO)
 
-const signup = async (req, res) => {
+const signup = (req, res) => {
   console.log("\n\n_________________________")
 
   console.log("SIGNUP")
@@ -69,27 +64,23 @@ const signup = async (req, res) => {
   console.log("email> ", EMAIL, ", ", PASSWORD)
   console.log("message> ", message.from, ", ", message.to)
 
-  let transporterSendMail = await transporter
+  transporter
     .sendMail(message)
-    /* .then(() => {
+    .then(() => {
       console.error(" TEEEEEEEEEESSSSSSST        Napaka pri prijavi: ")
       return res.status(400).json({ msg: "Napaka pri prijavi" })
-    }) */
-
-    .then(res => {
-      console.log("res>> ", res)
-      console.log("res.response >> ", res.response)
-      return true
     })
+
+    /* .then(() => {
+      return res
+        .status(200)
+        .json({ msg: "you should receive an email from us" })
+    }) */
     .catch(error => {
       console.error("Napaka pri prijavi: ", error)
-      return false
+      return res.status(400).json({ msg: "Napaka pri prijavi" })
     })
-
-  let signinResult = transporterSendMail
-
-  console.log("signup result> ", signinResult)
-  return signinResult
+  return true
 }
 
 const sendMessage = (req, res) => {
@@ -103,6 +94,11 @@ const sendMessage = (req, res) => {
     emailVal,
     messageVal
   )
+  /*   let messageName = "maja test"
+  let messageEmail = "maja@test.com"
+  let messageContent = "test vsebina"
+ */
+
   let response = {
     body: {
       intro: [
@@ -142,55 +138,35 @@ const sendMessage = (req, res) => {
 
 const submitForm = async (req, res) => {
   console.log("++++++++++++++++++ process form +++++++++++++++++")
-
   let res1 = await processForm(req, res)
-    .then(status => {
-      console.log("status!!! ", status)
-      if (status) {
-        return true
-      }
-      return false
-    })
-    .catch(err => {
-      console.log("Napaka pri processForm ", err)
-      return false
-    })
+  console.log("+++++ res1.statusCode>> ", res.statusCode)
+  console.log("++++++++++++++++++ end process form +++++++++++++++++")
 
-  console.log("+++++ rezultat funkcije processForm>> ", res1)
-
-  if (!res1) {
-    return res.status(400).json({
-      msg: "Pošiljanje neuspešno. Error resolving captcha",
-    })
+  if (res.statusCode != 200) {
+    return
   }
 
-  //ali se je verifikacija token-a pravilno izvedla
-  if (res1) {
-    console.log("\n\n\n++++++++++++++++++ signup +++++++++++++++++")
+  console.log("++++++++++++++++++ signup +++++++++++++++++")
 
-    let res2 = await signup(req, res)
-    console.log("+++++ rezultat funkcije signup>> ", res2)
+  let res2 = await signup(req, res)
+  console.log("+++++ res2>> ", res2)
+  console.log("++++++++++++++++++ end signup +++++++++++++++++")
 
-    if (res2) {
-      console.log("\n\n\n++++++++++++++++++ sendMessage +++++++++++++++++")
-      let res3 = await sendMessage(req, res)
-      console.log("+++++ res3>> ", res3)
+  console.log(
+    "\n\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+  )
+  console.log("++++++++++++++++++ sendMessage +++++++++++++++++")
 
-      if (res3) {
-        return res
-          .status(200)
-          .json({ msg: "Pošiljanje e-maila je bilo uspešno." })
-      }
-    }
-  }
-  console.log("Pri posiljanju sporocila je prislo do napake.")
-  return res.status(400).json({ msg: "Napaka pri posiljanju sporocila" })
+  let res3 = await sendMessage(req, res)
+  console.log("+++++ res3>> ", res3)
+  console.log("++++++++++++++++++ end sendMessage +++++++++++++++++")
 }
+
 const processForm = (req, res) => {
   console.log("\n\n_________________________")
   console.log("SUBMIT")
-
-  const { token } = req.body
+  //app.post('/submit', (req, res) => {
+  const { nameVal, emailVal, messageVal, token } = req.body
 
   console.log("secret key: ", secretKey)
   console.log("token: ", token)
@@ -205,12 +181,61 @@ const processForm = (req, res) => {
     req.body.token
   )
   console.log("verification url ...", verificationUrl)
-  return rp(verificationUrl).then(body => {
-    console.log("\n\n\n... executing rp(verificationUrl)", body)
+
+  /* to ! odkomentiraj nazaj */
+  if (!token) {
+    console.log("Napaka pri token-u")
+    return res.status(400).json({
+      msg: "There was a problem with your request. Please try again later.",
+    })
+  }
+
+  let email = process.env.EMAIL
+
+  let userEmail = process.env.EMAIL //"majalokar@yahoo.com"
+
+  let name = "Maja Lokar"
+  console.log(" process.env.EMAIL > ", name, userEmail)
+
+  request(verificationUrl, (err, response, body) => {
+    // Stop process for any errors
+    if (err) {
+      console.log("Error resolving captcha")
+
+      return res.status(400).json({
+        msg: "Pošiljanje neuspešno. Error resolving captcha",
+        score: score,
+      })
+    }
+
+    // Destructure body object
+    // Check the reCAPTCHA v3 documentation for more information
     const { success, score } = JSON.parse(body)
-    return success
+
+    console.log("score: , success: ", score, success)
+    // reCAPTCHA validation
+    if (!success || score < 0.4) {
+      console.log(
+        "call request(verificationUrl Unsuccessful  !success || score < 0.4"
+      )
+      return res.status(400).json({
+        msg: "Pošiljanje neuspešno.",
+        score: score,
+      })
+    }
+
+    // When no problems occur, "send" the form
+    console.log("Congrats you sent the form:\n", nameVal, emailVal, messageVal)
+    console.log("***********************Sending email:*******************\n")
+
+    // Return feedback to user with msg
+    return res.status(200).json({
+      msg: "Vaše sporočilo je bilo uspešno poslano.",
+      score: score,
+    })
   })
 }
+
 module.exports = {
   submitForm,
   signup,

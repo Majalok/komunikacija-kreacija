@@ -55,9 +55,9 @@ const OMeni = () => (
             </div>{" "}
             <div className="o-meni-text">
               Prišla sem do spoznanja, da imam dobro izostren šesti čut ali
-              intuicijo. <i>Jasnovednost in jasnočutnost</i> sta moja podporna stebra.
-              Skozi daljše obdobje sem pridno pilila svojo komunikacijo, se
-              poglabljala v razumevanje ljudi in okolice ter mnogim tudi
+              intuicijo. <i>Jasnovednost in jasnočutnost</i> sta moja podporna
+              stebra. Skozi daljše obdobje sem pridno pilila svojo komunikacijo,
+              se poglabljala v razumevanje ljudi in okolice ter mnogim tudi
               pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
               da morajo oziroma si želijo nekaj spremeniti, pa ne vedo kaj in
               kako.V večino primerov se zgodi čisto spontano. Velikokrat sem jih
@@ -199,9 +199,10 @@ const OMeni = () => (
         <div className="zahvala zahvala-6">
           Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z
           razlogom. Nataša, ko si se ti pojavila v mojem življenju je bilo čisto
-          poslovno ampak sva hitro ugotovili, da to ni tako.V moje življenje si vnesla voljo, energijo, mi odprla oči in dala krila, da lahko
-          poletim. Če me zanese, mi boš znala pokazati, katera pot je prava.
-          Hvaležna, ker te je tvoja pot pripeljala k meni.
+          poslovno ampak sva hitro ugotovili, da to ni tako.V moje življenje si
+          vnesla voljo, energijo, mi odprla oči in dala krila, da lahko poletim.
+          Če me zanese, mi boš znala pokazati, katera pot je prava. Hvaležna,
+          ker te je tvoja pot pripeljala k meni.
           <div className="zahvala-name">L.S.</div>
           <img
             className="header-image bottom-img"
@@ -212,9 +213,9 @@ const OMeni = () => (
         </div>
         <div className="zahvala zahvala-7">
           Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih
-          se je potrebno tudi poglobiti, če želiš napredovati v
-          določenih stvareh. In zato je dobro, če poznaš koga, ki ti pri temu
-          pomaga. In ti si mi. Hvala.
+          se je potrebno tudi poglobiti, če želiš napredovati v določenih
+          stvareh. In zato je dobro, če poznaš koga, ki ti pri temu pomaga. In
+          ti si mi. Hvala.
           <div className="zahvala-name">Blaž</div>
           <img
             className="header-image bottom-img"
@@ -238,8 +239,8 @@ const OMeni = () => (
         <div className="zahvala zahvala-11">
           Hvala, ker si moja občasna poslušalka. Prav paše, da se lahko spiham
           in dam iz sebe ven, vse kar mi gre na živce, ali kot ti rada rečeš:
-          "me vrže iz tira, ker se preveč ukvarjam z  okolico." In vedno do sedaj, si mi
-          dala koristen nasvet, na kaj naj bom pozorna.
+          "me vrže iz tira, ker se preveč ukvarjam z okolico." In vedno do
+          sedaj, si mi dala koristen nasvet, na kaj naj bom pozorna.
           <div className="zahvala-name">Renata</div>
           <img
             className="header-image bottom-img"

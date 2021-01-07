@@ -129,7 +129,6 @@ import logo3 from "./../../assets/icons/icon_backup_box1.png" */
       selectedMenuItem: selectedId,
     })
     if (selectedId == 1) {
-      // console.log("A", selectedId)
       this.setState({
         displaySubmenu: true,
         show: true,
@@ -171,7 +170,7 @@ import logo3 from "./../../assets/icons/icon_backup_box1.png" */
           <div
             className="box-container-1"
             style={{
-              backgroundImage: `url(../assets/pngTest1111-inv.png)`,
+              backgroundImage: `url(../assets/trak-top.png)`,
               backgroundSize: "cover",
               backgroundRepeat: "repeat-x",
               height: "70px",
@@ -415,7 +414,7 @@ import logo3 from "./../../assets/icons/icon_backup_box1.png" */
         <div
           className="box-container"
           style={{
-            backgroundImage: `url(../assets/pngTest111-bottom.png)`,
+            backgroundImage: `url(../assets/trak-bottom.png)`,
             backgroundSize: "cover",
             backgroundRepeat: "repeat-x",
             height: "70px",

@@ -2,8 +2,8 @@ import axios from "axios"
 
 const instance = axios.create({
   // baseURL: 'https://reavisys.si/api',
-  baseURL: "https://komunikacija-kreacija.webdev.reavisys.si/api/submit",
-  //baseURL: "http://localhost:5001/api/submit",
+  // baseURL: "https://komunikacija-kreacija.webdev.reavisys.si/api/submit",
+  baseURL: "http://localhost:5001/api/submit",
   headers: {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin": "*",
@@ -12,7 +12,6 @@ const instance = axios.create({
   },
 })
 export default {
-  /***************************************************** */
   sendMessage: data =>
     instance({
       method: "POST",
@@ -25,14 +24,10 @@ export default {
       transformResponse: [
         function(data) {
           console.log("\n\n\n\n Transforming data...")
-          console.log("*************************Send message /api/submit...")
-          console.log("data::: ", data)
           const json = JSON.parse(data)
           console.log("json data::: ", json)
           return json
         },
       ],
     }),
-
-  /**************************************************** */
 }

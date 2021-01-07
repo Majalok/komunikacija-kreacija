@@ -1,15 +1,10 @@
 import React, { useState } from "react"
 
 import apiCalls from "../api/apiCalls"
-import { confirmAlert } from "react-confirm-alert" // Import
-import "react-confirm-alert/src/react-confirm-alert.css" // Import css
-
+import { confirmAlert } from "react-confirm-alert"
+import "react-confirm-alert/src/react-confirm-alert.css"
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
-
-//import ReCAPTCHA from "react-google-recaptcha"
-
 import closeIcon from "../assets/icons/close.png"
-//var Recaptcha = require("react-gcaptcha")
 
 export const useInput = initialValue => {
   const [value, setValue] = useState(initialValue)
@@ -38,20 +33,15 @@ export default function Form() {
   const [token, setToken] = useState("")
   const [notification, setNotification] = useState("")
 
-  // Value for body-parser
   let nameVal = name
   let emailVal = email
   let messageVal = message
 
   const handleSubmit = async e => {
     e.preventDefault()
-    console.log("executeRecaptcha ")
-    //console.log("executeRecaptcha ", executeRecaptcha)
-    // Check if the captcha was skipped or not
     if (!executeRecaptcha) {
       return
     }
-    // handle empty fields just in case
     if (!nameVal) {
       setNotification(`Prosimo vnesite ime.`)
       return
@@ -63,10 +53,7 @@ export default function Form() {
       setNotification(`Prosim vnesite sporočilo.`)
       return
     }
-    console.log("bla...")
-    // This is the same as grecaptcha.execute on traditional html script tags
     const result = await executeRecaptcha("homepage")
-    //setToken(result) //--> grab the generated token by the reCAPTCHA
     let token = result
     console.log("result", result)
 
@@ -82,18 +69,10 @@ export default function Form() {
     )
 
     const data = JSON.stringify({ nameVal, emailVal, messageVal, token })
-    // Prepare the data for the server, specifically body-parser
-    /* const data = JSON.stringify({ nameVal, emailVal, messageVal, token }) */
-
     sendMessage(data)
   }
   const sendMessage = data => {
-    //
-    console.log("DATA> ", data)
-
-    console.log("sendMessage - data ", data)
-    console.log("calling method sendMessage> data, ", data)
-    console.log("...\n")
+    console.log("\ncalling method sendMessage> data, ", data)
     setNotification("")
     apiCalls
       .sendMessage(data)
@@ -171,11 +150,6 @@ export default function Form() {
     resetMessage()
     resetName()
   }
-
-  const onChange = value => {
-    debugger
-    console.log("\n\n000000000000000 Recaptcha Value:", value)
-  }
   /* 
   const onClose = () => {
     resetName()
@@ -236,13 +210,6 @@ export default function Form() {
           {notification && <span>{notification}</span>}
         </div>
       </form>
-      {/*  <GoogleReCaptchaProvider
-        reCaptchaKey="6LfGuxsaAAAAAMbVSYcIXABn5VO183wlMCfNxpwh"
-        scriptProps={{
-          async: true, // optional, default to false,
-          defer: true, // optional, default to false
-        }}
-      ></GoogleReCaptchaProvider> */}
     </>
   )
 }
