@@ -60,7 +60,6 @@ const signup = async (req, res) => {
 
   let message = {
     from: EMAIL,
-    // to: "majalokar@yahoo.com",
     to: EMAIL,
     subject: "signup successful",
     html: mail,
