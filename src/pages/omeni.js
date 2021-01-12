@@ -82,7 +82,7 @@ const OMeni = () => (
             </div>
           </div>
           <img
-            src="../assets/natasa-00.png"
+            src="../assets/natasa-01.png"
             className="profile-img"
             alt="Logo"
             style={{
