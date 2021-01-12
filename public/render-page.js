@@ -1694,9 +1694,10 @@ __webpack_require__.r(__webpack_exports__);
 
 function onRenderBody(_ref) {
   var setHeadComponents = _ref.setHeadComponents;
-  setHeadComponents([/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
-  })]);
+  setHeadComponents([
+    /*  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>,
+     */
+  ]);
 }
 
 /***/ }),
