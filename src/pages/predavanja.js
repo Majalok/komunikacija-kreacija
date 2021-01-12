@@ -18,11 +18,10 @@ const Predavanja = () => (
         </i>
         <br />
         <br />
-        Res tako preprosto pravilo, a v kakšni meri ga pa upoštevamo in
-        uporabljamo v našem življenju? Na to, pa si mora odgovoriti vsak
-        posameznik. S tem odnosom lahko zelo veliko dosežemo v življenju, na
-        katerem koli področju. Samo postati mora naše notranje vodilo, naše
-        načelo.
+        Res tako preprosto pravilo, kolikšni meri ga upoštevamo in uporabljamo v
+        našem življenju? Na to, pa si mora odgovoriti vsak posameznik sam. S tem
+        odnosom lahko zelo veliko dosežemo v življenju, na katerem koli
+        področju. Samo postati mora naše notranje vodilo, naše načelo.
         <br />
         <br />A skozi leta sem spoznala še eno, veliko bolj dragoceno pravilo,
         ki se mu pravi <strong>Diamantno pravilo</strong>.
@@ -48,8 +47,8 @@ const Predavanja = () => (
         <br />
         <br />
         Ko ponotranjiš Diamantno pravilo in ko to postane del tvojega življenja,
-        se spremeni komunikacija, poveča se tvoj uspeh, tako na osebni ravni,
-        kot na poslovni. Postaneš boljši JAZ{" "}
+        se spremeni komunikacija, poveča se tvoj uspeh, tako na osebni, kot na
+        poslovni ravni. kot na poslovni. Postaneš boljši JAZ.{" "}
         <img
           className="emoji-img"
           src="../icons/smile.png"
@@ -63,20 +62,20 @@ const Predavanja = () => (
         <div className="predavanja-item-title">Nebesedna izražanja</div>
         <br />
         <br />
-        Z govorico telesa,pravzaprav na nezavedni ravni, odražamo svoje čustveno
-        stanje. Obstajajo tri pravila za pravilno branje znakov in pa metode za
-        razlaganje pomena kretenj, "branja misli" in čustev.
+        Z govorico telesa, pravzaprav na nezavedni ravni, odražamo svoje
+        čustveno stanje. Obstajajo tri pravila za pravilno branje znakov in pa
+        metode za razlaganje pomena kretenj, "branja misli" in čustev.
         <br />
         <br />
         Tu po sklopih pogledamo, na kakšen način, z osnovnim razumevanje telesne
-        govorice, dosežemo večji uspeh
+        govorice, dosežemo večji uspeh.
       </div>
     </div>
     <div className="trak-div">
       <div
         className="trak"
         style={{
-          backgroundImage: `url(../assets/pticek-trak1.png)`,
+          backgroundImage: `url(../assets/pticek-trak2.png)`,
           backgroundSize: "88%",
           backgroundRepeat: "no-repeat",
           height: "300px",

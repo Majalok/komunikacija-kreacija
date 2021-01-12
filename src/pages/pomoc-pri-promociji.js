@@ -15,7 +15,7 @@ const PomocPriPromociji = () => (
         />
         <br />
         <br />
-        Imaš idejo, znanje, veselje in produkt a nikakor zadeva ne steče, tako
+        Imaš idejo, znanje, veselje in produkt, a zadeva nikakor ne steče tako,
         kot si želiš.
         <br />
         <br />
@@ -46,7 +46,7 @@ const PomocPriPromociji = () => (
         <br />
         <br />
         Poznate tisti rek: "Dobro blago se samo hvali". Jaz pa dodajam, še bolje
-        in hitreje pa je, če ti nekdo pri tem pomaga{" "}
+        in hitreje pa je, če ti nekdo pri tem pomaga.{" "}
         <img
           className="emoji-img"
           src="../icons/wink.png"

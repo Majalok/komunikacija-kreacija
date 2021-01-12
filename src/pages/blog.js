@@ -22,7 +22,8 @@ class Blog extends Component {
                   alt=""
                 />
                 ). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče
-                še kakšna starejša sestra ali brat, za povrh, da je mera polna{" "}
+                sta tu še kakšna starejša sestra ali brat, za povrh, da je mera
+                polna{" "}
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
@@ -30,17 +31,17 @@ class Blog extends Component {
                   alt=""
                 />
                 . Ja, prav vsi te učijo, usmerjajo in "itak" vedo kaj je
-                najbolje zate. Kasneje se temu »klanu« pridruži vrtec z vsemi
-                pripadajočimi akterji (vrstniki in vzgojitelji), nato šola isti
-                koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi cel
-                tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
+                najbolje zate. Kasneje se temu »klanu« pridruži vrtec, z vsemi
+                pripadajočimi akterji (vrstniki in vzgojitelji), nato šola -
+                isti koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi
+                cel tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
                 čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
                 tisti malo manj dobri.
                 <br />
                 Potem nastopi »ta resen« del… služba. Okolica in sodelavci
                 pridno igrajo svojo vlogo pri pisanju na tvoj list.
                 <br />
-                Nato spoznaš Ljubezen svojega življenja (če ne gre v prvo, pa
+                Nato spoznaš "Ljubezen svojega življenja" (če ne gre v prvo, pa
                 mogoče v drugo, tretje….no, kakorkoli že{" "}
                 <img
                   className="emoji-img"
@@ -51,30 +52,30 @@ class Blog extends Component {
                 ).
                 <br />
                 <br />
-                Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na
+                Takrat nastopiš v tej svoji najboljši verziji, ki jo potegneš na
                 plano, čez vest ta »balast«.  Na začetku se ti razprejo krila,
                 zadihaš s polnimi pljuči, imaš zalet. In ko imaš občutek, da boš
-                poletel v svoji najboljši verziji… <strong>bam</strong>{" "}
+                poletel v svoji "najboljši verziji"… <strong>bam</strong>{" "}
                 …pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je
                 zmanjkalo ali smetana se je polizala.
                 <br />
                 Na plano pridejo vsi ti »tvoji« zapisi. In velikokrat niti ne
-                »porajtaš«, da pravzaprav razmišljaš, občutiš, razumeš kot si
-                bil naučen. Nekje globoko v sebi pa ti tihi glasek govori, da
+                »porajtaš«, da pravzaprav razmišljaš, občutiš, razumeš, kot si
+                bil naučen. Nekje globoko v sebi, pa ti tihi glasek govori, da
                 mogoče pa le ni čisto vse tako ali »prav«, kot si vedel in znal
                 da sedaj. Da mogoče obstaja kakšna drugačna realnost, tvoja
                 realnost. Mogoče pa ti to, karkoli že, lahko izpelješ, se lahko
                 naučiš, priučiš, si dovoliš povedati na glas kaj si misliš in
-                kako razmišljaš, si dovoliš drugače občutiti, si dovoliš
-                občutiti na sploh in si določene stvari tudi priznati.
+                kako razmišljaš, si dovoliš drugače občutiti, si SPLOH dovoliš
+                občutiti in si določene stvari tudi priznati.
                 <br />
                 <br />
                 Mogoče, pa ti stvari <strong>lahko</strong> pelješ skozi
-                življenje drugače kot tvoji starši, prijatelji sodelavci...
+                življenje drugače kot tvoji starši, prijatelji in sodelavci...
                 <br />
                 <br />
                 <strong>
-                  Vse je mogoče! Kar je v naši domišljiji je mogoče tudi v naši
+                  Vse je mogoče! Kar je v naši domišljiji, je mogoče tudi v naši
                   realnosti. Ampak pozor
                 </strong>
                 !
@@ -82,14 +83,14 @@ class Blog extends Component {
                 <br />
                 Nič se ne spremeni čez noč in nič se ne bo zgodilo samo od sebe.
                 Vsaka sprememba zahteva svoj čas. Se zavedaš, koliko radirke
-                potrebuješ in časa, da »zradiraš«, kar ti ne služi?
+                potrebuješ in koliko časa, da »zradiraš«, kar ti ne služi?
                 <br />
                 <br />
                 Potrebno si je <strong>resnično</strong> želeti boljši, bolj po
                 tvojih željah naravnan dan in življenje.
                 <br />
                 <br />
-                Ker na tem tvoje čudovitem listu je veliko{" "}
+                Ker na tem tvojem "čudovitem listu" je tudi veliko{" "}
                 <strong>dobronamernih</strong> zapisov (prepričanj in vzorcev).
                 <br />
                 <br />
@@ -97,13 +98,13 @@ class Blog extends Component {
                   ti, ti
                 </strong>{" "}
                 in ne nekdo, kot ga je in ki ga je »popredalčkala« okolica in
-                vsi njeni akterji prisotni v tvojem življenju, zato je potrebno
-                delo na sebi. In za preseči vse to, kar te zadržuje, je potrebno
-                zopet delati na sebi.
+                vsi njeni akterji, prisotni v tvojem življenju - zato je
+                potrebno delo na sebi. In za preseči vse to, kar te zadržuje, je
+                potrebno zopet delati na sebi.
                 <br />
                 <br />
                 Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti
-                dolgčas in ne bo ti zmanjkalo dela{" "}
+                dolgčas in ne bo ti zmanjkalo dela.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/laugh.png"
@@ -114,7 +115,7 @@ class Blog extends Component {
                 <br />
                 <br />
                 Je pa noro dober <strong>občutek</strong>, ko se osvobodiš
-                določenih spon, prepričanj, vzorcev... <strong>poletiš</strong>{" "}
+                določenih spon, prepričanj, vzorcev... <strong>Poletiš.</strong>{" "}
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
@@ -150,12 +151,12 @@ class Blog extends Component {
                 Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno
                 jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to
                 sosledje, ko se mi pripeti v življenju. Pa kako sem se motila.
-                Sem morala parkrat pristati na riti, da sem se začela
+                Sem morala nekaj krat "pristati na riti", da sem se začela
                 poglabljati v svoje življenje in ga analizirati. Kmalu sem
                 ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega,
                 delujemo po določenem konceptu, ki pripelje do vzroka in
-                posledice. Potem pa imamo tukaj prisotno še popolnoma drugačen
-                način podajanja informacij pri moških kot pri ženskah. Mislim
+                posledice. Potem pa imamo tukaj prisoten še popolnoma drugačen
+                način podajanja informacij pri moških, kot pri ženskah. Mislim,
                 res drži, da znamo me eno dokaj preprosto zadevo povedati tako
                 slikovito, malce bolj na dolgo in široko (ker pač rade
                 uporabljamo pridevnike, prislove ipd{" "}
@@ -165,26 +166,26 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                ), da nekdo ki ti dobro ne sledi, se lahko vmes izgubi. Dočim`r
-                moški, to je pa čisto druga plat. Kratko in jedrnato, včasih
-                celo pomanjkljivo{" "}
+                ), da se lahko nekdo, ki ti dobro »ne sledi«, vmes »izgubi«.
+                Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato,
+                včasih celo pomanjkljivo{" "}
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
                   width="30px"
                   alt=""
                 />
-                . No, potem pa se dajmo zastopit . Ni zastonj pregovor moški so
-                iz Marsa, ženske pa iz Venere.
+                . No, potem pa se dajmo zastopit . Ni zastonj pregovor "Moški so
+                iz Marsa, ženske pa iz Venere".
                 <br />
                 <br />
                 Pa da razložim malo bolj podrobno.
                 <br />
                 <br />
                 Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera
-                je "treba" skoz neki delat. V službi, pa potem doma, pa še malo
+                je "treba skoz neki delat". V službi, pa potem doma, pa še malo
                 pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno
-                ne zgodi to vemo, a ne{" "}
+                ne zgodi - to vemo, a ne{" "}
                 <img
                   className="emoji-img"
                   src="../icons/think.png"
@@ -196,8 +197,8 @@ class Blog extends Component {
                   <i>prepričanja</i>
                 </strong>
                 . In posledično skozi to, sem potihoma to delavnost vpeljala v
-                svoje življenje. Službeno in privat. Moj takratni partner (mož
-                in kasneje bivši mož, zato sem, napisala takratni{" "}
+                svoje življenje. Službeno in zasebno. Moj takratni partner (mož
+                in kasneje bivši mož - zato sem, napisala takratni{" "}
                 <img
                   className="emoji-img"
                   src="../icons/smirk.png"
@@ -226,7 +227,7 @@ class Blog extends Component {
                 <br />
                 <br />
                 Ker sva imela različne poglede na določene situacije in ker se
-                nisva znala pogovarjat, izraziti, kaj šele poslušati je
+                nisva znala pogovarjati, izraziti, kaj šele poslušati, je
                 velikokrat prišlo do tega, da je bila najina komunikacija,
                 »slika brez tona«{" "}
                 <img
@@ -240,14 +241,14 @@ class Blog extends Component {
                   <i>vzrok-u</i>
                 </strong>
                 ). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri
-                situaciji »merila« moči{" "}
+                situaciji »merila moči"{" "}
                 <img
                   className="emoji-img"
                   src="../icons/blushed.png"
                   width="30px"
                   alt=""
                 />
-                . Jaz z besedam, ker že od nekdaj sem bila vešča v komunikaciji
+                . Jaz z besedam, ker sem že od nekdaj bila vešča v komunikaciji
                 (pa pustimo »malenkost«, da imamo pravo in nepravo komunikacijo{" "}
                 <img
                   className="emoji-img"
@@ -256,7 +257,7 @@ class Blog extends Component {
                   alt=""
                 />{" "}
                 ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla
-                vsak v svojo stran, kot da vlečeva vrv ipd. Vmes pa sva še
+                vsak v svojo stran, kot da vlečeva vrv, ipd. Vmes, pa sva še
                 dovoljevala vmešavanje (direktno in indirektno) okolice. In ker
                 se take situacije nikoli ne vlečejo v nedogled, je sledila{" "}
                 <i>
@@ -293,8 +294,8 @@ class Blog extends Component {
                 Trenutek zdaj
               </div>
               <div className="blog-text pisava-special brown">
-                Že kar nekaj časa nazaj sem spoznala, da sem v preteklosti
-                večino dneva preživela v prihodnosti ali v preteklosti. Kaj s
+                Že kar nekaj časa nazaj sem spoznala, da sem v preteklosti,
+                večino dneva "preživela v prihodnosti, ali v preteklosti". Kaj s
                 tem mislim?
                 <br />
                 <br />
@@ -315,15 +316,15 @@ class Blog extends Component {
                   alt=""
                 />
                 . Na hitro sem se pokritizirala in že letela v kuhinjo
-                pristavljat vodo za kavo. Ob pitju zame tega čudežnega napitka (
+                pristavljat vodo za kavo. Ob pitju tega zame čudežnega napitka (
                 ker me dodobra prebudi in postavi na noge, da nisem več kot
-                kura, ki leta brez glave in ne ve sama zase ) sem običajno
+                kura, ki leta brez glave in ne ve sama zase ), sem običajno
                 premišljevala, kako bi bilo fino če….prihodnost.
                 <br />
                 <br />
                 Ker sem takole odtavala v prihodnost sem običajno izgubila en
                 malce občutek za čas. Šele prazna skodelica kave, pa moja je
-                tista »ta velika« za čaj, me je povrnila v sedanjost in : »O
+                tista, »ta vlka« za čaj, me je povrnila v sedanjost in : »O
                 groza! Koliko je že ura!« Lahko si mislite, da sem postala kot
                 tisti iz risanke, modri dirkač{" "}
                 <img
@@ -332,9 +333,9 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                . Same sebe sem presenetila s hitrostjo in gibčnostjo, ki jo
-                premorem že navsezgodaj zjutraj ( zame je to med 6 in 7 uro, za
-                nekoga drugega pa je to že sredi dela{" "}
+                . Samo sebe sem presenetila s hitrostjo in gibčnostjo, ki jo
+                premorem že "navsezgodaj zjutraj" ( zame je to med 6 in 7 uro,
+                za nekoga drugega pa je to že sredi dela{" "}
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
@@ -344,29 +345,29 @@ class Blog extends Component {
                 ).
                 <br />
                 <br />
-                Ko sem se končno peljala proti službi, sem en malce se posvečala
-                prometu, ker varnost je pa ipak na prvem mestu, en mal pa
-                preigravala misli po glavi{" "}
-                <strong>kaj bo če bo, kaj je bilo… </strong>. Mimogrede mi je še
-                švignila misel, kaj moram kupiti, kaj bi bilo fino popoldan še
-                postoriti in tako naprej in tako nazaj.
+                Ko sem se končno peljala proti službi, sem se "en malce"
+                posvečala prometu, ker varnost je pa "ipak" na prvem mestu, "en
+                mal" pa preigravala misli po glavi{" "}
+                <strong>"kaj bo če bo, kaj je bilo…"</strong>. Mimogrede mi je
+                še švignila misel, kaj moram kupiti, kaj bi bilo fino popoldan
+                še postoriti in tako naprej in tako nazaj.
                 <br />
                 <br />
                 Na delovnem mestu, če sem le imela trenutek, ki ni zahtevalo
-                100% skoncetriranosti, ampak sem lahko malce z mislim odplavala,
-                sem že razmišljala:« Kaj hudimana, je bilo pa tisto zjutraj pri
-                kavi? Kje že je rekla, da je to prebrala? Hm, kaj sem že rekla,
-                da moram kupit? Ob kateri uri je danes…? Kaj bomo počeli ta
-                vikend? Kako bi bilo fajn...« ipd. ipd.
+                100% skoncentriranosti, ampak sem lahko malce z mislimi
+                odplavala, sem že razmišljala:« Kaj hudimana, je bilo pa tisto
+                zjutraj pri kavi? Kje že je rekla, da je to prebrala? Hm, kaj
+                sem že rekla, da moram kupiti? Ob kateri uri je danes…? Kaj bomo
+                počeli ta vikend? Kako bi bilo fajn...«, ipd., ipd.
                 <br />
                 <br />
-                Zopet sem bila z glavo nekje v preteklosti ali pa razmišljala o
-                prihajajočih dneh. Samo v trenutku ZDAJ sem bila bore malo.
+                Zopet sem bila z glavo nekje v preteklosti, ali pa razmišljala o
+                prihajajočih dneh. Samo v trenutku ZDAJ, sem bila bore malo.
                 <br />
                 <br />
-                In zmeraj bolj se mi je dogajalo, da me je preletel občutek, da
-                je dan kar izpuhtel. Začela sem se spraševati, kako hudimana je
-                zdaj to, da se 2x obrnem in je že večer.{" "}
+                In zmeraj večkrat se mi je dogajalo, da me je spreletel občutek,
+                da je dan kar izpuhtel. Začela sem se spraševati, kako hudimana
+                je zdaj to, da se 2x obrnem in je že večer.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/think.png"
@@ -381,14 +382,14 @@ class Blog extends Component {
                 No, in če pogledamo malo bolj podrobno, ga res nisem. Če sem
                 bila z mislimi konstantno v preteklosti ali prihodnosti nisem
                 mogla biti v sedanjosti. In ko sem začela analizirati, kako
-                »upočasnit« čas, sem prišla do spoznanja, da je ključno da sem
+                »upočasnit« čas, sem prišla do spoznanja, da je ključno, da sem
                 čim več z glavo/mislimi v sedanjem trenutku.
                 <br />
                 <br />
-                Da zjutraj ko se prebudim, misli namenim sebi in se pozitivno
+                Da zjutraj, ko se prebudim, misli namenim sebi in se pozitivno
                 naravnam, da si pomižiknem ko se zagledam v ogledalu, uživam v
-                opojnem okusu kave in absolutno tudi en malce odtavam z mislim
-                kako bi bilo fajn, če bi…, samo tokrat kontrolirano{" "}
+                opojnem okusu kave in absolutno tudi "en malce" odtavam z
+                mislimi, "kako bi bilo fajn, če bi…", samo tokrat kontrolirano{" "}
                 <img
                   className="emoji-img"
                   src="../icons/smile.png"
@@ -398,7 +399,7 @@ class Blog extends Component {
                 <br />
                 <br />
                 Ko se peljem v službo sem skoncentrirana na promet in še en
-                malce na okolico, prečudovito naravo, nebo.
+                malce na okolico na prečudovito naravo, nebo.
                 <br />
                 <br />
                 <strong>
@@ -440,10 +441,10 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />{" "}
-                In na teh delam, da jih počasi popravim. Ker nekaj kar se je
-                desetletja »nalagalo« ne moreš čez noč spremeniti. To je
+                In na teh delam, da jih počasi popravim. Ker nekaj, kar se je
+                desetletja »nalagalo«, ne moreš spremeniti čez noč. To je
                 dejstvo! Delam stvari, ki me veselijo. Berem knjige, se
-                izobražujem, se pogovarjamo, hodimo po barju na sprehode ali pa
+                izobražujem, se pogovarjamo, hodimo na sprehode po Barju, ali pa
                 preprosto čepimo skupaj na kavču in uživamo v gledanju TV-ja{" "}
                 <img
                   className="emoji-img"
@@ -451,9 +452,9 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                . Kajti ko zapisujem te moje misli, se piše »zanimivo« l.2020.
-                Iz tega sledi, da »letanje« naokoli , razni izleti in obiski
-                različnih prireditev trenutno odpade.{" "}
+                . Kajti v trenutku, ko zapisujem te moje misli, se piše
+                »zanimivo« l.2020. Iz tega sledi, da »letanje« naokoli , razni
+                izleti in obiski različnih prireditev trenutno odpadejo.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/neutral.png"
@@ -461,8 +462,8 @@ class Blog extends Component {
                   alt=""
                 />{" "}
                 Sploh pri teh stvareh je res super, če si 100% prisoten, da si v
-                trenutku zdaj. Ker doživiš dan v vsej njegovi lepoti. Zato iz
-                tega kar nam pa je trenutno omogočeno, vlečem najboljše zase.
+                "trenutku zdaj". Ker doživiš dan v vsej njegovi lepoti. Zato iz
+                tega, kar nam pa je trenutno omogočeno, vlečem najboljše zase.
                 <img
                   className="emoji-img"
                   src="../icons/wink.png"
@@ -470,9 +471,9 @@ class Blog extends Component {
                   alt=""
                 />{" "}
                 In še nekaj sem ugotovila. Če imaš doma kosmatega hišnega
-                ljubljenčka, je greh, ko se pride stisniti k tebi in se želi
-                »cortati«, da si z mislimi nekje drugje. Ker to je tako fajn
-                "antistresna terapija", da ni zapovedati.{" "}
+                ljubljenčka, je greh, da si, ko se pride stisniti k tebi in se
+                želi »cortati«, z mislimi nekje drugje. Ker to je pa tako fajn
+                "antistresna terapija", da ni za povedati.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/laugh.png"
@@ -489,9 +490,9 @@ class Blog extends Component {
                 <br />
                 <br />
                 Jah, okolici, dogodkom in osebam ne posvečam več toliko
-                pozornosti. Poskušam tudi čim manj vse skupaj opredeljevati z
+                pozornosti. Poskušam tudi čim manj vse skupaj opredeljevati s
                 predznakom + ali – . Učim se, da dogodki in ljudje samo so/smo.
-                Mi pa jih z našo reakcijo opredelimo kot pozitivne ali
+                Mi pa jih z našo reakcijo opredelimo kot pozitivne, ali
                 negativne.
                 <br />
                 <br />
@@ -527,7 +528,8 @@ class Blog extends Component {
                 </strong>
                 <strong>
                   {" "}
-                  A vse se da obrniti, spremeniti, ker kjer je želja, tam je pot{" "}
+                  A vse se da obrniti, spremeniti, ker kjer je želja, tam je
+                  pot.{" "}
                 </strong>
                 <img
                   className="emoji-img"

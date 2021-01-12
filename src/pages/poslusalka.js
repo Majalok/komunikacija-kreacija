@@ -10,13 +10,15 @@ const Poslusalka = () => (
           V današnjem svetu in načinu življenja, ko norimo sem in tja, sem
           ugotovila, da se je veliko ljudi na svoji poti izgubilo. Izgubili so
           sebe in svoj smisel življenja. Pravzaprav, so izgubili tisto iskrico v
-          očeh, joy ali elan, ki ti da zagon za boljši jutri.
+          očeh, "joy" ali elan, ki ti da zagon za boljši jutri.
           <br />
           In včasih je dovolj že to, da breme, ki ga nosiš, podeliš še z nekom,
-          neznancem, ki ne obsoja in ne pametuje, ampak samo posluša.
+          z neznancem, ki ne obsoja in "ne pametuje", ampak samo posluša.
           <br />
-          Lahko pa vam, kot zunanja opazovalka, ki ni čustveno vpletena v situacijo, povem/nakažem v kateri smeri poskušajte situacijo rešiti, oziroma v katero smer iti, da boste šli proti rešitvi in ne od nje. Temu jaz
-          pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
+          Lahko pa vam, kot zunanja opazovalka, ki ni čustveno vpletena v
+          situacijo, povem/nakažem v kateri smeri poskušajte situacijo rešiti,
+          oziroma v katero smer iti, da boste šli proti rešitvi in ne od nje.
+          Temu jaz pravim, POGLED IZ DRUGEGA ZORNEGA KOTA.
         </div>
       </div>
       <div className="kom-img-desc">

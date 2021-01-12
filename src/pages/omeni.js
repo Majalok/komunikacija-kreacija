@@ -57,12 +57,12 @@ const OMeni = () => (
               Prišla sem do spoznanja, da imam dobro izostren šesti čut ali
               intuicijo. <i>Jasnovednost in jasnočutnost</i> sta moja podporna
               stebra. Skozi daljše obdobje sem pridno pilila svojo komunikacijo,
-              se poglabljala v razumevanje ljudi in okolice ter mnogim tudi
-              pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
-              da morajo oziroma si želijo nekaj spremeniti, pa ne vedo kaj in
-              kako.V večino primerov se zgodi čisto spontano. Velikokrat sem jih
+              se poglabljala v razumevanje ljudi in okolice, ter mnogim tudi
+              pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo, ,
+              oziroma si želijo nekaj spremeniti, pa ne vedo kaj in kako. V
+              večini primerov se zgodi čisto spontano. Velikokrat sem jih
               začutila, da niti niso imeli namena spregovoriti o zadevi, ki jih
-              teži. A nastal je trenutek, ko so se besede kar vsule. In sem se
+              teži, a nastal je trenutek, ko so se besede kar vsule. In sem se
               lotila dela{" "}
               <img
                 className="emoji-img"
@@ -77,8 +77,8 @@ const OMeni = () => (
             <div className="o-meni-text">
               Vedno bolj se odraža, da nam je komunikacija postala nekaj tujega
               in reševanje problemov je postal velik bavbav. Zato si želim
-              pomagati. Naj komunikacija postane lahkotna, razumevajoča in
-              ljubeča.
+              pomagati ljudem. Naj komunikacija postane lahkotna, razumevajoča
+              in ljubeča.
             </div>
           </div>
           <img

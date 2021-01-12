@@ -19,11 +19,12 @@ const komunikacija = () => (
           ugotovimo, da smo »prejeli« veliko dobronamernih usmeritev, navodil in
           prepričanj, ki velikokrat ne delujejo optimalno za nas. In ko
           ozavestimo in si priznamo, da imamo v svojem življenju kar nekaj
-          »prtljage naložene« s strani  staršev, starih staršev itd, nas lahko prevzame groza.
-          Da spremenimo svoja prepričanja, vzorce in vse kar nas ustavlja je
-          potrebno zagristi v »kislo jabolko«. Vendar tam kje je volja je tudi
-          moč in uspeh. Rada se pohecam, da je potrebno stari program izbrisati
-          in naložiti novi software, ki je naš in pisan nam na kožo{" "}
+          »prtljage naložene« s strani staršev, starih staršev itd, nas lahko
+          prevzame groza. Da spremenimo svoja prepričanja, vzorce in vse, kar
+          nas ustavlja, je potrebno zagristi v »kislo jabolko«. Vendar tam, kje
+          je volja je tudi moč in uspeh! Rada se pohecam, da je potrebno stari
+          program izbrisati in naložiti novi "software", ki je naš in pisan nam
+          na kožo{" "}
           <img
             className="emoji-img"
             src="../icons/wink.png"
