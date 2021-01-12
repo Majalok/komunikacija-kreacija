@@ -35,7 +35,7 @@ let MailGenerator = new Mailgen({
 })
 
 console.log("PROCESS.ENV.email (iz config)> ", EMAIL)
-console.log("PROCESS.ENV.password (iz process.env)> ", process.env.PASSWORD)
+//console.log("PROCESS.ENV.password (iz process.env)> ", process.env.PASSWORD)
 console.log("MAIN URL (iz config)> ", MAIN_URL)
 console.log("PROCESS.ENV.email_TO EMAIL_TO URL (iz config)> ", EMAIL_TO)
 
