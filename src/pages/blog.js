@@ -177,7 +177,7 @@ class Blog extends Component {
                   alt=""
                 />
                 . No, potem pa se dajmo zastopit . Ni zastonj pregovor "Moški so
-                iz Marsa, ženske pa iz Venere".
+                iz Marsa, ženske pa z Venere".
                 <br />
                 <br />
                 Pa da razložim malo bolj podrobno.

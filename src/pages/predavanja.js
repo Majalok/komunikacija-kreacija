@@ -18,7 +18,7 @@ const Predavanja = () => (
         </i>
         <br />
         <br />
-        Res tako preprosto pravilo,a v kolikšni meri ga upoštevamo in
+        Res tako preprosto pravilo, a v kolikšni meri ga upoštevamo in
         uporabljamo v našem življenju? Na to, pa si mora odgovoriti vsak
         posameznik sam. S tem odnosom lahko zelo veliko dosežemo v življenju, na
         katerem koli področju. Samo postati mora naše notranje vodilo, naše
