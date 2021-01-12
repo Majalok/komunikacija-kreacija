@@ -12,7 +12,7 @@ class Blog extends Component {
               <div className="blog-title pisava-special brown">Bel list</div>
               <div className="blog-text pisava-special brown">
                 Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list.
-                Nato prve zapise, na ta tvoj lep beli list, naredijo tvoji
+                Nato prve zapise, na ta tvoj lep, beli list, naredijo tvoji
                 starši, kasneje jim seveda pomagajo tudi stari starši (ker bog
                 ne daj, brez njih res ne gre{" "}
                 <img
@@ -38,7 +38,7 @@ class Blog extends Component {
                 čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
                 tisti malo manj dobri.
                 <br />
-                Potem nastopi »ta resen« del… služba. Okolica in sodelavci
+                Potem nastopi »ta resen« del… služba. Okolica in sodelavci,
                 pridno igrajo svojo vlogo pri pisanju na tvoj list.
                 <br />
                 Nato spoznaš "Ljubezen svojega življenja" (če ne gre v prvo, pa
@@ -52,10 +52,12 @@ class Blog extends Component {
                 ).
                 <br />
                 <br />
-                Takrat nastopiš v tej svoji najboljši verziji, ki jo potegneš na
+                Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na
                 plano, čez vest ta »balast«.  Na začetku se ti razprejo krila,
                 zadihaš s polnimi pljuči, imaš zalet. In ko imaš občutek, da boš
-                poletel v svoji "najboljši verziji"… <strong>bam</strong>{" "}
+                poletel v tej svoji "najboljši verziji"… <strong>
+                  bam
+                </strong>{" "}
                 …pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je
                 zmanjkalo ali smetana se je polizala.
                 <br />
@@ -111,7 +113,6 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                .
                 <br />
                 <br />
                 Je pa noro dober <strong>občutek</strong>, ko se osvobodiš
@@ -316,8 +317,8 @@ class Blog extends Component {
                   alt=""
                 />
                 . Na hitro sem se pokritizirala in že letela v kuhinjo
-                pristavljat vodo za kavo. Ob pitju tega zame čudežnega napitka (
-                ker me dodobra prebudi in postavi na noge, da nisem več kot
+                pristavljat vodo za kavo. Ob pitju tega, zame čudežnega napitka
+                ( ker me dodobra prebudi in postavi na noge, da nisem več kot
                 kura, ki leta brez glave in ne ve sama zase ), sem običajno
                 premišljevala, kako bi bilo fino če….prihodnost.
                 <br />
@@ -454,7 +455,7 @@ class Blog extends Component {
                 />
                 . Kajti v trenutku, ko zapisujem te moje misli, se piše
                 »zanimivo« l.2020. Iz tega sledi, da »letanje« naokoli , razni
-                izleti in obiski različnih prireditev trenutno odpadejo.{" "}
+                izleti in obiski različnih prireditev trenutno odpade.{" "}
                 <img
                   className="emoji-img"
                   src="../icons/neutral.png"

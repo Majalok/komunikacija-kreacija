@@ -25,8 +25,8 @@ const KomunikacijaOtrok = () => (
           <br />
           Potem pa se počasi prikradejo neprespane noči, ritem življenja, kot ga
           poznaš, se počasi spreminja. In predno se pravzaprav dobro zaveš, kaj
-          se dogaja, si že ve nekem drugem svetu oziroma scenariju. Skozi daljše
-          obdobje pa še ugotoviš tudi to, da rek »majhni otroci, majhni
+          se dogaja, si že ve nekem drugem svetu, oziroma scenariju. Skozi
+          daljše obdobje pa ugotoviš tudi to, da rek »majhni otroci, majhni
           problemi, veliki otroci, veliki problemi.« še kako drži.
           <br />
           Mi, kot starši, se moramo zavedati, da smo prvi in najbolj odgovorni

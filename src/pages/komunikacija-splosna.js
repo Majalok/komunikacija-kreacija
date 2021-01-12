@@ -20,8 +20,8 @@ const KomunikacijaSplosna = () => (
             width="30px"
             alt=""
           />
-          ), z različnimi prioritetami, zaznavanji, občutki…! To pomeni, da je
-          za nekoga sončni zahod "WOW", za drugega pa "NIČ POSEBNEGA".
+          ), z različnimi prioritetami, zaznavanji, občutki… To pomeni, da je za
+          nekoga sončni zahod "WOW", za drugega pa "NIČ POSEBNEGA".
           <br />
           Če želimo, da smo slišani, razumljeni, da premagamo strah, si zaupamo,
           se je potrebno naučiti jasnega izražanja in seveda na pravi način

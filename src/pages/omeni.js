@@ -58,7 +58,7 @@ const OMeni = () => (
               intuicijo. <i>Jasnovednost in jasnočutnost</i> sta moja podporna
               stebra. Skozi daljše obdobje sem pridno pilila svojo komunikacijo,
               se poglabljala v razumevanje ljudi in okolice, ter mnogim tudi
-              pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo, ,
+              pomagala. Dogaja se mi, da se ljudje obračajo name, ko začutijo,
               oziroma si želijo nekaj spremeniti, pa ne vedo kaj in kako. V
               večini primerov se zgodi čisto spontano. Velikokrat sem jih
               začutila, da niti niso imeli namena spregovoriti o zadevi, ki jih
@@ -69,8 +69,8 @@ const OMeni = () => (
                 src="../icons/wink.png"
                 width="30px"
                 alt=""
-              />{" "}
-              Saj veste, pogled iz drugega zornega kota in pa moja dva
+              />
+              . Saj veste, pogled iz drugega zornega kota in pa moja dva
               »senzorja« pa smo zadevo premaknili iz mrtve točke. Znašla pa sem
               se tudi v vlogi mediatorja.
             </div>

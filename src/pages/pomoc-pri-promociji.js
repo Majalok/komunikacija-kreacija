@@ -36,7 +36,7 @@ const PomocPriPromociji = () => (
         <br />
         <br />
         Spoznajva se, poglejva kaj ponujaš oziroma kaj iščeš in kako ti lahko
-        pomagam. Mogoče pa potrebuješ samo potrditev, da si na pravi poti{" "}
+        pomagam. Mogoče pa potrebuješ samo potrditev, da si na pravi poti.{" "}
         <img
           className="emoji-img"
           src="../icons/wink.png"

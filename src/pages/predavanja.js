@@ -18,10 +18,11 @@ const Predavanja = () => (
         </i>
         <br />
         <br />
-        Res tako preprosto pravilo, kolikšni meri ga upoštevamo in uporabljamo v
-        našem življenju? Na to, pa si mora odgovoriti vsak posameznik sam. S tem
-        odnosom lahko zelo veliko dosežemo v življenju, na katerem koli
-        področju. Samo postati mora naše notranje vodilo, naše načelo.
+        Res tako preprosto pravilo,a v kolikšni meri ga upoštevamo in
+        uporabljamo v našem življenju? Na to, pa si mora odgovoriti vsak
+        posameznik sam. S tem odnosom lahko zelo veliko dosežemo v življenju, na
+        katerem koli področju. Samo postati mora naše notranje vodilo, naše
+        načelo.
         <br />
         <br />A skozi leta sem spoznala še eno, veliko bolj dragoceno pravilo,
         ki se mu pravi <strong>Diamantno pravilo</strong>.
@@ -48,7 +49,7 @@ const Predavanja = () => (
         <br />
         Ko ponotranjiš Diamantno pravilo in ko to postane del tvojega življenja,
         se spremeni komunikacija, poveča se tvoj uspeh, tako na osebni, kot na
-        poslovni ravni. kot na poslovni. Postaneš boljši JAZ.{" "}
+        poslovni ravni. Postaneš boljši JAZ.{" "}
         <img
           className="emoji-img"
           src="../icons/smile.png"
