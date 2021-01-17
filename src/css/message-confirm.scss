@@ -160,11 +160,13 @@ button.btn-modal.sendMessage {
 
 .close-icon {
     width: 20px;
+    height: auto;
     cursor: pointer;
     opacity: 0.8;
 
     &.confirm {
         width: 10px;
+        height: auto;
     }
 }
 .confirm-order-div {

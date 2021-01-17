@@ -1,45 +1,90 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle, subtitle, description }) => (
-  <header
-    style={{
-      backgroundImage: `url(../assets/13-16.png)`,
-      /*  backgroundSize: 'cover', */
-      backgroundRepeat: "no-repeat",
-      height: "100 %",
-      backgroundPositionY: "-45px",
-      backgroundSize: "116% 141%",
-      /*     backgroundPositionY: '-130px' */
-    }}
-    className="header"
-  >
-    <div className="header-logo"></div>
-    <div className="header-main-div">
-      <span className="header-title">
-        <h3>
-          <Link
-            to="/omeni"
-            className="page-title-link"
-            data-content="Komunikacija je kreacija"
-          >
-            {siteTitle}
-          </Link>
-        </h3>
-        <p className="header-title-p">
-          <i>{subtitle}</i>
-        </p>
-      </span>
-      <div className="header-image-div">
-        <img className="header-image" src="../assets/kom-logoTst3.png" alt="" />
-      </div>
-    </div>
-  </header>
-)
+let bck1_xxl = "../assets/13-16.png"
+let bck1_xl = "../assets/13-16.png"
+let bck1_l = "../assets/13-16.png"
+let bck1_md = "../assets/13-16-md.png"
+let bck1_sm = "../assets/13-16-sm.png"
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+let isSmall, isMedium, isLarge, isXLarge, isXXLarge
+
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = { ...props }
+  }
+  componentDidMount() {
+    window.scrollTo(0, 0)
+
+    isSmall = window.innerWidth < 480
+    isMedium = window.innerWidth > 481 && window.innerWidth <= 768
+    isLarge = window.innerWidth > 769 && window.innerWidth <= 1499
+    isXLarge = window.innerWidth > 1500 && window.innerWidth <= 2800
+    isXXLarge = window.innerWidth > 2801 && window.innerWidth < 3500
+
+    if (isXXLarge) {
+      this.setState({ backgroundImage1: bck1_xxl })
+    }
+    if (isXLarge) {
+      this.setState({ backgroundImage1: bck1_xl })
+    }
+    if (isLarge) {
+      this.setState({ backgroundImage1: bck1_l })
+    }
+    if (isMedium) {
+      this.setState({ backgroundImage1: bck1_md })
+    }
+    if (isSmall) {
+      this.setState({ backgroundImage1: bck1_sm })
+    }
+    window.scrollTo(0, 0)
+  }
+
+  render() {
+    return (
+      <header
+        style={{
+          backgroundImage: `url(${this.state.backgroundImage1})`,
+
+          /*  backgroundImage: `url(../assets/13-16.png)`, */
+          /*  backgroundSize: 'cover', */
+          backgroundRepeat: "no-repeat",
+          height: "100 %",
+          backgroundPositionY: "-45px",
+          backgroundSize: "116% 141%",
+          /*     backgroundPositionY: '-130px' */
+        }}
+        className="header"
+      >
+        <div className="header-logo"></div>
+        <div className="header-main-div">
+          <span className="header-title">
+            <h3>
+              <Link
+                to="/omeni"
+                className="page-title-link"
+                data-content="Komunikacija je kreacija"
+              >
+                {this.state.siteTitle}
+              </Link>
+            </h3>
+            <p className="header-title-p">
+              <i>{this.state.subtitle}</i>
+            </p>
+          </span>
+          <div className="header-image-div">
+            <img
+              className="header-image"
+              src="../assets/kom-logoTst3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
+    )
+  }
 }
 
 export default Header
