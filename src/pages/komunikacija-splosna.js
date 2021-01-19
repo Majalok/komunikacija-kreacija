@@ -32,11 +32,24 @@ const KomunikacijaSplosna = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img
+        {/*  <img
           className="kom-item-img splosna"
           src="../assets/kom-splosna.png"
           alt=""
-        />
+        /> */}
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/kom-splosna.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="kom-item-img"
+            src="../assets/kom-splosna.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
         <div className="vil-description">Nov začetek</div>
       </div>
     </div>

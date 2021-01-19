@@ -1,5 +1,6 @@
 import React from "react"
-
+import Image from "react-image-webp"
+import { isWebpSupported } from "react-image-webp/dist/utils"
 import Layout from "../components/layout"
 
 const OMeni = () => (
@@ -21,14 +22,6 @@ const OMeni = () => (
             </span>
           </p>
         </div>
-        {/* 
-        <div className="box-container" style={{
-          backgroundImage: `url(../assets/line-dot.png)`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'repeat-x',
-          height: '70px'
-        }} >
-      </div> */}
         <div
           className="box-container" /* style={{
           backgroundImage: `url(../assets/wave2.png)`,
@@ -36,11 +29,7 @@ const OMeni = () => (
           backgroundRepeat: 'repeat-x',
           height: '70px'
         }} */
-        >
-          {/* <svg height="150" width="880">
-            <path d="M0,19.99 C150.00,150.00 271.49,-40.99 880.00,15.99 L880.00,0.00 L0.00,0.00 Z" fill="#fffdc2"></path>
-          </svg> */}
-        </div>
+        ></div>
         <div className="o-meni-content">
           <div className="o-meni-textdiv">
             <div className="o-meni-text">
@@ -81,17 +70,72 @@ const OMeni = () => (
               in ljubeča.
             </div>
           </div>
-          <img
+
+          <picture className="pict-profile-img">
+            <source
+              srcSet="../assets/webp/natasa-01.webp"
+              alt="Logo"
+              type="image/webp"
+            />
+            <img
+              style={{
+                border: "7px solid transparent",
+                borderImage: `url("../assets/paper2.webp") 100%`,
+                padding: "2px",
+                borderImageSlice: "100 100 fill",
+              }}
+              className="profile-img"
+              src="../assets/natasa-01.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
+
+          {/*     <Image
+            src={require("./../assets/webp/natasa-01.webp")}
+            webp={require("./../assets/webp/natasa-01.webp")}
+          />  */}
+          {/*  {isWebpSupported() ? (
+            <img src={require("../assets/webp/natasa-01.webp")} />
+          ) : (
+            <img src={require("../assets/natasa-01.png")} />
+          )} */}
+          {/*     <picture>
+            <source
+              srcSet="../assets/webp/natasa-01.webp"
+              type="image/webp"
+              className="profile-img"
+              alt="Logo"
+              style={{
+                border: "7px solid transparent",
+                borderImage: `url("../assets/paper2.webp") 100%`,
+                padding: "2px",
+                borderImageSlice: "100 100 fill",
+              }}
+            />
+            {  <img
+              src="../assets/natasa-01.png"
+              className="profile-img"
+              alt="Logo"
+              style={{
+                border: "7px solid transparent",
+                borderImage: `url("../assets/paper2.webp") 100%`,
+                padding: "2px",
+                borderImageSlice: "100 100 fill",
+              }}
+            /> 
+          </picture> */}
+          {/*  <img
             src="../assets/natasa-01.png"
             className="profile-img"
             alt="Logo"
             style={{
               border: "7px solid transparent",
-              borderImage: `url("../assets/paper2.jpg") 100%`,
+              borderImage: `url("../assets/paper2.webp") 100%`,
               padding: "2px",
               borderImageSlice: "100 100 fill",
             }}
-          />
+          /> */}
         </div>
       </div>
 

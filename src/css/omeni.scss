@@ -162,10 +162,14 @@
     z-index: 999;
 }
 
-.profile-img {
-    border: 5px solid antiquewhite;
+.pict-profile-img {
     width: 30%;
     max-width: 400px;
+}
+
+.profile-img {
+    border: 5px solid antiquewhite;
+    max-width: 250px;
 }
 
 .zahvala-1 {
@@ -257,6 +261,9 @@
     .zahvala {
         width: 40%;
     }
+    .pict-profile-img {
+        width: auto;
+    }
 }
 @media only screen and (max-width: 1024px) and (min-width: 200px) {
     @media only screen and (orientation: landscape) {
@@ -268,11 +275,15 @@
         .motivation-quote-1 {
             font-size: large;
         }
+        .pict-profile-img {
+            width: auto;
+        }
     }
     @media only screen and (orientation: portrait) {
         .o-meni-textdiv {
             margin-right: unset;
         }
+       
     }
 }
 
@@ -330,5 +341,11 @@
 
     .zahvale-section {
         width: auto;
+    }
+
+    .pict-profile-img {
+        width: auto;
+        display: flex;
+        justify-content: center;
     }
 }

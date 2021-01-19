@@ -31,11 +31,24 @@ const KomunikacijaSluzba = () => (
       <div className="kom-img-desc">
         {/*  <img className="kom-item-img sluzba" src="../assets/vil-odprtost-12.png" alt="" />
          */}
-        <img
+        {/*  <img
           className="kom-item-img sluzba"
           src="../assets/kom-sluzba.png"
           alt=""
-        />
+        /> */}
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/kom-sluzba.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="kom-item-img"
+            src="../assets/kom-sluzba.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
 
         <div className="vil-description">Odprtost</div>
       </div>

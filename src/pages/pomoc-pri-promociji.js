@@ -58,6 +58,88 @@ const PomocPriPromociji = () => (
       </p>
 
       <div className="gallery-content">
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/1-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="gallery-img img-1"
+            src="../assets/1-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/4-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="gallery-img img-4"
+            src="../assets/4-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/7-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="gallery-img img-7"
+            src="../assets/7-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source srcSet="../assets/5-p.webp" alt="Logo" type="image/webp" />
+          <img
+            className="gallery-img img-5"
+            src="../assets/5-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source srcSet="../assets/6-p.webp" alt="Logo" type="image/webp" />
+          <img
+            className="gallery-img img-6"
+            src="../assets/6-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source srcSet="../assets/2-p.webp" alt="Logo" type="image/webp" />
+          <img
+            className="gallery-img img-2"
+            src="../assets/2-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/3-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="gallery-img img-3"
+            src="../assets/3-p.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
+      </div>
+      {/* 
+      <div className="gallery-content">
         <img className="gallery-img img-1" src="../assets/1-p.jpg" alt="" />
 
         <img className="gallery-img img-4" src="../assets/4-p.jpg" alt="" />
@@ -68,7 +150,7 @@ const PomocPriPromociji = () => (
         <img className="gallery-img img-6" src="../assets/6-p.jpg" alt="" />
         <img className="gallery-img img-2" src="../assets/2-p.jpg" alt="" />
         <img className="gallery-img img-3" src="../assets/3-p.jpg" alt="" />
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

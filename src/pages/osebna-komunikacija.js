@@ -36,7 +36,20 @@ const komunikacija = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        <img className="kom-item-img" src="../assets/kom-osebna.png" alt="" />
+        {/* <img className="kom-item-img" src="../assets/kom-osebna.png" alt="" /> */}
+        <picture className="kom-pict-img">
+          <source
+            srcSet="../assets/webp/kom-osebna.webp"
+            alt="Logo"
+            type="image/webp"
+          />
+          <img
+            className="kom-item-img"
+            src="../assets/kom-osebna.png"
+            alt="slika"
+            type="image/png"
+          />
+        </picture>
         <div className="vil-description">Komunikacija</div>
       </div>
     </div>
