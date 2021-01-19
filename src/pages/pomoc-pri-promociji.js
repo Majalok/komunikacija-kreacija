@@ -98,7 +98,11 @@ const PomocPriPromociji = () => (
           />
         </picture>
         <picture className="kom-pict-img">
-          <source srcSet="../assets/5-p.webp" alt="Logo" type="image/webp" />
+          <source
+            srcSet="../assets/webp/5-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
           <img
             className="gallery-img img-5"
             src="../assets/5-p.png"
@@ -107,7 +111,11 @@ const PomocPriPromociji = () => (
           />
         </picture>
         <picture className="kom-pict-img">
-          <source srcSet="../assets/6-p.webp" alt="Logo" type="image/webp" />
+          <source
+            srcSet="../assets/webp/6-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
           <img
             className="gallery-img img-6"
             src="../assets/6-p.png"
@@ -116,7 +124,11 @@ const PomocPriPromociji = () => (
           />
         </picture>
         <picture className="kom-pict-img">
-          <source srcSet="../assets/2-p.webp" alt="Logo" type="image/webp" />
+          <source
+            srcSet="../assets/webp/2-p.webp"
+            alt="Logo"
+            type="image/webp"
+          />
           <img
             className="gallery-img img-2"
             src="../assets/2-p.png"
