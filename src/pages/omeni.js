@@ -165,7 +165,7 @@ const OMeni = () => (
           <div className="zahvala-name">A.</div>
           <picture className="kom-pict-img">
             <source
-              srcSet="../assets/webp/kom-partner.webp"
+              srcSet="../assets/webp/kom-partner-note.webp"
               alt="slika"
               type="image/webp"
             />
@@ -201,12 +201,25 @@ const OMeni = () => (
           energije, pozitive in enostavno jo moraš "ubogati", ker spoznaš, da ti
           zelo pomagajo njeni nasveti.
           <div className="zahvala-name">Brigita</div>
-          <img
+          {/* <img
             className="header-image bottom-img sluzba"
             src="../assets/kom-sluzba-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-sluzba-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img sluzba"
+              src="../assets/kom-sluzba-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div
           className="zahvala zahvala-2"
@@ -219,12 +232,25 @@ const OMeni = () => (
           določene stvari pogledala iz drugega zornega kota. So osebe, ki jim je
           preprosto treba reči hvala in ena izmed takih oseb si ti!
           <div className="zahvala-name">Anja</div>
-          <img
+          {/*  <img
             className="header-image bottom-img"
             src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-poslusalka-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img"
+              src="../assets/kom-poslusalka-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div className="zahvala zahvala-1">
           Nataša, tvoji učni koraki komunikacije so res čudoviti. Dokler te
@@ -236,22 +262,48 @@ const OMeni = () => (
           osebnosti rasti in kljub svojim letom sem iz grdega malega račka
           postala ponosni labod. Iz srca ti hvala
           <div className="zahvala-name">Joži</div>
-          <img
+          {/* <img
             className="header-image bottom-img"
             src="../assets/kom-osebna-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-osebna-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img"
+              src="../assets/kom-osebna-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div className="zahvala zahvala-8">
           Obvladaš!
           <div className="zahvala-name">Rok</div>
-          <img
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-sluzba-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img sluzba"
+              src="../assets/kom-sluzba-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
+          {/* <img
             className="header-image bottom-img sluzba"
             src="../assets/kom-sluzba-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
         </div>
         <div className="zahvala zahvala-6">
           Vedno govorim, da vsaka oseba pride v naše življenje in gre iz njega z
@@ -261,12 +313,25 @@ const OMeni = () => (
           Če me zanese, mi boš znala pokazati, katera pot je prava. Hvaležna,
           ker te je tvoja pot pripeljala k meni.
           <div className="zahvala-name">L.S.</div>
-          <img
+          {/* <img
             className="header-image bottom-img"
             src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-poslusalka-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img"
+              src="../assets/kom-poslusalka-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div className="zahvala zahvala-7">
           Moški smo zelo enostavni in taka je tudi naša komunikacija. A včasih
@@ -274,23 +339,49 @@ const OMeni = () => (
           stvareh. In zato je dobro, če poznaš koga, ki ti pri temu pomaga. In
           ti si mi. Hvala.
           <div className="zahvala-name">Blaž</div>
-          <img
+          {/*  <img
             className="header-image bottom-img"
             src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-poslusalka-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img"
+              src="../assets/kom-poslusalka-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
 
         <div className="zahvala zahvala-9">
           Imaš veliko znanja.
           <div className="zahvala-name">Ana P.</div>
-          <img
+          {/* <img
             className="header-image bottom-img splosna"
             src="../assets/kom-splosna-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-splosna-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img splosna"
+              src="../assets/kom-splosna-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
 
         <div className="zahvala zahvala-11">
@@ -299,12 +390,25 @@ const OMeni = () => (
           "me vrže iz tira, ker se preveč ukvarjam z okolico." In vedno do
           sedaj, si mi dala koristen nasvet, na kaj naj bom pozorna.
           <div className="zahvala-name">Renata</div>
-          <img
+          {/*  <img
             className="header-image bottom-img"
             src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-poslusalka-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img"
+              src="../assets/kom-poslusalka-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
 
         <div className="zahvala zahvala-10">
@@ -312,12 +416,25 @@ const OMeni = () => (
           Manj se fajtamo, kljub temu, da mi še vedno »najedata«. Sorry, ampak
           tko je . We stay in touch.
           <div className="zahvala-name">Aleš</div>
-          <img
+          {/*  <img
             className="header-image bottom-img sluzba"
             src="../assets/kom-otrok-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-otrok-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img sluzba"
+              src="../assets/kom-otrok-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div className="zahvala zahvala-12">
           Srednja šola je obdobje v našem življenju, v katerem "splavaš" ali
@@ -331,12 +448,25 @@ const OMeni = () => (
           lažje zaključil srednjo šolo, sem lahko hvaležen gospe Nataši, zato še
           enkrat hvala.
           <div className="zahvala-name">Nik</div>
-          <img
+          {/*  <img
             className="header-image bottom-img splosna"
             src="../assets/kom-splosna-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-splosna-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img splosna"
+              src="../assets/kom-splosna-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
         <div className="zahvala zahvala-8">
           Draga Nataša.
@@ -350,12 +480,25 @@ const OMeni = () => (
           vztrajnost. A se strinjava oba, da je vredno. Kot novopečena familja
           kar dobro furamo.
           <div className="zahvala-name">T&M</div>
-          <img
+          {/*  <img
             className="header-image bottom-img partner"
             src="../assets/kom-partner-note.png"
             height="10px"
             alt=""
-          />
+          /> */}
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-partner-note.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img partner"
+              src="../assets/kom-partner-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
         </div>
       </div>
       {/*  <div className="motivation-quote-1"> */}
