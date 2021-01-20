@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{mHcG:function(n,t,e){"use strict";e.r(t);var r=e("dI71"),o=e("q1tI"),u=e.n(o),c=e("Bl7J"),p=function(n){function t(){return n.apply(this,arguments)||this}return Object(r.a)(t,n),t.prototype.render=function(){return u.a.createElement(c.a,null)},t}(o.Component);t.default=p}}]);
+//# sourceMappingURL=component---src-pages-index-obdrzi-za-pol-js-b46f736254cfd46a635b.js.map

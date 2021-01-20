@@ -163,12 +163,25 @@ const OMeni = () => (
           pogovarjati, podpirati, poslušati in sodelovati. Pika na i pa je bila
           poroka. Hvaležna ker si!
           <div className="zahvala-name">A.</div>
-          <img
+          <picture className="kom-pict-img">
+            <source
+              srcSet="../assets/webp/kom-partner.webp"
+              alt="slika"
+              type="image/webp"
+            />
+            <img
+              className="header-image bottom-img partner"
+              src="../assets/kom-partner-note.png"
+              alt="slika"
+              type="image/png"
+            />
+          </picture>
+          {/*  <img
             className="header-image bottom-img partner"
             src="../assets/kom-partner55.png"
             height="10px"
             alt=""
-          />
+          /> */}
         </div>
         <div
           className="zahvala zahvala-10"
@@ -190,7 +203,7 @@ const OMeni = () => (
           <div className="zahvala-name">Brigita</div>
           <img
             className="header-image bottom-img sluzba"
-            src="../assets/kom-sluzba.png"
+            src="../assets/kom-sluzba-note.png"
             height="10px"
             alt=""
           />
@@ -208,7 +221,7 @@ const OMeni = () => (
           <div className="zahvala-name">Anja</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-poslusalka.png"
+            src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
           />
@@ -225,7 +238,7 @@ const OMeni = () => (
           <div className="zahvala-name">Joži</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-osebna.png"
+            src="../assets/kom-osebna-note.png"
             height="10px"
             alt=""
           />
@@ -235,7 +248,7 @@ const OMeni = () => (
           <div className="zahvala-name">Rok</div>
           <img
             className="header-image bottom-img sluzba"
-            src="../assets/kom-sluzba.png"
+            src="../assets/kom-sluzba-note.png"
             height="10px"
             alt=""
           />
@@ -250,7 +263,7 @@ const OMeni = () => (
           <div className="zahvala-name">L.S.</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-poslusalka.png"
+            src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
           />
@@ -263,7 +276,7 @@ const OMeni = () => (
           <div className="zahvala-name">Blaž</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-poslusalka.png"
+            src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
           />
@@ -274,7 +287,7 @@ const OMeni = () => (
           <div className="zahvala-name">Ana P.</div>
           <img
             className="header-image bottom-img splosna"
-            src="../assets/kom-splosna.png"
+            src="../assets/kom-splosna-note.png"
             height="10px"
             alt=""
           />
@@ -288,7 +301,7 @@ const OMeni = () => (
           <div className="zahvala-name">Renata</div>
           <img
             className="header-image bottom-img"
-            src="../assets/kom-poslusalka.png"
+            src="../assets/kom-poslusalka-note.png"
             height="10px"
             alt=""
           />
@@ -301,7 +314,7 @@ const OMeni = () => (
           <div className="zahvala-name">Aleš</div>
           <img
             className="header-image bottom-img sluzba"
-            src="../assets/kom-otrok.png"
+            src="../assets/kom-otrok-note.png"
             height="10px"
             alt=""
           />
@@ -320,7 +333,7 @@ const OMeni = () => (
           <div className="zahvala-name">Nik</div>
           <img
             className="header-image bottom-img splosna"
-            src="../assets/kom-splosna.png"
+            src="../assets/kom-splosna-note.png"
             height="10px"
             alt=""
           />
@@ -339,7 +352,7 @@ const OMeni = () => (
           <div className="zahvala-name">T&M</div>
           <img
             className="header-image bottom-img partner"
-            src="../assets/kom-partner.png"
+            src="../assets/kom-partner-note.png"
             height="10px"
             alt=""
           />

@@ -6086,10 +6086,10 @@ var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ ".
 
 var _scrollHandler = __webpack_require__(/*! ./scroll-handler */ "./node_modules/gatsby-react-router-scroll/scroll-handler.js");
 
-var _router = __webpack_require__(/*! @reach/router */ "@reach/router");
-
-// TODO: In Gatsby v3, this file should be removed.
+var _router = __webpack_require__(/*! @reach/router */ "@reach/router"); // TODO: In Gatsby v3, this file should be removed.
 // We are deprecating this in V2 in favor of useScrollRestoration
+
+
 var propTypes = {
   scrollKey: _propTypes.default.string.isRequired,
   shouldUpdateScroll: _propTypes.default.func,
@@ -6116,9 +6116,9 @@ var ScrollContainerImplementation = /*#__PURE__*/function (_React$Component) {
   var _proto = ScrollContainerImplementation.prototype;
 
   _proto.componentDidMount = function componentDidMount() {
-    var _this2 = this;
+    var _this2 = this; // eslint-disable-next-line react/no-find-dom-node
 
-    // eslint-disable-next-line react/no-find-dom-node
+
     var node = _reactDom.default.findDOMNode(this);
 
     var _this$props = this.props,
