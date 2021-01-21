@@ -1,6 +1,4 @@
 import React from "react"
-import Image from "react-image-webp"
-import { isWebpSupported } from "react-image-webp/dist/utils"
 import Layout from "../components/layout"
 
 const OMeni = () => (
