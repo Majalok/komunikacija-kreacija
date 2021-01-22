@@ -299,6 +299,12 @@
 
     .blog-item > .blog-text {
         font-size: medium;
+        text-align: left;
+
+    }
+
+    .blog-content {
+        width: 95%;
     }
 
     @media screen and (orientation: landscape) {
