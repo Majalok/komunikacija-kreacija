@@ -203,6 +203,20 @@ class MainMenu extends React.Component {
                 <span className="menu-title">O meni</span>
               </Link>
               <Link
+                id="13"
+                key="13"
+                ref="13"
+                className={
+                  "main-menu-link " +
+                  (this.state.selectedMenuItem === 4 ? "selected" : "")
+                }
+                onMouseOver={this.hideMenuBoxPanel}
+                to="/kontakt/"
+                onClick={this.setMenuItemSelected}
+              >
+                <span className="menu-title">Kontakt</span>
+              </Link>
+              <Link
                 id="12"
                 className={
                   "main-menu-link " +
@@ -384,20 +398,6 @@ class MainMenu extends React.Component {
                 onClick={this.setMenuItemSelected}
               >
                 <span className="menu-title">Blog</span>
-              </Link>
-              <Link
-                id="13"
-                key="13"
-                ref="13"
-                className={
-                  "main-menu-link " +
-                  (this.state.selectedMenuItem === 4 ? "selected" : "")
-                }
-                onMouseOver={this.hideMenuBoxPanel}
-                to="/kontakt/"
-                onClick={this.setMenuItemSelected}
-              >
-                <span className="menu-title">Kontakt</span>
               </Link>
             </div>
           </div>
