@@ -9,7 +9,7 @@ const Aktualno = () => (
       <div className="aktualno-text">
         <ul className="aktualno-ul">
           <li className="aktualno-li">
-            Trenutek zdaj
+            Trenutek zdaj ali umiritev misli
             <div>16.12.2020</div>
           </li>
           <br />

@@ -292,7 +292,7 @@ class Blog extends Component {
             <br />
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
-                Trenutek zdaj
+                Trenutek zdaj ali umiritev misli
               </div>
               <div className="blog-text pisava-special brown">
                 Že kar nekaj časa nazaj sem spoznala, da sem v preteklosti,
