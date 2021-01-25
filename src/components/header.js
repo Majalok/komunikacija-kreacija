@@ -85,11 +85,24 @@ class Header extends React.Component {
             </p>
           </span>
           <div className="header-image-div">
-            <img
+            <picture className="">
+              <source
+                srcSet="../assets/webp/kom-logoTst3.webp"
+                alt="Logo"
+                type="image/webp"
+              />
+              <img
+                className="header-image"
+                src="../assets/kom-logoTst3.png"
+                alt="slika"
+                type="image/png"
+              />
+            </picture>
+            {/* <img
               className="header-image"
               src="../assets/kom-logoTst3.png"
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </header>
