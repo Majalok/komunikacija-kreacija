@@ -37,32 +37,6 @@
     margin-top:50%;
 }
 
-/* .btn-modal.order {
-    cursor: pointer;
-    border: 1px solid lightgray;
-    color: black;
-
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-family: Manrope;
-    font-size: medium;
-    background-color: #acd1ff;
-    background: linear-gradient(180deg, #d9e7fc, #bcd9f4, #accaf5);
-    width: 135px;
-    border: 1px solid #4261b5;
-    &:hover {
-        box-shadow: 0 0 5px 0 #6c95d3 inset, 0 0 1px 1px #6ab7ff;
-        font-weight: bold;
-    }
-    &:focus {
-        border: 1px solid #6c95d3;
-        outline: none;
-        box-shadow: none;
-    }
-} */
-
 
 .btn-modal.sendMessage {
     display: block;
@@ -115,6 +89,7 @@ button.btn-modal.sendMessage {
     margin-top: 20px;
     border-radius: 5px;
     font-family: Manrope;
+    font-display: swap;
     font-size: medium;
     background-color: #acd1ff;
     background: linear-gradient(180deg, #d9e7fc, #bcd9f4, #accaf5);
