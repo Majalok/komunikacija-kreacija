@@ -88,4 +88,4 @@ Header.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-export default Header
+export default HeaderOl

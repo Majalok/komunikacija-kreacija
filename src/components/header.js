@@ -7,6 +7,11 @@ let bck1_l = "../assets/13-16.png"
 let bck1_md = "../assets/13-16-md.png"
 let bck1_sm = "../assets/13-16-sm.png"
 
+let bck1_xxl_webp = "../assets/webp/13-16.webp"
+let bck1_xl_webp = "../assets/webp/13-16.webp"
+let bck1_l_webp = "../assets/webp/13-16.webp"
+let bck1_md_webp = "../assets/webp/13-16-md.webp"
+let bck1_sm_webp = "../assets/webp/13-16-sm.webp"
 let isSmall, isMedium, isLarge, isXLarge, isXXLarge
 
 class Header extends React.Component {
@@ -26,18 +31,23 @@ class Header extends React.Component {
 
     if (isXXLarge) {
       this.setState({ backgroundImage1: bck1_xxl })
+      this.setState({ backgroundImageWebp: bck1_xxl_webp })
     }
     if (isXLarge) {
       this.setState({ backgroundImage1: bck1_xl })
+      this.setState({ backgroundImageWebp: bck1_xl_webp })
     }
     if (isLarge) {
       this.setState({ backgroundImage1: bck1_l })
+      this.setState({ backgroundImageWebp: bck1_l_webp })
     }
     if (isMedium) {
       this.setState({ backgroundImage1: bck1_md })
+      this.setState({ backgroundImageWebp: bck1_md_webp })
     }
     if (isSmall) {
       this.setState({ backgroundImage1: bck1_sm })
+      this.setState({ backgroundImageWebp: bck1_sm_webp })
     }
     window.scrollTo(0, 0)
   }
@@ -46,7 +56,7 @@ class Header extends React.Component {
     return (
       <header
         style={{
-          backgroundImage: `url(${this.state.backgroundImage1})`,
+          backgroundImage: `url(${this.state.backgroundImageWebp}), url(${this.state.backgroundImage1})`,
 
           /*  backgroundImage: `url(../assets/13-16.png)`, */
           /*  backgroundSize: 'cover', */
