@@ -1,12 +1,13 @@
 const nodemailer = require("nodemailer")
 const Mailgen = require("mailgen")
-
-const { EMAIL, EMAIL_TO, MAIN_URL } = require("../config")
-
 const rp = require("request-promise")
 
 const dotenv = require("dotenv")
 dotenv.config()
+
+const { EMAIL, EMAIL_TO, MAIN_URL } = require("../config")
+
+console.log("process.env.NODE_ENV, ", process.env.NODE_ENV)
 
 const PASSWORD = process.env.PASSWORD
 
@@ -34,10 +35,26 @@ let MailGenerator = new Mailgen({
   },
 })
 
-console.log("PROCESS.ENV.email (iz config)> ", EMAIL)
+//************************ check the env variable
+/* let env = process.argv[2]
+console.log("env >> ", env)
+
+if (env == "dev") {
+  console.log("env is dev")
+  let dev = require("../config/dev.js")
+  console.log("dev >> ", dev)
+} else if (env == "prod") {
+  let prod = require("../config/prod.js")
+  console.log("prod >> ", prod)
+  console.log("env is prod")
+  require("../config/prod.js")
+} */
+//************************ end check the env variable
+
+console.log("---- PROCESS.ENV.email (iz config)> ", EMAIL)
 //console.log("PROCESS.ENV.password (iz process.env)> ", process.env.PASSWORD)
-console.log("MAIN URL (iz config)> ", MAIN_URL)
-console.log("PROCESS.ENV.email_TO EMAIL_TO URL (iz config)> ", EMAIL_TO)
+console.log("---- MAIN URL (iz config)> ", MAIN_URL)
+console.log("---- PROCESS.ENV.email_TO EMAIL_TO URL (iz config)> ", EMAIL_TO)
 
 const signup = async (req, res) => {
   console.log("\n\n_________________________")

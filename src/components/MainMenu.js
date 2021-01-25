@@ -105,6 +105,7 @@ class MainMenu extends React.Component {
         break
       case 5:
         selectedId = 1
+        break
       case 6:
         selectedId = 1
         break

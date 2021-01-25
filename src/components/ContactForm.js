@@ -54,6 +54,8 @@ export default function Form() {
       return
     }
     const result = await executeRecaptcha("homepage")
+
+    //
     let token = result
     console.log("result", result)
 
