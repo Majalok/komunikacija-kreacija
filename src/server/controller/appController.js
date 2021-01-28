@@ -21,6 +21,7 @@ let transporter = nodemailer.createTransport({
     user: EMAIL,
     pass: PASSWORD,
   },
+  debug: true,
   /*   tls: {
     rejectUnauthorized: false,
   }, */
@@ -134,17 +135,32 @@ const sendMessage = (req, res) => {
 
   let mail = MailGenerator.generate(response)
 
-  let message = {
+  var mailOptions = {
     from: EMAIL,
     //to: "majalokar@gmail.com",
     to: EMAIL_TO,
     subject: "Novo sporocilo",
-    html: mail,
+    html:
+      "<br/>" +
+      "<br/>" +
+      "<h2 style='text-align:center;'>Imate novo sporočilo</h2>" +
+      "<hr/><br/>" +
+      "<strong>Ime pošiljatelja: </strong>" +
+      nameVal +
+      "<br/>" +
+      "<br/><strong>Email pošiljatelja: </strong>" +
+      emailVal +
+      "<br/>" +
+      "<br/><strong>Vsebina</strong> " +
+      messageVal +
+      "<br/>" +
+      "<br/>" +
+      "<hr/>",
   }
   console.log("from: ", EMAIL, "to: ", EMAIL_TO)
   console.log("Before transporter.sendMail1")
   transporter
-    .sendMail(message)
+    .sendMail(mailOptions)
     /*     .then(() => {
       return res.status(200).json({ msg: "Email je bil poslan" })
     }) */
