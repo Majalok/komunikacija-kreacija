@@ -29,7 +29,13 @@ class Header extends React.Component {
     isXLarge = window.innerWidth > 1500 && window.innerWidth <= 2800
     isXXLarge = window.innerWidth > 2801 && window.innerWidth < 3500
 
-    if (isXXLarge) {
+    if (!this.canUseWebP()) {
+      this.setState({ backgroundImage1: bck1_xxl })
+    } else {
+      this.setState({ backgroundImage1: bck1_xxl_webp })
+    }
+
+    /*    if (isXXLarge) {
       this.setState({ backgroundImage1: bck1_xxl })
       this.setState({ backgroundImageWebp: bck1_xxl_webp })
     }
@@ -48,16 +54,25 @@ class Header extends React.Component {
     if (isSmall) {
       this.setState({ backgroundImage1: bck1_sm })
       this.setState({ backgroundImageWebp: bck1_sm_webp })
-    }
+    } */
     window.scrollTo(0, 0)
+  }
+
+  canUseWebP() {
+    var elem = document.createElement("canvas")
+    if (!!(elem.getContext && elem.getContext("2d"))) {
+      // was able or not to get WebP representation
+      return elem.toDataURL("image/webp").indexOf("data:image/webp") == 0
+    } // very old browser like IE 8, canvas not supported
+    return false
   }
 
   render() {
     return (
       <header
         style={{
-          backgroundImage: `url(${this.state.backgroundImageWebp}), url(${this.state.backgroundImage1})`,
-
+          backgroundImage: `url(${this.state.backgroundImage1})`,
+          // backgroundImage: "-webkit-image-set("`url(${this.state.backgroundImageWebp}))`,
           /*  backgroundImage: `url(../assets/13-16.png)`, */
           /*  backgroundSize: 'cover', */
           backgroundRepeat: "no-repeat",
