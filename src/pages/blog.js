@@ -550,7 +550,7 @@ class Blog extends Component {
                 nisem začela delati na sebi in se poglabljati v določene stvari,
                 bolj malo. Pravzaprav, sploh ne vem, če sem jo »zaznala«.
                 Absolutno, sem se že srečala s tem, da imamo v življenju
-                svobodno voljo in izbiro ( pa tukaj se ne spuščam v izredne
+                svobodno voljo in izbiro (pa tukaj se ne spuščam v izredne
                 razmere) ampak, ker mi je bilo bolj »priročno«, sem to enostavno
                 ignorirala.{" "}
                 <img
@@ -606,7 +606,7 @@ class Blog extends Component {
                 življenje svojega otroka. Nastanejo problemi, katerim bi se
                 lahko izognili, če bi »prerezali popkovino«. To je lahko zelo
                 boleč korak. Ker vedno sledijo posledice. Običajno takrat starš
-                (iz obupa, ker mu je bilo nekaj odvzeto ) pokaže svoj »drugi
+                (iz obupa, ker mu je bilo nekaj odvzeto) pokaže svoj »drugi
                 obraz« in poskuša kaznovati. Na nas pa je, kako se bomo odločili
                 in ali bomo pri odločitvi tudi vztrajali.{" "}
                 <img
@@ -615,7 +615,6 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
-                ).
                 <br />
                 <br />
                 Svobodno voljo in izbiro imamo tako pri vsakodnevnih stvareh,
@@ -650,7 +649,7 @@ class Blog extends Component {
                 Pa se vrnimo k nakupu avtomobila. Na podlagi svobodne volje in
                 izbire se odločimo, koliko smo zanj pripravljeni plačati in
                 gremo v »iskalno akcijo«. Začnemo iskati rešitve, kako priti do
-                željenega. Preprosto. Nisem napisala , da je lahko, ampak da je
+                željenega. Preprosto. Nisem napisala, da je lahko, ampak da je
                 preprosto. Kajti:
                 <br />
                 <br />
