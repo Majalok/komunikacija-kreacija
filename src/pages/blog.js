@@ -126,7 +126,6 @@ class Blog extends Component {
               </div>
             </div>
 
-            <br />
             {/*        <br />
             <br />
             <br />
@@ -289,7 +288,7 @@ class Blog extends Component {
                 />
               </div>
             </div>
-            <br />
+
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
                 Trenutek zdaj ali umiritev misli
@@ -538,6 +537,141 @@ class Blog extends Component {
                   width="30px"
                   alt=""
                 />
+              </div>
+            </div>
+
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">
+                Svobodna volja in izbira
+              </div>
+              <div className="blog-text pisava-special brown">
+                Zanimiva besedna zveza. Zanima me, koliko krat, ste se dejansko
+                zavedali pomena: »Imaš svobodno voljo in izbiro.«? Jaz, dokler
+                nisem začela delati na sebi in se poglabljati v določene stvari,
+                bolj malo. Pravzaprav, sploh ne vem, če sem jo »zaznala«.
+                Absolutno, sem se že srečala s tem, da imamo v življenju
+                svobodno voljo in izbiro ( pa tukaj se ne spuščam v izredne
+                razmere) ampak, ker mi je bilo bolj »priročno«, sem to enostavno
+                ignorirala.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Ko pa se odločiš v življenju nekaj spremenit, moraš začeti
+                delovati zunaj svoje »cone udobja«, če želiš, da bo viden kakšen
+                rezultat. Pa ne v smislu, da bo okolica videla, kaj vse si
+                dosegel, ampak zato da osrečiš sebe s spremembo. <br />
+                <br />
+                Na primer, ko smo prišli v obdobje samostojnosti (pri enih je to
+                bilo prej, pri drugih kasneje), smo se sami začeli odločati, kaj
+                bomo oblekli. Običajno se to začne nakazovati že v vrtcu. Če smo
+                imeli ob sebi starša, ki je spodbujal naš razvoj in je temu
+                primerno tudi potrpel, ko smo zjutraj »filozofirali« kaj obleči
+                (običajno je bilo celo tako, da je bil zunaj mraz in - jaz/ti pa
+                sva hotela »navleči« nase nekaj poletnega{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/blushed.png"
+                  width="30px"
+                  alt=""
+                />
+                ) smo imeli srečo. Kajti potrebna je bila iznajdljivost in
+                potrpežljivost starša, da nas je prepričal, da smo se oblekli
+                letnemu času primerno in spodobno. Jaz se spomin, da sem včasih
+                hotela »navleči« nase take kose oblačil, da mi je mami komaj
+                dopovedala, da je pust že mimo.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/laugh.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Na drugi strani, pa imaš starša, ki želi to svobodno voljo in
+                izbiro en »malce preskočiti«. Nekaterim celo uspe. A tukaj zadaj
+                se velikokrat skriva še vzporedna zgodba starševskega odnosa.
+                Tako imamo v življenju primer »maminega sinka« ali »očkove
+                punčke«, ki so pravzaprav žrtve odkritega ali prikritega
+                incesta. To je globina problema, ki se ga je potrebno lotiti
+                postopoma.
+                <br />
+                <br />
+                Včasih pa nekdo dobi to oznako zato, ker po mnenju partnerja,
+                daje preveliko veljavo staršu. Ta se posledično preveč vmešava v
+                življenje svojega otroka. Nastanejo problemi, katerim bi se
+                lahko izognili, če bi »prerezali popkovino«. To je lahko zelo
+                boleč korak. Ker vedno sledijo posledice. Običajno takrat starš
+                (iz obupa, ker mu je bilo nekaj odvzeto ) pokaže svoj »drugi
+                obraz« in poskuša kaznovati. Na nas pa je, kako se bomo odločili
+                in ali bomo pri odločitvi tudi vztrajali.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/think.png"
+                  width="30px"
+                  alt=""
+                />
+                ).
+                <br />
+                <br />
+                Svobodno voljo in izbiro imamo tako pri vsakodnevnih stvareh,
+                kot pri velikih odločitvah. Samo poteze, ki jih »povlečemo« na
+                dnevni bazi, kot so: kaj bomo oblekli, katero hrano bomo vzeli
+                iz hladilnika, ali se boš/bom naučil za izpit, ali bomo vsak dan
+                naredili nekaj zase, kako razmišljamo in govorimo o sebi in
+                drugih, bomo slepo sledili »vodji« (bili del »tropa«) ali bomo
+                uporabljali svojo pamet oziroma »zdravo kmečko pamet«, kaj
+                spremljamo in poslušamo ipd., delamo podzavestno in ne
+                razmišljamo o temu, da delujemo na podlagi svobodne volje in
+                izbire.
+                <br />
+                <br />
+                Kaj pa pri večjih stvareh? Velja isto, vendar v povezavi z
+                univerzalnim zakonom vesolja: Zakon prepričanja in izbire.
+                <br />
+                <br />
+                Pa da nam bo bližje za razumevanje, vzemimo primer nakupa novega
+                avtomobila in ne sanjske hiše. Ker tu vas že kar slišim, kako
+                vam začnejo švigati po glavi vsi »argumenti«, kako je to
+                neizvedljivo, da se to ne da, ni možno, ipd. (zakon prepričanja
+                in izbire).{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/sunglasses.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Pa se vrnimo k nakupu avtomobila. Na podlagi svobodne volje in
+                izbire se odločimo, koliko smo zanj pripravljeni plačati in
+                gremo v »iskalno akcijo«. Začnemo iskati rešitve, kako priti do
+                željenega. Preprosto. Nisem napisala , da je lahko, ampak da je
+                preprosto. Kajti:
+                <br />
+                <br />
+                <strong>
+                  Svobodna volja in izbira je v tesni povezavi z motivom in
+                  posledično iščemo rešitev in ne potenciramo problemov.
+                </strong>
+                <br />
+                <br />
+                In skupek drobnih odločitev, malih korakov v smeri naših želja,
+                prinese na koncu velik rezultat in spremembo. Potrebna je
+                vztrajnost, potrpežljivost, fokus oziroma motiv. Najboljši
+                motivi so tisti, ki delujejo znotraj nas in ne iz okolice. Ker
+                pravo »gorivo« za premike naprej je <strong>MOTIV.</strong>
+                <br />
+                <br />
+                <u>
+                  Pa še nekaj. Svobodno voljo in izbiro se jemlje za samoumevno.
+                  Pazimo, da ne ostanemo brez tega. Smo v zanimivem obdobju
+                  (2020/2021…).
+                </u>
               </div>
             </div>
           </div>
