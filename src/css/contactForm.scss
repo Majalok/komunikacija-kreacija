@@ -86,14 +86,24 @@
 }
 
 .contact-form-desc {
-    display: flex;
+    display: flex; 
     justify-content: center;
-    margin: 0 auto;
-    width: 90%;
+    /* margin: 0 auto; */
+    width: 60%;
+    font-family: Bellota Text;
+    font-size: large;
+    max-width: 600px;
+    margin-left: 10%; 
 }
+
+.contact-form-ul {
+    list-style: disclosure-closed;
+}
+
 .contact-bottom-group {
     display: flex;
     justify-content: center;
+   font-size: large;
 }
 
 .contact-div {
@@ -208,6 +218,10 @@ body.react-confirm-alert-body-element {
     .contact-form-div {
         margin-top: 10%;
         flex-direction: column-reverse;
+    }
+    .contact-form-desc {
+        margin-left: unset;
+        width: 90%;
     }
 
     .contact-description {

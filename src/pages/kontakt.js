@@ -47,15 +47,18 @@ class Kontakt extends Component {
             </p>
           </div>
           <br />
-          <p className="contact-form-desc">
-            {" "}
-            <br />
-            Je prišel čas za spremebo?
-            <br />
-            <br /> Kontaktiraj me preko spodnjega obrazca za individualno
-            svetovanje, srečanje ali če se je pojavilo vprašanje (predavanja,
-            blog){" "}
-          </p>
+          <div className="contact-form-desc">
+            <ul>
+              <br />
+              Je prišel čas za spremembo?
+              <br />
+              <br />
+              Kontaktiraj me preko spodnjega obrazca za:
+              <li className="contact-form-ul">individualno svetovanje</li>
+              <li className="contact-form-ul">srečanje ali</li>
+              <li className="contact-form-ul">če se je pojavilo vprašanje. </li>
+            </ul>
+          </div>
           <div className="contact-form-div">
             <ContactForm />
             <ContactCard orderSendResult={this.orderResult} />
