@@ -46,7 +46,6 @@ class Kontakt extends Component {
               zmagovalci.
             </p>
           </div>
-          <br />
           {/*  <div className="contact-form-desc">
             <br />
             Je prišel čas za spremembo?
@@ -78,11 +77,13 @@ class Kontakt extends Component {
             /> */}
           </div>
           <br />
+          <br />
+
           <div className="contact-bottom-group">
-            {/* <i> */}
             Trenutno vse dejavnosti potekajo preko: Skype, WhatsApp, Zoom,
             Messenger ali v zaprti FB skupini.
-            {/*  </i> */}
+            <br />
+            <br />
           </div>
         </div>
       </Layout>
