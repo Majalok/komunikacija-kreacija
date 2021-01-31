@@ -125,7 +125,7 @@ class Blog extends Component {
                 />
               </div>
             </div>
-
+            <br />
             {/*        <br />
             <br />
             <br />
@@ -288,7 +288,7 @@ class Blog extends Component {
                 />
               </div>
             </div>
-
+            <br />
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
                 Trenutek zdaj ali umiritev misli
@@ -539,7 +539,7 @@ class Blog extends Component {
                 />
               </div>
             </div>
-
+            <br />
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
                 Svobodna volja in izbira
