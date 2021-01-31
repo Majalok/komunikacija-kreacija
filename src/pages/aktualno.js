@@ -12,6 +12,7 @@ const Aktualno = () => (
             Svobodna volja in izbira
             <div>30.1.2021</div>
           </li>
+          <br />
           <li className="aktualno-li">
             Trenutek zdaj ali umiritev misli
             <div>16.12.2020</div>
