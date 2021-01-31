@@ -50,10 +50,11 @@ class Kontakt extends Component {
           <p className="contact-form-desc">
             {" "}
             <br />
-            <u>
-              Kontaktiraj me preko spodnjega obrazca za individualno svetovanje,
-              srečanje ali če se je pojavilo vprašanje (predavanja, blog){" "}
-            </u>
+            Je prišel čas za spremebo?
+            <br />
+            <br /> Kontaktiraj me preko spodnjega obrazca za individualno
+            svetovanje, srečanje ali če se je pojavilo vprašanje (predavanja,
+            blog){" "}
           </p>
           <div className="contact-form-div">
             <ContactForm />
