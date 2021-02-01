@@ -666,7 +666,7 @@ class Blog extends Component {
                 pravo »gorivo« za premike naprej je <strong>MOTIV.</strong>
                 <br />
                 <br />
-                Pa še nekaj. Svobodno voljo in izbiro se jemlje za samoumevno.
+                Pa še nekaj. Svobodno voljo in izbiro imamo za samoumevno.
                 Pazimo, da nam tega ne vzamejo. Smo v zanimivem obdobju
                 (2020/2021…).
               </div>
