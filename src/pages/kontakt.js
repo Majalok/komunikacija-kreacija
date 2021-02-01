@@ -55,9 +55,8 @@ class Kontakt extends Component {
             srečanje ali če se je pojavilo vprašanje.
           </div> */}
 
-          {/*  <div className="contact-form-desc">
+          <div className="contact-form-desc">
             <ul>
-              <br />
               Je prišel čas za spremembo?
               <br />
               <br />
@@ -65,9 +64,8 @@ class Kontakt extends Component {
               <li className="contact-form-ul">individualno svetovanje</li>
               <li className="contact-form-ul">srečanje ali</li>
               <li className="contact-form-ul">če se je pojavilo vprašanje. </li>
-              <br />
             </ul>
-          </div> */}
+          </div>
           <div className="contact-form-div">
             <ContactForm />
             <ContactCard orderSendResult={this.orderResult} />

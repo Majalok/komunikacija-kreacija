@@ -102,9 +102,9 @@
 
 .contact-form-desc {
     max-width: 400px;
-    padding: 20px 40px;
+    padding: 20px;
     background-color: #ffffe1;
-    box-shadow: 2px 1px 14px 2px #e0d1c2;
+    box-shadow: 2px 1px 14px 2px #f8e7d6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,6 +112,8 @@
     flex-direction: row-reverse;
     background: radial-gradient(#fff, #fff8e6);
     margin: 0 auto;
+    margin-top: 3%;
+
 }
 
 .contact-form-ul {
@@ -240,8 +242,8 @@ body.react-confirm-alert-body-element {
         flex-direction: column-reverse;
     }
     .contact-form-desc {
-        margin-left: unset;
-        width: auto;
+        margin: 20px auto 50px;
+        width: 70%;
         padding: 10px;
     }
 

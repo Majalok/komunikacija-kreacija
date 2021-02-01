@@ -2,16 +2,16 @@ import { Link } from "gatsby"
 import React from "react"
 
 let bck1_xxl = "../assets/13-16.png"
-let bck1_xl = "../assets/13-16.png"
+/* let bck1_xl = "../assets/13-16.png"
 let bck1_l = "../assets/13-16.png"
 let bck1_md = "../assets/13-16-md.png"
-let bck1_sm = "../assets/13-16-sm.png"
+let bck1_sm = "../assets/13-16-sm.png" */
 
 let bck1_xxl_webp = "../assets/webp/13-16.webp"
-let bck1_xl_webp = "../assets/webp/13-16.webp"
+/* let bck1_xl_webp = "../assets/webp/13-16.webp"
 let bck1_l_webp = "../assets/webp/13-16.webp"
 let bck1_md_webp = "../assets/webp/13-16-md.webp"
-let bck1_sm_webp = "../assets/webp/13-16-sm.webp"
+let bck1_sm_webp = "../assets/webp/13-16-sm.webp" */
 let isSmall, isMedium, isLarge, isXLarge, isXXLarge
 
 class Header extends React.Component {
