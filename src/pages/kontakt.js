@@ -66,6 +66,10 @@ class Kontakt extends Component {
               <li className="contact-form-ul">če se je pojavilo vprašanje. </li>
             </ul>
           </div>
+          <br />
+          <br />
+          <br />
+
           <div className="contact-form-div">
             <ContactForm />
             <ContactCard orderSendResult={this.orderResult} />
