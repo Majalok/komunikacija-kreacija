@@ -69,6 +69,7 @@ class Kontakt extends Component {
           <br />
           <br />
           <br />
+          <br />
 
           <div className="contact-form-div">
             <ContactForm />
@@ -80,7 +81,8 @@ class Kontakt extends Component {
           </div>
           <br />
           <br />
-
+          <br />
+          <br />
           <div className="contact-bottom-group">
             Trenutno vse dejavnosti potekajo preko: Skype, WhatsApp, Zoom,
             Messenger ali v zaprti FB skupini.
