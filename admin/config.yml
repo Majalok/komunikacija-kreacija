@@ -1,14 +1,38 @@
+backend:
+  # name: test-repo
+  name: git-gateway
+  # name: gitlab
+  repo: MajaL/komunikacija-kreacija
+
+api_root: https://gitlab.reavisys.si/api/v4
+
+site_url: https://localhost:8000
+
+display_url: https://localhost:8000
+
+local_backend:
+  url: http://localhost:8000/
+  allowed_hosts: ["84.255.215.85"]
+
 name: gitlab
 repo: MajaL/komunikacija-kreacija
 auth-type: implicit
 app_id: abea30cfd23b22ff67b516ef448ca5fb1bb870364df12b5bb49af45feff64d36
+
+media_folder: static/assets
+public_folder: assets
+
 collections:
-- name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Novica" # Used in the UI, ie.: "New Post"
-    folder: "content/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+  - name: "blog"
+    label: "Novica"
+    folder: "content/blog"
     fields: # The fields each document in this collection have
-      - {label: "Naslov", name: "title", widget: "string"}
-      - {label: "Datum objave", name: "date", widget: "datetime"}
-      - {label: "Vsebina", name: "body", widget: "markdown"}
-       
+      - label: "Naslov"
+        name: "title"
+        widget: "string"
+      - label: "Datum objave"
+        name: "date"
+        widget: "datetime"
+      - label: "Vsebina"
+        name: "body"
+        widget: "markdown"
