@@ -82,7 +82,12 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
-    "gatsby-plugin-netlify-cms",
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        enableIdentityWidget: false,
+      },
+    },
 
     // ... other plugins
   ],
