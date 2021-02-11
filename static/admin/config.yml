@@ -39,5 +39,5 @@ collections:
         name: "date"
         widget: "datetime"
       - label: "Vsebina"
-        name: "body"
+        name: "intro"
         widget: "markdown"
