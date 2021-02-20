@@ -1,27 +1,20 @@
 backend:
   # name: test-repo
   # name: git-gateway
-  name: proxy
+  name: github
+  #name: proxy
   #name: gitlab
   auth_type: implicit
   app_id: abea30cfd23b22ff67b516ef448ca5fb1bb870364df12b5bb49af45feff64d36
+  base_url: https://auth-provider.webdev.reavisys.si/
+  repo: MajaL1/komunikacija-kreacija
+  # proxy_url: http://localhost:8081/api/v1
 
-  repo: MajaL/komunikacija-kreacija
-  proxy_url: http://localhost:8081/api/v1
+#api_root: https://gitlab.reavisys.si/api/v4
 
-api_root: https://gitlab.reavisys.si/api/v4
+#site_url: https://komunikacija-kreacija.webdev.reavisys.si
 
-site_url: https://localhost:8000
-
-display_url: https://localhost:8000
-
-local_backend:
-  url: http://localhost:8000/
-  allowed_hosts: ["84.255.215.85"]
-
-name: gitlab
-repo: MajaL/komunikacija-kreacija
-auth-type: implicit
+display_url: https://komunikacija-kreacija.webdev.reavisys.si
 
 media_folder: static/assets
 public_folder: assets

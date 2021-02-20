@@ -23,6 +23,7 @@ class Novica extends React.Component {
 
             <p className="news-content-section">{post.frontmatter.intro}</p>
           </header>
+
           <section
             className="news-content-section"
             dangerouslySetInnerHTML={{ __html: post.html }}
