@@ -2,6 +2,9 @@
 
 #cd /var/www/--directory of your middleman site--
 
+date >> /home/maja/komunikacija-kreacija/scripts/latest.log
+echo "ScriptStart" >> /home/maja/komunikacija-kreacija/scripts/latest.log
+
 git fetch
 HEADHASH=$(git rev-parse HEAD)
 UPSTREAMHASH=$(git rev-parse master@{upstream})
@@ -18,3 +21,6 @@ then
   echo '****ENDING DEPLOY****'
   exit 0
 fi
+
+date >> /home/maja/komunikacija-kreacija/scripts/latest.log
+echo "ScriptEnd" >> /home/maja/komunikacija-kreacija/scripts/latest.log
