@@ -13,6 +13,7 @@ then
   echo `date '+%Y-%m-%d %H:%M:%S'`
   git pull 2>&1
  # /usr/local/bin/middleman build 2>&1
+  cd /komunikacija-kreacija
   gatsby build
   echo '****ENDING DEPLOY****'
   exit 0
