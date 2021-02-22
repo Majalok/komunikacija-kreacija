@@ -12,13 +12,13 @@ UPSTREAMHASH=$(git rev-parse master@{upstream})
 if [ "$HEADHASH" != "$UPSTREAMHASH" ]
 then
   git reset origin/master --hard
-  echo '****STARTING DEPLOY****'
-  echo `date '+%Y-%m-%d %H:%M:%S'`
-  git pull 2>&1
+  echo '****STARTING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  echo `date '+%Y-%m-%d %H:%M:%S' >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  git pull 2>&1 >> /home/maja/komunikacija-kreacija/scripts/latest.log
  # /usr/local/bin/middleman build 2>&1
-  cd /komunikacija-kreacija
+  #cd /komunikacija-kreacija
   gatsby build
-  echo '****ENDING DEPLOY****'
+  echo '****ENDING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   exit 0
 fi
 
