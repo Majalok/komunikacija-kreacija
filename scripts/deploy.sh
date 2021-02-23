@@ -2,7 +2,7 @@
 
 #cd /var/www/--directory of your middleman site--
 
-PATH=/home/maja/komunikacija-kreacija/:$PATH
+PATH=/home/maja/komunikacija-kreacija:$PATH
 
 date >> /home/maja/komunikacija-kreacija/scripts/latest.log
 echo "ScriptStart" >> /home/maja/komunikacija-kreacija/scripts/latest.log
