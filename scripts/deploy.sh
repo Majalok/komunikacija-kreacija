@@ -18,10 +18,10 @@ then
   git reset origin/master --hard
   echo '****STARTING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   echo `date '+%Y-%m-%d %H:%M:%S'` >> /home/maja/komunikacija-kreacija/scripts/latest.log
-  git pull 2>&1 >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  git pull 2>&1
  # /usr/local/bin/middleman build 2>&1
   #cd /komunikacija-kreacija
-  gatsby build 2>&1 >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  gatsby build
   echo '****ENDING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   exit 0
 fi
