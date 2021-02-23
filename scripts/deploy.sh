@@ -7,7 +7,7 @@ echo "ScriptStart" >> /home/maja/komunikacija-kreacija/scripts/latest.log
 
 cd /home/maja/komunikacija-kreacija
 
-git fetch
+git fetch >> /home/maja/komunikacija-kreacija/scripts/latest.log
 HEADHASH=$(git rev-parse HEAD)
 UPSTREAMHASH=$(git rev-parse master@{upstream})
 
