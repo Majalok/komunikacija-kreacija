@@ -21,6 +21,8 @@ then
   git pull 2>&1
  # /usr/local/bin/middleman build 2>&1
   cd /home/maja/komunikacija-kreacija
+  echo 'Current dir' >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  pwd >> /home/maja/komunikacija-kreacija/scripts/latest.log
   gatsby build
   echo '****ENDING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   exit 0
