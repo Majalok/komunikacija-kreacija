@@ -20,7 +20,7 @@ then
   echo `date '+%Y-%m-%d %H:%M:%S'` >> /home/maja/komunikacija-kreacija/scripts/latest.log
   git pull 2>&1
  # /usr/local/bin/middleman build 2>&1
-  #cd /komunikacija-kreacija
+  cd /home/maja/komunikacija-kreacija
   gatsby build
   echo '****ENDING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   exit 0
