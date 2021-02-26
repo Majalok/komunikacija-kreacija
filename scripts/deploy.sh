@@ -23,6 +23,7 @@ then
   cd /home/maja/komunikacija-kreacija
   echo 'Current dir' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   pwd >> /home/maja/komunikacija-kreacija/scripts/latest.log
+  gatsby clean
   gatsby build
   echo '****ENDING DEPLOY****' >> /home/maja/komunikacija-kreacija/scripts/latest.log
   exit 0
