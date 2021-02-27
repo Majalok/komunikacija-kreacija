@@ -25,7 +25,7 @@ module.exports = {
 
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    "gatsby-disable-404",
+    /*  "gatsby-disable-404", */
 
     {
       resolve: `gatsby-plugin-catch-links`,
