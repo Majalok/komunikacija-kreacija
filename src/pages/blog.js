@@ -671,6 +671,78 @@ class Blog extends Component {
                 (2020/2021…).
               </div>
             </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">Odločitve</div>
+              <div className="blog-text pisava-special brown">
+                Vsak v življenju pride do točke, ko rabi pomoč. Ni pomembno za
+                kaj gre. Služba, šola, odnosi, delo na sebi... <br />
+                Skozi raziskovanja in dela na sebi sem ugotovila, da že ko
+                spregovoriš o zadevi, ki te "matra", veliko lažje zadihaš. Kot,
+                da bi padel "tonski kamen" z ramen. Olajšaš si dušo.
+                <br /> Vsak, ki dela, raziskuje, gradi, se uči, takrat, ko
+                naleti na problem, poišče rešitev in ne reče: " To se ne da, ni
+                izvedljivo, ne gre...", nosi v sebi veličino.
+                <img
+                  className="emoji-img"
+                  src="../icons/heart.png"
+                  width="30px"
+                  alt=""
+                />
+                <br /> In, ko se nam zatakne, se zavestno odločamo, ali bomo
+                poiskali pomoč ali ne. <br />
+                Ko greš po pomoč (kakršno koli že, ali kakršne koli oblike),
+                greš pravzaprav po novo MOČ.
+                <br /> Po nov zalet.
+                <br /> Če dobro pogledaš besedo, je to PO_MOČ. Lahko je to
+                pogovor, poslušanje, nasvet, usmeritev, rama na katero se
+                nasloniš ali zjokaš, objem, bližina nekoga zraven tebe ...
+                <br />
+                Karkoli, kar ti bo dalo zalet in moč za naprej. <br /> Zato,
+                upaj si spregovoriti, poiskati po_moč.
+                <br /> En drugemu pomagamo na takšen ali drugačen način. Smo
+                povezani, pa čeprav to velikokrat ni opaziti. <br />
+                Vendar ne smemo pozabiti na nekaj zelo pomembnega, da na svet
+                »privekaš« sam in odšel boš sam. Vmes pa se zgodi Življenje. In
+                če ga daš pod drobnogled ugotoviš, da si tudi v tem obdobju
+                "sam".
+                <br /> Seveda imaš okoli sebe ljudi, ki so tvoja družina,
+                sorodniki, prijatelji, sodelavci in tudi življenje teče po nekih
+                ustaljenih tirih...ampak pomisli. <br />
+                Ko gre za življenjske odločitve, zdravje ali vsakodnevne poteze,
+                ki so v povezavi s teboj, se Ti odločiš, ali boš zadevo izpeljal
+                in kako. Ti se odločaš, če boš prižgal prvo cigareto, popil
+                pivo, zbral pogum in povabil simpatijo na kofe…Ti se boš odločil
+                ali boš šel delati izpit za avto in če ja, poiskal rešitve kako
+                to izpeljati. Mogoče boš še naprej dovoljeval nespoštljiv odnos
+                do sebe ali pa boš začel postavljati meje. Ti se boš boril za
+                svojo povišico pri šefu. Ti s svojimi odločitvami tudi
+                definiraš, kakšne ljudi imaš okoli sebe. Ti se spopadaš s
+                svojimi demoni in se boriš za boljši jutri...Ti, ti, ti… <br />
+                In za koga drugega to počneš in se odločaš, če ne Zase?{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/heart.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                Ja, lahko si deležen podpore, nasvetov, pomoči (če prosiš zanjo)
+                in še kaj, ampak veš kaj? To so samo predlogi. Spoznanja in
+                ideje nekoga drugega. Samo Ti, pa veš kaj je dobro zate in kaj
+                je vredno preizkusiti. To so tvoje odločitve.
+                <br /> Pomoč nekoga drugega, Ti lahko odgrne tančico skozi
+                katero nisi videl, kako naj se zadeve lotiš, oziroma kaj naj bo
+                tvoj naslednji korak. Te spomni kdo si in da si vreden. Ti
+                ponudi roko... <br />
+                Od Tebe, pa je odvisno, kaj boš s tem naredil. Ti veš, pri
+                kateri informaciji Ti je zaigralo srce in se je prižgala iskra.
+                Ti veš, kaj ti daje novo moč in zalet. Samo Ti veš zakaj je temu
+                tako in samo Ti veš, kaj je najbolje zate.
+                <br /> Kajti vsak išče svojo resnico. In vsak se odloča po svoji
+                vesti.
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
