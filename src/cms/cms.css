@@ -1,0 +1,19 @@
+
+body{
+    color: brown;
+    font-family: cursive !important;
+    background-color: orange;
+}
+
+div {
+    background-color: aliceblue;
+}
+
+.frame-content {
+    font-family: Arial;
+}
+
+
+.cms-editor-visual {
+    background-color: brown !important;
+  }

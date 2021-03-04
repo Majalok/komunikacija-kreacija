@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class Novica extends React.Component {
+class novica extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -53,7 +53,7 @@ class Novica extends React.Component {
   }
 }
 
-export default Novica
+export default novica
 
 export const pageQuery1 = graphql`
   query BlogPost {

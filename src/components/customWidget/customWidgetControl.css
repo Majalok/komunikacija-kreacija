@@ -1,0 +1,14 @@
+
+body{
+  color: pink;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  background-color: brown;
+}
+
+div {
+  background-color: blue;
+}
+
+.frame-content {
+  font-family: Arial;
+}

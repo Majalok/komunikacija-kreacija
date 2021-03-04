@@ -14,7 +14,7 @@ exports.createPages = async ({ graphql, actions }) => {
     redirectInBrowser: true,
   })
 
-  const blogPost = require.resolve(`./src/templates/Novica.js`)
+  const blogPost = require.resolve(`./src/templates/novica.js`)
   const result = await graphql(`
     {
       allMarkdownRemark(

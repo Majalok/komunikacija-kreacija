@@ -18,10 +18,11 @@ display_url: https://komunikacija-kreacija.webdev.reavisys.si
 
 media_folder: static/assets
 public_folder: assets
+locale: "sl-si"
 
 collections:
   - name: "blog"
-    label: "Novica"
+    label: "Blog zapis"
     folder: "content/blog"
     create: true
     fields: # The fields each document in this collection have
@@ -33,4 +34,4 @@ collections:
         widget: "datetime"
       - label: "Vsebina"
         name: "intro"
-        widget: "markdown"
+        widget: "test"
