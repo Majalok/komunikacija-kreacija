@@ -59,7 +59,9 @@ export const pageQuery = graphql`
       }
     }
 
-    blogList: allMarkdownRemark {
+    blogList: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           frontmatter {
