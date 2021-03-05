@@ -6,6 +6,11 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
 //import "./customWidgetControl.css"
 // Note that control component of a custom widget can't be
 // a functional component. It will not work for some reason.
+
+const ckeditorConfig = {
+  extraPlugins: "justify, colorbutton, font, emoji",
+}
+
 export class CustomWidgetControl extends React.PureComponent {
   constructor(props) {
     super(props)
@@ -35,6 +40,8 @@ export class CustomWidgetControl extends React.PureComponent {
     return (
       <>
         <CKEditor
+          type="classic"
+          config={ckeditorConfig}
           data={this.state.data}
           onEditorChange={this.onEditorChange}
           onChange={this.onEditorChange}
