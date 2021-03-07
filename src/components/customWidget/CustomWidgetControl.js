@@ -8,7 +8,7 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
 // a functional component. It will not work for some reason.
 
 const ckeditorConfig = {
-  extraPlugins: "justify, colorbutton, font, emoji",
+  extraPlugins: "emoji",
 }
 
 export class CustomWidgetControl extends React.PureComponent {

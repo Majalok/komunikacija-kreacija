@@ -341,7 +341,7 @@ class MainMenu extends React.Component {
                   &nbsp;&nbsp;Poslušalka
                 </Link>
               </div>
-              <Link
+              {/* <Link
                 id="8"
                 key="8"
                 className="main-menu-link"
@@ -350,15 +350,7 @@ class MainMenu extends React.Component {
               >
                 {" "}
                 <span className="menu-title">Predavanja</span>
-              </Link>
-              {/* <Link id="9"
-                                key="9"
-                                className="main-menu-link"
-                                onClick={this.setMenuItemSelected}
-                                to="/delavnice/"
-                            > <span className="menu-title">Delavnice</span>
-                            </Link> */}
-
+              </Link> */}
               <Link
                 id="10"
                 key="10"
