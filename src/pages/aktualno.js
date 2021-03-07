@@ -3,42 +3,9 @@ import Layout from "../components/layout"
 
 const Aktualno = () => (
   <Layout>
-    <div className="aktualno-content">
-      <div className="aktualno-title"> Novi zapisi na blogu </div>
-
-      <div className="aktualno-text">
-        <ul className="aktualno-ul">
-          <li className="aktualno-li">
-            Odločitve
-            <div>27.2.2021</div>
-          </li>
-          <br />
-          <li className="aktualno-li">
-            Svobodna volja in izbira
-            <div>30.1.2021</div>
-          </li>
-          <br />
-          <li className="aktualno-li">
-            Trenutek zdaj ali umiritev misli
-            <div>16.12.2020</div>
-          </li>
-          <br />
-          <li className="aktualno-li">
-            Prepričanje
-            <div>1.11.2020</div>
-          </li>
-          <br />
-          <li className="aktualno-li">
-            Bel list
-            <div>15.10.2020</div>
-          </li>
-          <br />
-        </ul>
-      </div>
-    </div>
     <div className="predavanja-content">
       <h2>
-        <u>Predavanja</u>
+        <u>Predavanje</u>
       </h2>
       <div className="predavanja-item">
         {/*   - Kaj je diamantni dotik oziroma kako povečati vrednost vaše dragocene lastnine – vaših odnosov!
@@ -95,7 +62,7 @@ const Aktualno = () => (
       </div>
       <br />
       <br />
-      <div className="predavanja-item">
+      {/* <div className="predavanja-item">
         <div className="predavanja-item-title">Nebesedna izražanja</div>
         <br />
         <br />
@@ -106,8 +73,42 @@ const Aktualno = () => (
         <br />
         Tu po sklopih pogledamo, na kakšen način, z osnovnim razumevanje telesne
         govorice, dosežemo večji uspeh.
+      </div> */}
+    </div>
+    <div className="predavanja-content">
+      <div className="aktualno-title"> Novi zapisi na blogu </div>
+
+      <div className="aktualno-text">
+        <ul className="aktualno-ul">
+          <li className="aktualno-li">
+            Odločitve
+            <div>27.2.2021</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Svobodna volja in izbira
+            <div>30.1.2021</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Trenutek zdaj ali umiritev misli
+            <div>16.12.2020</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Prepričanje
+            <div>1.11.2020</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Bel list
+            <div>15.10.2020</div>
+          </li>
+          <br />
+        </ul>
       </div>
     </div>
+
     <div className="trak-div">
       <div
         className="trak"
