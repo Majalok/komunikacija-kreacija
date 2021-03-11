@@ -1,0 +1,1090 @@
+[
+    {
+        "codes": "1F600",
+        "symbol": "😀",
+        "id": "grinning face",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F603",
+        "symbol": "😃",
+        "id": "grinning face with big eyes",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F604",
+        "symbol": "😄",
+        "id": "grinning face with smiling eyes",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F601",
+        "symbol": "😁",
+        "id": "beaming face with smiling eyes",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F606",
+        "symbol": "😆",
+        "id": "grinning squinting face",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F605",
+        "symbol": "😅",
+        "id": "grinning face with sweat",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F923",
+        "symbol": "🤣",
+        "id": "rolling on the floor laughing",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F602",
+        "symbol": "😂",
+        "id": "face with tears of joy",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F642",
+        "symbol": "🙂",
+        "id": "slightly smiling face",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F643",
+        "symbol": "🙃",
+        "id": "upside-down face",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F609",
+        "symbol": "😉",
+        "id": "winking face",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F60A",
+        "symbol": "😊",
+        "id": "smiling face with smiling eyes",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F607",
+        "symbol": "😇",
+        "id": "smiling face with halo",
+        "category": "Smileys & Emotion (face-smiling)",
+        "group": "people",
+        "subgroup": "face-smiling"
+    },
+    {
+        "codes": "1F60D",
+        "symbol": "😍",
+        "id": "smiling face with heart-eyes",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F618",
+        "symbol": "😘",
+        "id": "face blowing a kiss",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F617",
+        "symbol": "😗",
+        "id": "kissing face",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "263A FE0F",
+        "symbol": "🙂",
+        "id": "smiling face",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F61A",
+        "symbol": "😚",
+        "id": "kissing face with closed eyes",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F619",
+        "symbol": "😙",
+        "id": "kissing face with smiling eyes",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F972",
+        "symbol": "😅",
+        "id": "smiling face with tear",
+        "category": "Smileys & Emotion (face-affection)",
+        "group": "people",
+        "subgroup": "face-affection"
+    },
+    {
+        "codes": "1F60B",
+        "symbol": "😋",
+        "id": "face savoring food",
+        "category": "Smileys & Emotion (face-tongue)",
+        "group": "people",
+        "subgroup": "face-tongue"
+    },
+    {
+        "codes": "1F61B",
+        "symbol": "😛",
+        "id": "face with tongue",
+        "category": "Smileys & Emotion (face-tongue)",
+        "group": "people",
+        "subgroup": "face-tongue"
+    },
+    {
+        "codes": "1F61C",
+        "symbol": "😜",
+        "id": "winking face with tongue",
+        "category": "Smileys & Emotion (face-tongue)",
+        "group": "people",
+        "subgroup": "face-tongue"
+    },
+    {
+        "codes": "1F61D",
+        "symbol": "😝",
+        "id": "squinting face with tongue",
+        "category": "Smileys & Emotion (face-tongue)",
+        "group": "people",
+        "subgroup": "face-tongue"
+    },
+    {
+        "codes": "1F911",
+        "symbol": "🤑",
+        "id": "money-mouth face",
+        "category": "Smileys & Emotion (face-tongue)",
+        "group": "people",
+        "subgroup": "face-tongue"
+    },
+    {
+        "codes": "1F917",
+        "symbol": "🤗",
+        "id": "hugging face",
+        "category": "Smileys & Emotion (face-hand)",
+        "group": "people",
+        "subgroup": "face-hand"
+    },
+    {
+        "codes": "1F92D",
+        "symbol": "🤭",
+        "id": "face with hand over mouth",
+        "category": "Smileys & Emotion (face-hand)",
+        "group": "people",
+        "subgroup": "face-hand"
+    },
+    {
+        "codes": "1F914",
+        "symbol": "🤔",
+        "id": "thinking face",
+        "category": "Smileys & Emotion (face-hand)",
+        "group": "people",
+        "subgroup": "face-hand"
+    },
+    {
+        "codes": "1F910",
+        "symbol": "🤐",
+        "id": "zipper-mouth face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F928",
+        "symbol": "🤨",
+        "id": "face with raised eyebrow",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F610",
+        "symbol": "😐",
+        "id": "neutral face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F611",
+        "symbol": "😑",
+        "id": "expressionless face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F636",
+        "symbol": "😶",
+        "id": "face without mouth",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F636 200D 1F32B FE0F",
+        "symbol": "😶‍🌫️",
+        "id": "face in clouds",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F636 200D 1F32B",
+        "symbol": "😶‍🌫",
+        "id": "face in clouds",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F60F",
+        "symbol": "😏",
+        "id": "smirking face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F612",
+        "symbol": "😒",
+        "id": "unamused face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F644",
+        "symbol": "🙄",
+        "id": "face with rolling eyes",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F62C",
+        "symbol": "😬",
+        "id": "grimacing face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F62E 200D 1F4A8",
+        "symbol": "😮‍💨",
+        "id": "face exhaling",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F925",
+        "symbol": "🤥",
+        "id": "lying face",
+        "category": "Smileys & Emotion (face-neutral-skeptical)",
+        "group": "people",
+        "subgroup": "face-neutral-skeptical"
+    },
+    {
+        "codes": "1F60C",
+        "symbol": "😌",
+        "id": "relieved face",
+        "category": "Smileys & Emotion (face-sleepy)",
+        "group": "people",
+        "subgroup": "face-sleepy"
+    },
+    {
+        "codes": "1F614",
+        "symbol": "😔",
+        "id": "pensive face",
+        "category": "Smileys & Emotion (face-sleepy)",
+        "group": "people",
+        "subgroup": "face-sleepy"
+    },
+    {
+        "codes": "1F62A",
+        "symbol": "😪",
+        "id": "sleepy face",
+        "category": "Smileys & Emotion (face-sleepy)",
+        "group": "people",
+        "subgroup": "face-sleepy"
+    },
+    {
+        "codes": "1F924",
+        "symbol": "🤤",
+        "id": "drooling face",
+        "category": "Smileys & Emotion (face-sleepy)",
+        "group": "people",
+        "subgroup": "face-sleepy"
+    },
+    {
+        "codes": "1F634",
+        "symbol": "😴",
+        "id": "sleeping face",
+        "category": "Smileys & Emotion (face-sleepy)",
+        "group": "people",
+        "subgroup": "face-sleepy"
+    },
+    {
+        "codes": "1F637",
+        "symbol": "😷",
+        "id": "face with medical mask",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F912",
+        "symbol": "🤒",
+        "id": "face with thermometer",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F915",
+        "symbol": "🤕",
+        "id": "face with head-bandage",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F922",
+        "symbol": "🤢",
+        "id": "nauseated face",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F92E",
+        "symbol": "🤢",
+        "id": "face vomiting",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F927",
+        "symbol": "🤧",
+        "id": "sneezing face",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F635",
+        "symbol": "😵",
+        "id": "knocked-out face",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F635 200D 1F4AB",
+        "symbol": "😵‍💫",
+        "id": "face with spiral eyes",
+        "category": "Smileys & Emotion (face-unwell)",
+        "group": "people",
+        "subgroup": "face-unwell"
+    },
+    {
+        "codes": "1F920",
+        "symbol": "🤠",
+        "id": "cowboy hat face",
+        "category": "Smileys & Emotion (face-hat)",
+        "group": "people",
+        "subgroup": "face-hat"
+    },
+    {
+        "codes": "1F973",
+        "symbol": "🥳",
+        "id": "partying face",
+        "category": "Smileys & Emotion (face-hat)",
+        "group": "people",
+        "subgroup": "face-hat"
+    },
+    {
+        "codes": "1F60E",
+        "symbol": "😎",
+        "id": "smiling face with sunglasses",
+        "category": "Smileys & Emotion (face-glasses)",
+        "group": "people",
+        "subgroup": "face-glasses"
+    },
+    {
+        "codes": "1F913",
+        "symbol": "🤓",
+        "id": "nerd face",
+        "category": "Smileys & Emotion (face-glasses)",
+        "group": "people",
+        "subgroup": "face-glasses"
+    },
+    {
+        "codes": "1F9D0",
+        "symbol": "🧐",
+        "id": "face with monocle",
+        "category": "Smileys & Emotion (face-glasses)",
+        "group": "people",
+        "subgroup": "face-glasses"
+    },
+    {
+        "codes": "1F615",
+        "symbol": "😕",
+        "id": "confused face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F61F",
+        "symbol": "😟",
+        "id": "worried face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F641",
+        "symbol": "🙁",
+        "id": "slightly frowning face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "2639 FE0F",
+        "symbol": "☹️",
+        "id": "frowning face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F62E",
+        "symbol": "😮",
+        "id": "face with open mouth",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F62F",
+        "symbol": "😯",
+        "id": "hushed face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F632",
+        "symbol": "😲",
+        "id": "astonished face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F633",
+        "symbol": "😳",
+        "id": "flushed face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F626",
+        "symbol": "😦",
+        "id": "frowning face with open mouth",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F627",
+        "symbol": "😧",
+        "id": "anguished face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F628",
+        "symbol": "😨",
+        "id": "fearful face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F630",
+        "symbol": "😰",
+        "id": "anxious face with sweat",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F625",
+        "symbol": "😥",
+        "id": "sad but relieved face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F622",
+        "symbol": "😢",
+        "id": "crying face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F62D",
+        "symbol": "😭",
+        "id": "loudly crying face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F631",
+        "symbol": "😱",
+        "id": "face screaming in fear",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F616",
+        "symbol": "😖",
+        "id": "confounded face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F623",
+        "symbol": "😣",
+        "id": "persevering face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F61E",
+        "symbol": "😞",
+        "id": "disappointed face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F613",
+        "symbol": "😓",
+        "id": "downcast face with sweat",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F629",
+        "symbol": "😩",
+        "id": "weary face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F62B",
+        "symbol": "😫",
+        "id": "tired face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F971",
+        "symbol": "🥱",
+        "id": "yawning face",
+        "category": "Smileys & Emotion (face-concerned)",
+        "group": "people",
+        "subgroup": "face-concerned"
+    },
+    {
+        "codes": "1F624",
+        "symbol": "😤",
+        "id": "face with steam from nose",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F621",
+        "symbol": "😡",
+        "id": "pouting face",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F620",
+        "symbol": "😠",
+        "id": "angry face",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F92C",
+        "symbol": "🤬",
+        "id": "face with symbols on mouth",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F608",
+        "symbol": "😈",
+        "id": "smiling face with horns",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F47F",
+        "symbol": "👿",
+        "id": "angry face with horns",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "2620 FE0F",
+        "symbol": "☠️",
+        "id": "skull and crossbones",
+        "category": "Smileys & Emotion (face-negative)",
+        "group": "people",
+        "subgroup": "face-negative"
+    },
+    {
+        "codes": "1F4A9",
+        "symbol": "💩",
+        "id": "pile of poo",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F921",
+        "symbol": "🤡",
+        "id": "clown face",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F479",
+        "symbol": "👹",
+        "id": "ogre",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F47A",
+        "symbol": "👺",
+        "id": "goblin",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F47B",
+        "symbol": "👻",
+        "id": "ghost",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F47D",
+        "symbol": "👽",
+        "id": "alien",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F47E",
+        "symbol": "👾",
+        "id": "alien monster",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F916",
+        "symbol": "🤖",
+        "id": "robot",
+        "category": "Smileys & Emotion (face-costume)",
+        "group": "people",
+        "subgroup": "face-costume"
+    },
+    {
+        "codes": "1F63A",
+        "symbol": "😺",
+        "id": "grinning cat",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F638",
+        "symbol": "😸",
+        "id": "grinning cat with smiling eyes",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F639",
+        "symbol": "😹",
+        "id": "cat with tears of joy",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F63B",
+        "symbol": "😻",
+        "id": "smiling cat with heart-eyes",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F63C",
+        "symbol": "😼",
+        "id": "cat with wry smile",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F63D",
+        "symbol": "😽",
+        "id": "kissing cat",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F640",
+        "symbol": "🙀",
+        "id": "weary cat",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F63F",
+        "symbol": "😿",
+        "id": "crying cat",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F63E",
+        "symbol": "😾",
+        "id": "pouting cat",
+        "category": "Smileys & Emotion (cat-face)",
+        "group": "people",
+        "subgroup": "cat-face"
+    },
+    {
+        "codes": "1F648",
+        "symbol": "🙈",
+        "id": "see-no-evil monkey",
+        "category": "Smileys & Emotion (monkey-face)",
+        "group": "people",
+        "subgroup": "monkey-face"
+    },
+    {
+        "codes": "1F649",
+        "symbol": "🙉",
+        "id": "hear-no-evil monkey",
+        "category": "Smileys & Emotion (monkey-face)",
+        "group": "people",
+        "subgroup": "monkey-face"
+    },
+    {
+        "codes": "1F64A",
+        "symbol": "🙊",
+        "id": "speak-no-evil monkey",
+        "category": "Smileys & Emotion (monkey-face)",
+        "group": "people",
+        "subgroup": "monkey-face"
+    },
+    {
+        "codes": "1F48B",
+        "symbol": "💋",
+        "id": "kiss mark",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F48C",
+        "symbol": "💌",
+        "id": "love letter",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F498",
+        "symbol": "💘",
+        "id": "heart with arrow",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49D",
+        "symbol": "💝",
+        "id": "heart with ribbon",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F496",
+        "symbol": "💖",
+        "id": "sparkling heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F497",
+        "symbol": "💗",
+        "id": "growing heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F493",
+        "symbol": "💓",
+        "id": "beating heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49E",
+        "symbol": "💞",
+        "id": "revolving hearts",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F495",
+        "symbol": "💕",
+        "id": "two hearts",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49F",
+        "symbol": "💟",
+        "id": "heart decoration",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2763 FE0F",
+        "symbol": "❣️",
+        "id": "heart exclamation",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2763",
+        "symbol": "❣",
+        "id": "heart exclamation",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F494",
+        "symbol": "💔",
+        "id": "broken heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2764 FE0F 200D 1F525",
+        "symbol": "❤️‍🔥",
+        "id": "heart on fire",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2764 200D 1F525",
+        "symbol": "❤‍🔥",
+        "id": "heart on fire",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2764 FE0F",
+        "symbol": "❤️",
+        "id": "red heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "2764",
+        "symbol": "❤",
+        "id": "red heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49B",
+        "symbol": "💛",
+        "id": "yellow heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49A",
+        "symbol": "💚",
+        "id": "green heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F499",
+        "symbol": "💙",
+        "id": "blue heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F49C",
+        "symbol": "💜",
+        "id": "purple heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "1F5A4",
+        "symbol": "🖤",
+        "id": "black heart",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "U+1F44D",
+        "symbol": "👍",
+        "id": "thumb up",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "U+1F4AA",
+        "symbol": "💪",
+        "id": "muscle",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "U+1F445",
+        "symbol": "👅",
+        "id": "tongue",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "U+1F481 U+200D U+2640 U+FE0F",
+        "symbol": "💁‍♀️",
+        "id": "woman tipping hand",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    },
+    {
+        "codes": "U+1F926 U+200D U+2640 U+FE0F",
+        "symbol": "🤦‍♀️",
+        "id": "woman facepalming",
+        "category": "Smileys & Emotion (emotion)",
+        "group": "people",
+        "subgroup": "emotion"
+    }
+]
