@@ -7,8 +7,64 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
 // Note that control component of a custom widget can't be
 // a functional component. It will not work for some reason.
 
+/* const ckeditorConfig = {
+  extraPlugins: "emoji",
+} */
+
+/* const ckeditorConfig = {
+  uiColor: "#AADC6E",
+  extraPlugins: "uploadimage",
+  uploadUrl: "/uploader/upload",
+  filebrowserUploadMethod: "form",
+  filebrowserBrowseUrl: "1",
+  filebrowserUploadUrl: "2",
+  filebrowserImageBrowseUrl: "3",
+} */
+/* 
+const ckeditorConfig = {
+  ckfinder: {
+    uploadUrl:
+      "https://example.com/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&responseType=json",
+  },
+}
+ */
+
+//var data = https://www.npmjs.com/package/emoji.json
+//console.log(":::DATA:: ", data)
+//CKEditor.emoji_emojiListUrl = "http://localhost:8000/emojis.json";
 const ckeditorConfig = {
   extraPlugins: "emoji",
+  removePlugins: "styles",
+  emoji_emojiListUrl: "http://localhost:8000/emojis.json",
+  // emoji_emojiListUrl: "./emojis.json",
+  emoji_minChars: 2,
+
+  toolbar: [
+    {
+      name: "links",
+      items: ["EmojiPanel"],
+    },
+    {
+      name: "styles",
+      items: ["Styles", "Format"],
+    },
+    {
+      name: "basicstyles",
+      items: ["Bold", "Italic", "Strike", "-", "RemoveFormat"],
+    },
+    {
+      name: "paragraph",
+      items: [
+        "NumberedList",
+        "BulletedList",
+        "-",
+        "Outdent",
+        "Indent",
+        "-",
+        "Blockquote",
+      ],
+    },
+  ],
 }
 
 export class CustomWidgetControl extends React.PureComponent {
