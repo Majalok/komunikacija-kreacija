@@ -432,22 +432,6 @@
         "subgroup": "face-negative"
     },
     {
-        "codes": "1F608",
-        "symbol": "😈",
-        "id": "smiling face with horns",
-        "category": "Smileys & Emotion (face-negative)",
-        "group": "people",
-        "subgroup": "face-negative"
-    },
-    {
-        "codes": "1F4A9",
-        "symbol": "💩",
-        "id": "pile of poo",
-        "category": "Smileys & Emotion (face-costume)",
-        "group": "people",
-        "subgroup": "face-costume"
-    },
-    {
         "codes": "1F921",
         "symbol": "🤡",
         "id": "clown face",

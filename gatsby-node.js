@@ -157,7 +157,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       // console.log("0 wondering match> ", wonderingMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F644}",
-        "<img className='emoji-img' src='../icons/wondering.png' width='20px' alt='' />"
+        "<img className='emoji-img' src='../icons/faceWithRollingEyes.png' width='20px' alt='' />"
       )
       let wonderingTemp = node.frontmatter.intro.replace("\u{1F644}", "$$$$$$")
       // console.log("0 replace wonderingTemp> ", wonderingTemp)
@@ -199,17 +199,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       let unamusedTemp = node.frontmatter.intro.replace("\u{1F60E}", "$$$$$$")
       //console.log("0 replace unamusedTemp> ", unamusedTemp)
     }
-    /*    let tongue = node.frontmatter.intro.match("\u{1F61C}")
-  
-        if (tongue != null) {
-          console.log("0emoji tongue test> ", tongue)
-          let tongueMatch = node.frontmatter.intro.indexOf(tongue[0])
-          console.log("0 tongue match> ", tongueMatch)
-          node.frontmatter.intro = node.frontmatter.intro.replace(
-            "\u{1F61C}",
-            "<img className='emoji-img' src='../icons/tongue.png' width='20px' alt='' />"
-          )
-        } */
+    let tongue = node.frontmatter.intro.match("\u{1F61C}")
+
+    if (tongue != null) {
+      console.log("0emoji tongue test> ", tongue)
+      let tongueMatch = node.frontmatter.intro.indexOf(tongue[0])
+      console.log("0 tongue match> ", tongueMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F61C}",
+        "<img className='emoji-img' src='../icons/tongue.png' width='20px' alt='' />"
+      )
+    }
 
     let beamSmilingEyes = node.frontmatter.intro.match("\u{1F601}")
 
@@ -322,17 +322,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "<img className='emoji-img' src='../icons/blushed.png' width='20px' alt='' />"
       )
     }
-    let tongue = node.frontmatter.intro.match("\u{1F445}")
 
-    if (tongue != null) {
-      //console.log("0emoji tongue test> ", tongue)
-      let tongueMatch = node.frontmatter.intro.indexOf(tongue[0])
-      //console.log("0 tongue match> ", tongueMatch)
-      node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F445}",
-        "<img className='emoji-img' src='../icons/tongue.png' width='20px' alt='' />"
-      )
-    }
     let expressionless = node.frontmatter.intro.match("\u{1F611}")
 
     if (expressionless != null) {
@@ -429,7 +419,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       console.log("0 hearNoEvilMonkey match> ", hearNoEvilMonkeyMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F649}",
-        "<img className='emoji-img' src='../icons/speakNoEvilMonkey.png' width='20px' alt='' />"
+        "<img className='emoji-img' src='../icons/hearNoEvilMonkey.png' width='20px' alt='' />"
       )
     }
     let seeNoEvilMonkey = node.frontmatter.intro.match("\u{1F648}")
@@ -467,17 +457,65 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "<img className='emoji-img' src='../icons/huggingFace.png' width='20px' alt='' />"
       )
     }
-    let sleepingFace = node.frontmatter.intro.match("\u{1F917}")
+    let sleepingFace = node.frontmatter.intro.match("\u{1F634}")
 
     if (sleepingFace != null) {
       console.log("0emoji sleepingFace test> ", sleepingFace)
       let sleepingFaceMatch = node.frontmatter.intro.indexOf(sleepingFace[0])
       console.log("0 sleepingFace match> ", sleepingFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F917}",
+        "\u{1F634}",
         "<img className='emoji-img' src='../icons/sleepingFace.png' width='20px' alt='' />"
       )
     }
+
+    let sleepyFace = node.frontmatter.intro.match("\u{1F62A}")
+
+    if (sleepyFace != null) {
+      console.log("0emoji sleepyFace test> ", sleepyFace)
+      let sleepyFaceMatch = node.frontmatter.intro.indexOf(sleepyFace[0])
+      console.log("0 sleepyFace match> ", sleepyFaceMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F62A}",
+        "<img className='emoji-img' src='../icons/sleepyFace.png' width='20px' alt='' />"
+      )
+    }
+
+    let faceWithoutMouth = node.frontmatter.intro.match("\u{1F636}")
+
+    if (faceWithoutMouth != null) {
+      console.log("0emoji faceWithoutMouth test> ", faceWithoutMouth)
+      let faceWithoutMouthMatch = node.frontmatter.intro.indexOf(faceWithoutMouth[0])
+      console.log("0 faceWithoutMouth match> ", faceWithoutMouthMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F636}",
+        "<img className='emoji-img' src='../icons/faceWithoutMouth.png' width='20px' alt='' />"
+      )
+    }
+
+    let zipperMouthFace = node.frontmatter.intro.match("\u{1F910}")
+
+    if (zipperMouthFace != null) {
+      console.log("0emoji zipperMouthFace test> ", zipperMouthFace)
+      let zipperMouthFaceMatch = node.frontmatter.intro.indexOf(zipperMouthFace[0])
+      console.log("0 zipperMouthFace match> ", zipperMouthFaceMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F910}",
+        "<img className='emoji-img' src='../icons/zipperMouthFace.png' width='20px' alt='' />"
+      )
+    }
+    let pensiveFace = node.frontmatter.intro.match("\u{1F614}")
+
+    if (pensiveFace != null) {
+      console.log("0emoji pensiveFace test> ", pensiveFace)
+      let pensiveFaceMatch = node.frontmatter.intro.indexOf(pensiveFace[0])
+      console.log("0 pensiveFace match> ", pensiveFaceMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F614}",
+        "<img className='emoji-img' src='../icons/pensiveFace.png' width='20px' alt='' />"
+      )
+    }
+
     let faceMedicalMask = node.frontmatter.intro.match("\u{1F637}")
 
     if (faceMedicalMask != null) {
@@ -500,14 +538,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "<img className='emoji-img' src='../icons/sickFace.png' width='20px' alt='' />"
       )
     }
-    let faceHeadBandage = node.frontmatter.intro.match("\u{1F912}")
+    let faceHeadBandage = node.frontmatter.intro.match("\u{1F915}")
 
     if (faceHeadBandage != null) {
       console.log("0emoji faceHeadBandage test> ", faceHeadBandage)
       let faceHeadBandageMatch = node.frontmatter.intro.indexOf(faceHeadBandage[0])
       console.log("0 faceHeadBandage match> ", faceHeadBandageMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F912}",
+        "\u{1F915}",
         "<img className='emoji-img' src='../icons/faceHeadBandage.png' width='20px' alt='' />"
       )
     }
@@ -592,17 +630,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       )
     }
 
-    /*  let frowningFace = node.frontmatter.intro.match("\u{2639 FE0F}")
- 
-     if (frowningFace != null) {
-       console.log("0emoji frowningFace test> ", frowningFace)
-       let frowningFace = node.frontmatter.intro.indexOf(frowningFace[0])
-       console.log("0 frowningFace match> ", frowningFace)
-       node.frontmatter.intro = node.frontmatter.intro.replace(
-         "\u{2639 FE0F}",
-         "<img className='emoji-img' src='../icons/frowningFace.png' width='20px' alt='' />"
-       )
-     } */
+    let frowningFace = node.frontmatter.intro.match("\u{2639}")
+
+    if (frowningFace != null) {
+      console.log("0emoji frowningFace test> ", frowningFace)
+      let frowningFaceMatch = node.frontmatter.intro.indexOf(frowningFace[0])
+      console.log("0 frowningFace match> ", frowningFaceMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{2639}",
+        "<img className='emoji-img' src='../icons/frowningFace.png' width='20px' alt='' />"
+      )
+    }
 
     let hushedFace = node.frontmatter.intro.match("\u{1F62F}")
 
@@ -638,14 +676,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       )
     }
 
-    let fearfulFace = node.frontmatter.intro.match("\u{1F633}")
+    let fearfulFace = node.frontmatter.intro.match("\u{1F628}")
 
     if (fearfulFace != null) {
       console.log("0emoji fearfulFace test> ", flushedFace)
       let fearfulFaceMatch = node.frontmatter.intro.indexOf(fearfulFace[0])
       console.log("0 fearfulFace match> ", fearfulFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F633}",
+        "\u{1F628}",
         "<img className='emoji-img' src='../icons/fearfulFace.png' width='20px' alt='' />"
       )
     }
@@ -731,14 +769,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       )
     }
 
-    let goblinFace = node.frontmatter.intro.match("\u{1F479}")
+    let goblinFace = node.frontmatter.intro.match("\u{1F47A}")
 
     if (goblinFace != null) {
       console.log("0emoji goblinFace test> ", goblinFace)
       let goblinFaceMatch = node.frontmatter.intro.indexOf(goblinFace[0])
       console.log("0 goblinFace match> ", goblinFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F479}",
+        "\u{1F47A}",
         "<img className='emoji-img' src='../icons/goblinFace.png' width='20px' alt='' />"
       )
     }
@@ -766,26 +804,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       )
     }
 
-    let twoHearts = node.frontmatter.intro.match("\u{1F496}")
+    let twoHearts = node.frontmatter.intro.match("\u{1F495}")
 
     if (twoHearts != null) {
       console.log("0emoji twoHearts test> ", twoHearts)
       let twoHeartsMatch = node.frontmatter.intro.indexOf(twoHearts[0])
       console.log("0 twoHearts match> ", twoHeartsMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F496}",
+        "\u{1F495}",
         "<img className='emoji-img' src='../icons/twoHearts.png' width='20px' alt='' />"
       )
     }
 
-    let brokenHeart = node.frontmatter.intro.match("\u{1F496}")
+    let brokenHeart = node.frontmatter.intro.match("\u{1F494}")
 
     if (brokenHeart != null) {
       console.log("0emoji brokenHeart test> ", brokenHeart)
       let brokenHeartMatch = node.frontmatter.intro.indexOf(brokenHeart[0])
       console.log("0 brokenHeart match> ", brokenHeartMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F496}",
+        "\u{1F494}",
         "<img className='emoji-img' src='../icons/brokenHeart.png' width='20px' alt='' />"
       )
     }
@@ -793,12 +831,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     let redHeart = node.frontmatter.intro.match("\u{FE0F}")
 
     if (redHeart != null) {
-      console.log("0emoji redHeart test> ", brokenHeart)
+      console.log("0emoji redHeart test> ", redHeart)
       let redHeartMatch = node.frontmatter.intro.indexOf(redHeart[0])
       console.log("0 redHeart match> ", redHeartMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{FE0F}",
         "<img className='emoji-img' src='../icons/redHeart.png' width='20px' alt='' />"
+      )
+    }
+    let pileOfPoo = node.frontmatter.intro.match("\u{FE0F}")
+
+    if (pileOfPoo != null) {
+      console.log("0emoji pileOfPoo test> ", pileOfPoo)
+      let pileOfPooMatch = node.frontmatter.intro.indexOf(pileOfPoo[0])
+      console.log("0 pileOfPoo match> ", pileOfPooMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{FE0F}",
+        "<img className='emoji-img' src='../icons/pileOfPoo.png' width='20px' alt='' />"
       )
     }
     // -------------------------- 1F649 
