@@ -40,14 +40,6 @@
         "subgroup": "face-smiling"
     },
     {
-        "codes": "1F605",
-        "symbol": "😅",
-        "id": "grinning face with sweat",
-        "category": "Smileys & Emotion (face-smiling)",
-        "group": "people",
-        "subgroup": "face-smiling"
-    },
-    {
         "codes": "1F923",
         "symbol": "🤣",
         "id": "rolling on the floor laughing",
@@ -67,14 +59,6 @@
         "codes": "1F642",
         "symbol": "🙂",
         "id": "slightly smiling face",
-        "category": "Smileys & Emotion (face-smiling)",
-        "group": "people",
-        "subgroup": "face-smiling"
-    },
-    {
-        "codes": "1F643",
-        "symbol": "🙃",
-        "id": "upside-down face",
         "category": "Smileys & Emotion (face-smiling)",
         "group": "people",
         "subgroup": "face-smiling"
@@ -352,14 +336,6 @@
         "subgroup": "face-sleepy"
     },
     {
-        "codes": "1F924",
-        "symbol": "🤤",
-        "id": "drooling face",
-        "category": "Smileys & Emotion (face-sleepy)",
-        "group": "people",
-        "subgroup": "face-sleepy"
-    },
-    {
         "codes": "1F634",
         "symbol": "😴",
         "id": "sleeping face",
@@ -400,14 +376,6 @@
         "subgroup": "face-unwell"
     },
     {
-        "codes": "1F92E",
-        "symbol": "🤢",
-        "id": "face vomiting",
-        "category": "Smileys & Emotion (face-unwell)",
-        "group": "people",
-        "subgroup": "face-unwell"
-    },
-    {
         "codes": "1F927",
         "symbol": "🤧",
         "id": "sneezing face",
@@ -435,14 +403,6 @@
         "codes": "1F920",
         "symbol": "🤠",
         "id": "cowboy hat face",
-        "category": "Smileys & Emotion (face-hat)",
-        "group": "people",
-        "subgroup": "face-hat"
-    },
-    {
-        "codes": "1F973",
-        "symbol": "🥳",
-        "id": "partying face",
         "category": "Smileys & Emotion (face-hat)",
         "group": "people",
         "subgroup": "face-hat"
@@ -544,14 +504,6 @@
         "subgroup": "face-concerned"
     },
     {
-        "codes": "1F627",
-        "symbol": "😧",
-        "id": "anguished face",
-        "category": "Smileys & Emotion (face-concerned)",
-        "group": "people",
-        "subgroup": "face-concerned"
-    },
-    {
         "codes": "1F628",
         "symbol": "😨",
         "id": "fearful face",
@@ -648,14 +600,6 @@
         "subgroup": "face-concerned"
     },
     {
-        "codes": "1F971",
-        "symbol": "🥱",
-        "id": "yawning face",
-        "category": "Smileys & Emotion (face-concerned)",
-        "group": "people",
-        "subgroup": "face-concerned"
-    },
-    {
         "codes": "1F624",
         "symbol": "😤",
         "id": "face with steam from nose",
@@ -680,33 +624,9 @@
         "subgroup": "face-negative"
     },
     {
-        "codes": "1F92C",
-        "symbol": "🤬",
-        "id": "face with symbols on mouth",
-        "category": "Smileys & Emotion (face-negative)",
-        "group": "people",
-        "subgroup": "face-negative"
-    },
-    {
         "codes": "1F608",
         "symbol": "😈",
         "id": "smiling face with horns",
-        "category": "Smileys & Emotion (face-negative)",
-        "group": "people",
-        "subgroup": "face-negative"
-    },
-    {
-        "codes": "1F47F",
-        "symbol": "👿",
-        "id": "angry face with horns",
-        "category": "Smileys & Emotion (face-negative)",
-        "group": "people",
-        "subgroup": "face-negative"
-    },
-    {
-        "codes": "2620 FE0F",
-        "symbol": "☠️",
-        "id": "skull and crossbones",
         "category": "Smileys & Emotion (face-negative)",
         "group": "people",
         "subgroup": "face-negative"
@@ -744,110 +664,6 @@
         "subgroup": "face-costume"
     },
     {
-        "codes": "1F47B",
-        "symbol": "👻",
-        "id": "ghost",
-        "category": "Smileys & Emotion (face-costume)",
-        "group": "people",
-        "subgroup": "face-costume"
-    },
-    {
-        "codes": "1F47D",
-        "symbol": "👽",
-        "id": "alien",
-        "category": "Smileys & Emotion (face-costume)",
-        "group": "people",
-        "subgroup": "face-costume"
-    },
-    {
-        "codes": "1F47E",
-        "symbol": "👾",
-        "id": "alien monster",
-        "category": "Smileys & Emotion (face-costume)",
-        "group": "people",
-        "subgroup": "face-costume"
-    },
-    {
-        "codes": "1F916",
-        "symbol": "🤖",
-        "id": "robot",
-        "category": "Smileys & Emotion (face-costume)",
-        "group": "people",
-        "subgroup": "face-costume"
-    },
-    {
-        "codes": "1F63A",
-        "symbol": "😺",
-        "id": "grinning cat",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F638",
-        "symbol": "😸",
-        "id": "grinning cat with smiling eyes",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F639",
-        "symbol": "😹",
-        "id": "cat with tears of joy",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F63B",
-        "symbol": "😻",
-        "id": "smiling cat with heart-eyes",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F63C",
-        "symbol": "😼",
-        "id": "cat with wry smile",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F63D",
-        "symbol": "😽",
-        "id": "kissing cat",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F640",
-        "symbol": "🙀",
-        "id": "weary cat",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F63F",
-        "symbol": "😿",
-        "id": "crying cat",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
-        "codes": "1F63E",
-        "symbol": "😾",
-        "id": "pouting cat",
-        "category": "Smileys & Emotion (cat-face)",
-        "group": "people",
-        "subgroup": "cat-face"
-    },
-    {
         "codes": "1F648",
         "symbol": "🙈",
         "id": "see-no-evil monkey",
@@ -880,14 +696,6 @@
         "subgroup": "emotion"
     },
     {
-        "codes": "1F48C",
-        "symbol": "💌",
-        "id": "love letter",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
         "codes": "1F498",
         "symbol": "💘",
         "id": "heart with arrow",
@@ -896,33 +704,9 @@
         "subgroup": "emotion"
     },
     {
-        "codes": "1F49D",
-        "symbol": "💝",
-        "id": "heart with ribbon",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
         "codes": "1F496",
         "symbol": "💖",
         "id": "sparkling heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F497",
-        "symbol": "💗",
-        "id": "growing heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F493",
-        "symbol": "💓",
-        "id": "beating heart",
         "category": "Smileys & Emotion (emotion)",
         "group": "people",
         "subgroup": "emotion"
@@ -944,49 +728,9 @@
         "subgroup": "emotion"
     },
     {
-        "codes": "1F49F",
-        "symbol": "💟",
-        "id": "heart decoration",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "2763 FE0F",
-        "symbol": "❣️",
-        "id": "heart exclamation",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "2763",
-        "symbol": "❣",
-        "id": "heart exclamation",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
         "codes": "1F494",
         "symbol": "💔",
         "id": "broken heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "2764 FE0F 200D 1F525",
-        "symbol": "❤️‍🔥",
-        "id": "heart on fire",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "2764 200D 1F525",
-        "symbol": "❤‍🔥",
-        "id": "heart on fire",
         "category": "Smileys & Emotion (emotion)",
         "group": "people",
         "subgroup": "emotion"

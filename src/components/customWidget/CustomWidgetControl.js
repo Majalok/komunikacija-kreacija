@@ -35,8 +35,8 @@ const ckeditorConfig = {
 const ckeditorConfig = {
   extraPlugins: "emoji",
   removePlugins: "styles",
-  //emoji_emojiListUrl: "http://localhost:8000/emojis.json",
-  emoji_emojiListUrl: "https://komunikacija-kreacija.webdev.reavisys.si/emojis.json",
+  emoji_emojiListUrl: "http://localhost:8000/emojis.json",
+  //emoji_emojiListUrl: "https://komunikacija-kreacija.webdev.reavisys.si/emojis.json",
 
   // emoji_emojiListUrl: "./emojis.json",
   emoji_minChars: 2,
