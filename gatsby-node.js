@@ -493,7 +493,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (sickFace != null) {
       console.log("0emoji sickFace test> ", sickFace)
-      let sickFaceMatch = node.frontmatter.intro.indexOf(sickFaceMask[0])
+      let sickFaceMatch = node.frontmatter.intro.indexOf(sickFace[0])
       console.log("0 sickFace match> ", sickFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F912}",
