@@ -310,6 +310,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "<img className='emoji-img' src='../icons/kissNoHeart.png' width='20px' alt='' />"
       )
     }
+
+    let kissSmilingEyes = node.frontmatter.intro.match("\u{1F619}")
+
+    if (kissSmilingEyes != null) {
+      //console.log("0emoji kissNoHeart test> ", kissNoHeart)
+      let kissSmilingEyesMatch = node.frontmatter.intro.indexOf(kissSmilingEyes[0])
+      //console.log("0 kissNoHeart match> ", kissNoHeartMatch)
+      node.frontmatter.intro = node.frontmatter.intro.replace(
+        "\u{1F619}",
+        "<img className='emoji-img' src='../icons/kissSmilingEyes.png' width='20px' alt='' />"
+      )
+    }
     let blushed = node.frontmatter.intro.match("\u{1F60A}")
 
     if (blushed != null) {
