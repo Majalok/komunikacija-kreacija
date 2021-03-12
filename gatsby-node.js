@@ -108,7 +108,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "\u{1F44D}",
         "<img className='emoji-img' src='../icons/like.png' width='20px' alt='' />"
       )
-      let likeTemp = node.frontmatter.intro.replace("\u{1F44D}", "$$$$$$")
       // console.log("0 replace likeTemp> ", likeTemp)
     }
 
@@ -199,14 +198,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       let unamusedTemp = node.frontmatter.intro.replace("\u{1F60E}", "$$$$$$")
       //console.log("0 replace unamusedTemp> ", unamusedTemp)
     }
-    let tongue = node.frontmatter.intro.match("\u{1F61C}")
+    let tongue = node.frontmatter.intro.match("\u{1F445}")
 
     if (tongue != null) {
       console.log("0emoji tongue test> ", tongue)
       let tongueMatch = node.frontmatter.intro.indexOf(tongue[0])
       console.log("0 tongue match> ", tongueMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "\u{1F61C}",
+        "\u{1F445}",
         "<img className='emoji-img' src='../icons/tongue.png' width='20px' alt='' />"
       )
     }
