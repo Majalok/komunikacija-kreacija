@@ -35,8 +35,8 @@ const ckeditorConfig = {
 const ckeditorConfig = {
   extraPlugins: "emoji",
   removePlugins: "styles",
-  emoji_emojiListUrl: "http://localhost:8000/emojis.json",
-  //emoji_emojiListUrl: "https://komunikacija-kreacija.webdev.reavisys.si/emojis.json",
+  //emoji_emojiListUrl: "http://localhost:8000/emojis.json",
+  emoji_emojiListUrl: "https://komunikacija-kreacija.webdev.reavisys.si/emojis.json",
 
   // emoji_emojiListUrl: "./emojis.json",
   emoji_minChars: 2,
@@ -103,7 +103,7 @@ export class CustomWidgetControl extends React.PureComponent {
           data={this.state.data}
           onEditorChange={this.onEditorChange}
           onChange={this.onEditorChange}
-          /* data="<p>This is an example CKEditor 4 WYSIWYG editor instance.</p>" */
+        /* data="<p>This is an example CKEditor 4 WYSIWYG editor instance.</p>" */
         />
         {/*  <h2>Using CKEditor 5 from online builder in React</h2>
         <CKEditor

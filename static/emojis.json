@@ -712,14 +712,6 @@
         "subgroup": "emotion"
     },
     {
-        "codes": "1F49E",
-        "symbol": "💞",
-        "id": "revolving hearts",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
         "codes": "1F495",
         "symbol": "💕",
         "id": "two hearts",
@@ -739,54 +731,6 @@
         "codes": "2764 FE0F",
         "symbol": "❤️",
         "id": "red heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "2764",
-        "symbol": "❤",
-        "id": "red heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F49B",
-        "symbol": "💛",
-        "id": "yellow heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F49A",
-        "symbol": "💚",
-        "id": "green heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F499",
-        "symbol": "💙",
-        "id": "blue heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F49C",
-        "symbol": "💜",
-        "id": "purple heart",
-        "category": "Smileys & Emotion (emotion)",
-        "group": "people",
-        "subgroup": "emotion"
-    },
-    {
-        "codes": "1F5A4",
-        "symbol": "🖤",
-        "id": "black heart",
         "category": "Smileys & Emotion (emotion)",
         "group": "people",
         "subgroup": "emotion"
