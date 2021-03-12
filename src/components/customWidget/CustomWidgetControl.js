@@ -74,7 +74,7 @@ export class CustomWidgetControl extends React.PureComponent {
     super(props)
     console.log("data::")
     this.state = {
-      data: "<p>test! <em>nice</em>!</p>",
+      data: "",
     }
 
     this.handleChange = this.handleChange.bind(this)

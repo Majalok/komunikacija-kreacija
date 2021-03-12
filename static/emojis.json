@@ -168,25 +168,9 @@
         "subgroup": "face-tongue"
     },
     {
-        "codes": "1F911",
-        "symbol": "🤑",
-        "id": "money-mouth face",
-        "category": "Smileys & Emotion (face-tongue)",
-        "group": "people",
-        "subgroup": "face-tongue"
-    },
-    {
         "codes": "1F917",
         "symbol": "🤗",
         "id": "hugging face",
-        "category": "Smileys & Emotion (face-hand)",
-        "group": "people",
-        "subgroup": "face-hand"
-    },
-    {
-        "codes": "1F92D",
-        "symbol": "🤭",
-        "id": "face with hand over mouth",
         "category": "Smileys & Emotion (face-hand)",
         "group": "people",
         "subgroup": "face-hand"
@@ -203,14 +187,6 @@
         "codes": "1F910",
         "symbol": "🤐",
         "id": "zipper-mouth face",
-        "category": "Smileys & Emotion (face-neutral-skeptical)",
-        "group": "people",
-        "subgroup": "face-neutral-skeptical"
-    },
-    {
-        "codes": "1F928",
-        "symbol": "🤨",
-        "id": "face with raised eyebrow",
         "category": "Smileys & Emotion (face-neutral-skeptical)",
         "group": "people",
         "subgroup": "face-neutral-skeptical"
@@ -262,30 +238,6 @@
         "category": "Smileys & Emotion (face-neutral-skeptical)",
         "group": "people",
         "subgroup": "face-neutral-skeptical"
-    },
-    {
-        "codes": "1F62C",
-        "symbol": "😬",
-        "id": "grimacing face",
-        "category": "Smileys & Emotion (face-neutral-skeptical)",
-        "group": "people",
-        "subgroup": "face-neutral-skeptical"
-    },
-    {
-        "codes": "1F925",
-        "symbol": "🤥",
-        "id": "lying face",
-        "category": "Smileys & Emotion (face-neutral-skeptical)",
-        "group": "people",
-        "subgroup": "face-neutral-skeptical"
-    },
-    {
-        "codes": "1F60C",
-        "symbol": "😌",
-        "id": "relieved face",
-        "category": "Smileys & Emotion (face-sleepy)",
-        "group": "people",
-        "subgroup": "face-sleepy"
     },
     {
         "codes": "1F614",
@@ -384,14 +336,6 @@
         "subgroup": "face-glasses"
     },
     {
-        "codes": "1F9D0",
-        "symbol": "🧐",
-        "id": "face with monocle",
-        "category": "Smileys & Emotion (face-glasses)",
-        "group": "people",
-        "subgroup": "face-glasses"
-    },
-    {
         "codes": "1F615",
         "symbol": "😕",
         "id": "confused face",
@@ -403,14 +347,6 @@
         "codes": "1F61F",
         "symbol": "😟",
         "id": "worried face",
-        "category": "Smileys & Emotion (face-concerned)",
-        "group": "people",
-        "subgroup": "face-concerned"
-    },
-    {
-        "codes": "1F641",
-        "symbol": "🙁",
-        "id": "slightly frowning face",
         "category": "Smileys & Emotion (face-concerned)",
         "group": "people",
         "subgroup": "face-concerned"
@@ -448,14 +384,6 @@
         "subgroup": "face-concerned"
     },
     {
-        "codes": "1F626",
-        "symbol": "😦",
-        "id": "frowning face with open mouth",
-        "category": "Smileys & Emotion (face-concerned)",
-        "group": "people",
-        "subgroup": "face-concerned"
-    },
-    {
         "codes": "1F628",
         "symbol": "😨",
         "id": "fearful face",
@@ -483,14 +411,6 @@
         "codes": "1F61E",
         "symbol": "😞",
         "id": "disappointed face",
-        "category": "Smileys & Emotion (face-concerned)",
-        "group": "people",
-        "subgroup": "face-concerned"
-    },
-    {
-        "codes": "1F613",
-        "symbol": "😓",
-        "id": "downcast face with sweat",
         "category": "Smileys & Emotion (face-concerned)",
         "group": "people",
         "subgroup": "face-concerned"
