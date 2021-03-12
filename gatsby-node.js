@@ -573,8 +573,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (confusedFace != null) {
       console.log("0emoji confusedFace test> ", confusedFace)
-      let confusedFace = node.frontmatter.intro.indexOf(confusedFace[0])
-      console.log("0 confusedFace match> ", confusedFace)
+      let confusedFaceMatch = node.frontmatter.intro.indexOf(confusedFace[0])
+      console.log("0 confusedFace match> ", confusedFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F615}",
         "<img className='emoji-img' src='../icons/confusedFace.png' width='20px' alt='' />"
@@ -584,8 +584,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (worriedFace != null) {
       console.log("0emoji worriedFace test> ", worriedFace)
-      let worriedFace = node.frontmatter.intro.indexOf(worriedFace[0])
-      console.log("0 worriedFace match> ", worriedFace)
+      let worriedFaceMatch = node.frontmatter.intro.indexOf(worriedFace[0])
+      console.log("0 worriedFace match> ", worriedFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F61F}",
         "<img className='emoji-img' src='../icons/worriedFace.png' width='20px' alt='' />"
@@ -677,7 +677,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     if (disappointedFace != null) {
       console.log("0emoji disappointedFace test> ", disappointedFace)
-      let disappointedFace = node.frontmatter.intro.indexOf(disappointedFace[0])
+      let disappointedFaceMatch = node.frontmatter.intro.indexOf(disappointedFace[0])
       console.log("0 disappointedFace match> ", disappointedFaceMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
         "\u{1F61E}",
@@ -768,7 +768,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     let twoHearts = node.frontmatter.intro.match("\u{1F496}")
 
-    if (sparklingHeart != null) {
+    if (twoHearts != null) {
       console.log("0emoji twoHearts test> ", twoHearts)
       let twoHeartsMatch = node.frontmatter.intro.indexOf(twoHearts[0])
       console.log("0 twoHearts match> ", twoHeartsMatch)
