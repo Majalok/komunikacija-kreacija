@@ -120,25 +120,9 @@
         "subgroup": "face-affection"
     },
     {
-        "codes": "1F61A",
-        "symbol": "😚",
-        "id": "kissing face with closed eyes",
-        "category": "Smileys & Emotion (face-affection)",
-        "group": "people",
-        "subgroup": "face-affection"
-    },
-    {
         "codes": "1F619",
         "symbol": "😙",
         "id": "kissing face with smiling eyes",
-        "category": "Smileys & Emotion (face-affection)",
-        "group": "people",
-        "subgroup": "face-affection"
-    },
-    {
-        "codes": "1F972",
-        "symbol": "😅",
-        "id": "smiling face with tear",
         "category": "Smileys & Emotion (face-affection)",
         "group": "people",
         "subgroup": "face-affection"
