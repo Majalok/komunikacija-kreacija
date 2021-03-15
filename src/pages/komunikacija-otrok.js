@@ -38,21 +38,10 @@ const KomunikacijaOtrok = () => (
         </div>
       </div>
       <div className="kom-img-desc">
-        {/*  <img className="kom-item-img" src="../assets/kom-otrok.png" alt="" /> */}
+        <img className="kom-item-img" src="../assets/kom-otrok.png" alt="" />
 
-        <picture className="kom-pict-img">
-          <source
-            srcSet="../assets/webp/kom-otrok.webp"
-            alt="Logo"
-            type="image/webp"
-          />
-          <img
-            className="kom-item-img"
-            src="../assets/kom-otrok.png"
-            alt="slika"
-            type="image/png"
-          />
-        </picture>
+        {/* <img className="kom-item-img" src="../assets/vil-varnostInZascita-12.png" alt="" />
+         */}
         <div className="vil-description">Varnost in zaščita</div>
       </div>
     </div>

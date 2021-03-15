@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class novica extends React.Component {
+class Novica extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -23,7 +23,6 @@ class novica extends React.Component {
 
             <p className="news-content-section">{post.frontmatter.intro}</p>
           </header>
-
           <section
             className="news-content-section"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -53,10 +52,10 @@ class novica extends React.Component {
   }
 }
 
-export default novica
+export default Novica
 
 export const pageQuery1 = graphql`
-  query BlogPost {
+  query BlogPostBySlug {
     site {
       siteMetadata {
         title

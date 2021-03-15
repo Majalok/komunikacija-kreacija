@@ -54,8 +54,6 @@ export default function Form() {
       return
     }
     const result = await executeRecaptcha("homepage")
-
-    //
     let token = result
     console.log("result", result)
 
@@ -193,7 +191,6 @@ export default function Form() {
           </label>
           <textarea
             className="form-control"
-            maxlength="450"
             rows="5"
             name="message"
             {...bindMessage}

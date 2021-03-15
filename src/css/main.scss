@@ -1,26 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Gudea|Hind+Guntur|Michroma|Sulphur+Point|Mallanna|Lora|Handlee');
  */
-@import url("https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ranga|Glass+Antiqua|Hind+Guntur|Lobster|Playball|Sansita+Swashed|Galada|Charm|Kavivanar|Shadows+Into+Light|Lemonada|Montez|Qwigley|Ruge+Boogie|Satisfy|Pacifico|Arizonia|Calligraffitti|Great+Vibes|Allura|Chilanka|Balsamiq+Sans|Marck+Script|Felipa|Bad+Script|Overlock|Grandstander|Bellota+Text|Happy+Monkey|Merienda|Coming+Soon|Handlee|Stalemate|Italianno|Mali|Pangolin|Patrick+Hand|Baloo+Thambi+2|Arima+Madurai|Tangerine");
 
-@import url("https://fonts.googleapis.com/css?family=Italianno&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Handlee&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap");
-
-@import url("https://fonts.googleapis.com/css?family=Bellota+Text&display=swap");
-
+// nove pisave
+@import url("https://fonts.googleapis.com/css?family=Grandstander|Special+Elite|Dynalight|Open+Sans+Condensed|Cormorant+Upright|Bellota|Forum|Corben|Srisakdi|McLaren|Katibeh|Atma|Life+Savers|Oregano|Farsan");
 
 html {
     background-color: transparent;
-    font-family: Helvetica, Arial;
+    font-family: "Tangerine", "Bellota Text", "Charm", "Arima Madurai", "Handlee", Helvetica, Arial;
     font-display: swap;
 }
 body {
@@ -35,7 +22,6 @@ body {
 body {
     font-family: "Hind Guntur";
 /*     position: sticky; */
-    font-display: swap;
     width: 100%;
 /*     background: wheat !important; */
     --theme-ui-colors-text: none !important;
@@ -59,11 +45,6 @@ body {
     flex-direction: column;
 }
 
-.kom-pict-img {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .main-content {
     padding: 10px;
     width: 60%;
@@ -76,7 +57,6 @@ body {
     padding: 20px;
     padding-bottom: 100px;
     font-family: "Bellota Text";
-    font-display: swap;
     background-color: #fffbf4;
     box-shadow: 2px 9px 17px #d2c7ac;
 }
@@ -148,7 +128,6 @@ body {
     margin-top: 8%;
     font-size: large;
     font-family: Bellota Text;
-    font-display: swap;
     text-align: justify;
     color: #210200;
 }
@@ -197,7 +176,6 @@ body {
     background: transparent;
     color: #fce9b6;
     font-family: bellota text;
-    font-display: swap;
     font-style: italic;
     /* background: linear-gradient(to bottom, #fda64c, #f14706); */
     /* background: linear-gradient(to bottom, #ff5532, #fa301a);

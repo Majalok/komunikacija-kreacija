@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 .blog-content {
     font-family: Special Elite;
-    font-display: swap;
     margin-top: 60px;
     margin-bottom: 100px;
 }
@@ -13,10 +12,11 @@
     text-align: justify;
     color: #210200;
     font-size: larger;
+    font-family: Bellota Text;
 }
 .blog-item {
     margin-top: 4%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     padding: 30px 40px;
     font-size: xx-large;
     border-image-slice: 15 15 15 15 !important;
@@ -34,12 +34,13 @@
     color: rgb(46, 46, 46);
 }
 
- .blog-text {
+.blog-text {
     font-size: large;
+    font-family: charm;
     font-style: normal;
- }
+}
 
-/*.blog-text.test-3 {
+.blog-text.test-3 {
     font-style: italic;
     font-size: x-large;
 }
@@ -52,8 +53,8 @@
 .blog-text.test-3 {
     font-size: x-large;
 }
- */
-/* .pisava-1 {
+
+.pisava-1 {
     font-family: Italianno !important;
     margin-bottom: 30px;
 }
@@ -217,7 +218,7 @@
 }
 .pisava-40 {
     font-family: Forum;
-} */
+}
 
 .blog-text.pisava-31 {
     font-style: normal !important;
@@ -227,23 +228,17 @@
 }
 .blog-text.pisava-special.italic {
     font-family: Special Elite !important;
-    font-display: swap;
     font-style: italic !important;
 }
 
 .blog-text.pisava-special {
     font-family: Special Elite !important;
-    font-display: swap;
-
-    letter-spacing: 0.4px;
+    letter-spacing: 0.7px;
     color: #4c4c4c;
-    line-height: 1.5rem;
 }
 
 .blog-text.pisava-special.brown {
     color: #482d03;
-    font-size: large;
-    font-style: normal;
 }
 
 .blog-title.pisava-special.brown {
@@ -254,13 +249,11 @@
 
 .blog-title.pisava-special {
     font-family: Special Elite !important;
-    font-display: swap;
     font-style: normal !important;
     color: #5f5f5f;
 }
 .blog-title.pisava-special.black {
     font-family: Special Elite !important;
-    font-display: swap;
     font-style: normal !important;
     color: black !important;
 }
@@ -275,6 +268,11 @@
 
 .blog-text.pisava-13 {
     font-size: 21px !important;
+}
+.blog-text.pisava-arima {
+    font-size: 20px !important;
+    font-family: Arima Madurai;
+    font-style: italic;
 }
 
 .blog-text > .emoji {
@@ -293,7 +291,6 @@
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .blog-title {
         font-size: x-large;
-        text-align: left;
     }
 
     .blog-content > .blog-item {
@@ -302,12 +299,6 @@
 
     .blog-item > .blog-text {
         font-size: medium;
-        text-align: left;
-
-    }
-
-    .blog-content {
-        width: 95%;
     }
 
     @media screen and (orientation: landscape) {

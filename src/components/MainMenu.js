@@ -105,7 +105,6 @@ class MainMenu extends React.Component {
         break
       case 5:
         selectedId = 1
-        break
       case 6:
         selectedId = 1
         break
@@ -341,7 +340,7 @@ class MainMenu extends React.Component {
                   &nbsp;&nbsp;Poslušalka
                 </Link>
               </div>
-              {/* <Link
+              <Link
                 id="8"
                 key="8"
                 className="main-menu-link"
@@ -350,7 +349,15 @@ class MainMenu extends React.Component {
               >
                 {" "}
                 <span className="menu-title">Predavanja</span>
-              </Link> */}
+              </Link>
+              {/* <Link id="9"
+                                key="9"
+                                className="main-menu-link"
+                                onClick={this.setMenuItemSelected}
+                                to="/delavnice/"
+                            > <span className="menu-title">Delavnice</span>
+                            </Link> */}
+
               <Link
                 id="10"
                 key="10"
@@ -373,7 +380,7 @@ class MainMenu extends React.Component {
                   (this.state.selectedMenuItem === 4 ? "selected" : "")
                 }
                 onMouseOver={this.hideMenuBoxPanel}
-                to="/blog"
+                to="/blog/"
                 onClick={this.setMenuItemSelected}
               >
                 <span className="menu-title">Blog</span>
@@ -387,22 +394,11 @@ class MainMenu extends React.Component {
                   (this.state.selectedMenuItem === 4 ? "selected" : "")
                 }
                 onMouseOver={this.hideMenuBoxPanel}
-                to="/kontakt"
+                to="/kontakt/"
                 onClick={this.setMenuItemSelected}
               >
                 <span className="menu-title">Kontakt</span>
               </Link>
-              {/* <Link
-                id="14"
-                key="14"
-                ref="14"
-                className="main-menu-link"
-                onMouseOver={this.hideMenuBoxPanel}
-                to="/news"
-                onClick={this.setMenuItemSelected}
-              >
-                <span className="menu-title">test</span>
-              </Link> */}
             </div>
           </div>
         </div>

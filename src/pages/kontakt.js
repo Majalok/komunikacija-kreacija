@@ -46,31 +46,6 @@ class Kontakt extends Component {
               zmagovalci.
             </p>
           </div>
-          {/*  <div className="contact-form-desc">
-            <br />
-            Je prišel čas za spremembo?
-            <br />
-            <br />
-            Kontaktiraj me preko spodnjega obrazca za individualno svetovanje,
-            srečanje ali če se je pojavilo vprašanje.
-          </div> */}
-
-          <div className="contact-form-desc">
-            <ul>
-              Je prišel čas za spremembo?
-              <br />
-              <br />
-              Kontaktiraj me preko spodnjega obrazca za:
-              <li className="contact-form-ul">individualno svetovanje</li>
-              <li className="contact-form-ul">srečanje ali</li>
-              <li className="contact-form-ul">če se je pojavilo vprašanje. </li>
-            </ul>
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-
           <div className="contact-form-div">
             <ContactForm />
             <ContactCard orderSendResult={this.orderResult} />
@@ -78,16 +53,6 @@ class Kontakt extends Component {
               ref={this.childOrderSuccess}
               closeParent={this.closeModal}
             /> */}
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <div className="contact-bottom-group">
-            Trenutno vse dejavnosti potekajo preko: Skype, WhatsApp, Zoom,
-            Messenger ali v zaprti FB skupini.
-            <br />
-            <br />
           </div>
         </div>
       </Layout>
