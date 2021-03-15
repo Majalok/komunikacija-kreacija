@@ -532,7 +532,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       let nauseatedFaceMatch = node.frontmatter.intro.indexOf(nauseatedFace[0])
       "\u{1F922}",
         "<img className='emoji-img' src='../icons/nauseatedFace.png' width='20px' alt='' />"
-      )
+
     }
 
     let sneezingFace = node.frontmatter.intro.match("\u{1F927}")
