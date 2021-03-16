@@ -378,18 +378,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         "<img className='emoji-img' src='../icons/grinningFaceSmilingEyes.png' width='20px' alt='' />"
       )
     }
-    let womanFacepalming = node.frontmatter.intro.match("\u{1F481}|\u{200D}|\u{2640}|\u{FE0F}")
+    let womanFacepalming = node.frontmatter.intro.match("\u{1F481}")
 
     if (womanFacepalming != null) {
       //console.log("0emoji womanFacepalming test> ", womanFacepalming)
       let womanFacepalmingMatch = node.frontmatter.intro.indexOf(womanFacepalming[0])
       //console.log("0 womanFacepalming match> ", womanFacepalmingMatch)
       node.frontmatter.intro = node.frontmatter.intro.replace(
-        "{\u{1F481}|\u{200D}|\u{2640}|\u{FE0F}",
+        "\u{1F481}",
         "<img className='emoji-img' src='../icons/womanFacepalming.png' width='20px' alt='' />"
       )
     }
-    let womanTippingHand = node.frontmatter.intro.match("\u{1F926}|\u{200D}|\u{2640}|\u{FE0F}")
+    let womanTippingHand = node.frontmatter.intro.match("\u{1F926}")
 
     if (womanTippingHand != null) {
       //console.log("0emoji womanTippingHand test> ", womanTippingHand)

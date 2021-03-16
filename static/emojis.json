@@ -272,14 +272,6 @@
         "subgroup": "face-unwell"
     },
     {
-        "codes": "1F922",
-        "symbol": "🤢",
-        "id": "nauseated face",
-        "category": "Smileys & Emotion (face-unwell)",
-        "group": "people",
-        "subgroup": "face-unwell"
-    },
-    {
         "codes": "1F927",
         "symbol": "🤧",
         "id": "sneezing face",
