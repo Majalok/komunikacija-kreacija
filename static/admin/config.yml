@@ -7,7 +7,7 @@ backend:
   auth_type: implicit
   app_id: abea30cfd23b22ff67b516ef448ca5fb1bb870364df12b5bb49af45feff64d36
   base_url: https://auth-provider.webdev.reavisys.si/
-  repo: MajaL1/komunikacija-kreacija
+  repo: Majalok/komunikacija-kreacija
   # proxy_url: http://localhost:8081/api/v1
 
 #api_root: https://gitlab.reavisys.si/api/v4
