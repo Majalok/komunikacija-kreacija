@@ -1,8 +1,8 @@
-import React, { PureComponent } from "react"
+import React from "react"
 //import CKEditor from "@ckeditor/ckeditor5-react"
 import CKEditor from "ckeditor4-react"
-import PropTypes from "prop-types"
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
+//import PropTypes from "prop-types"
+//import ClassicEditor from "@ckeditor/ckeditor5-build-classic"
 //import "./customWidgetControl.css"
 // Note that control component of a custom widget can't be
 // a functional component. It will not work for some reason.
