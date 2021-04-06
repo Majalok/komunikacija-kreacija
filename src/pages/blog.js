@@ -580,7 +580,7 @@ class Blog extends Component {
 
               </div>
               {/*   <img className="blogImg" src="../assets/blog-zenska-resiz.png" alt="" /> */}
-              <picture className="">
+              <picture className="blog-pict">
                 <source
                   srcSet="../assets/webp/blog-zenska-resiz.webp"
                   alt="Logo"

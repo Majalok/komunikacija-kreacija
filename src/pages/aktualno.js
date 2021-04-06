@@ -9,6 +9,21 @@ const Aktualno = () => (
       <div className="aktualno-text">
         <ul className="aktualno-ul">
           <li className="aktualno-li">
+            Ženska
+            <div>31.3.2021</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Odločitve
+            <div>27.2.2021</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
+            Svobodna volja ali izbira
+            <div>30.1.2021</div>
+          </li>
+          <br />
+          <li className="aktualno-li">
             Trenutek zdaj
             <div>16.12.2020</div>
           </li>

@@ -26,6 +26,17 @@
     /*  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg"); */
 }
 
+.blog-pict {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.blog-image {
+    width: 100%;
+    max-width: 500px;
+}
+
 .blog-title {
     font-size: x-large;
     margin-bottom: 20px;
