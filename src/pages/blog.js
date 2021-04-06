@@ -573,7 +573,12 @@ class Blog extends Component {
                 Vsak dan živi, kot da je zadnji. Ker, morda je res.
                 <br />
                 <br />
-                Ne rabiš biti »super woman« - bodi samo ženska, v ženski energiji in ženskem delovanju. Nauči se biti srečna. Vse je v ravnovesju, v razporeditvi časa. 33,3% za družino, 33,3% za službo/svoj posel in 33,3% zase. Sprejmi to in imej se rada .
+                Ne rabiš biti »super woman« - bodi samo ženska, v ženski energiji in ženskem delovanju. Nauči se biti srečna. Vse je v ravnovesju, v razporeditvi časa. 33,3% za družino, 33,3% za službo/svoj posel in 33,3% zase. Sprejmi to in imej se rada  <img
+                  className="emoji-img"
+                  src="../icons/smile.png"
+                  width="30px"
+                  alt=""
+                />.
                 <br />
                 <br />
                 In čisto na koncu, ženske stopimo skupaj! Podpirajmo ena drugo pri osebnih dosežkih, bodrimo in pomagajmo, kadar lahko in smo naprošene. Ne bodimo ena drugi konkurenca. Ne mečimo si »polena pod noge«. Kajti, ko ženske stopimo skupaj, se ustvari krog, kjer se zgodijo čudovite »kreacije«.
