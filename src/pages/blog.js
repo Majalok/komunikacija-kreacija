@@ -540,6 +540,61 @@ class Blog extends Component {
                 />
               </div>
             </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">
+                Ženska
+              </div>
+              <div className="blog-text pisava-special brown">
+                Marec, »ženski mesec«. V tem mesecu nam namenijo veliko lepih besed in želja. A kaj vse ti to pomeni, če ne vidiš lastne vrednosti? Besede pohvale, zahvale, so kot balzam za dušo, a jih moraš znati iskreno sprejeti.
+                <br />
+                <br />
+                Vem, skrbiš za svoje drage, za starše, sestro, brata, moža, otroke, mogoče celo za tasta in taščo, teto, strica…, seznam je lahko neskončen. A zakaj nositi breme celega sveta na svojih ramenih? Zakaj imaš potrebo reševati svet, če moraš rešiti prvo sebe?
+                <br />
+                <br />
+                Sedaj izberi sebe - imej se rada. Vsak dan si nameni nekaj časa zase. Začni graditi ljubeč odnos sama s seboj. To je temelj za naprej, za vse tvoje odnose. Dovoli si biti ženska. Dovoli si prositi za pomoč in jo tudi sprejeti.
+                <br />
+                <br />
+                Ne zapletaj se po nepotrebnem v dokazovanja, kdo ima prav in kdo ne. Ne popravljaj ljudi, tudi če veš, da nimajo prav. Ni to tvoja naloga - to je njihova izkušnja.
+                <br />
+                <br />
+                Dovoli ljudem, da pripovedujejo svoje zgodbe, čeprav si ji že neštetokrat slišala. Pripovedovanje jih ponese v preteklost in jim pomaga, da jo počasi spustijo.
+                <br />
+                <br />
+                Ne barantaj. Ti zaradi tistih par centov ne boš obubožala, boš pa privabila nasmeh na obraz človeka, ki ti je storitev prodal. In verjemi, ni lepšega kot to, ko človek vidi, da se ceni njihovo delo, oziroma izdelek.
+                <br />
+                <br />
+                Postani dobrosrčna in radodarna s komplimenti. Kompliment osreči tako tistega, ki ga prejme, kot tebe, ki ga podeliš. Če ga prejmeš, se ga nikoli ne brani ali zavrni - preprosto se zahvali. Tako ti ljudje pokažejo, da te cenijo, da poznajo tvojo vrednost. Zapusti pa tiste, ki povzročajo toksičnost v tebi.
+                <br />
+                <br />
+                Nauči se  pokazati svoja čustva. Spregovori o svojih občutkih in čustvih. To te dela človeka, umirja tvoj ego, kar ohranja tvoje odnose. Prevzemi odgovornost za svoje počutje. Tvoja miselna naravnanost, fizična pripravljenost, tisto, kar daš vase in na kon'c konca tudi nase, je tvoja odločitev, kot je tudi sreča odločitev. Saj veš, sreča se skriva v majhnih stvareh, samo prepoznati jih je potrebno.
+                <br />
+                <br />
+                Vsak dan živi, kot da je zadnji. Ker, morda je res.
+                <br />
+                <br />
+                Ne rabiš biti »super woman« - bodi samo ženska, v ženski energiji in ženskem delovanju. Nauči se biti srečna. Vse je v ravnovesju, v razporeditvi časa. 33,3% za družino, 33,3% za službo/svoj posel in 33,3% zase. Sprejmi to in imej se rada .
+                <br />
+                <br />
+                In čisto na koncu, ženske stopimo skupaj! Podpirajmo ena drugo pri osebnih dosežkih, bodrimo in pomagajmo, kadar lahko in smo naprošene. Ne bodimo ena drugi konkurenca. Ne mečimo si »polena pod noge«. Kajti, ko ženske stopimo skupaj, se ustvari krog, kjer se zgodijo čudovite »kreacije«.
+
+              </div>
+              {/*   <img className="blogImg" src="../assets/blog-zenska-resiz.png" alt="" /> */}
+              <picture className="">
+                <source
+                  srcSet="../assets/webp/blog-zenska-resiz.webp"
+                  alt="Logo"
+                  type="image/webp"
+                />
+                <img
+                  className="blog-image"
+                  src="../assets/blog-zenska-resiz.png"
+                  alt="slika"
+                  type="image/png"
+                />
+              </picture>
+
+            </div>
           </div>
         </div>
       </Layout>
