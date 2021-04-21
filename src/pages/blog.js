@@ -8,6 +8,7 @@ class Blog extends Component {
       <Layout>
         <div className="blog">
           <div className="blog-content">
+
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
                 Ženska
@@ -65,7 +66,210 @@ class Blog extends Component {
                   type="image/png"
                 />
               </picture>
-
+            </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">Odločitve</div>
+              <div className="blog-text pisava-special brown">
+                Vsak v življenju pride do točke, ko rabi pomoč. Ni pomembno za
+                kaj gre. Služba, šola, odnosi, delo na sebi... <br />
+                Skozi raziskovanja in dela na sebi sem ugotovila, da že ko
+                spregovoriš o zadevi, ki te "matra", veliko lažje zadihaš. Kot,
+                da bi padel "tonski kamen" z ramen. Olajšaš si dušo.
+                <br /> Vsak, ki dela, raziskuje, gradi, se uči, takrat, ko
+                naleti na problem, poišče rešitev in ne reče: " To se ne da, ni
+                izvedljivo, ne gre...", nosi v sebi veličino.
+                <img
+                  className="emoji-img"
+                  src="../icons/heart.png"
+                  width="30px"
+                  alt=""
+                />
+                <br /> In, ko se nam zatakne, se zavestno odločamo, ali bomo
+                poiskali pomoč ali ne. <br />
+                Ko greš po pomoč (kakršno koli že, ali kakršne koli oblike),
+                greš pravzaprav po novo MOČ.
+                <br /> Po nov zalet.
+                <br /> Če dobro pogledaš besedo, je to PO_MOČ. Lahko je to
+                pogovor, poslušanje, nasvet, usmeritev, rama na katero se
+                nasloniš ali zjokaš, objem, bližina nekoga zraven tebe ...
+                <br />
+                Karkoli, kar ti bo dalo zalet in moč za naprej. <br /> Zato,
+                upaj si spregovoriti, poiskati po_moč.
+                <br /> En drugemu pomagamo na takšen ali drugačen način. Smo
+                povezani, pa čeprav to velikokrat ni opaziti. <br />
+                Vendar ne smemo pozabiti na nekaj zelo pomembnega, da na svet
+                »privekaš« sam in odšel boš sam. Vmes pa se zgodi Življenje. In
+                če ga daš pod drobnogled ugotoviš, da si tudi v tem obdobju
+                "sam".
+                <br /> Seveda imaš okoli sebe ljudi, ki so tvoja družina,
+                sorodniki, prijatelji, sodelavci in tudi življenje teče po nekih
+                ustaljenih tirih...ampak pomisli. <br />
+                Ko gre za življenjske odločitve, zdravje ali vsakodnevne poteze,
+                ki so v povezavi s teboj, se Ti odločiš, ali boš zadevo izpeljal
+                in kako. Ti se odločaš, če boš prižgal prvo cigareto, popil
+                pivo, zbral pogum in povabil simpatijo na kofe…Ti se boš odločil
+                ali boš šel delati izpit za avto in če ja, poiskal rešitve kako
+                to izpeljati. Mogoče boš še naprej dovoljeval nespoštljiv odnos
+                do sebe ali pa boš začel postavljati meje. Ti se boš boril za
+                svojo povišico pri šefu. Ti s svojimi odločitvami tudi
+                definiraš, kakšne ljudi imaš okoli sebe. Ti se spopadaš s
+                svojimi demoni in se boriš za boljši jutri...Ti, ti, ti… <br />
+                In za koga drugega to počneš in se odločaš, če ne Zase?{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/heart.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                Ja, lahko si deležen podpore, nasvetov, pomoči (če prosiš zanjo)
+                in še kaj, ampak veš kaj? To so samo predlogi. Spoznanja in
+                ideje nekoga drugega. Samo Ti, pa veš kaj je dobro zate in kaj
+                je vredno preizkusiti. To so tvoje odločitve.
+                <br /> Pomoč nekoga drugega, Ti lahko odgrne tančico skozi
+                katero nisi videl, kako naj se zadeve lotiš, oziroma kaj naj bo
+                tvoj naslednji korak. Te spomni kdo si in da si vreden. Ti
+                ponudi roko... <br />
+                Od Tebe, pa je odvisno, kaj boš s tem naredil. Ti veš, pri
+                kateri informaciji Ti je zaigralo srce in se je prižgala iskra.
+                Ti veš, kaj ti daje novo moč in zalet. Samo Ti veš zakaj je temu
+                tako in samo Ti veš, kaj je najbolje zate.
+                <br /> Kajti vsak išče svojo resnico. In vsak se odloča po svoji
+                vesti.
+              </div>
+            </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">
+                Svobodna volja in izbira
+              </div>
+              <div className="blog-text pisava-special brown">
+                Zanimiva besedna zveza. Zanima me, koliko krat, ste se dejansko
+                zavedali pomena: »Imaš svobodno voljo in izbiro.«? Jaz, dokler
+                nisem začela delati na sebi in se poglabljati v določene stvari,
+                bolj malo. Pravzaprav, sploh ne vem, če sem jo »zaznala«.
+                Absolutno, sem se že srečala s tem, da imamo v življenju
+                svobodno voljo in izbiro (pa tukaj se ne spuščam v izredne
+                razmere) ampak, ker mi je bilo bolj »priročno«, sem to enostavno
+                ignorirala.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Ko pa se odločiš v življenju nekaj spremenit, moraš začeti
+                delovati zunaj svoje »cone udobja«, če želiš, da bo viden kakšen
+                rezultat. Pa ne v smislu, da bo okolica videla, kaj vse si
+                dosegel, ampak zato da osrečiš sebe s spremembo. <br />
+                <br />
+                Na primer, ko smo prišli v obdobje samostojnosti (pri enih je to
+                bilo prej, pri drugih kasneje), smo se sami začeli odločati, kaj
+                bomo oblekli. Običajno se to začne nakazovati že v vrtcu. Če smo
+                imeli ob sebi starša, ki je spodbujal naš razvoj in je temu
+                primerno tudi potrpel, ko smo zjutraj »filozofirali« kaj obleči
+                (običajno je bilo celo tako, da je bil zunaj mraz in - jaz/ti pa
+                sva hotela »navleči« nase nekaj poletnega{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/blushed.png"
+                  width="30px"
+                  alt=""
+                />
+                ) smo imeli srečo. Kajti potrebna je bila iznajdljivost in
+                potrpežljivost starša, da nas je prepričal, da smo se oblekli
+                letnemu času primerno in spodobno. Jaz se spomin, da sem včasih
+                hotela »navleči« nase take kose oblačil, da mi je mami komaj
+                dopovedala, da je pust že mimo.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/laugh.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Na drugi strani, pa imaš starša, ki želi to svobodno voljo in
+                izbiro en »malce preskočiti«. Nekaterim celo uspe. A tukaj zadaj
+                se velikokrat skriva še vzporedna zgodba starševskega odnosa.
+                Tako imamo v življenju primer »maminega sinka« ali »očkove
+                punčke«, ki so pravzaprav žrtve odkritega ali prikritega
+                incesta. To je globina problema, ki se ga je potrebno lotiti
+                postopoma.
+                <br />
+                <br />
+                Včasih pa nekdo dobi to oznako zato, ker po mnenju partnerja,
+                daje preveliko veljavo staršu. Ta se posledično preveč vmešava v
+                življenje svojega otroka. Nastanejo problemi, katerim bi se
+                lahko izognili, če bi »prerezali popkovino«. To je lahko zelo
+                boleč korak. Ker vedno sledijo posledice. Običajno takrat starš
+                (iz obupa, ker mu je bilo nekaj odvzeto) pokaže svoj »drugi
+                obraz« in poskuša kaznovati. Na nas pa je, kako se bomo odločili
+                in ali bomo pri odločitvi tudi vztrajali.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/think.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Svobodno voljo in izbiro imamo tako pri vsakodnevnih stvareh,
+                kot pri velikih odločitvah. Samo poteze, ki jih »povlečemo« na
+                dnevni bazi, kot so: kaj bomo oblekli, katero hrano bomo vzeli
+                iz hladilnika, ali se boš/bom naučil za izpit, ali bomo vsak dan
+                naredili nekaj zase, kako razmišljamo in govorimo o sebi in
+                drugih, bomo slepo sledili »vodji« (bili del »tropa«) ali bomo
+                uporabljali svojo pamet oziroma »zdravo kmečko pamet«, kaj
+                spremljamo in poslušamo ipd., delamo podzavestno in ne
+                razmišljamo o temu, da delujemo na podlagi svobodne volje in
+                izbire.
+                <br />
+                <br />
+                Kaj pa pri večjih stvareh? Velja isto, vendar v povezavi z
+                univerzalnim zakonom vesolja: Zakon prepričanja in izbire.
+                <br />
+                <br />
+                Pa da nam bo bližje za razumevanje, vzemimo primer nakupa novega
+                avtomobila in ne sanjske hiše. Ker tu vas že kar slišim, kako
+                vam začnejo švigati po glavi vsi »argumenti«, kako je to
+                neizvedljivo, da se to ne da, ni možno, ipd. (zakon prepričanja
+                in izbire).{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/sunglasses.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Pa se vrnimo k nakupu avtomobila. Na podlagi svobodne volje in
+                izbire se odločimo, koliko smo zanj pripravljeni plačati in
+                gremo v »iskalno akcijo«. Začnemo iskati rešitve, kako priti do
+                željenega. Preprosto. Nisem napisala, da je lahko, ampak da je
+                preprosto. Kajti:
+                <br />
+                <br />
+                <strong>
+                  Svobodna volja in izbira je v tesni povezavi z motivom in
+                  posledično iščemo rešitev in ne potenciramo problemov.
+                </strong>
+                <br />
+                <br />
+                In skupek drobnih odločitev, malih korakov v smeri naših želja,
+                prinese na koncu velik rezultat in spremembo. Potrebna je
+                vztrajnost, potrpežljivost, fokus oziroma motiv. Najboljši
+                motivi so tisti, ki delujejo znotraj nas in ne iz okolice. Ker
+                pravo »gorivo« za premike naprej je <strong>MOTIV.</strong>
+                <br />
+                <br />
+                Pa še nekaj. Svobodno voljo in izbiro se jemlje za samoumevno.
+                Pazimo, da nam tega ne vzamejo. Smo v zanimivem obdobju
+                (2020/2021…).
+              </div>
             </div>
             <br />
             <div className="blog-item">
@@ -586,27 +790,9 @@ class Blog extends Component {
                 />
               </div>
             </div>
-
-            <br />
-            {/*        <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br /> */}
-
-
-            <br />
           </div>
         </div>
-      </Layout>
+      </Layout >
     )
   }
 }
