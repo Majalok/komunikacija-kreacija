@@ -9,285 +9,63 @@ class Blog extends Component {
         <div className="blog">
           <div className="blog-content">
             <div className="blog-item">
-              <div className="blog-title pisava-special brown">Bel list</div>
-              <div className="blog-text pisava-special brown">
-                Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list.
-                Nato prve zapise, na ta tvoj lep, beli list, naredijo tvoji
-                starši, kasneje jim seveda pomagajo tudi stari starši (ker bog
-                ne daj, brez njih res ne gre{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/think.png"
-                  width="30px"
-                  alt=""
-                />
-                ). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče
-                sta tu še kakšna starejša sestra ali brat, za povrh, da je mera
-                polna{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/wink.png"
-                  width="30px"
-                  alt=""
-                />
-                . Ja, prav vsi te učijo, usmerjajo in "itak" vedo kaj je
-                najbolje zate. Kasneje se temu »klanu« pridruži vrtec, z vsemi
-                pripadajočimi akterji (vrstniki in vzgojitelji), nato šola -
-                isti koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi
-                cel tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
-                čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
-                tisti malo manj dobri.
-                <br />
-                Potem nastopi »ta resen« del… služba. Okolica in sodelavci,
-                pridno igrajo svojo vlogo pri pisanju na tvoj list.
-                <br />
-                Nato spoznaš "Ljubezen svojega življenja" (če ne gre v prvo, pa
-                mogoče v drugo, tretje….no, kakorkoli že{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/wink.png"
-                  width="30px"
-                  alt=""
-                />
-                ).
-                <br />
-                <br />
-                Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na
-                plano, čez vest ta »balast«.  Na začetku se ti razprejo krila,
-                zadihaš s polnimi pljuči, imaš zalet. In ko imaš občutek, da boš
-                poletel v tej svoji "najboljši verziji"… <strong>
-                  bam
-                </strong>{" "}
-                …pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je
-                zmanjkalo ali smetana se je polizala.
-                <br />
-                Na plano pridejo vsi ti »tvoji« zapisi. In velikokrat niti ne
-                »porajtaš«, da pravzaprav razmišljaš, občutiš, razumeš, kot si
-                bil naučen. Nekje globoko v sebi, pa ti tihi glasek govori, da
-                mogoče pa le ni čisto vse tako ali »prav«, kot si vedel in znal
-                da sedaj. Da mogoče obstaja kakšna drugačna realnost, tvoja
-                realnost. Mogoče pa ti to, karkoli že, lahko izpelješ, se lahko
-                naučiš, priučiš, si dovoliš povedati na glas kaj si misliš in
-                kako razmišljaš, si dovoliš drugače občutiti, si SPLOH dovoliš
-                občutiti in si določene stvari tudi priznati.
-                <br />
-                <br />
-                Mogoče, pa ti stvari <strong>lahko</strong> pelješ skozi
-                življenje drugače kot tvoji starši, prijatelji in sodelavci...
-                <br />
-                <br />
-                <strong>
-                  Vse je mogoče! Kar je v naši domišljiji, je mogoče tudi v naši
-                  realnosti. Ampak pozor
-                </strong>
-                !
-                <br />
-                <br />
-                Nič se ne spremeni čez noč in nič se ne bo zgodilo samo od sebe.
-                Vsaka sprememba zahteva svoj čas. Se zavedaš, koliko radirke
-                potrebuješ in koliko časa, da »zradiraš«, kar ti ne služi?
-                <br />
-                <br />
-                Potrebno si je <strong>resnično</strong> želeti boljši, bolj po
-                tvojih željah naravnan dan in življenje.
-                <br />
-                <br />
-                Ker na tem tvojem "čudovitem listu" je tudi veliko{" "}
-                <strong>dobronamernih</strong> zapisov (prepričanj in vzorcev).
-                <br />
-                <br />
-                In da prideš do tega, kdo pravzaprav si <strong>
-                  ti, ti
-                </strong>{" "}
-                in ne nekdo, kot ga je in ki ga je »popredalčkala« okolica in
-                vsi njeni akterji, prisotni v tvojem življenju - zato je
-                potrebno delo na sebi. In za preseči vse to, kar te zadržuje, je
-                potrebno zopet delati na sebi.
-                <br />
-                <br />
-                Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti
-                dolgčas in ne bo ti zmanjkalo dela.{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/laugh.png"
-                  width="30px"
-                  alt=""
-                />
-                <br />
-                <br />
-                Je pa noro dober <strong>občutek</strong>, ko se osvobodiš
-                določenih spon, prepričanj, vzorcev... <strong>Poletiš.</strong>{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/wink.png"
-                  width="30px"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <br />
-            {/*        <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br /> */}
-            <div className="blog-item">
               <div className="blog-title pisava-special brown">
-                Prepričanje, vzrok in posledica
+                Ženska
               </div>
               <div className="blog-text pisava-special brown">
-                Vsi ste že slišali za vzrok in posledico, ampak ali ste se kdaj
-                tudi dejansko poglobili v pomen tega?
+                Marec, »ženski mesec«. V tem mesecu nam namenijo veliko lepih besed in želja. A kaj vse ti to pomeni, če ne vidiš lastne vrednosti? Besede pohvale, zahvale, so kot balzam za dušo, a jih moraš znati iskreno sprejeti.
                 <br />
                 <br />
-                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno
-                jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to
-                sosledje, ko se mi pripeti v življenju. Pa kako sem se motila.
-                Sem morala nekaj krat "pristati na riti", da sem se začela
-                poglabljati v svoje življenje in ga analizirati. Kmalu sem
-                ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega,
-                delujemo po določenem konceptu, ki pripelje do vzroka in
-                posledice. Potem pa imamo tukaj prisoten še popolnoma drugačen
-                način podajanja informacij pri moških, kot pri ženskah. Mislim,
-                res drži, da znamo me eno dokaj preprosto zadevo povedati tako
-                slikovito, malce bolj na dolgo in široko (ker pač rade
-                uporabljamo pridevnike, prislove ipd{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/smirk.png"
-                  width="30px"
-                  alt=""
-                />
-                ), da se lahko nekdo, ki ti dobro »ne sledi«, vmes »izgubi«.
-                Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato,
-                včasih celo pomanjkljivo{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/wink.png"
-                  width="30px"
-                  alt=""
-                />
-                . No, potem pa se dajmo zastopit . Ni zastonj pregovor "Moški so
-                iz Marsa, ženske pa z Venere".
+                Vem, skrbiš za svoje drage, za starše, sestro, brata, moža, otroke, mogoče celo za tasta in taščo, teto, strica…, seznam je lahko neskončen. A zakaj nositi breme celega sveta na svojih ramenih? Zakaj imaš potrebo reševati svet, če moraš rešiti prvo sebe?
                 <br />
                 <br />
-                Pa da razložim malo bolj podrobno.
+                Sedaj izberi sebe - imej se rada. Vsak dan si nameni nekaj časa zase. Začni graditi ljubeč odnos sama s seboj. To je temelj za naprej, za vse tvoje odnose. Dovoli si biti ženska. Dovoli si prositi za pomoč in jo tudi sprejeti.
                 <br />
                 <br />
-                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera
-                je "treba skoz neki delat". V službi, pa potem doma, pa še malo
-                pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno
-                ne zgodi - to vemo, a ne{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/think.png"
-                  width="30px"
-                  alt=""
-                />
-                ) - vzorec{" "}
-                <strong>
-                  <i>prepričanja</i>
-                </strong>
-                . In posledično skozi to, sem potihoma to delavnost vpeljala v
-                svoje življenje. Službeno in zasebno. Moj takratni partner (mož
-                in kasneje bivši mož - zato sem, napisala takratni{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/smirk.png"
-                  width="30px"
-                  alt=""
-                />
-                ) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda
-                en malce odstopala od mojih. To je seveda popolnoma razumljivo,
-                ker izhajava iz različnih celic (primarne družine) in vsak od
-                naju je s seboj prinesel svoja prepričanja in vzorce.
+                Ne zapletaj se po nepotrebnem v dokazovanja, kdo ima prav in kdo ne. Ne popravljaj ljudi, tudi če veš, da nimajo prav. Ni to tvoja naloga - to je njihova izkušnja.
                 <br />
                 <br />
-                Vam je že jasno, kam pes taco moli??{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/think.png"
-                  width="30px"
-                  alt=""
-                />{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/sunglasses.png"
-                  width="30px"
-                  alt=""
-                />
+                Dovoli ljudem, da pripovedujejo svoje zgodbe, čeprav si ji že neštetokrat slišala. Pripovedovanje jih ponese v preteklost in jim pomaga, da jo počasi spustijo.
                 <br />
                 <br />
-                Ker sva imela različne poglede na določene situacije in ker se
-                nisva znala pogovarjati, izraziti, kaj šele poslušati, je
-                velikokrat prišlo do tega, da je bila najina komunikacija,
-                »slika brez tona«{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/confused.png"
-                  width="30px"
-                  alt=""
-                />{" "}
-                (pa smo pri{" "}
-                <strong>
-                  <i>vzrok-u</i>
-                </strong>
-                ). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri
-                situaciji »merila moči"{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/blushed.png"
-                  width="30px"
-                  alt=""
-                />
-                . Jaz z besedam, ker sem že od nekdaj bila vešča v komunikaciji
-                (pa pustimo »malenkost«, da imamo pravo in nepravo komunikacijo{" "}
-                <img
+                Ne barantaj. Ti zaradi tistih par centov ne boš obubožala, boš pa privabila nasmeh na obraz človeka, ki ti je storitev prodal. In verjemi, ni lepšega kot to, ko človek vidi, da se ceni njihovo delo, oziroma izdelek.
+                <br />
+                <br />
+                Postani dobrosrčna in radodarna s komplimenti. Kompliment osreči tako tistega, ki ga prejme, kot tebe, ki ga podeliš. Če ga prejmeš, se ga nikoli ne brani ali zavrni - preprosto se zahvali. Tako ti ljudje pokažejo, da te cenijo, da poznajo tvojo vrednost. Zapusti pa tiste, ki povzročajo toksičnost v tebi.
+                <br />
+                <br />
+                Nauči se  pokazati svoja čustva. Spregovori o svojih občutkih in čustvih. To te dela človeka, umirja tvoj ego, kar ohranja tvoje odnose. Prevzemi odgovornost za svoje počutje. Tvoja miselna naravnanost, fizična pripravljenost, tisto, kar daš vase in na kon'c konca tudi nase, je tvoja odločitev, kot je tudi sreča odločitev. Saj veš, sreča se skriva v majhnih stvareh, samo prepoznati jih je potrebno.
+                <br />
+                <br />
+                Vsak dan živi, kot da je zadnji. Ker, morda je res.
+                <br />
+                <br />
+                Ne rabiš biti »super woman« - bodi samo ženska, v ženski energiji in ženskem delovanju. Nauči se biti srečna. Vse je v ravnovesju, v razporeditvi časa. 33,3% za družino, 33,3% za službo/svoj posel in 33,3% zase. Sprejmi to in imej se rada  <img
                   className="emoji-img"
                   src="../icons/smile.png"
                   width="30px"
                   alt=""
-                />{" "}
-                ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla
-                vsak v svojo stran, kot da vlečeva vrv, ipd. Vmes, pa sva še
-                dovoljevala vmešavanje (direktno in indirektno) okolice. In ker
-                se take situacije nikoli ne vlečejo v nedogled, je sledila{" "}
-                <i>
-                  <strong>posledica</strong>
-                </i>{" "}
-                - ločitev. In vsak od naju, je k situaciji doprinesel svojih
-                50%.
+                />.
                 <br />
                 <br />
-                In šele sedaj, po parih letih dela na sebi, sem dojela koncept{" "}
-                <strong>prepričanje/vzrok/posledica</strong>.
-                <br />
-                <br />
-                Zato dobro poglejte, dajte pod drobnogled področja svojega
-                življenja, kjer se vam zatika. Preverite kakšna so vaša
-                prepričanja. Prisluhnite razlagi vzroka (zakaj je ali ni do
-                nečesa prišlo, se naredilo, se izgovorilo), da preprečite
-                posledico. Ali pa jo izpeljite (posledico namreč) in dano
-                situacijo izkoristite za osebno rast.
-                <br />
-                <br />
-                It´s up to you{" "}
-                <img
-                  className="emoji-img"
-                  src="../icons/smile.png"
-                  width="30px"
-                  alt=""
-                />
+                In čisto na koncu, ženske stopimo skupaj! Podpirajmo ena drugo pri osebnih dosežkih, bodrimo in pomagajmo, kadar lahko in smo naprošene. Ne bodimo ena drugi konkurenca. Ne mečimo si »polena pod noge«. Kajti, ko ženske stopimo skupaj, se ustvari krog, kjer se zgodijo čudovite »kreacije«.
+
               </div>
+              {/*   <img className="blogImg" src="../assets/blog-zenska-resiz.png" alt="" /> */}
+              <picture className="blog-pict">
+                <source
+                  srcSet="../assets/webp/blog-zenska-resiz.webp"
+                  alt="Logo"
+                  type="image/webp"
+                />
+                <img
+                  className="blog-image"
+                  src="../assets/blog-zenska-resiz.png"
+                  alt="slika"
+                  type="image/png"
+                />
+              </picture>
+
             </div>
             <br />
             <div className="blog-item">
@@ -543,63 +321,289 @@ class Blog extends Component {
             <br />
             <div className="blog-item">
               <div className="blog-title pisava-special brown">
-                Ženska
+                Prepričanje, vzrok in posledica
               </div>
               <div className="blog-text pisava-special brown">
-                Marec, »ženski mesec«. V tem mesecu nam namenijo veliko lepih besed in želja. A kaj vse ti to pomeni, če ne vidiš lastne vrednosti? Besede pohvale, zahvale, so kot balzam za dušo, a jih moraš znati iskreno sprejeti.
+                Vsi ste že slišali za vzrok in posledico, ampak ali ste se kdaj
+                tudi dejansko poglobili v pomen tega?
                 <br />
                 <br />
-                Vem, skrbiš za svoje drage, za starše, sestro, brata, moža, otroke, mogoče celo za tasta in taščo, teto, strica…, seznam je lahko neskončen. A zakaj nositi breme celega sveta na svojih ramenih? Zakaj imaš potrebo reševati svet, če moraš rešiti prvo sebe?
+                Jaz se vrsto let nisem, priznam. Itak mi je bilo »kristalno
+                jasno« kaj to pomeni, še celo domišljala sem si, da zaznam to
+                sosledje, ko se mi pripeti v življenju. Pa kako sem se motila.
+                Sem morala nekaj krat "pristati na riti", da sem se začela
+                poglabljati v svoje življenje in ga analizirati. Kmalu sem
+                ugotovila, da ima ključno vlogo naše prepričanje. Zaradi njega,
+                delujemo po določenem konceptu, ki pripelje do vzroka in
+                posledice. Potem pa imamo tukaj prisoten še popolnoma drugačen
+                način podajanja informacij pri moških, kot pri ženskah. Mislim,
+                res drži, da znamo me eno dokaj preprosto zadevo povedati tako
+                slikovito, malce bolj na dolgo in široko (ker pač rade
+                uporabljamo pridevnike, prislove ipd{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/smirk.png"
+                  width="30px"
+                  alt=""
+                />
+                ), da se lahko nekdo, ki ti dobro »ne sledi«, vmes »izgubi«.
+                Dočim`r moški, to je pa čisto druga plat. Kratko in jedrnato,
+                včasih celo pomanjkljivo{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+                . No, potem pa se dajmo zastopit . Ni zastonj pregovor "Moški so
+                iz Marsa, ženske pa z Venere".
                 <br />
                 <br />
-                Sedaj izberi sebe - imej se rada. Vsak dan si nameni nekaj časa zase. Začni graditi ljubeč odnos sama s seboj. To je temelj za naprej, za vse tvoje odnose. Dovoli si biti ženska. Dovoli si prositi za pomoč in jo tudi sprejeti.
+                Pa da razložim malo bolj podrobno.
                 <br />
                 <br />
-                Ne zapletaj se po nepotrebnem v dokazovanja, kdo ima prav in kdo ne. Ne popravljaj ljudi, tudi če veš, da nimajo prav. Ni to tvoja naloga - to je njihova izkušnja.
+                Kot otroka so me vzgojili v duhu delavnosti. Od jutra do večera
+                je "treba skoz neki delat". V službi, pa potem doma, pa še malo
+                pri sosedih ( če slučajno zmanjka dela doma, kar se pa običajno
+                ne zgodi - to vemo, a ne{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/think.png"
+                  width="30px"
+                  alt=""
+                />
+                ) - vzorec{" "}
+                <strong>
+                  <i>prepričanja</i>
+                </strong>
+                . In posledično skozi to, sem potihoma to delavnost vpeljala v
+                svoje življenje. Službeno in zasebno. Moj takratni partner (mož
+                in kasneje bivši mož - zato sem, napisala takratni{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/smirk.png"
+                  width="30px"
+                  alt=""
+                />
+                ) pa je v najin zakon »prinesel« svoja prepričanja, ki so seveda
+                en malce odstopala od mojih. To je seveda popolnoma razumljivo,
+                ker izhajava iz različnih celic (primarne družine) in vsak od
+                naju je s seboj prinesel svoja prepričanja in vzorce.
                 <br />
                 <br />
-                Dovoli ljudem, da pripovedujejo svoje zgodbe, čeprav si ji že neštetokrat slišala. Pripovedovanje jih ponese v preteklost in jim pomaga, da jo počasi spustijo.
+                Vam je že jasno, kam pes taco moli??{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/think.png"
+                  width="30px"
+                  alt=""
+                />{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/sunglasses.png"
+                  width="30px"
+                  alt=""
+                />
                 <br />
                 <br />
-                Ne barantaj. Ti zaradi tistih par centov ne boš obubožala, boš pa privabila nasmeh na obraz človeka, ki ti je storitev prodal. In verjemi, ni lepšega kot to, ko človek vidi, da se ceni njihovo delo, oziroma izdelek.
-                <br />
-                <br />
-                Postani dobrosrčna in radodarna s komplimenti. Kompliment osreči tako tistega, ki ga prejme, kot tebe, ki ga podeliš. Če ga prejmeš, se ga nikoli ne brani ali zavrni - preprosto se zahvali. Tako ti ljudje pokažejo, da te cenijo, da poznajo tvojo vrednost. Zapusti pa tiste, ki povzročajo toksičnost v tebi.
-                <br />
-                <br />
-                Nauči se  pokazati svoja čustva. Spregovori o svojih občutkih in čustvih. To te dela človeka, umirja tvoj ego, kar ohranja tvoje odnose. Prevzemi odgovornost za svoje počutje. Tvoja miselna naravnanost, fizična pripravljenost, tisto, kar daš vase in na kon'c konca tudi nase, je tvoja odločitev, kot je tudi sreča odločitev. Saj veš, sreča se skriva v majhnih stvareh, samo prepoznati jih je potrebno.
-                <br />
-                <br />
-                Vsak dan živi, kot da je zadnji. Ker, morda je res.
-                <br />
-                <br />
-                Ne rabiš biti »super woman« - bodi samo ženska, v ženski energiji in ženskem delovanju. Nauči se biti srečna. Vse je v ravnovesju, v razporeditvi časa. 33,3% za družino, 33,3% za službo/svoj posel in 33,3% zase. Sprejmi to in imej se rada  <img
+                Ker sva imela različne poglede na določene situacije in ker se
+                nisva znala pogovarjati, izraziti, kaj šele poslušati, je
+                velikokrat prišlo do tega, da je bila najina komunikacija,
+                »slika brez tona«{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/confused.png"
+                  width="30px"
+                  alt=""
+                />{" "}
+                (pa smo pri{" "}
+                <strong>
+                  <i>vzrok-u</i>
+                </strong>
+                ). Zdaj ko gledam nazaj, je prav hecno, kako sva v marsikateri
+                situaciji »merila moči"{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/blushed.png"
+                  width="30px"
+                  alt=""
+                />
+                . Jaz z besedam, ker sem že od nekdaj bila vešča v komunikaciji
+                (pa pustimo »malenkost«, da imamo pravo in nepravo komunikacijo{" "}
+                <img
                   className="emoji-img"
                   src="../icons/smile.png"
                   width="30px"
                   alt=""
-                />.
+                />{" "}
+                ), on z neodzivnostjo ali molkom. Včasih sva trmarila in vlekla
+                vsak v svojo stran, kot da vlečeva vrv, ipd. Vmes, pa sva še
+                dovoljevala vmešavanje (direktno in indirektno) okolice. In ker
+                se take situacije nikoli ne vlečejo v nedogled, je sledila{" "}
+                <i>
+                  <strong>posledica</strong>
+                </i>{" "}
+                - ločitev. In vsak od naju, je k situaciji doprinesel svojih
+                50%.
                 <br />
                 <br />
-                In čisto na koncu, ženske stopimo skupaj! Podpirajmo ena drugo pri osebnih dosežkih, bodrimo in pomagajmo, kadar lahko in smo naprošene. Ne bodimo ena drugi konkurenca. Ne mečimo si »polena pod noge«. Kajti, ko ženske stopimo skupaj, se ustvari krog, kjer se zgodijo čudovite »kreacije«.
-
-              </div>
-              {/*   <img className="blogImg" src="../assets/blog-zenska-resiz.png" alt="" /> */}
-              <picture className="blog-pict">
-                <source
-                  srcSet="../assets/webp/blog-zenska-resiz.webp"
-                  alt="Logo"
-                  type="image/webp"
-                />
+                In šele sedaj, po parih letih dela na sebi, sem dojela koncept{" "}
+                <strong>prepričanje/vzrok/posledica</strong>.
+                <br />
+                <br />
+                Zato dobro poglejte, dajte pod drobnogled področja svojega
+                življenja, kjer se vam zatika. Preverite kakšna so vaša
+                prepričanja. Prisluhnite razlagi vzroka (zakaj je ali ni do
+                nečesa prišlo, se naredilo, se izgovorilo), da preprečite
+                posledico. Ali pa jo izpeljite (posledico namreč) in dano
+                situacijo izkoristite za osebno rast.
+                <br />
+                <br />
+                It´s up to you{" "}
                 <img
-                  className="blog-image"
-                  src="../assets/blog-zenska-resiz.png"
-                  alt="slika"
-                  type="image/png"
+                  className="emoji-img"
+                  src="../icons/smile.png"
+                  width="30px"
+                  alt=""
                 />
-              </picture>
-
+              </div>
             </div>
+            <br />
+            <div className="blog-item">
+              <div className="blog-title pisava-special brown">Bel list</div>
+              <div className="blog-text pisava-special brown">
+                Si kdaj pomislil, da ko se rodiš, si kot bel, nepopisan list.
+                Nato prve zapise, na ta tvoj lep, beli list, naredijo tvoji
+                starši, kasneje jim seveda pomagajo tudi stari starši (ker bog
+                ne daj, brez njih res ne gre{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/think.png"
+                  width="30px"
+                  alt=""
+                />
+                ). Nekaj časa so oni tvoji učitelji, vodiči, »vsevedi« in mogoče
+                sta tu še kakšna starejša sestra ali brat, za povrh, da je mera
+                polna{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+                . Ja, prav vsi te učijo, usmerjajo in "itak" vedo kaj je
+                najbolje zate. Kasneje se temu »klanu« pridruži vrtec, z vsemi
+                pripadajočimi akterji (vrstniki in vzgojitelji), nato šola -
+                isti koncept zasedbe, samo v širšem krogu. To se nadaljuje skozi
+                cel tvoj proces šolanja. Zraven pa puščajo svojo sled, na tem
+                čudovitem listu, seveda tudi prijatelji…tisti »ta najboljši« in
+                tisti malo manj dobri.
+                <br />
+                Potem nastopi »ta resen« del… služba. Okolica in sodelavci,
+                pridno igrajo svojo vlogo pri pisanju na tvoj list.
+                <br />
+                Nato spoznaš "Ljubezen svojega življenja" (če ne gre v prvo, pa
+                mogoče v drugo, tretje….no, kakorkoli že{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+                ).
+                <br />
+                <br />
+                Takrat nastopiš v svoji najboljši verziji, ki jo potegneš na
+                plano, čez vest ta »balast«.  Na začetku se ti razprejo krila,
+                zadihaš s polnimi pljuči, imaš zalet. In ko imaš občutek, da boš
+                poletel v tej svoji "najboljši verziji"… <strong>
+                  bam
+                </strong>{" "}
+                …pristanek na zadnjico in dobrodošel v »realnosti«. Goriva je
+                zmanjkalo ali smetana se je polizala.
+                <br />
+                Na plano pridejo vsi ti »tvoji« zapisi. In velikokrat niti ne
+                »porajtaš«, da pravzaprav razmišljaš, občutiš, razumeš, kot si
+                bil naučen. Nekje globoko v sebi, pa ti tihi glasek govori, da
+                mogoče pa le ni čisto vse tako ali »prav«, kot si vedel in znal
+                da sedaj. Da mogoče obstaja kakšna drugačna realnost, tvoja
+                realnost. Mogoče pa ti to, karkoli že, lahko izpelješ, se lahko
+                naučiš, priučiš, si dovoliš povedati na glas kaj si misliš in
+                kako razmišljaš, si dovoliš drugače občutiti, si SPLOH dovoliš
+                občutiti in si določene stvari tudi priznati.
+                <br />
+                <br />
+                Mogoče, pa ti stvari <strong>lahko</strong> pelješ skozi
+                življenje drugače kot tvoji starši, prijatelji in sodelavci...
+                <br />
+                <br />
+                <strong>
+                  Vse je mogoče! Kar je v naši domišljiji, je mogoče tudi v naši
+                  realnosti. Ampak pozor
+                </strong>
+                !
+                <br />
+                <br />
+                Nič se ne spremeni čez noč in nič se ne bo zgodilo samo od sebe.
+                Vsaka sprememba zahteva svoj čas. Se zavedaš, koliko radirke
+                potrebuješ in koliko časa, da »zradiraš«, kar ti ne služi?
+                <br />
+                <br />
+                Potrebno si je <strong>resnično</strong> želeti boljši, bolj po
+                tvojih željah naravnan dan in življenje.
+                <br />
+                <br />
+                Ker na tem tvojem "čudovitem listu" je tudi veliko{" "}
+                <strong>dobronamernih</strong> zapisov (prepričanj in vzorcev).
+                <br />
+                <br />
+                In da prideš do tega, kdo pravzaprav si <strong>
+                  ti, ti
+                </strong>{" "}
+                in ne nekdo, kot ga je in ki ga je »popredalčkala« okolica in
+                vsi njeni akterji, prisotni v tvojem življenju - zato je
+                potrebno delo na sebi. In za preseči vse to, kar te zadržuje, je
+                potrebno zopet delati na sebi.
+                <br />
+                <br />
+                Ja, če se odločiš za delo na sebi, ti garantiram, ne bo ti
+                dolgčas in ne bo ti zmanjkalo dela.{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/laugh.png"
+                  width="30px"
+                  alt=""
+                />
+                <br />
+                <br />
+                Je pa noro dober <strong>občutek</strong>, ko se osvobodiš
+                določenih spon, prepričanj, vzorcev... <strong>Poletiš.</strong>{" "}
+                <img
+                  className="emoji-img"
+                  src="../icons/wink.png"
+                  width="30px"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <br />
+            {/*        <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /> */}
+
+
+            <br />
           </div>
         </div>
       </Layout>
