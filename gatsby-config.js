@@ -8,6 +8,7 @@ module.exports = {
     author: "Maja L",
   },
   plugins: [
+    // `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,7 +24,7 @@ module.exports = {
       },
     },
 
-    "gatsby-plugin-sharp",
+    /*  "gatsby-plugin-sharp", */
     "gatsby-transformer-sharp",
     /*  "gatsby-disable-404", */
 

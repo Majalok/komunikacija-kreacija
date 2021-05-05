@@ -6,6 +6,8 @@
     width: 70%;
 }
 
+/** staro **/
+
 .aktualno-li {
     color: rgb(143, 34, 34);
     font-size: larger;
@@ -15,6 +17,20 @@
 .aktualno-li > div {
     color: rgb(100, 77, 77);
     font-size: small;
+    margin-left: 2%;
+    display: inline-block;
+    list-style: disclosure-closed;
+}
+
+.aktualno-li > a {
+    color: rgb(143, 34, 34);
+    list-style: disclosure-closed;
+}
+
+.aktualno-li > a > div {
+    color: #644d4d;
+    font-size: small;
+    list-style: disclosure-closed;
     margin-left: 2%;
     display: inline-block;
 }

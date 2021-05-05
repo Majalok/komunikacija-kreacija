@@ -15,15 +15,29 @@
     font-family: Bellota Text;
 }
 .blog-item {
+    /* TOLE JE TREBA ODKOMENTIRAT ZA STARI BLOG brez linkov!!!!!
     margin-top: 4%;
     margin-bottom: 4%;
-    padding: 30px 40px;
+    padding: 30px 40px; */
     font-size: xx-large;
     border-image-slice: 15 15 15 15 !important;
     border-image-width: 10px 10px 10px 10px !important;
     border-image-outset: 0px 0px 0px 0px !important;
     border-image-repeat: round round !important;
+    z-index: 999999;
     /*  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg"); */
+}
+
+li {
+    list-style: disclosure-closed;
+}
+
+.disclosureOpen {
+    list-style: disclosure-open;
+}
+
+.disclosureClosed {
+    list-style: disclosure-closed;
 }
 
 .blog-pict {
@@ -43,6 +57,16 @@
     text-shadow: 1px -3px 6px #bfbfbe;
     border-bottom: 1px solid #7c7c7c;
     color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.hideBlog {
+    display: none;
+}
+
+.displayBlog {
+    display: block;
+    margin-bottom: 30px;
 }
 
 .blog-text {
@@ -263,6 +287,10 @@
     /* font-family: Special Elite !important; */
     font-style: normal !important;
     color: #5f5f5f;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    list-style: disclosure-closed;
 }
 .blog-title.pisava-special.black {
     font-family: Special Elite !important;

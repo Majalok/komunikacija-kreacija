@@ -191,14 +191,14 @@ class MainMenu extends React.Component {
                 onMouseOver={this.hideMenuBoxPanel}
                 to="/omeni/"
                 onClick={this.setMenuItemSelected}
-                /*  style={{
-                                 backgroundImage: `url("../assets/vil11.png")`,
-                                 backgroundSize: 'contain',
-                                 backgroundRepeat: 'no-repeat',
-                                 height: 'auto',
-                                 backgroundPositionX: 'center',
-                                 backgroundPositionY: 'center'
-                             }} */
+              /*  style={{
+                               backgroundImage: `url("../assets/vil11.png")`,
+                               backgroundSize: 'contain',
+                               backgroundRepeat: 'no-repeat',
+                               height: 'auto',
+                               backgroundPositionX: 'center',
+                               backgroundPositionY: 'center'
+                           }} */
               >
                 <span className="menu-title">O meni</span>
               </Link>
@@ -213,14 +213,14 @@ class MainMenu extends React.Component {
                 onMouseOver={this.hideMenuBoxPanel}
                 to="/aktualno/"
                 onClick={this.setMenuItemSelected}
-                /*  style={{
-                                 backgroundImage: `url("../assets/vil11.png")`,
-                                 backgroundSize: 'contain',
-                                 backgroundRepeat: 'no-repeat',
-                                 height: 'auto',
-                                 backgroundPositionX: 'center',
-                                 backgroundPositionY: 'center'
-                             }} */
+              /*  style={{
+                               backgroundImage: `url("../assets/vil11.png")`,
+                               backgroundSize: 'contain',
+                               backgroundRepeat: 'no-repeat',
+                               height: 'auto',
+                               backgroundPositionX: 'center',
+                               backgroundPositionY: 'center'
+                           }} */
               >
                 <span className="menu-title">Aktualno</span>
               </Link>
@@ -253,9 +253,9 @@ class MainMenu extends React.Component {
                   <div className="main-menu-panel">
                     <div
                       className="main-menu-products"
-                      /*    onMouseEnter={this.displayMenuBoxPanel}
-                      onMouseLeave={this.hideMenuBoxPanel}
-                  */
+                    /*    onMouseEnter={this.displayMenuBoxPanel}
+                    onMouseLeave={this.hideMenuBoxPanel}
+                */
                     >
                       {this.state.product1.productList.map(product => (
                         <Link
